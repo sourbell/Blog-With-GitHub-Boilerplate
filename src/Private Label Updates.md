@@ -20,7 +20,7 @@ excerpt: Private Label App Updates and Change Requests
 - **HIIT80** v1.0.1 is live on AppStore.
 - **4K Fitness** v1.0.0 pre-released on [FIR.IM][1]
 - **Roden HIIT Kickboxing** v1.0.0 pre-released on [FIR.IM][2]
-
+---- --
 `2019.12.22`
 - **Innovative Kickboxing** v1.0.0 is live on AppStore
 - **HIIT80** v1.0.1 is live on [GooglePlay][3] and waiting for review on AppStore, with new changes applied: 
@@ -29,28 +29,28 @@ excerpt: Private Label App Updates and Change Requests
 - **Suburban Fitness** v1.0.0 is live on [GooglePlay][4] and waiting for review on AppStore
 - **RN Heart Rate** v1.0.1 is live on [GooglePlay][5] and waiting for review on AppStore, with the name change.
 - **AF Heart Rate** v1.0.1 is live on [GooglePlay][6] and waiting for review on AppStore, with the zone5 color change (purple).
-
+---- --
 `2019.12.17`
 - **HIIT80** v1.0.0 released on GooglePlay and AppStore
-
+---- --
 `2019.12.13`
 - **Innovative Kickboxing** v1.0.0 got rejected on AppStore, resubmitted a new version.
-
+---- --
 `2019.12.11`
 - **Innovative Kickboxing** v1.0.0 is live on GooglePlay, resubmitted.
-
+---- --
 `2019.12.06`
 - **Workhorse Gym** v1.0.0 rebuild and pre-released on [FIR.IM][7]
-
+---- --
 `2019.11.29`
 - **WV Fitness** v1.0.0 is live on GooglePlay and AppStore.
-
+---- --
 `2019.11.24`
 - **Tonic Crossfit** v1.0.1 is live on AppStore, fixed the spelling of app name.
-
+---- --
 `2019.11.19`
 - **Tonic Crossfit** v1.0.1 is live on GooglePlay, fixed the spelling of app name.
-
+---- --
 `2019.11.15`
 - **Tonic Crossfit** v1.0.0 is live on GooglePlay and AppStore.  
 
