@@ -6,9 +6,9 @@ date: 2019-12-25 00:16
 status: publish
 author: Toby Bu
 categories: 
-  - Project Manage
+  - project-manage
 tags: 
-  - Blog
+  - Release Note
   - Project Manage
 excerpt: Accurofit App 3.0 版本更新日志
 ---

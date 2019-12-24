@@ -8,7 +8,6 @@ author: Toby Bu
 categories: 
   - Project Manage
 tags: 
-  - Blog
   - Project Manage
 excerpt: Private Label App Updates and Change Requests
 ---
