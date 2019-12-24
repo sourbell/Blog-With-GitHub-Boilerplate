@@ -6,7 +6,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     
 
     <url>
-        <loc>https://project.sourbell.im/about/</loc>
+        <loc>/about/</loc>
         <lastmod>2017-06-28</lastmod>
         <changefreq>always</changefreq>
         <priority>0.8</priority>
@@ -14,15 +14,8 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 
     <url>
-        <loc>https://project.sourbell.im/archives/private-label-timeline/</loc>
+        <loc>/archives/private-label-timeline/</loc>
         <lastmod>2019-12-24</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://project.sourbell.im/archives/typography/</loc>
-        <lastmod>2019-12-18</lastmod>
         <changefreq>always</changefreq>
         <priority>0.5</priority>
     </url>
