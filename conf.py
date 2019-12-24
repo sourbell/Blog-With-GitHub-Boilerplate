@@ -16,7 +16,7 @@ enable_jsdelivr = {
 # 站点设置
 site_name = "豪猪尾巴"
 site_logo = "${static_prefix}logo.png"
-site_build_date = "2019-12-18T16:51+08:00"
+site_build_date = "2019-12-24T23:19+08:00"
 author = "Bristletail"
 email = "i@sourbell.im"
 author_homepage = "https://sourbell.im"
@@ -58,6 +58,11 @@ social_links = [
         "name": "GitHub",
         "url": "https://github.com/sourbell",
         "icon": "gi gi-github"
+    },
+    {
+        "name": "Steam",
+        "url": "https://steamcommunity.com/id/sourbell/",
+        "icon": "gi gi-steam"
     }
 ]
 
