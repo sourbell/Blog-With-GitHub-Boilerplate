@@ -1,17 +1,63 @@
 ---
 layout: post
-title: 我的第一篇文章
-slug: my-first-awesome-post
-date: 2019-12-17 20:34
+title: Private Label Timeline
+slug: private-label-timeline
+date: 2019-12-24 20:34
 status: publish
-author: 熊猫小A
+author: Toby Bu
 categories: 
   - 默认分类
 tags: 
   - 博客
-  - Maverick
-  - GitHub
-excerpt: Hello World!
+  - PM
+excerpt: Private Label Timeline
 ---
 
-这是我的第一篇文章。文章使用 GitHub 管理，并通过 GitHub Actions 自动构建与发布！
+`2019.12.24`
+- **RN Heart Rate** v1.0.1 is live on AppStore.
+- **AF Heart Rate** v1.0.1 is live  on AppStore.
+- **Suburban Fitness** v1.0.0 is live on AppStore。
+- **HIIT80** v1.0.1 is live on AppStore.
+- **4K Fitness** v1.0.0 pre-released on [FIR.IM][1]
+- **Roden HIIT Kickboxing** v1.0.0 pre-released on [FIR.IM][2]
+
+`2019.12.22`
+- **Innovative Kickboxing** v1.0.0 is live on AppStore
+- **HIIT80** v1.0.1 is live on [GooglePlay][3] and waiting for review on AppStore, with new changes applied: 
+	- 1, Change Int. Points to HIIT Points, 
+	- 2, Change zone5 color from #ed1f24 to #38b9fb.
+- **Suburban Fitness** v1.0.0 is live on [GooglePlay][4] and waiting for review on AppStore
+- **RN Heart Rate** v1.0.1 is live on [GooglePlay][5] and waiting for review on AppStore, with the name change.
+- **AF Heart Rate** v1.0.1 is live on [GooglePlay][6] and waiting for review on AppStore, with the zone5 color change (purple).
+
+`2019.12.17`
+- **HIIT80** v1.0.0 released on GooglePlay and AppStore
+
+`2019.12.13`
+- **Innovative Kickboxing** v1.0.0 got rejected on AppStore, resubmitted a new version.
+
+`2019.12.11`
+- **Innovative Kickboxing** v1.0.0 is live on GooglePlay, resubmitted.
+
+`2019.12.06`
+- **Workhorse Gym** v1.0.0 rebuild and pre-released on [FIR.IM][7]
+
+`2019.11.29`
+- **WV Fitness** v1.0.0 is live on GooglePlay and AppStore.
+
+`2019.11.24`
+- **Tonic Crossfit** v1.0.1 is live on AppStore, fixed the spelling of app name.
+
+`2019.11.19`
+- **Tonic Crossfit** v1.0.1 is live on GooglePlay, fixed the spelling of app name.
+
+`2019.11.15`
+- **Tonic Crossfit** v1.0.0 is live on GooglePlay and AppStore.  
+
+[1]:	https://fir.im/4kfitness
+[2]:	https://fir.im/roden
+[3]:	https://play.google.com/store/apps/details?id=net.ncitglobal.hiit80
+[4]:	https://play.google.com/store/apps/details?id=net.ncitglobal.suburbanfitness
+[5]:	https://play.google.com/store/apps/details?id=net.ncitglobal.ridenation
+[6]:	https://play.google.com/store/apps/details?id=net.ncitglobal.afheartrate
+[7]:	https://fir.im/workhorse
