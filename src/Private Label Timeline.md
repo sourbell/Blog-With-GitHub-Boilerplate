@@ -1,16 +1,16 @@
 ---
 layout: post
-title: Private Label Timeline
-slug: private-label-timeline
-date: 2019-12-24 20:34
+title: Private Label Updates
+slug: private-label-updates
+date: 2019-12-24 23:34
 status: publish
 author: Toby Bu
 categories: 
-  - 默认分类
+  - Project Manage
 tags: 
-  - 博客
-  - PM
-excerpt: Private Label Timeline
+  - Blog
+  - Project Manage
+excerpt: Private Label App Updates and Change Requests
 ---
 
 `2019.12.24`
