@@ -1,7 +1,7 @@
 ---
 layout: post
-title: APT Release Notes
-slug: apt-release-notes
+title: APT Release Note
+slug: apt-release-note
 date: 2019-12-25 01:01
 status: publish
 author: Toby Bu
@@ -10,7 +10,7 @@ categories:
 tags: 
   - Release Note
   - Project Manage
-excerpt: APT App 版本更新日志
+excerpt: APT App 更新日志
 ---
 
 `1.1.2` Jul 16, 2019
