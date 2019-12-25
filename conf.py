@@ -53,17 +53,22 @@ social_links = [
     {
         "name": "Twitter",
         "url": "https://twitter.com/sourbell",
-        "icon": "gi gi-twitter"
+        "icon": "gi fab fa-twitter"
     },
     {
         "name": "GitHub",
         "url": "https://github.com/sourbell",
-        "icon": "gi gi-github"
+        "icon": "gi fab fa-github"
     },
     {
         "name": "Steam",
         "url": "https://steamcommunity.com/id/sourbell/",
         "icon": "gi fab fa-steam"
+    },
+    {
+        "name": "PSN",
+        "url": "https://my.playstation.com/profile/Bristle2tail",
+        "icon": "gi fab fa-playstation"
     }
 ]
 
