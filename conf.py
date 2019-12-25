@@ -3,7 +3,7 @@
 """
 
 # For Maverick
-site_prefix = "/"
+site_prefix = "https://project.sourbell.im/"
 source_dir = "../src/"
 build_dir = "../dist/"
 index_page_size = 10
@@ -25,11 +25,11 @@ key_words = ['Maverick', 'sourbell', 'Bristletail', 'blog']
 language = 'zh-CN'
 background_img = '${static_prefix}bg/photo-1575892935016-d97e79254d93.jpg'
 external_links = [
-    {
-        "name": "Maverick",
-        "url": "https://github.com/AlanDecode/Maverick",
-        "brief": "🏄‍ Go My Own Way."
-    }
+    # {
+    #     "name": "Maverick",
+    #     "url": "https://github.com/AlanDecode/Maverick",
+    #     "brief": "🏄‍ Go My Own Way."
+    # }
 ]
 nav = [
     {
@@ -63,13 +63,14 @@ social_links = [
     {
         "name": "Steam",
         "url": "https://steamcommunity.com/id/sourbell/",
-        "icon": "gi gi-steam"
+        "icon": "gi fab fa-steam"
     }
 ]
 
 head_addon = r'''
 <meta http-equiv="x-dns-prefetch-control" content="on">
 <link rel="dns-prefetch" href="//cdn.jsdelivr.net" />
+<script src="https://kit.fontawesome.com/8780f0a025.js" crossorigin="anonymous"></script>
 '''
 
 footer_addon = ''
