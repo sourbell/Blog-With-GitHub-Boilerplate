@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>豪猪尾巴</title><link>https://project.sourbell.im/</link><description>Bristletail is alive.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>${static_prefix}logo.png</url><title>豪猪尾巴</title><link>https://project.sourbell.im/</link></image><language>zh-CN</language><lastBuildDate>Wed, 25 Dec 2019 06:46:44 +0806</lastBuildDate><pubDate>Wed, 25 Dec 2019 06:46:44 +0806</pubDate><item><title>Private Label Update</title><link>https://project.sourbell.im/archives/private-label-update/</link><description>&lt;p&gt;&lt;code&gt;2019.12.24&lt;/code&gt;&lt;/p&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>豪猪尾巴</title><link>https://project.sourbell.im/</link><description>Bristletail is alive.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>${static_prefix}logo.png</url><title>豪猪尾巴</title><link>https://project.sourbell.im/</link></image><language>zh-CN</language><lastBuildDate>Wed, 25 Dec 2019 06:49:31 +0806</lastBuildDate><pubDate>Wed, 25 Dec 2019 06:49:31 +0806</pubDate><item><title>Private Label Update</title><link>https://project.sourbell.im/archives/private-label-update/</link><description>&lt;p&gt;&lt;code&gt;2019.12.24&lt;/code&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;RN Heart Rate&lt;/strong&gt; v1.0.1 is live on AppStore.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;AF Heart Rate&lt;/strong&gt; v1.0.1 is live  on AppStore.&lt;/li&gt;
@@ -148,26 +148,26 @@
 &lt;p&gt;&lt;code&gt;#1 Nov 27, 2019&lt;/code&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Basic Customization.&lt;/li&gt;
-&lt;li&gt;Primary color set to &lt;font color=#93ef2d&gt;**#93ef2d**&lt;/font&gt;.&lt;/li&gt;
+&lt;li&gt;Primary color set to &lt;strong&gt;&lt;font color=#93ef2d&gt;#93ef2d&lt;/font&gt;&lt;/strong&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
 &lt;h3&gt;#58(64) 4K Fitness&lt;/h3&gt;
 &lt;p&gt;&lt;code&gt;#1 Nov 27, 2019&lt;/code&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Basic Customization.&lt;/li&gt;
-&lt;li&gt;Primary color set to &lt;font color=#286eb3&gt;**#286eb3**&lt;/font&gt;.&lt;/li&gt;
+&lt;li&gt;Primary color set to &lt;strong&gt;&lt;font color=#286eb3&gt;#286eb3&lt;/font&gt;&lt;/strong&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
 &lt;h3&gt;#57(62) HIIT 80&lt;/h3&gt;
 &lt;p&gt;&lt;code&gt;#2 Dec 19, 2019&lt;/code&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Change the text from &lt;code&gt;INT. POINTS&lt;/code&gt; to &lt;code&gt;HIIT POINTS&lt;/code&gt;.&lt;/li&gt;
-&lt;li&gt;Change the Zone5 color to &lt;font color=#38b9fb&gt;**#38b9fb**&lt;/font&gt;.&lt;/li&gt;
+&lt;li&gt;Change the Zone5 color to &lt;strong&gt;&lt;font color=#38b9fb&gt;#38b9fb&lt;/font&gt;&lt;/strong&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;code&gt;#1 Nov 27, 2019&lt;/code&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Basic Customization.&lt;/li&gt;
-&lt;li&gt;Change the Zone5 color to &lt;font color=#51b5e7&gt;**#51b5e7**&lt;/font&gt;.&lt;/li&gt;
+&lt;li&gt;Change the Zone5 color to &lt;strong&gt;&lt;font color=#51b5e7&gt;#51b5e7&lt;/font&gt;&lt;/strong&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
 &lt;h3&gt;#56() TRIB3&lt;/h3&gt;
@@ -177,14 +177,14 @@
 &lt;p&gt;&lt;code&gt;#1 Nov 21, 2019&lt;/code&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Basic Customization.&lt;/li&gt;
-&lt;li&gt;Change the Zone5 color to &lt;font color=#00bdff&gt;**#00bdff**&lt;/font&gt;.&lt;/li&gt;
+&lt;li&gt;Change the Zone5 color to &lt;strong&gt;&lt;font color=#00bdff&gt;#00bdff&lt;/font&gt;&lt;/strong&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
 &lt;h3&gt;#54(60) Surge Fitness&lt;/h3&gt;
 &lt;p&gt;&lt;code&gt;#1 Nov 15, 2019&lt;/code&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Basic Customization.&lt;/li&gt;
-&lt;li&gt;Change the Zone5 color to &lt;font color=#02ff00&gt;**#02ff00**&lt;/font&gt;.&lt;/li&gt;
+&lt;li&gt;Change the Zone5 color to &lt;strong&gt;&lt;font color=#02ff00&gt;#02ff00&lt;/font&gt;&lt;/strong&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
 &lt;p&gt;...&lt;/p&gt;
@@ -196,13 +196,13 @@
 &lt;p&gt;&lt;code&gt;#1 Jul 3, 2019&lt;/code&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Basic Customization.&lt;/li&gt;
-&lt;li&gt;Primary color set to &lt;font color=#e1ef0a&gt;**#e1ef0a**&lt;/font&gt;.&lt;/li&gt;
+&lt;li&gt;Primary color set to &lt;strong&gt;&lt;font color=#e1ef0a&gt;#e1ef0a&lt;/font&gt;&lt;/strong&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
 &lt;h3&gt;#32(30) Minute HIT&lt;/h3&gt;
 &lt;p&gt;&lt;code&gt;#2 Jul 8, 2019&lt;/code&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Change primary color to &lt;font color=#ffc0cb&gt;**#ffc0cb**&lt;/font&gt;.&lt;/li&gt;
+&lt;li&gt;Change primary color to &lt;strong&gt;&lt;font color=#ffc0cb&gt;#ffc0cb&lt;/font&gt;&lt;/strong&gt;.&lt;/li&gt;
 &lt;li&gt;Change background image.&lt;/li&gt;
 &lt;li&gt;Remove device type selection, use HRM only.&lt;/li&gt;
 &lt;li&gt;Improve HRM memory reading.&lt;/li&gt;
@@ -211,6 +211,6 @@
 &lt;ul&gt;
 &lt;li&gt;Basic Customization.&lt;/li&gt;
 &lt;li&gt;Change ALL pages from dark background to white background&lt;/li&gt;
-&lt;li&gt;Primary color set to &lt;font color=#e39d9f&gt;**#e39d9f**&lt;/font&gt;.&lt;/li&gt;
+&lt;li&gt;Primary color set to &lt;strong&gt;&lt;font color=#e39d9f&gt;#e39d9f&lt;/font&gt;&lt;/strong&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 </description><author>i@sourbell.im (Toby Bu)</author><guid isPermaLink="true">https://project.sourbell.im/archives/private-label-change-request/</guid><pubDate>Wed, 25 Dec 2019 13:33:00 +0806</pubDate></item></channel></rss>
