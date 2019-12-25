@@ -53,22 +53,27 @@ social_links = [
     {
         "name": "Twitter",
         "url": "https://twitter.com/sourbell",
-        "icon": "gi fab fa-twitter"
+        "icon": "fab fa-twitter"
     },
     {
         "name": "GitHub",
         "url": "https://github.com/sourbell",
-        "icon": "gi fab fa-github"
+        "icon": "fab fa-github-alt"
     },
     {
         "name": "Steam",
         "url": "https://steamcommunity.com/id/sourbell/",
-        "icon": "gi fab fa-steam"
+        "icon": "fab fa-steam-symbol"
     },
     {
         "name": "PSN",
         "url": "https://my.playstation.com/profile/Bristle2tail",
-        "icon": "gi fab fa-playstation"
+        "icon": "fab fa-playstation"
+    },
+    {
+        "name": "BattleNet",
+        "url": "https://d3.blizzard.cn/profile/sourbell-5971",
+        "icon": "fab fa-battle-net"
     }
 ]
 
@@ -76,6 +81,7 @@ head_addon = r'''
 <meta http-equiv="x-dns-prefetch-control" content="on">
 <link rel="dns-prefetch" href="//cdn.jsdelivr.net" />
 <script src="https://kit.fontawesome.com/8780f0a025.js" crossorigin="anonymous"></script>
+<style>.fab:before{margin:0,.2em;}</style>
 '''
 
 footer_addon = ''
