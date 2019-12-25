@@ -20,7 +20,7 @@ site_build_date = "2019-12-24T23:19+08:00"
 author = "Bristletail"
 email = "i@sourbell.im"
 author_homepage = "https://sourbell.im"
-description = "Alive"
+description = "Bristletail is alive."
 key_words = ['Maverick', 'sourbell', 'Bristletail', 'blog']
 language = 'zh-CN'
 background_img = '${static_prefix}bg/photo-1575892935016-d97e79254d93.jpg'
@@ -28,22 +28,22 @@ external_links = [
     {
         "name": "小花的架子鼓",
         "url": "http://junli.de/",
-        "brief": "Junli De Blog"
+        "brief": "🌵Julie de Blog 🌵"
     }
 ]
 nav = [
     {
-        "name": "首页",
+        "name": "Home",
         "url": "${site_prefix}",
         "target": "_self"
     },
     {
-        "name": "归档",
+        "name": "Archives",
         "url": "${site_prefix}archives/",
         "target": "_self"
     },
     {
-        "name": "关于",
+        "name": "About",
         "url": "${site_prefix}about/",
         "target": "_self"
     }
