@@ -25,11 +25,11 @@ key_words = ['Maverick', 'sourbell', 'Bristletail', 'blog']
 language = 'zh-CN'
 background_img = '${static_prefix}bg/photo-1575892935016-d97e79254d93.jpg'
 external_links = [
-    # {
-    #     "name": "Maverick",
-    #     "url": "https://github.com/AlanDecode/Maverick",
-    #     "brief": "🏄‍ Go My Own Way."
-    # }
+    {
+        "name": "小花的架子鼓",
+        "url": "http://junli.de/",
+        "brief": "Junli De Blog"
+    }
 ]
 nav = [
     {
@@ -81,7 +81,7 @@ head_addon = r'''
 <meta http-equiv="x-dns-prefetch-control" content="on">
 <link rel="dns-prefetch" href="//cdn.jsdelivr.net" />
 <script src="https://kit.fontawesome.com/8780f0a025.js" crossorigin="anonymous"></script>
-<style>.fab:before{margin:0,.2em;}</style>
+<style>.fab:before{margin:0 .2em;}</style>
 '''
 
 footer_addon = ''
