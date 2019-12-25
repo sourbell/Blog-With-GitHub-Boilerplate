@@ -23,6 +23,7 @@ author_homepage = "https://sourbell.im"
 description = "Alive"
 key_words = ['Maverick', 'sourbell', 'Bristletail', 'blog']
 language = 'zh-CN'
+background_img = '${static_prefix}bg/Trees_1400x900.png'
 external_links = [
     {
         "name": "Maverick",
@@ -69,6 +70,8 @@ social_links = [
 head_addon = r'''
 <meta http-equiv="x-dns-prefetch-control" content="on">
 <link rel="dns-prefetch" href="//cdn.jsdelivr.net" />
+<link rel="stylesheet" href="${static_prefix}brand_font/embed.css" />
+<style>.brand{font-family:FZCuJinLFW,serif;font-weight: normal!important;}</style>
 '''
 
 footer_addon = ''
