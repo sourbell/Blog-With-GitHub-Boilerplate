@@ -28,7 +28,7 @@ external_links = [
     {
         "name": "小花的架子鼓",
         "url": "http://junli.de/",
-        "brief": "🌵Julie de Blog 🌵"
+        "brief": "🌵Julie 的部落格 🌵"
     }
 ]
 nav = [
