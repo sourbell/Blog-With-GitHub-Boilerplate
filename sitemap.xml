@@ -14,14 +14,21 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 
     <url>
-        <loc>https://project.sourbell.im/archives/trib3/</loc>
-        <lastmod>2019-12-25</lastmod>
+        <loc>https://project.sourbell.im/archives/private-label-change-request/</loc>
+        <lastmod>2020-01-04</lastmod>
         <changefreq>always</changefreq>
         <priority>0.5</priority>
     </url>
 
     <url>
-        <loc>https://project.sourbell.im/archives/private-label-change-request/</loc>
+        <loc>https://project.sourbell.im/archives/private-label-update/</loc>
+        <lastmod>2020-01-04</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://project.sourbell.im/archives/trib3/</loc>
         <lastmod>2019-12-25</lastmod>
         <changefreq>always</changefreq>
         <priority>0.5</priority>
@@ -37,13 +44,6 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
         <loc>https://project.sourbell.im/archives/accurofit-release-note/</loc>
         <lastmod>2019-12-25</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://project.sourbell.im/archives/private-label-update/</loc>
-        <lastmod>2019-12-24</lastmod>
         <changefreq>always</changefreq>
         <priority>0.5</priority>
     </url>
