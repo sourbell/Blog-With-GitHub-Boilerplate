@@ -21,19 +21,20 @@
         }
     </script>
     
-<title></title>
-<meta name="author" content="Bristletail" />
-<meta name="description" content="Keep resolutions" />
-<meta property="og:title" content="" />
-<meta property="og:description" content="Keep resolutions" />
+<title>APT API - 豪猪尾巴</title>
+<meta name="author" content="Toby Bu" />
+<meta name="description" content="APT API" />
+<meta property="og:title" content="APT API - 豪猪尾巴" />
+<meta property="og:description" content="APT API" />
 <meta property="og:site_name" content="豪猪尾巴" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="" />
-<meta property="og:image" content="豪猪尾巴" />
-<meta name="twitter:title" content="" />
-<meta name="twitter:description" content="Keep resolutions" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://project.sourbell.im/archives/apt-api/" />
+<meta property="og:image" content="" />
+<meta property="article:published_time" content="2020-02-23T11:01:00-00.00" />
+<meta name="twitter:title" content="APT API - 豪猪尾巴" />
+<meta name="twitter:description" content="APT API" />
 <meta name="twitter:card" content="summary" />
-<meta name="twitter:image" content="https://cdn.jsdelivr.net/gh/sourbell/project@gh-pages/logo.jpg" />
+<meta name="twitter:image" content="" />
 
 
     
@@ -73,62 +74,140 @@
             <div class="wrapper">
                 
 <main>    
-    
+    <section class="ga-section ga-content">
+        <article class="yue">
+            <h1 class="ga-post_title">APT API</h1>
+            <span class="ga-post_meta ga-mono">
+                <span>Toby Bu</span>
+                <time>
+                    2020-02-23
+                </time>
+                
+                in <a no-style class="category" href="https://project.sourbell.im/category/Project Manage/">
+                    Project Manage
+                </a>
+                
+                
+            </span>
+            <div class="ga-content_body">
+                <p>默认返回结构
+{
+    error: false, 
+    data: {
+    ...
+    }
+}</p>
+<ol>
+<li>登录 
+post /pd/login
+{ email: "15950000512@qq.com", password: "12345678" }
+{ token: "" }</li>
+</ol>
+<ol>
+<li>注册（注册后默认为普通会员）</li>
+</ol>
+<ol>
+<li>取回密码 
+post /pd/reset-password
+{ email: "15950000512@qq.com" } 
+{ message: "email sent" }</li>
+</ol>
+<ol>
+<li>获取用户最近 statistics 
+get /pd/statistics
+{
+ weekly: {
+<pre><code> attendance: [0, 1, 1, 1, 1, 0, 1], //[6天前，5天前...，昨天，今天]
+ calories: 756.23,
+ exerciseMinutes: 320,
+</code></pre>
+ },
+ monthly: {
+<pre><code> attendance: [0, 1, 1, 1, 1, 1, 1... ] //[] 本月1号起
+</code></pre>
+ }
+}</li>
+</ol>
+<ol>
+<li><p>根据日期范围获取最近的 workout list 
+get /pd/workouts/page/{page}
+{
+}</p>
+</li>
+<li><p>个人资料获取
+get /pd/profile
+{
+ userId: 1,
+ email: "15950000512@qq.com",
+ avatar: "",
+ firstName: "Toby",
+ lastName: "Bu",
+ nickName: "Bristletail",
+ gender: "male" | "female",
+ birthYear: "01/1987",
+ weight: 175.12,
+ weightUnit: "lb" | "kg"
+}</p>
+</li>
+</ol>
+<ol>
+<li>个人资料修改
+post /pd/profile
+{
+ userId: 1,
+ avatar: "",
+ firstName: "Toby",
+ lastName: "Bu",
+ nickName: "Bristletail",
+ gender: "male" | "female",
+ birthYear: "01/1987",
+ weight: 175.12,
+ weightUnit: "lb" | "kg"
+}</li>
+</ol>
+<p>{
+}</p>
+<ol>
+<li>修改密码
+post /pd/profile/actions/change-password
+{
+ newPassword: "123456789"
+}</li>
+</ol>
+<p>{ message: "password changed" }</p>
+<ol>
+<li>获取本角色下的 Challenge list</li>
+</ol>
 
-<section id="ga-archive_list" class="ga-section" data-title="Cate: Project Manage">
-    <ul>
-        
-        <li>
-            <h1><a target="_self" class="ga-highlight" href="https://project.sourbell.im/archives/apt-api/">APT API</a></h1>
-            <time class="ga-mono">
-                2020-02-23
-            </time>
-        </li>
-        
-        <li>
-            <h1><a target="_self" class="ga-highlight" href="https://project.sourbell.im/archives/apt-api/">APT API</a></h1>
-            <time class="ga-mono">
-                2020-02-23
-            </time>
-        </li>
-        
-        <li>
-            <h1><a target="_self" class="ga-highlight" href="https://project.sourbell.im/archives/trib3/">TRIB3</a></h1>
-            <time class="ga-mono">
-                2020-01-07
-            </time>
-        </li>
-        
-        <li>
-            <h1><a target="_self" class="ga-highlight" href="https://project.sourbell.im/archives/private-label-update/">Private Label Update</a></h1>
-            <time class="ga-mono">
-                2020-01-07
-            </time>
-        </li>
-        
-        <li>
-            <h1><a target="_self" class="ga-highlight" href="https://project.sourbell.im/archives/apt-release-note/">APT Release Note</a></h1>
-            <time class="ga-mono">
-                2019-12-25
-            </time>
-        </li>
-        
-        <li>
-            <h1><a target="_self" class="ga-highlight" href="https://project.sourbell.im/archives/accurofit-release-note/">Accurofit Release Note</a></h1>
-            <time class="ga-mono">
-                2019-12-25
-            </time>
-        </li>
-        
-    </ul>
+            </div>
+        </article>
+        <div id="ga-tags">
+    
+    <span class="ga-tag">
+        <a class="ga-highlight" href="https://project.sourbell.im/tag/API/">#API</a>
+    </span>
+    
+</div>
+    </section>
+
+    
+<section id="ga-content_pager">
+
+    <div class="next">
+        <a class="ga-highlight" href="https://project.sourbell.im/archives/apt-api/">APT API</a>
+        <p class="yue">APT API</p>
+    </div>
+
+
+    <div class="prev">
+        <a class="ga-highlight" href="https://project.sourbell.im/archives/trib3/">TRIB3</a>
+        <p class="yue">PL 客户端 TRIB3 的定制化需求。</p>
+    </div>
+
 </section>
 
-<section class="ga-section ga-mono" id="ga-pager">
-    
-    <span>Page 1 of 1</span>
-    
-</section>
 
+    
 
 </main>
 
