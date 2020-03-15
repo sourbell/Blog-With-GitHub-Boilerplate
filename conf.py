@@ -22,7 +22,7 @@ email = "i@sourbell.im"
 author_homepage = "https://sourbell.im"
 description = "Keep resolutions"
 key_words = ['Maverick', 'sourbell', 'Bristletail', 'blog']
-language = 'zh-CN'
+language = 'english'
 background_img = '${static_prefix}bg/photo-1575892935016-d97e79254d93.jpg'
 external_links = [
     {
