@@ -21,6 +21,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     </url>
 
     <url>
+        <loc>https://project.sourbell.im/archives/project-update-week-10/</loc>
+        <lastmod>2020-03-08</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
         <loc>https://project.sourbell.im/archives/apt-api/</loc>
         <lastmod>2020-02-23</lastmod>
         <changefreq>always</changefreq>
