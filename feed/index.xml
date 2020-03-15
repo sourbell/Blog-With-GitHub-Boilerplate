@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>豪猪尾巴</title><link>https://project.sourbell.im/</link><description>Keep resolutions</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>${static_prefix}logo.jpg</url><title>豪猪尾巴</title><link>https://project.sourbell.im/</link></image><language>zh-CN</language><lastBuildDate>Sun, 15 Mar 2020 16:44:09 +0806</lastBuildDate><pubDate>Sun, 15 Mar 2020 16:44:09 +0806</pubDate><item><title>Accurofit Release Note</title><link>https://project.sourbell.im/archives/accurofit-release-note/</link><description>&lt;p&gt;&lt;code&gt;3.3.4&lt;/code&gt; Dec 4, 2019&lt;/p&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>豪猪尾巴</title><link>https://project.sourbell.im/</link><description>Keep resolutions</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>${static_prefix}logo.jpg</url><title>豪猪尾巴</title><link>https://project.sourbell.im/</link></image><language>zh-CN</language><lastBuildDate>Sun, 15 Mar 2020 16:47:44 +0806</lastBuildDate><pubDate>Sun, 15 Mar 2020 16:47:44 +0806</pubDate><item><title>Accurofit Release Note</title><link>https://project.sourbell.im/archives/accurofit-release-note/</link><description>&lt;p&gt;&lt;code&gt;3.3.4&lt;/code&gt; Dec 4, 2019&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Removed the background music during live workout.&lt;/li&gt;
 &lt;li&gt;Multiple improvements.&lt;/li&gt;
@@ -222,6 +222,89 @@
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Tonic Crossfit&lt;/strong&gt; v1.0.0 is live on GooglePlay and AppStore.&lt;/li&gt;
 &lt;/ul&gt;
+</description><author>i@sourbell.im (Toby Bu)</author><guid isPermaLink="true">https://project.sourbell.im/archives/private-label-update/</guid><pubDate>Tue, 07 Jan 2020 12:42:00 +0806</pubDate></item><item><title>Private Label Update</title><link>https://project.sourbell.im/archives/private-label-update/</link><description>&lt;p&gt;&lt;code&gt;2020.1.7&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Momentum Fitness&lt;/strong&gt; v1.0.0 pre-released on &lt;a href="https://fir.im/momentum"&gt;FIR.IM&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Impact Strong Elite&lt;/strong&gt; v1.0.0 pre-released on &lt;a href="https://fir.im/impact"&gt;FIR.IM&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;All Heart Boxing&lt;/strong&gt; v1.0.0 pre-released on &lt;a href="https://fir.im/allheart"&gt;FIR.IM&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;TX Thailand&lt;/strong&gt; v1.0.0 pre-released on &lt;a href="https://fir.im/txthailand"&gt;FIR.IM&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;code&gt;2020.1.6&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Wolfpack Fitness &amp;amp; MMA&lt;/strong&gt; v1.0.0 pre-released on &lt;a href="https://fir.im/wolfpack"&gt;FIR.IM&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;code&gt;2020.1.4&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;WV Fitness HR&lt;/strong&gt; v1.0.1 is live on AppStore annd &lt;a href="https://play.google.com/store/apps/details?id=net.ncitglobal.wvfitness"&gt;GooglePlay&lt;/a&gt;, with new changes applied:&lt;ul&gt;
+&lt;li&gt;1, Change app name from &lt;code&gt;WV Fitness&lt;/code&gt; to &lt;code&gt;WV Fitness HR&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;code&gt;2019.12.24&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;RN Heart Rate&lt;/strong&gt; v1.0.1 is live on AppStore.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;AF Heart Rate&lt;/strong&gt; v1.0.1 is live  on AppStore.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Suburban Fitness&lt;/strong&gt; v1.0.0 is live on AppStore。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;HIIT80&lt;/strong&gt; v1.0.1 is live on AppStore.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;4K Fitness&lt;/strong&gt; v1.0.0 pre-released on &lt;a href="https://fir.im/4kfitness"&gt;FIR.IM&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Roden HIIT Kickboxing&lt;/strong&gt; v1.0.0 pre-released on &lt;a href="https://fir.im/roden"&gt;FIR.IM&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;code&gt;2019.12.22&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Innovative Kickboxing&lt;/strong&gt; v1.0.0 is live on AppStore&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;HIIT80&lt;/strong&gt; v1.0.1 is live on &lt;a href="https://play.google.com/store/apps/details?id=net.ncitglobal.hiit80"&gt;GooglePlay&lt;/a&gt; and waiting for review on AppStore, with new changes applied:&lt;ul&gt;
+&lt;li&gt;1, Change Int. Points to HIIT Points,&lt;/li&gt;
+&lt;li&gt;2, Change zone5 color from #ed1f24 to #38b9fb.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Suburban Fitness&lt;/strong&gt; v1.0.0 is live on &lt;a href="https://play.google.com/store/apps/details?id=net.ncitglobal.suburbanfitness"&gt;GooglePlay&lt;/a&gt; and waiting for review on AppStore&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;RN Heart Rate&lt;/strong&gt; v1.0.1 is live on &lt;a href="https://play.google.com/store/apps/details?id=net.ncitglobal.ridenation"&gt;GooglePlay&lt;/a&gt; and waiting for review on AppStore, with the name change.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;AF Heart Rate&lt;/strong&gt; v1.0.1 is live on &lt;a href="https://play.google.com/store/apps/details?id=net.ncitglobal.afheartrate"&gt;GooglePlay&lt;/a&gt; and waiting for review on AppStore, with the zone5 color change (purple).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;code&gt;2019.12.17&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;HIIT80&lt;/strong&gt; v1.0.0 released on GooglePlay and AppStore&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;code&gt;2019.12.13&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Innovative Kickboxing&lt;/strong&gt; v1.0.0 got rejected on AppStore, resubmitted a new version.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;code&gt;2019.12.11&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Innovative Kickboxing&lt;/strong&gt; v1.0.0 is live on GooglePlay, resubmitted.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;code&gt;2019.12.06&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Workhorse Gym&lt;/strong&gt; v1.0.0 rebuild and pre-released on &lt;a href="https://fir.im/workhorse"&gt;FIR.IM&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;code&gt;2019.11.29&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;WV Fitness&lt;/strong&gt; v1.0.0 is live on GooglePlay and AppStore.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;code&gt;2019.11.24&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Tonic Crossfit&lt;/strong&gt; v1.0.1 is live on AppStore, fixed the spelling of app name.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;code&gt;2019.11.19&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Tonic Crossfit&lt;/strong&gt; v1.0.1 is live on GooglePlay, fixed the spelling of app name.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;code&gt;2019.11.15&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Tonic Crossfit&lt;/strong&gt; v1.0.0 is live on GooglePlay and AppStore.&lt;/li&gt;
+&lt;/ul&gt;
 </description><author>i@sourbell.im (Toby Bu)</author><guid isPermaLink="true">https://project.sourbell.im/archives/private-label-update/</guid><pubDate>Tue, 07 Jan 2020 12:42:00 +0806</pubDate></item><item><title>TRIB3</title><link>https://project.sourbell.im/archives/trib3/</link><description>&lt;p&gt;&lt;figure class="pswp-item" style="flex: 102.4" data-width="1024" data-height="500"&gt;&lt;img src="https://cdn.jsdelivr.net/gh/sourbell/project@gh-pages/archives/assets/178317e8a7f6ed4c02aa260e59d3dea8.png" alt="TRIB3" /&gt;&lt;figcaption&gt;TRIB3&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
 &lt;p&gt;TRIB3 Questions 20200107&lt;/p&gt;
 &lt;ol&gt;
@@ -236,7 +319,46 @@
 &lt;li&gt;On WORKOUT HISTORY page, when you click on a workout, the app will display the workout detail, currently the detail is displaying on the same page, while in Accurofit we display this in a new modal page on top of the HISTORY page, which i think is more user friendly.&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;TRIB3&lt;/code&gt; was taken on AppStore, we should come up with another one.&lt;/li&gt;
 &lt;/ol&gt;
-</description><author>i@sourbell.im (Toby Bu)</author><guid isPermaLink="true">https://project.sourbell.im/archives/trib3/</guid><pubDate>Tue, 07 Jan 2020 12:56:00 +0806</pubDate></item><item><title>APT API</title><link>https://project.sourbell.im/archives/apt-api/</link><description>&lt;p&gt;默认返回结构&lt;/p&gt;
+</description><author>i@sourbell.im (Toby Bu)</author><guid isPermaLink="true">https://project.sourbell.im/archives/trib3/</guid><pubDate>Tue, 07 Jan 2020 12:56:00 +0806</pubDate></item><item><title>Project Update Week 3/52</title><link>https://project.sourbell.im/archives/project-update-week-3/</link><description>&lt;div class="notice"&gt;Weekly Highlight:&lt;/div&gt;&lt;div class="notice"&gt;1,  Accurofit 3.4.0 release date: Jan. 23, 2020.&lt;/div&gt;&lt;div class="notice"&gt;2,  Pre-release all 5 PL apps to Fir.im.&lt;/div&gt;&lt;div class="notice"&gt;3,  Release APT on TestFlight with ANT features included.&lt;/div&gt;&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Accurofit&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;1.1 &lt;strong&gt;New FL301&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Finished 2nd round debugging, finally found the root cause in the firmware. Hardware developer has finished test in the weekend, sent a new package to Nanjing with fixed scale.&lt;/p&gt;
+&lt;p&gt;1.2 &lt;strong&gt;Messaging&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Finished final test, released 3.4.0-RC.1 version on TestFlight and &lt;a href="https://fir.im/accurov2"&gt;FIR.IM&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;1.3 &lt;strong&gt;DBS221&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Integrating with Swami.&lt;/p&gt;
+&lt;p&gt;1.4 &lt;strong&gt;Group Messaging&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Will work on this after the release of 3.4.0, estimate workload is two weeks.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;AccuroPT&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;2.1 &lt;strong&gt;Trial Use&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Ongoing, need to changing the identity verification method first, the origin method has flaws when you do factory reset on an iPad.&lt;/p&gt;
+&lt;p&gt;2.2 &lt;strong&gt;Multiple Language Support&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Sent latest translation script to Aaron. Will put the newer version into the app     as soon as it's ready.&lt;/p&gt;
+&lt;p&gt;2.3 &lt;strong&gt;Accuro ANT+ Receiver Integration&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;70% completed, will submit to TestFlight before next Monday.&lt;/p&gt;
+&lt;p&gt;2.4 &lt;strong&gt;Android Version&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Release v1.2.0 on &lt;a href="https://fir.im/accuropt"&gt;FIR.IM&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;2.5 &lt;strong&gt;WASP ANT+ Receiver Integration&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Integrating with Swami.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Private Labels&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;3.1 &lt;strong&gt;Summary&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;11&lt;/strong&gt; 2.0 based PL app released on GooglePlay and AppStore.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;22&lt;/strong&gt; 3.0 based PL apps released on GooglePlay and AppStore.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;16&lt;/strong&gt; PL apps pre-released on fir.im, waiting for client approval.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;4&lt;/strong&gt; PL apps under development.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;3.2 &lt;strong&gt;TRIB3&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Released 1.0.0-alpha.1 on TestFlight, finished 75%.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;AquaBag&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Fixed all issues came from penetration test. Rewrote offline datastore, fixed the issues from Jeff's test report.&lt;/p&gt;
+&lt;p&gt;v1.1.0 released on Google Play and App Store.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+</description><author>i@sourbell.im (Toby Bu)</author><guid isPermaLink="true">https://project.sourbell.im/archives/project-update-week-3/</guid><pubDate>Wed, 22 Jan 2020 11:42:00 +0806</pubDate></item><item><title>APT API</title><link>https://project.sourbell.im/archives/apt-api/</link><description>&lt;p&gt;默认返回结构&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;
     &lt;span class="nx"&gt;meta&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
         &lt;span class="nx"&gt;error&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="kc"&gt;false&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
@@ -343,92 +465,39 @@
 &lt;li&gt;&lt;p&gt;获取本角色下的 Challenge list&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-</description><author>i@sourbell.im (Toby Bu)</author><guid isPermaLink="true">https://project.sourbell.im/archives/apt-api/</guid><pubDate>Sun, 23 Feb 2020 11:01:00 +0806</pubDate></item><item><title>APT API</title><link>https://project.sourbell.im/archives/apt-api/</link><description>&lt;p&gt;默认返回结构
-{
-    error: false, 
-    data: {
-    ...
-    }
-}&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;登录 
-post /pd/login
-{ email: "15950000512@qq.com", password: "12345678" }
-{ token: "" }&lt;/li&gt;
-&lt;/ol&gt;
-&lt;ol&gt;
-&lt;li&gt;注册（注册后默认为普通会员）&lt;/li&gt;
-&lt;/ol&gt;
-&lt;ol&gt;
-&lt;li&gt;取回密码 
-post /pd/reset-password
-{ email: "15950000512@qq.com" } 
-{ message: "email sent" }&lt;/li&gt;
-&lt;/ol&gt;
-&lt;ol&gt;
-&lt;li&gt;获取用户最近 statistics 
-get /pd/statistics
-{
- weekly: {
-&lt;pre&gt;&lt;code&gt; attendance: [0, 1, 1, 1, 1, 0, 1], //[6天前，5天前...，昨天，今天]
- calories: 756.23,
- exerciseMinutes: 320,
-&lt;/code&gt;&lt;/pre&gt;
- },
- monthly: {
-&lt;pre&gt;&lt;code&gt; attendance: [0, 1, 1, 1, 1, 1, 1... ] //[] 本月1号起
-&lt;/code&gt;&lt;/pre&gt;
- }
-}&lt;/li&gt;
-&lt;/ol&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;根据日期范围获取最近的 workout list 
-get /pd/workouts/page/{page}
-{
-}&lt;/p&gt;
+</description><author>i@sourbell.im (Toby Bu)</author><guid isPermaLink="true">https://project.sourbell.im/archives/apt-api/</guid><pubDate>Sun, 23 Feb 2020 11:01:00 +0806</pubDate></item><item><title>Project Update Week 11/52</title><link>https://project.sourbell.im/archives/project-update-week-11/</link><description>&lt;div class="notice"&gt;Weekly Highlight:&lt;/div&gt;&lt;div class="notice"&gt;1,  Accurofit 3.4.2 release date: Jan. 23, 2020.&lt;/div&gt;&lt;div class="notice"&gt;2,  Pre-release HIIT Zone Fitness on BetaQR.&lt;/div&gt;&lt;div class="notice"&gt;3,  Released Flexx Fitness HR on the stores.&lt;/div&gt;&lt;div class="notice"&gt;4,  Optimized server database, fixed an issue with slow query.&lt;/div&gt;&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Accurofit&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;1.1 &lt;strong&gt;New FL301&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Changed the display logic of how body fat. 
+Before: display latest weight and latest body fat measured.
+After: display weight and body fat from latest measurement, if there's no body fat, shows '--%'.&lt;/p&gt;
+&lt;p&gt;1.2 &lt;strong&gt;Bug fixes and ongoing features&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Working on improving OTA.&lt;/li&gt;
+&lt;li&gt;Working on share workout inside the app.&lt;/li&gt;
+&lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;p&gt;个人资料获取
-get /pd/profile
-{
- userId: 1,
- email: "15950000512@qq.com",
- avatar: "",
- firstName: "Toby",
- lastName: "Bu",
- nickName: "Bristletail",
- gender: "male" | "female",
- birthYear: "01/1987",
- weight: 175.12,
- weightUnit: "lb" | "kg"
-}&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;AccuroPT&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;2.1 &lt;strong&gt;Trial Use&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Released TestFlight 1.2.0.16 with this update.&lt;/p&gt;
+&lt;p&gt;2.2 &lt;strong&gt;NCIT ANT+ Receiver Integration&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Investigating the raw data received from NCIT ANT Receiver.&lt;/p&gt;
+&lt;p&gt;2.3 &lt;strong&gt;NPE WASP ANT+ Receiver Integration&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Ongoing, received 3 NPE Wasp, and source code of the plugin developed by Swami Team, estimate work time: 8 work days.&lt;/p&gt;
+&lt;p&gt;2.4 &lt;strong&gt;FS Integration&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Done some experiments with the solution out of the discussion with Sam@FS, successfully streaming real-time JSON file inside WLAN updated per second.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;ol&gt;
-&lt;li&gt;个人资料修改
-post /pd/profile
-{
- userId: 1,
- avatar: "",
- firstName: "Toby",
- lastName: "Bu",
- nickName: "Bristletail",
- gender: "male" | "female",
- birthYear: "01/1987",
- weight: 175.12,
- weightUnit: "lb" | "kg"
-}&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Private Labels&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;3.1 &lt;strong&gt;Summary&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;//TODO&lt;/p&gt;
+&lt;p&gt;3.2 &lt;strong&gt;TRIB3&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Released 1.0.0-alpha.3 on BetaQR, fixed issues reported by the client.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;AquaBag&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;4.1 &lt;strong&gt;Gym Solution&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Working on iPad version of Gym Solution, Internal testing, will release alpha version in one week.&lt;/p&gt;
+&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;{
-}&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;修改密码
-post /pd/profile/actions/change-password
-{
- newPassword: "123456789"
-}&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;{ message: "password changed" }&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;获取本角色下的 Challenge list&lt;/li&gt;
-&lt;/ol&gt;
-</description><author>i@sourbell.im (Toby Bu)</author><guid isPermaLink="true">https://project.sourbell.im/archives/apt-api/</guid><pubDate>Sun, 23 Feb 2020 11:10:00 +0806</pubDate></item></channel></rss>
+</description><author>i@sourbell.im (Toby Bu)</author><guid isPermaLink="true">https://project.sourbell.im/archives/project-update-week-11/</guid><pubDate>Sun, 15 Mar 2020 20:00:00 +0806</pubDate></item></channel></rss>

@@ -17,22 +17,22 @@
     <script>
         var ExSearchConfig = {
             root: "",
-            api: "https://cdn.jsdelivr.net/gh/sourbell/project@gh-pages/8cdd31d6f1902a26ca76505971fa9d98.json"
+            api: "https://cdn.jsdelivr.net/gh/sourbell/project@gh-pages/6c5a7bba3d1729fc4b04b0a03af130fd.json"
         }
     </script>
     
-<title>Project Update Week 2/52 - 豪猪尾巴</title>
+<title>Project Update Week 11/52 - 豪猪尾巴</title>
 <meta name="author" content="Toby Bu" />
-<meta name="description" content="Weekly Highlight:1,  Accurofit 3.4.0 release date: Jan. 11, 2020.2,  Pre-release all 5 PL apps to Fir.im.3,  Release APT on TestFlight with ANT features included." />
-<meta property="og:title" content="Project Update Week 2/52 - 豪猪尾巴" />
-<meta property="og:description" content="Weekly Highlight:1,  Accurofit 3.4.0 release date: Jan. 11, 2020.2,  Pre-release all 5 PL apps to Fir.im.3,  Release APT on TestFlight with ANT features included." />
+<meta name="description" content="Weekly Highlight:1,  Accurofit 3.4.2 release date: Jan. 23, 2020.2,  Pre-release HIIT Zone Fitness on BetaQR.3,  Released Flexx Fitness HR on the stores.4,  Optimized server database, fixed an issue with slow query." />
+<meta property="og:title" content="Project Update Week 11/52 - 豪猪尾巴" />
+<meta property="og:description" content="Weekly Highlight:1,  Accurofit 3.4.2 release date: Jan. 23, 2020.2,  Pre-release HIIT Zone Fitness on BetaQR.3,  Released Flexx Fitness HR on the stores.4,  Optimized server database, fixed an issue with slow query." />
 <meta property="og:site_name" content="豪猪尾巴" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://project.sourbell.im/archives/project-update-week-two/" />
+<meta property="og:url" content="https://project.sourbell.im/archives/project-update-week-11/" />
 <meta property="og:image" content="" />
-<meta property="article:published_time" content="2020-01-06T11:42:00-00.00" />
-<meta name="twitter:title" content="Project Update Week 2/52 - 豪猪尾巴" />
-<meta name="twitter:description" content="Weekly Highlight:1,  Accurofit 3.4.0 release date: Jan. 11, 2020.2,  Pre-release all 5 PL apps to Fir.im.3,  Release APT on TestFlight with ANT features included." />
+<meta property="article:published_time" content="2020-03-15T20:00:00-00.00" />
+<meta name="twitter:title" content="Project Update Week 11/52 - 豪猪尾巴" />
+<meta name="twitter:description" content="Weekly Highlight:1,  Accurofit 3.4.2 release date: Jan. 23, 2020.2,  Pre-release HIIT Zone Fitness on BetaQR.3,  Released Flexx Fitness HR on the stores.4,  Optimized server database, fixed an issue with slow query." />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:image" content="" />
 
@@ -76,11 +76,11 @@
 <main>    
     <section class="ga-section ga-content">
         <article class="yue">
-            <h1 class="ga-post_title">Project Update Week 2/52</h1>
+            <h1 class="ga-post_title">Project Update Week 11/52</h1>
             <span class="ga-post_meta ga-mono">
                 <span>Toby Bu</span>
                 <time>
-                    2020-01-06
+                    2020-03-15
                 </time>
                 
                 in <a no-style class="category" href="https://project.sourbell.im/category/Project Manage/">
@@ -90,43 +90,39 @@
                 
             </span>
             <div class="ga-content_body">
-                <div class="notice">Weekly Highlight:</div><div class="notice">1,  Accurofit 3.4.0 release date: Jan. 11, 2020.</div><div class="notice">2,  Pre-release all 5 PL apps to Fir.im.</div><div class="notice">3,  Release APT on TestFlight with ANT features included.</div><ol>
+                <div class="notice">Weekly Highlight:</div><div class="notice">1,  Accurofit 3.4.2 release date: Jan. 23, 2020.</div><div class="notice">2,  Pre-release HIIT Zone Fitness on BetaQR.</div><div class="notice">3,  Released Flexx Fitness HR on the stores.</div><div class="notice">4,  Optimized server database, fixed an issue with slow query.</div><ol>
 <li><p><strong>Accurofit</strong></p>
 <p>1.1 <strong>New FL301</strong></p>
-<p>Finished 2nd round debugging, finally found the root cause in the firmware. Hardware developer has finished test in the weekend, sent a new package to Nanjing with fixed scale.</p>
-<p>1.2 <strong>Messaging</strong></p>
-<p>Finished final test, released 3.4.0-RC.1 version on TestFlight and <a href="https://fir.im/accurov2">FIR.IM</a></p>
-<p>1.3 <strong>DBS221</strong></p>
-<p>Integrating with Swami.</p>
-<p>1.4 <strong>Group Messaging</strong></p>
-<p>Will work on this after the release of 3.4.0, estimate workload is two weeks.</p>
+<p>Changed the display logic of how body fat. 
+Before: display latest weight and latest body fat measured.
+After: display weight and body fat from latest measurement, if there's no body fat, shows '--%'.</p>
+<p>1.2 <strong>Bug fixes and ongoing features</strong></p>
+<ul>
+<li>Working on improving OTA.</li>
+<li>Working on share workout inside the app.</li>
+</ul>
 </li>
 <li><p><strong>AccuroPT</strong></p>
 <p>2.1 <strong>Trial Use</strong></p>
-<p>Ongoing, need to changing the identity verification method first, the origin method has flaws when you do factory reset on an iPad.</p>
-<p>2.2 <strong>Multiple Language Support</strong></p>
-<p>Sent latest translation script to Aaron. Will put the newer version into the app     as soon as it's ready.</p>
-<p>2.3 <strong>Accuro ANT+ Receiver Integration</strong></p>
-<p>70% completed, will submit to TestFlight before next Monday.</p>
-<p>2.4 <strong>Android Version</strong></p>
-<p>Release v1.2.0 on <a href="https://fir.im/accuropt">FIR.IM</a></p>
-<p>2.5 <strong>WASP ANT+ Receiver Integration</strong></p>
-<p>Integrating with Swami.</p>
+<p>Released TestFlight 1.2.0.16 with this update.</p>
+<p>2.2 <strong>NCIT ANT+ Receiver Integration</strong></p>
+<p>Investigating the raw data received from NCIT ANT Receiver.</p>
+<p>2.3 <strong>NPE WASP ANT+ Receiver Integration</strong></p>
+<p>Ongoing, received 3 NPE Wasp, and source code of the plugin developed by Swami Team, estimate work time: 8 work days.</p>
+<p>2.4 <strong>FS Integration</strong></p>
+<p>Done some experiments with the solution out of the discussion with Sam@FS, successfully streaming real-time JSON file inside WLAN updated per second.</p>
 </li>
+</ol>
+<ol>
 <li><p><strong>Private Labels</strong></p>
 <p>3.1 <strong>Summary</strong></p>
-<ul>
-<li><strong>11</strong> 2.0 based PL app released on GooglePlay and AppStore.</li>
-<li><strong>22</strong> 3.0 based PL apps released on GooglePlay and AppStore.</li>
-<li><strong>16</strong> PL apps pre-released on fir.im, waiting for client approval.</li>
-<li><strong>4</strong> PL apps under development.</li>
-</ul>
+<p>//TODO</p>
 <p>3.2 <strong>TRIB3</strong></p>
-<p>Released 1.0.0-alpha.1 on TestFlight, finished 75%.</p>
+<p>Released 1.0.0-alpha.3 on BetaQR, fixed issues reported by the client.</p>
 </li>
 <li><p><strong>AquaBag</strong></p>
-<p>Fixed all issues came from penetration test. Rewrote offline datastore, fixed the issues from Jeff's test report.</p>
-<p>v1.1.0 released on Google Play and App Store.</p>
+<p>4.1 <strong>Gym Solution</strong></p>
+<p>Working on iPad version of Gym Solution, Internal testing, will release alpha version in one week.</p>
 </li>
 </ol>
 
@@ -149,14 +145,14 @@
 <section id="ga-content_pager">
 
     <div class="next">
-        <a class="ga-highlight" href="https://project.sourbell.im/archives/private-label-update/">Private Label Update</a>
-        <p class="yue">PL 客户端开发更新记录，包括测试版本发布和商店上架记录。</p>
+        <h3>没有了</h3>
+        <p class="yue">这是最新的文章</p>
     </div>
 
 
     <div class="prev">
-        <a class="ga-highlight" href="https://project.sourbell.im/archives/apt-release-note/">APT Release Note</a>
-        <p class="yue">APT App 更新日志</p>
+        <a class="ga-highlight" href="https://project.sourbell.im/archives/apt-api/">APT API</a>
+        <p class="yue">APT API</p>
     </div>
 
 </section>
