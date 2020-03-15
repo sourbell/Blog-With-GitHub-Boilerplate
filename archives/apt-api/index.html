@@ -17,7 +17,7 @@
     <script>
         var ExSearchConfig = {
             root: "",
-            api: "https://cdn.jsdelivr.net/gh/sourbell/project@gh-pages/1a8e8971d45a13884691405a609cb354.json"
+            api: "https://cdn.jsdelivr.net/gh/sourbell/project@gh-pages/8cdd31d6f1902a26ca76505971fa9d98.json"
         }
     </script>
     
@@ -92,101 +92,110 @@
             <div class="ga-content_body">
                 <p>默认返回结构</p>
 <div class="highlight"><pre><span></span><span class="p">{</span>
-    <span class="nt">&quot;error&quot;</span><span class="p">:</span> <span class="kc">false</span><span class="p">,</span> 
-    <span class="nt">&quot;data&quot;</span><span class="p">:</span> <span class="p">{</span>
-    <span class="err">...</span>
+    <span class="nx">meta</span><span class="o">:</span> <span class="p">{</span>
+        <span class="nx">error</span><span class="o">:</span> <span class="kc">false</span><span class="p">,</span>
+        <span class="nx">code</span><span class="o">:</span> <span class="kc">null</span><span class="p">,</span>
+        <span class="nx">message</span><span class="o">:</span> <span class="kc">null</span>
+    <span class="p">},</span>
+    <span class="nx">data</span><span class="o">:</span> <span class="p">{</span>
+        <span class="p">...</span>
     <span class="p">}</span>
 <span class="p">}</span>
 </pre></div>
 <ol>
-<li>登录 
-post /pd/login</li>
-</ol>
+<li><p>登录 
+ post /pd/login</p>
 <div class="highlight"><pre><span></span><span class="p">{</span> 
-    <span class="nt">&quot;email&quot;</span><span class="p">:</span> <span class="s2">&quot;15950000512@qq.com&quot;</span><span class="p">,</span> 
-    <span class="nt">&quot;password&quot;</span><span class="p">:</span> <span class="s2">&quot;12345678&quot;</span> 
-<span class="p">}</span>
+     <span class="nx">email</span><span class="o">:</span> <span class="s2">&quot;123456@qq.com&quot;</span><span class="p">,</span> 
+     <span class="nx">password</span><span class="o">:</span> <span class="s2">&quot;12345678&quot;</span> 
+ <span class="p">}</span>
 </pre></div>
-<div class="highlight"><pre><span></span><span class="p">{</span> <span class="nt">&quot;token&quot;</span><span class="p">:</span> <span class="s2">&quot;120705de7e61c5b322ad798b8ef225a7&quot;</span> <span class="p">}</span>
+<div class="highlight"><pre><span></span><span class="p">{</span> <span class="nx">token</span><span class="o">:</span> <span class="s2">&quot;120705de7e61c5b322ad798b8ef225a7&quot;</span> <span class="p">}</span>
 </pre></div>
+</li>
+</ol>
 <ol>
 <li><p>注册（注册后默认为普通会员）
-todo</p>
+ todo</p>
 </li>
 <li><p>取回密码 
-post /pd/reset-password</p>
+ post /pd/reset-password</p>
+<div class="highlight"><pre><span></span><span class="p">{</span> <span class="nx">email</span><span class="o">:</span> <span class="s2">&quot;123456@qq.com&quot;</span> <span class="p">}</span>
+</pre></div>
+<div class="highlight"><pre><span></span><span class="p">{</span> <span class="nx">message</span><span class="o">:</span> <span class="s2">&quot;email sent&quot;</span> <span class="p">}</span>
+</pre></div>
 </li>
 </ol>
-<div class="highlight"><pre><span></span><span class="p">{</span> <span class="nt">&quot;email&quot;</span><span class="p">:</span> <span class="s2">&quot;15950000512@qq.com&quot;</span> <span class="p">}</span>
-</pre></div>
-<div class="highlight"><pre><span></span><span class="p">{</span> <span class="nt">&quot;message&quot;</span><span class="p">:</span> <span class="s2">&quot;email sent&quot;</span> <span class="p">}</span>
-</pre></div>
 <ol>
-<li>获取用户最近 statistics 
-get /pd/statistics</li>
-</ol>
+<li><p>获取用户最近 statistics 
+ get /pd/statistics</p>
 <div class="highlight"><pre><span></span><span class="p">{</span>
-    <span class="nx">weekly</span><span class="o">:</span> <span class="p">{</span>
-        <span class="nx">attendance</span><span class="o">:</span> <span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">],</span> <span class="c1">//[6天前，5天前...，昨天，今天]</span>
-        <span class="nx">calories</span><span class="o">:</span> <span class="mf">756.23</span><span class="p">,</span>
-        <span class="nx">exerciseMinutes</span><span class="o">:</span> <span class="mi">320</span><span class="p">,</span>
-    <span class="p">},</span>
-    <span class="nx">monthly</span><span class="o">:</span> <span class="p">{</span>
-        <span class="nx">attendance</span><span class="o">:</span> <span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mf">1.</span><span class="p">..</span> <span class="p">]</span> <span class="c1">//[] 本月1号起</span>
-    <span class="p">}</span>
-<span class="p">}</span>
+     <span class="nx">weekly</span><span class="o">:</span> <span class="p">{</span>
+         <span class="nx">attendance</span><span class="o">:</span> <span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">],</span> <span class="c1">//[6天前，5天前...，昨天，今天]</span>
+         <span class="nx">calories</span><span class="o">:</span> <span class="mf">756.23</span><span class="p">,</span>
+         <span class="nx">exerciseMinutes</span><span class="o">:</span> <span class="mi">320</span><span class="p">,</span>
+         <span class="nx">zoneDuration</span><span class="o">:</span> <span class="p">[</span><span class="mi">120</span><span class="p">,</span> <span class="mi">200</span><span class="p">,</span> <span class="mi">240</span><span class="p">,</span> <span class="mi">300</span><span class="p">,</span> <span class="mi">500</span><span class="p">]</span> <span class="c1">//zone1~5 的分钟数</span>
+     <span class="p">},</span>
+     <span class="nx">monthly</span><span class="o">:</span> <span class="p">{</span>
+         <span class="nx">attendance</span><span class="o">:</span> <span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mf">1.</span><span class="p">..</span> <span class="p">]</span> <span class="c1">//[] 本月1号起至今天</span>
+         <span class="nx">latestThirtyDays</span><span class="o">:</span> <span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span> <span class="p">...]</span>
+     <span class="p">},</span>
+
+ <span class="p">}</span>
 </pre></div>
+</li>
+</ol>
 <ol>
 <li><p>根据日期范围获取最近的 workout list 
-get /pd/workouts/page/{page}
-{
-}</p>
+ get /pd/workouts/page/{page}
+ {
+ }</p>
 </li>
 <li><p>个人资料获取
-get /pd/profile</p>
+ get /pd/profile</p>
+<div class="highlight"><pre><span></span><span class="p">{</span>
+     <span class="nx">userId</span><span class="o">:</span> <span class="mi">1</span><span class="p">,</span>
+     <span class="nx">userRole</span><span class="o">:</span> <span class="s2">&quot;member&quot;</span> <span class="o">|</span> <span class="s2">&quot;coach&quot;</span> <span class="o">|</span> <span class="s2">&quot;club&quot;</span> <span class="o">|</span> <span class="s2">&quot;accuro&quot;</span><span class="p">,</span>
+     <span class="nx">email</span><span class="o">:</span> <span class="s2">&quot;123456@qq.com&quot;</span><span class="p">,</span>
+     <span class="nx">avatar</span><span class="o">:</span> <span class="s2">&quot;&quot;</span><span class="p">,</span>
+     <span class="nx">firstName</span><span class="o">:</span> <span class="s2">&quot;Toby&quot;</span><span class="p">,</span>
+     <span class="nx">lastName</span><span class="o">:</span> <span class="s2">&quot;Bu&quot;</span><span class="p">,</span>
+     <span class="nx">nickName</span><span class="o">:</span> <span class="s2">&quot;Bristletail&quot;</span><span class="p">,</span>
+     <span class="nx">gender</span><span class="o">:</span> <span class="s2">&quot;male&quot;</span> <span class="o">|</span> <span class="s2">&quot;female&quot;</span><span class="p">,</span>
+     <span class="nx">birthYear</span><span class="o">:</span> <span class="s2">&quot;01/1987&quot;</span><span class="p">,</span>
+     <span class="nx">weight</span><span class="o">:</span> <span class="mf">175.12</span><span class="p">,</span>
+     <span class="nx">weightUnit</span><span class="o">:</span> <span class="s2">&quot;lb&quot;</span> <span class="o">|</span> <span class="s2">&quot;kg&quot;</span>
+ <span class="p">}</span>
+</pre></div>
 </li>
 </ol>
-<div class="highlight"><pre><span></span><span class="p">{</span>
-    <span class="nx">userId</span><span class="o">:</span> <span class="mi">1</span><span class="p">,</span>
-    <span class="nx">email</span><span class="o">:</span> <span class="s2">&quot;15950000512@qq.com&quot;</span><span class="p">,</span>
-    <span class="nx">avatar</span><span class="o">:</span> <span class="s2">&quot;&quot;</span><span class="p">,</span>
-    <span class="nx">firstName</span><span class="o">:</span> <span class="s2">&quot;Toby&quot;</span><span class="p">,</span>
-    <span class="nx">lastName</span><span class="o">:</span> <span class="s2">&quot;Bu&quot;</span><span class="p">,</span>
-    <span class="nx">nickName</span><span class="o">:</span> <span class="s2">&quot;Bristletail&quot;</span><span class="p">,</span>
-    <span class="nx">gender</span><span class="o">:</span> <span class="s2">&quot;male&quot;</span> <span class="o">|</span> <span class="s2">&quot;female&quot;</span><span class="p">,</span>
-    <span class="nx">birthYear</span><span class="o">:</span> <span class="s2">&quot;01/1987&quot;</span><span class="p">,</span>
-    <span class="nx">weight</span><span class="o">:</span> <span class="mf">175.12</span><span class="p">,</span>
-    <span class="nx">weightUnit</span><span class="o">:</span> <span class="s2">&quot;lb&quot;</span> <span class="o">|</span> <span class="s2">&quot;kg&quot;</span>
-<span class="p">}</span>
-</pre></div>
 <ol>
-<li>个人资料修改
-post /pd/profile</li>
-</ol>
+<li><p>个人资料修改
+ post /pd/profile</p>
 <div class="highlight"><pre><span></span><span class="p">{</span>
-    <span class="nx">userId</span><span class="o">:</span> <span class="mi">1</span><span class="p">,</span>
-    <span class="nx">avatar</span><span class="o">:</span> <span class="s2">&quot;&quot;</span><span class="p">,</span>
-    <span class="nx">firstName</span><span class="o">:</span> <span class="s2">&quot;Toby&quot;</span><span class="p">,</span>
-    <span class="nx">lastName</span><span class="o">:</span> <span class="s2">&quot;Bu&quot;</span><span class="p">,</span>
-    <span class="nx">nickName</span><span class="o">:</span> <span class="s2">&quot;Bristletail&quot;</span><span class="p">,</span>
-    <span class="nx">gender</span><span class="o">:</span> <span class="s2">&quot;male&quot;</span> <span class="o">|</span> <span class="s2">&quot;female&quot;</span><span class="p">,</span>
-    <span class="nx">birthYear</span><span class="o">:</span> <span class="s2">&quot;01/1987&quot;</span><span class="p">,</span>
-    <span class="nx">weight</span><span class="o">:</span> <span class="mf">175.12</span><span class="p">,</span>
-    <span class="nx">weightUnit</span><span class="o">:</span> <span class="s2">&quot;lb&quot;</span> <span class="o">|</span> <span class="s2">&quot;kg&quot;</span>
-<span class="p">}</span>
+     <span class="nx">userId</span><span class="o">:</span> <span class="mi">1</span><span class="p">,</span>
+     <span class="nx">avatar</span><span class="o">:</span> <span class="s2">&quot;&quot;</span><span class="p">,</span>
+     <span class="nx">firstName</span><span class="o">:</span> <span class="s2">&quot;Toby&quot;</span><span class="p">,</span>
+     <span class="nx">lastName</span><span class="o">:</span> <span class="s2">&quot;Bu&quot;</span><span class="p">,</span>
+     <span class="nx">nickName</span><span class="o">:</span> <span class="s2">&quot;Bristletail&quot;</span><span class="p">,</span>
+     <span class="nx">gender</span><span class="o">:</span> <span class="s2">&quot;male&quot;</span> <span class="o">|</span> <span class="s2">&quot;female&quot;</span><span class="p">,</span>
+     <span class="nx">birthYear</span><span class="o">:</span> <span class="s2">&quot;01/1987&quot;</span><span class="p">,</span>
+     <span class="nx">weight</span><span class="o">:</span> <span class="mf">175.12</span><span class="p">,</span>
+     <span class="nx">weightUnit</span><span class="o">:</span> <span class="s2">&quot;lb&quot;</span> <span class="o">|</span> <span class="s2">&quot;kg&quot;</span>
+ <span class="p">}</span>
 </pre></div>
 <p>{
-}</p>
-<ol>
-<li>修改密码
-post /pd/profile/actions/change-password</li>
-</ol>
+ }</p>
+</li>
+<li><p>修改密码
+ post /pd/profile/actions/change-password</p>
 <div class="highlight"><pre><span></span><span class="p">{</span> <span class="nx">newPassword</span><span class="o">:</span> <span class="s2">&quot;123456789&quot;</span> <span class="p">}</span>
 </pre></div>
 <div class="highlight"><pre><span></span><span class="p">{</span> <span class="nx">message</span><span class="o">:</span> <span class="s2">&quot;password changed&quot;</span> <span class="p">}</span>
 </pre></div>
-<ol>
-<li>获取本角色下的 Challenge list</li>
+</li>
+<li><p>获取本角色下的 Challenge list</p>
+</li>
 </ol>
 
             </div>
