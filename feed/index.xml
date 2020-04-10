@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>豪猪尾巴</title><link>https://project.sourbell.im/</link><description>Keep resolutions</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>${static_prefix}logo.jpg</url><title>豪猪尾巴</title><link>https://project.sourbell.im/</link></image><language>english</language><lastBuildDate>Fri, 10 Apr 2020 07:19:36 +0806</lastBuildDate><pubDate>Fri, 10 Apr 2020 07:19:36 +0806</pubDate><item><title>Accurofit Release Note</title><link>https://project.sourbell.im/archives/accurofit-release-note/</link><description>&lt;p&gt;&lt;code&gt;3.3.4&lt;/code&gt; Dec 4, 2019&lt;/p&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>豪猪尾巴</title><link>https://project.sourbell.im/</link><description>Keep resolutions</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>${static_prefix}logo.jpg</url><title>豪猪尾巴</title><link>https://project.sourbell.im/</link></image><language>english</language><lastBuildDate>Fri, 10 Apr 2020 07:29:38 +0806</lastBuildDate><pubDate>Fri, 10 Apr 2020 07:29:38 +0806</pubDate><item><title>Accurofit Release Note</title><link>https://project.sourbell.im/archives/accurofit-release-note/</link><description>&lt;p&gt;&lt;code&gt;3.3.4&lt;/code&gt; Dec 4, 2019&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Removed the background music during live workout.&lt;/li&gt;
 &lt;li&gt;Multiple improvements.&lt;/li&gt;
@@ -371,60 +371,46 @@
 &lt;span class="p"&gt;}&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 &lt;ol&gt;
-&lt;li&gt;&lt;p&gt;登录&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt; post /pd/login
-
- ``` javascript 
- { 
-     email: "123456@qq.com", 
-     password: "12345678" 
- } 
- ```
-
- ``` javascript 
- { token: "120705de7e61c5b322ad798b8ef225a7" }
- ```&lt;/code&gt;&lt;/pre&gt;
+&lt;li&gt;&lt;p&gt;登录 
+ post /pd/login&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt; 
+     &lt;span class="nx"&gt;email&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;123456@qq.com&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; 
+     &lt;span class="nx"&gt;password&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;12345678&amp;quot;&lt;/span&gt; 
+ &lt;span class="p"&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt; &lt;span class="nx"&gt;token&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;120705de7e61c5b322ad798b8ef225a7&amp;quot;&lt;/span&gt; &lt;span class="p"&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;ol&gt;
-&lt;li&gt;&lt;p&gt;注册（注册后默认为普通会员）&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt; todo&lt;/code&gt;&lt;/pre&gt;
+&lt;li&gt;&lt;p&gt;注册（注册后默认为普通会员）
+ todo&lt;/p&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;p&gt;取回密码&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt; post /pd/reset-password
-
- ``` javascript 
- { email: "123456@qq.com" } 
- ```
-
- ``` javascript 
- { message: "email sent" }
- ```&lt;/code&gt;&lt;/pre&gt;
+&lt;li&gt;&lt;p&gt;取回密码 
+ post /pd/reset-password&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt; &lt;span class="nx"&gt;email&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;123456@qq.com&amp;quot;&lt;/span&gt; &lt;span class="p"&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt; &lt;span class="nx"&gt;message&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;email sent&amp;quot;&lt;/span&gt; &lt;span class="p"&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;ol&gt;
-&lt;li&gt;&lt;p&gt;获取用户最近 statistics&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;获取用户最近 statistics 
+ get /pd/statistics&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;
+     &lt;span class="nx"&gt;weekly&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+         &lt;span class="nx"&gt;attendance&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;],&lt;/span&gt; &lt;span class="c1"&gt;//[6天前，5天前...，昨天，今天]&lt;/span&gt;
+         &lt;span class="nx"&gt;calories&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="mf"&gt;756.23&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+         &lt;span class="nx"&gt;exerciseMinutes&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="mi"&gt;320&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+         &lt;span class="nx"&gt;zoneDuration&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="mi"&gt;120&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;200&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;240&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;300&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;500&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt; &lt;span class="c1"&gt;//zone1~5 的分钟数&lt;/span&gt;
+     &lt;span class="p"&gt;},&lt;/span&gt;
+     &lt;span class="nx"&gt;monthly&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+         &lt;span class="nx"&gt;attendance&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mf"&gt;1.&lt;/span&gt;&lt;span class="p"&gt;..&lt;/span&gt; &lt;span class="p"&gt;]&lt;/span&gt; &lt;span class="c1"&gt;//[] 本月1号起至今天&lt;/span&gt;
+         &lt;span class="nx"&gt;latestThirtyDays&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt; &lt;span class="p"&gt;...]&lt;/span&gt;
+     &lt;span class="p"&gt;},&lt;/span&gt;
 
-&lt;pre&gt;&lt;code&gt; get /pd/statistics
-
- ``` javascript 
- {
-     weekly: {
-         attendance: [0, 1, 1, 1, 1, 0, 1], //[6天前，5天前...，昨天，今天]
-         calories: 756.23,
-         exerciseMinutes: 320,
-         zoneDuration: [120, 200, 240, 300, 500] //zone1~5 的分钟数
-     },
-     monthly: {
-         attendance: [0, 1, 1, 1, 1, 1, 1... ] //[] 本月1号起至今天
-         latestThirtyDays: [0, 1, 1, 1, 1 ...]
-     },
-
- }
- ```&lt;/code&gt;&lt;/pre&gt;
+ &lt;span class="p"&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;ol&gt;
@@ -546,7 +532,7 @@
 &lt;/li&gt;
 &lt;li&gt;&lt;p&gt;获取本角色下的 Challenge list&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt; TODO&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;TODO&lt;/code&gt;&lt;/pre&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 </description><author>i@sourbell.im (Toby Bu)</author><guid isPermaLink="true">https://project.sourbell.im/archives/apt-api/</guid><pubDate>Sun, 23 Feb 2020 11:01:00 +0806</pubDate></item><item><title>Project Update Week 10/52</title><link>https://project.sourbell.im/archives/project-update-week-10/</link><description>&lt;div class="notice"&gt;Weekly Highlight:&lt;/div&gt;&lt;div class="notice"&gt;1,  Accurofit 3.4.2 Testflight &lt;/div&gt;&lt;div class="notice"&gt;2,  Pre-release sweat burn repeat on BetaQR.&lt;/div&gt;&lt;div class="notice"&gt;3,  Released Flexx Fitness HR on the stores.&lt;/div&gt;&lt;div class="notice"&gt;4,  Optimized server database, fixed an issue with slow query.&lt;/div&gt;&lt;ol&gt;

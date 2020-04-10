@@ -17,7 +17,7 @@
     <script>
         var ExSearchConfig = {
             root: "",
-            api: "https://cdn.jsdelivr.net/gh/sourbell/project@gh-pages/6a38f56c1e70755ee815922a27c99603.json"
+            api: "https://cdn.jsdelivr.net/gh/sourbell/project@gh-pages/2a860cddfcfa6bb8e48853930e1dfe8b.json"
         }
     </script>
     
@@ -103,60 +103,46 @@
 <span class="p">}</span>
 </pre></div>
 <ol>
-<li><p>登录</p>
-
-<pre><code> post /pd/login
-
- ``` javascript 
- { 
-     email: "123456@qq.com", 
-     password: "12345678" 
- } 
- ```
-
- ``` javascript 
- { token: "120705de7e61c5b322ad798b8ef225a7" }
- ```</code></pre>
+<li><p>登录 
+ post /pd/login</p>
+<div class="highlight"><pre><span></span><span class="p">{</span> 
+     <span class="nx">email</span><span class="o">:</span> <span class="s2">&quot;123456@qq.com&quot;</span><span class="p">,</span> 
+     <span class="nx">password</span><span class="o">:</span> <span class="s2">&quot;12345678&quot;</span> 
+ <span class="p">}</span>
+</pre></div>
+<div class="highlight"><pre><span></span><span class="p">{</span> <span class="nx">token</span><span class="o">:</span> <span class="s2">&quot;120705de7e61c5b322ad798b8ef225a7&quot;</span> <span class="p">}</span>
+</pre></div>
 </li>
 </ol>
 <ol>
-<li><p>注册（注册后默认为普通会员）</p>
-
-<pre><code> todo</code></pre>
+<li><p>注册（注册后默认为普通会员）
+ todo</p>
 </li>
-<li><p>取回密码</p>
-
-<pre><code> post /pd/reset-password
-
- ``` javascript 
- { email: "123456@qq.com" } 
- ```
-
- ``` javascript 
- { message: "email sent" }
- ```</code></pre>
+<li><p>取回密码 
+ post /pd/reset-password</p>
+<div class="highlight"><pre><span></span><span class="p">{</span> <span class="nx">email</span><span class="o">:</span> <span class="s2">&quot;123456@qq.com&quot;</span> <span class="p">}</span>
+</pre></div>
+<div class="highlight"><pre><span></span><span class="p">{</span> <span class="nx">message</span><span class="o">:</span> <span class="s2">&quot;email sent&quot;</span> <span class="p">}</span>
+</pre></div>
 </li>
 </ol>
 <ol>
-<li><p>获取用户最近 statistics</p>
+<li><p>获取用户最近 statistics 
+ get /pd/statistics</p>
+<div class="highlight"><pre><span></span><span class="p">{</span>
+     <span class="nx">weekly</span><span class="o">:</span> <span class="p">{</span>
+         <span class="nx">attendance</span><span class="o">:</span> <span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">],</span> <span class="c1">//[6天前，5天前...，昨天，今天]</span>
+         <span class="nx">calories</span><span class="o">:</span> <span class="mf">756.23</span><span class="p">,</span>
+         <span class="nx">exerciseMinutes</span><span class="o">:</span> <span class="mi">320</span><span class="p">,</span>
+         <span class="nx">zoneDuration</span><span class="o">:</span> <span class="p">[</span><span class="mi">120</span><span class="p">,</span> <span class="mi">200</span><span class="p">,</span> <span class="mi">240</span><span class="p">,</span> <span class="mi">300</span><span class="p">,</span> <span class="mi">500</span><span class="p">]</span> <span class="c1">//zone1~5 的分钟数</span>
+     <span class="p">},</span>
+     <span class="nx">monthly</span><span class="o">:</span> <span class="p">{</span>
+         <span class="nx">attendance</span><span class="o">:</span> <span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mf">1.</span><span class="p">..</span> <span class="p">]</span> <span class="c1">//[] 本月1号起至今天</span>
+         <span class="nx">latestThirtyDays</span><span class="o">:</span> <span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span> <span class="p">...]</span>
+     <span class="p">},</span>
 
-<pre><code> get /pd/statistics
-
- ``` javascript 
- {
-     weekly: {
-         attendance: [0, 1, 1, 1, 1, 0, 1], //[6天前，5天前...，昨天，今天]
-         calories: 756.23,
-         exerciseMinutes: 320,
-         zoneDuration: [120, 200, 240, 300, 500] //zone1~5 的分钟数
-     },
-     monthly: {
-         attendance: [0, 1, 1, 1, 1, 1, 1... ] //[] 本月1号起至今天
-         latestThirtyDays: [0, 1, 1, 1, 1 ...]
-     },
-
- }
- ```</code></pre>
+ <span class="p">}</span>
+</pre></div>
 </li>
 </ol>
 <ol>
@@ -278,7 +264,7 @@
 </li>
 <li><p>获取本角色下的 Challenge list</p>
 
-<pre><code> TODO</code></pre>
+<pre><code>TODO</code></pre>
 </li>
 </ol>
 
