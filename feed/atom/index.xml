@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="english"><id>https://project.sourbell.im/</id><title>豪猪尾巴</title><updated>2020-04-10T07:41:23.086826+08:06</updated><author><name>Bristletail</name><email>i@sourbell.im</email></author><link href="https://project.sourbell.im/" rel="alternate"/><generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator><logo>${static_prefix}logo.jpg</logo><subtitle>Keep resolutions</subtitle><entry><id>https://project.sourbell.im/archives/accurofit-release-note/</id><title>Accurofit Release Note</title><updated>2020-04-10T07:41:23.087137+00:00</updated><author><name>Toby Bu</name><email>i@sourbell.im</email><uri>https://sourbell.im</uri></author><content>&lt;p&gt;&lt;code&gt;3.3.4&lt;/code&gt; Dec 4, 2019&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="english"><id>https://project.sourbell.im/</id><title>豪猪尾巴</title><updated>2020-04-10T07:57:24.772331+08:06</updated><author><name>Bristletail</name><email>i@sourbell.im</email></author><link href="https://project.sourbell.im/" rel="alternate"/><generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator><logo>${static_prefix}logo.jpg</logo><subtitle>Keep resolutions</subtitle><entry><id>https://project.sourbell.im/archives/accurofit-release-note/</id><title>Accurofit Release Note</title><updated>2020-04-10T07:57:24.772616+00:00</updated><author><name>Toby Bu</name><email>i@sourbell.im</email><uri>https://sourbell.im</uri></author><content>&lt;p&gt;&lt;code&gt;3.3.4&lt;/code&gt; Dec 4, 2019&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Removed the background music during live workout.&lt;/li&gt;
 &lt;li&gt;Multiple improvements.&lt;/li&gt;
@@ -70,7 +70,7 @@
 &lt;ul&gt;
 &lt;li&gt;Redesigned UI.&lt;/li&gt;
 &lt;/ul&gt;
-</content><link href="https://project.sourbell.im/archives/accurofit-release-note/" rel="alternate"/><published>2019-12-25T00:16:00+08:06</published></entry><entry><id>https://project.sourbell.im/archives/apt-release-note/</id><title>APT Release Note</title><updated>2020-04-10T07:41:23.087116+00:00</updated><author><name>Toby Bu</name><email>i@sourbell.im</email><uri>https://sourbell.im</uri></author><content>&lt;p&gt;&lt;code&gt;1.1.2&lt;/code&gt; Jul 16, 2019&lt;/p&gt;
+</content><link href="https://project.sourbell.im/archives/accurofit-release-note/" rel="alternate"/><published>2019-12-25T00:16:00+08:06</published></entry><entry><id>https://project.sourbell.im/archives/apt-release-note/</id><title>APT Release Note</title><updated>2020-04-10T07:57:24.772599+00:00</updated><author><name>Toby Bu</name><email>i@sourbell.im</email><uri>https://sourbell.im</uri></author><content>&lt;p&gt;&lt;code&gt;1.1.2&lt;/code&gt; Jul 16, 2019&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Add background ability&lt;/li&gt;
 &lt;li&gt;Allow customize member’s max heart rate&lt;/li&gt;
@@ -109,7 +109,7 @@
 &lt;ul&gt;
 &lt;li&gt;Initial Release&lt;/li&gt;
 &lt;/ul&gt;
-</content><link href="https://project.sourbell.im/archives/apt-release-note/" rel="alternate"/><published>2019-12-25T01:01:00+08:06</published></entry><entry><id>https://project.sourbell.im/archives/private-label-update/</id><title>Private Label Update</title><updated>2020-04-10T07:41:23.087094+00:00</updated><author><name>Toby Bu</name><email>i@sourbell.im</email><uri>https://sourbell.im</uri></author><content>&lt;p&gt;&lt;code&gt;2020.1.7&lt;/code&gt;&lt;/p&gt;
+</content><link href="https://project.sourbell.im/archives/apt-release-note/" rel="alternate"/><published>2019-12-25T01:01:00+08:06</published></entry><entry><id>https://project.sourbell.im/archives/private-label-update/</id><title>Private Label Update</title><updated>2020-04-10T07:57:24.772581+00:00</updated><author><name>Toby Bu</name><email>i@sourbell.im</email><uri>https://sourbell.im</uri></author><content>&lt;p&gt;&lt;code&gt;2020.1.7&lt;/code&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Momentum Fitness&lt;/strong&gt; v1.0.0 pre-released on &lt;a href="https://fir.im/momentum"&gt;FIR.IM&lt;/a&gt;.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Impact Strong Elite&lt;/strong&gt; v1.0.0 pre-released on &lt;a href="https://fir.im/impact"&gt;FIR.IM&lt;/a&gt;.&lt;/li&gt;
@@ -192,7 +192,7 @@
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Tonic Crossfit&lt;/strong&gt; v1.0.0 is live on GooglePlay and AppStore.&lt;/li&gt;
 &lt;/ul&gt;
-</content><link href="https://project.sourbell.im/archives/private-label-update/" rel="alternate"/><published>2020-01-07T12:42:00+08:06</published></entry><entry><id>https://project.sourbell.im/archives/private-label-update/</id><title>Private Label Update</title><updated>2020-04-10T07:41:23.087072+00:00</updated><author><name>Toby Bu</name><email>i@sourbell.im</email><uri>https://sourbell.im</uri></author><content>&lt;p&gt;&lt;code&gt;2020.2.4&lt;/code&gt;&lt;/p&gt;
+</content><link href="https://project.sourbell.im/archives/private-label-update/" rel="alternate"/><published>2020-01-07T12:42:00+08:06</published></entry><entry><id>https://project.sourbell.im/archives/private-label-update/</id><title>Private Label Update</title><updated>2020-04-10T07:57:24.772563+00:00</updated><author><name>Toby Bu</name><email>i@sourbell.im</email><uri>https://sourbell.im</uri></author><content>&lt;p&gt;&lt;code&gt;2020.2.4&lt;/code&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;HIIT80&lt;/strong&gt; v1.0.3 waiting for review on GooglePlay and AppStore.&lt;ul&gt;
 &lt;li&gt;Changed name from HIITPH to HIIT80Heart&lt;/li&gt;
@@ -305,7 +305,7 @@
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Tonic Crossfit&lt;/strong&gt; v1.0.0 is live on GooglePlay and AppStore.&lt;/li&gt;
 &lt;/ul&gt;
-</content><link href="https://project.sourbell.im/archives/private-label-update/" rel="alternate"/><published>2020-01-07T12:42:00+08:06</published></entry><entry><id>https://project.sourbell.im/archives/trib3/</id><title>TRIB3</title><updated>2020-04-10T07:41:23.087051+00:00</updated><author><name>Toby Bu</name><email>i@sourbell.im</email><uri>https://sourbell.im</uri></author><content>&lt;p&gt;&lt;figure class="pswp-item" style="flex: 102.4" data-width="1024" data-height="500"&gt;&lt;img src="https://cdn.jsdelivr.net/gh/sourbell/project@gh-pages/archives/assets/178317e8a7f6ed4c02aa260e59d3dea8.png" alt="TRIB3" /&gt;&lt;figcaption&gt;TRIB3&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
+</content><link href="https://project.sourbell.im/archives/private-label-update/" rel="alternate"/><published>2020-01-07T12:42:00+08:06</published></entry><entry><id>https://project.sourbell.im/archives/trib3/</id><title>TRIB3</title><updated>2020-04-10T07:57:24.772545+00:00</updated><author><name>Toby Bu</name><email>i@sourbell.im</email><uri>https://sourbell.im</uri></author><content>&lt;p&gt;&lt;figure class="pswp-item" style="flex: 102.4" data-width="1024" data-height="500"&gt;&lt;img src="https://cdn.jsdelivr.net/gh/sourbell/project@gh-pages/archives/assets/178317e8a7f6ed4c02aa260e59d3dea8.png" alt="TRIB3" /&gt;&lt;figcaption&gt;TRIB3&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
 &lt;p&gt;TRIB3 Questions 20200107&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Accurofit added weight integration with Apple Health and Google Fit, but TRIB3 does not have scale features, so should we remove the data integration section on the MORE page?&lt;/li&gt;
@@ -319,7 +319,7 @@
 &lt;li&gt;On WORKOUT HISTORY page, when you click on a workout, the app will display the workout detail, currently the detail is displaying on the same page, while in Accurofit we display this in a new modal page on top of the HISTORY page, which i think is more user friendly.&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;TRIB3&lt;/code&gt; was taken on AppStore, we should come up with another one.&lt;/li&gt;
 &lt;/ol&gt;
-</content><link href="https://project.sourbell.im/archives/trib3/" rel="alternate"/><published>2020-01-07T12:56:00+08:06</published></entry><entry><id>https://project.sourbell.im/archives/project-update-week-3/</id><title>Project Update Week 3/52</title><updated>2020-04-10T07:41:23.087017+00:00</updated><author><name>Toby Bu</name><email>i@sourbell.im</email><uri>https://sourbell.im</uri></author><content>&lt;div class="notice"&gt;Weekly Highlight:&lt;/div&gt;&lt;div class="notice"&gt;1,  Accurofit 3.4.0 release date: Jan. 23, 2020.&lt;/div&gt;&lt;div class="notice"&gt;2,  Pre-release all 5 PL apps to Fir.im.&lt;/div&gt;&lt;div class="notice"&gt;3,  Release APT on TestFlight with ANT features included.&lt;/div&gt;&lt;ol&gt;
+</content><link href="https://project.sourbell.im/archives/trib3/" rel="alternate"/><published>2020-01-07T12:56:00+08:06</published></entry><entry><id>https://project.sourbell.im/archives/project-update-week-3/</id><title>Project Update Week 3/52</title><updated>2020-04-10T07:57:24.772527+00:00</updated><author><name>Toby Bu</name><email>i@sourbell.im</email><uri>https://sourbell.im</uri></author><content>&lt;div class="notice"&gt;Weekly Highlight:&lt;/div&gt;&lt;div class="notice"&gt;1,  Accurofit 3.4.0 release date: Jan. 23, 2020.&lt;/div&gt;&lt;div class="notice"&gt;2,  Pre-release all 5 PL apps to Fir.im.&lt;/div&gt;&lt;div class="notice"&gt;3,  Release APT on TestFlight with ANT features included.&lt;/div&gt;&lt;ol&gt;
 &lt;li&gt;&lt;p&gt;&lt;strong&gt;Accurofit&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;1.1 &lt;strong&gt;New FL301&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Finished 2nd round debugging, finally found the root cause in the firmware. Hardware developer has finished test in the weekend, sent a new package to Nanjing with fixed scale.&lt;/p&gt;
@@ -358,7 +358,7 @@
 &lt;p&gt;v1.1.0 released on Google Play and App Store.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-</content><link href="https://project.sourbell.im/archives/project-update-week-3/" rel="alternate"/><published>2020-01-22T11:42:00+08:06</published></entry><entry><id>https://project.sourbell.im/archives/apt-api/</id><title>APT API</title><updated>2020-04-10T07:41:23.086984+00:00</updated><author><name>Toby Bu</name><email>i@sourbell.im</email><uri>https://sourbell.im</uri></author><content>&lt;p&gt;默认返回结构&lt;/p&gt;
+</content><link href="https://project.sourbell.im/archives/project-update-week-3/" rel="alternate"/><published>2020-01-22T11:42:00+08:06</published></entry><entry><id>https://project.sourbell.im/archives/apt-api/</id><title>APT API</title><updated>2020-04-10T07:57:24.772508+00:00</updated><author><name>Toby Bu</name><email>i@sourbell.im</email><uri>https://sourbell.im</uri></author><content>&lt;p&gt;默认返回结构&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;
     &lt;span class="nx"&gt;meta&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
         &lt;span class="nx"&gt;error&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="kc"&gt;false&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
@@ -370,242 +370,172 @@
     &lt;span class="p"&gt;}&lt;/span&gt;
 &lt;span class="p"&gt;}&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;1, 登录 
-    post /pd/login&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;``` javascript 
-{ 
-    email: "123456@qq.com", 
-    password: "12345678" 
-} 
-```
-
-``` javascript 
-{ token: "120705de7e61c5b322ad798b8ef225a7" }
-```
-
-
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;2, 注册（注册后默认为普通会员）
+&lt;p&gt;1, 登录
+[notice]已支持 Member &amp;amp; Coach 用户登录，待完成 Club / Accuro 用户[/notice]
+post /pd/login&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt; 
+    &lt;span class="nx"&gt;email&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;123456@qq.com&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; 
+    &lt;span class="nx"&gt;password&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;12345678&amp;quot;&lt;/span&gt; 
+&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt; &lt;span class="nx"&gt;token&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;120705de7e61c5b322ad798b8ef225a7&amp;quot;&lt;/span&gt; &lt;span class="p"&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;2, 注册（注册后默认为普通会员） TODO
     todo&lt;/p&gt;
-&lt;p&gt;3, 取回密码 
-    post /pd/reset-password&lt;/p&gt;
+&lt;p&gt;3, 取回密码  TODO
+post /pd/reset-password&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt; &lt;span class="nx"&gt;email&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;123456@qq.com&amp;quot;&lt;/span&gt; &lt;span class="p"&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt; &lt;span class="nx"&gt;message&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;email sent&amp;quot;&lt;/span&gt; &lt;span class="p"&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;4, 获取用户最近统计数据  TODO
+get /pd/statistics&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;
+    &lt;span class="nx"&gt;weekly&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+        &lt;span class="nx"&gt;attendance&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;],&lt;/span&gt; &lt;span class="c1"&gt;//[6天前，5天前...，昨天，今天]&lt;/span&gt;
+        &lt;span class="nx"&gt;calories&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="mf"&gt;756.23&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+        &lt;span class="nx"&gt;exerciseMinutes&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="mi"&gt;320&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+        &lt;span class="nx"&gt;zoneDuration&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="mi"&gt;120&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;200&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;240&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;300&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;500&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt; &lt;span class="c1"&gt;//zone1~5 的分钟数&lt;/span&gt;
+    &lt;span class="p"&gt;},&lt;/span&gt;
+    &lt;span class="nx"&gt;monthly&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+        &lt;span class="nx"&gt;attendance&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mf"&gt;1.&lt;/span&gt;&lt;span class="p"&gt;..&lt;/span&gt; &lt;span class="p"&gt;]&lt;/span&gt; &lt;span class="c1"&gt;//[] 本月1号起至今天&lt;/span&gt;
+        &lt;span class="nx"&gt;latestThirtyDays&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt; &lt;span class="p"&gt;...]&lt;/span&gt;
+    &lt;span class="p"&gt;},&lt;/span&gt;
 
-&lt;pre&gt;&lt;code&gt;``` javascript 
-{ email: "123456@qq.com" } 
-```
-
-``` javascript 
-{ message: "email sent" }
-```
-
-
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;4, 获取用户最近 statistics 
-    get /pd/statistics&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;``` javascript 
-{
-    weekly: {
-        attendance: [0, 1, 1, 1, 1, 0, 1], //[6天前，5天前...，昨天，今天]
-        calories: 756.23,
-        exerciseMinutes: 320,
-        zoneDuration: [120, 200, 240, 300, 500] //zone1~5 的分钟数
-    },
-    monthly: {
-        attendance: [0, 1, 1, 1, 1, 1, 1... ] //[] 本月1号起至今天
-        latestThirtyDays: [0, 1, 1, 1, 1 ...]
-    },
-
-}
-```
-
-
-&lt;/code&gt;&lt;/pre&gt;
+&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;5, 根据日期范围获取最近的 workout list 
-    post /dashboard/workouts/page/{page}&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;``` javascript
-{
-    startTime: 1585383958, //可选，unix timestamp
-    endTime: 1585583958, //可选，unix timestamp
-    orderBy: "calories" | "pai" | "workoutStartTime" | "workoutTime" | "iqPoints" | "maxHr" | "avgHr",  //可选，严格大小写
-    orderAscending: "DESC" | "ASC"  //可选，无所谓大小写
-}
-```
-
-``` json
-{
-    "totalRecords": 1230,
-    "pageSize": 10,
-    "list": [{
-        "calories": 372,
-        "pai": 39.47,
-        "deviceSn": "61P0002X7LF",
-        "deviceName": "LYNK2-02X7",
-        "actType": null,
-        "workoutStartTime": 1582039076,
-        "timezoneOffset": 8,
-        "workoutTime": 1329,
-        "maxHr": 184,
-        "avgHr": 159,
-        "highHr": 173,
-        "iqPoints": 89.02,
-        "zoneDuration": [
-            0,
-            0,
-            157,
-            1020,
-            158
-        ],
-        "hrSeries": [],
-        "dataSource": "memory",
-        "workoutId": 2347083,
-        "workoutEndTime": 1582040405
-    }]
-}
-```
-
-
-
-
-&lt;/code&gt;&lt;/pre&gt;
+post /dashboard/workouts/page/{page}
+[notice]已支持 Member &amp;amp; Coach 用户查询其邮箱对应的 Member Workout List[/notice]&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;
+    &lt;span class="nx"&gt;startTime&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="mi"&gt;1585383958&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="c1"&gt;//可选，unix timestamp&lt;/span&gt;
+    &lt;span class="nx"&gt;endTime&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="mi"&gt;1585583958&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="c1"&gt;//可选，unix timestamp&lt;/span&gt;
+    &lt;span class="nx"&gt;orderBy&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;calories&amp;quot;&lt;/span&gt; &lt;span class="o"&gt;|&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;pai&amp;quot;&lt;/span&gt; &lt;span class="o"&gt;|&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;workoutStartTime&amp;quot;&lt;/span&gt; &lt;span class="o"&gt;|&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;workoutTime&amp;quot;&lt;/span&gt; &lt;span class="o"&gt;|&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;iqPoints&amp;quot;&lt;/span&gt; &lt;span class="o"&gt;|&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;maxHr&amp;quot;&lt;/span&gt; &lt;span class="o"&gt;|&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;avgHr&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;  &lt;span class="c1"&gt;//可选，严格大小写&lt;/span&gt;
+    &lt;span class="nx"&gt;orderAscending&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;DESC&amp;quot;&lt;/span&gt; &lt;span class="o"&gt;|&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;ASC&amp;quot;&lt;/span&gt;  &lt;span class="c1"&gt;//可选，无所谓大小写&lt;/span&gt;
+&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;
+    &lt;span class="nt"&gt;&amp;quot;totalRecords&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="mi"&gt;1230&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+    &lt;span class="nt"&gt;&amp;quot;pageSize&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="mi"&gt;10&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+    &lt;span class="nt"&gt;&amp;quot;list&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="p"&gt;[{&lt;/span&gt;
+        &lt;span class="nt"&gt;&amp;quot;calories&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="mi"&gt;372&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+        &lt;span class="nt"&gt;&amp;quot;pai&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="mf"&gt;39.47&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+        &lt;span class="nt"&gt;&amp;quot;deviceSn&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;61P0002X7LF&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+        &lt;span class="nt"&gt;&amp;quot;deviceName&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;LYNK2-02X7&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+        &lt;span class="nt"&gt;&amp;quot;actType&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="kc"&gt;null&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+        &lt;span class="nt"&gt;&amp;quot;workoutStartTime&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="mi"&gt;1582039076&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+        &lt;span class="nt"&gt;&amp;quot;timezoneOffset&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="mi"&gt;8&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+        &lt;span class="nt"&gt;&amp;quot;workoutTime&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="mi"&gt;1329&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+        &lt;span class="nt"&gt;&amp;quot;maxHr&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="mi"&gt;184&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+        &lt;span class="nt"&gt;&amp;quot;avgHr&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="mi"&gt;159&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+        &lt;span class="nt"&gt;&amp;quot;highHr&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="mi"&gt;173&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+        &lt;span class="nt"&gt;&amp;quot;iqPoints&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="mf"&gt;89.02&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+        &lt;span class="nt"&gt;&amp;quot;zoneDuration&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;157&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;1020&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;158&lt;/span&gt; &lt;span class="p"&gt;],&lt;/span&gt;
+        &lt;span class="nt"&gt;&amp;quot;hrSeries&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="p"&gt;[],&lt;/span&gt;
+        &lt;span class="nt"&gt;&amp;quot;dataSource&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;memory&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+        &lt;span class="nt"&gt;&amp;quot;workoutId&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="mi"&gt;2347083&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+        &lt;span class="nt"&gt;&amp;quot;workoutEndTime&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="mi"&gt;1582040405&lt;/span&gt;
+    &lt;span class="p"&gt;},&lt;/span&gt; 
+    &lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="err"&gt;...&lt;/span&gt;&lt;span class="p"&gt;},&lt;/span&gt;
+    &lt;span class="err"&gt;...&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
+&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;6, 根据日期范围获取全部的 workout
-    post /dashboard/workouts&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;``` javascript
-{
-    startTime: 1585383958, //可选，unix timestamp
-    endTime: 1585583958, //可选，unix timestamp
-    orderBy: "calories" | "pai" | "workoutStartTime" | "workoutTime" | "iqPoints" | "maxHr" | "avgHr",  //可选，严格大小写
-    orderAscending: "DESC" | "ASC"  //可选，无所谓大小写
-}
-```
-
-``` json
-[
-    {
-        "calories": 372,
-        "pai": 39.47,
-        "deviceSn": "61P0002X7LF",
-        "deviceName": "LYNK2-02X7",
-        "actType": null,
-        "workoutStartTime": 1582039076,
-        "timezoneOffset": 8,
-        "workoutTime": 1329,
-        "maxHr": 184,
-        "avgHr": 159,
-        "highHr": 173,
-        "iqPoints": 89.02,
-        "zoneDuration": [
-            0,
-            0,
-            157,
-            1020,
-            158
-        ],
-        "hrSeries": [],
-        "dataSource": "memory",
-        "workoutId": 2347083,
-        "workoutEndTime": 1582040405
-    },
-    {...},
-    {...},
-    ...
-]
-```
-
-
-&lt;/code&gt;&lt;/pre&gt;
+post /dashboard/workouts
+[notice]已支持 Member &amp;amp; Coach 用户查询其邮箱对应的 Member Workout List[/notice]&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;
+    &lt;span class="nx"&gt;startTime&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="mi"&gt;1585383958&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="c1"&gt;//可选，unix timestamp&lt;/span&gt;
+    &lt;span class="nx"&gt;endTime&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="mi"&gt;1585583958&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="c1"&gt;//可选，unix timestamp&lt;/span&gt;
+    &lt;span class="nx"&gt;orderBy&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;calories&amp;quot;&lt;/span&gt; &lt;span class="o"&gt;|&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;pai&amp;quot;&lt;/span&gt; &lt;span class="o"&gt;|&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;workoutStartTime&amp;quot;&lt;/span&gt; &lt;span class="o"&gt;|&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;workoutTime&amp;quot;&lt;/span&gt; &lt;span class="o"&gt;|&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;iqPoints&amp;quot;&lt;/span&gt; &lt;span class="o"&gt;|&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;maxHr&amp;quot;&lt;/span&gt; &lt;span class="o"&gt;|&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;avgHr&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;  &lt;span class="c1"&gt;//可选，严格大小写&lt;/span&gt;
+    &lt;span class="nx"&gt;orderAscending&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;DESC&amp;quot;&lt;/span&gt; &lt;span class="o"&gt;|&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;ASC&amp;quot;&lt;/span&gt;  &lt;span class="c1"&gt;//可选，无所谓大小写&lt;/span&gt;
+&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;
+    &lt;span class="p"&gt;{&lt;/span&gt;
+        &lt;span class="nt"&gt;&amp;quot;calories&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="mi"&gt;372&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+        &lt;span class="nt"&gt;&amp;quot;pai&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="mf"&gt;39.47&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+        &lt;span class="nt"&gt;&amp;quot;deviceSn&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;61P0002X7LF&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+        &lt;span class="nt"&gt;&amp;quot;deviceName&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;LYNK2-02X7&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+        &lt;span class="nt"&gt;&amp;quot;actType&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="kc"&gt;null&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+        &lt;span class="nt"&gt;&amp;quot;workoutStartTime&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="mi"&gt;1582039076&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+        &lt;span class="nt"&gt;&amp;quot;timezoneOffset&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="mi"&gt;8&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+        &lt;span class="nt"&gt;&amp;quot;workoutTime&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="mi"&gt;1329&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+        &lt;span class="nt"&gt;&amp;quot;maxHr&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="mi"&gt;184&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+        &lt;span class="nt"&gt;&amp;quot;avgHr&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="mi"&gt;159&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+        &lt;span class="nt"&gt;&amp;quot;highHr&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="mi"&gt;173&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+        &lt;span class="nt"&gt;&amp;quot;iqPoints&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="mf"&gt;89.02&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+        &lt;span class="nt"&gt;&amp;quot;zoneDuration&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;157&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;1020&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;158&lt;/span&gt; &lt;span class="p"&gt;],&lt;/span&gt;
+        &lt;span class="nt"&gt;&amp;quot;hrSeries&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="p"&gt;[],&lt;/span&gt;
+        &lt;span class="nt"&gt;&amp;quot;dataSource&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;memory&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+        &lt;span class="nt"&gt;&amp;quot;workoutId&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="mi"&gt;2347083&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+        &lt;span class="nt"&gt;&amp;quot;workoutEndTime&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="mi"&gt;1582040405&lt;/span&gt;
+    &lt;span class="p"&gt;},&lt;/span&gt;
+    &lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="err"&gt;...&lt;/span&gt;&lt;span class="p"&gt;},&lt;/span&gt;
+    &lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="err"&gt;...&lt;/span&gt;&lt;span class="p"&gt;},&lt;/span&gt;
+    &lt;span class="err"&gt;...&lt;/span&gt;
+&lt;span class="p"&gt;]&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;7, 获取 workout 心率明细
-    get /dashboard/workouts/{workoutId}&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;``` json
-{
-    "calories": 2286,
-    "pai": 60.73,
-    "workoutId": 1001129,
-    "deviceSn": "61P0000C7DG",
-    "deviceName": "LYNK2-00C7",
-    "actType": null,
-    "workoutStartTime": 1555924323,
-    "timezoneOffset": 8,
-    "workoutTime": 8742,
-    "maxHr": 184,
-    "avgHr": 154,
-    "highHr": 201,
-    "restingHr": null,
-    "iqPoints": 550.18,
-    "zoneDuration": [
-        510,
-        1080,
-        1951,
-        1517,
-        3684
-    ],
-    "hrSeries": [139, 138, 139, 140, 139, 138, 138, 138, 138, 138, 138, 138, 138, 137, 137, 137, 137, 137, 137 ... ],
-    "dataSource": "memory",
-    "endTime": 1555933065
-}
-```
-
-&lt;/code&gt;&lt;/pre&gt;
+get /dashboard/workouts/{workoutId}
+[notice]已完成[/notice]&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;
+    &lt;span class="nt"&gt;&amp;quot;calories&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="mi"&gt;2286&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+    &lt;span class="nt"&gt;&amp;quot;pai&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="mf"&gt;60.73&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+    &lt;span class="nt"&gt;&amp;quot;workoutId&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="mi"&gt;1001129&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+    &lt;span class="nt"&gt;&amp;quot;deviceSn&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;61P0000C7DG&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+    &lt;span class="nt"&gt;&amp;quot;deviceName&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;LYNK2-00C7&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+    &lt;span class="nt"&gt;&amp;quot;actType&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="kc"&gt;null&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+    &lt;span class="nt"&gt;&amp;quot;workoutStartTime&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="mi"&gt;1555924323&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+    &lt;span class="nt"&gt;&amp;quot;timezoneOffset&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="mi"&gt;8&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+    &lt;span class="nt"&gt;&amp;quot;workoutTime&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="mi"&gt;8742&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+    &lt;span class="nt"&gt;&amp;quot;maxHr&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="mi"&gt;184&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+    &lt;span class="nt"&gt;&amp;quot;avgHr&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="mi"&gt;154&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+    &lt;span class="nt"&gt;&amp;quot;highHr&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="mi"&gt;201&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+    &lt;span class="nt"&gt;&amp;quot;restingHr&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="kc"&gt;null&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+    &lt;span class="nt"&gt;&amp;quot;iqPoints&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="mf"&gt;550.18&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+    &lt;span class="nt"&gt;&amp;quot;zoneDuration&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt; &lt;span class="mi"&gt;510&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;1080&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;1951&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;1517&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;3684&lt;/span&gt; &lt;span class="p"&gt;],&lt;/span&gt;
+    &lt;span class="nt"&gt;&amp;quot;hrSeries&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="mi"&gt;139&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;138&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;139&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;140&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;139&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;138&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;138&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;138&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;138&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;138&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;138&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;138&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;138&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;137&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;137&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;137&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;137&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;137&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;137&lt;/span&gt; &lt;span class="err"&gt;...&lt;/span&gt; &lt;span class="p"&gt;],&lt;/span&gt;
+    &lt;span class="nt"&gt;&amp;quot;dataSource&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;memory&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+    &lt;span class="nt"&gt;&amp;quot;endTime&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="mi"&gt;1555933065&lt;/span&gt;
+&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;8, 个人资料获取
-    get /dashboard/profile&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;``` javascript 
-{
-    memberRole: "member" | "coach" | "club" | "accuro",
-    email: "123456@qq.com",
-    avatar: "",
-    firstName: "Toby",
-    lastName: "Bu",
-    nickName: "Bristletail",
-    gender: "male" | "female",
-    birthYear: "01/1987",
-    weight: 175.12, // unit lb
-}
-```
-
-
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;9, 个人资料修改
-    post /pd/profile&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;``` javascript 
-{
-    userId: 1,
-    avatar: "",
-    firstName: "Toby",
-    lastName: "Bu",
-    nickName: "Bristletail",
-    gender: "male" | "female",
-    birthYear: "01/1987",
-    weight: 175.12,
-    weightUnit: "lb" | "kg"
-}
-```
-
-{
-    TODO
-}
-
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;10, 修改密码
-    post /pd/profile/actions/change-password&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;``` javascript 
-{ newPassword: "123456789" }
-```
-
-``` javascript 
-{ message: "password changed" }
-```
-
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;11, 获取本角色下的 Challenge list
-        TODO&lt;/p&gt;
-</content><link href="https://project.sourbell.im/archives/apt-api/" rel="alternate"/><published>2020-02-23T11:01:00+08:06</published></entry><entry><id>https://project.sourbell.im/archives/project-update-week-10/</id><title>Project Update Week 10/52</title><updated>2020-04-10T07:41:23.086961+00:00</updated><author><name>Toby Bu</name><email>i@sourbell.im</email><uri>https://sourbell.im</uri></author><content>&lt;div class="notice"&gt;Weekly Highlight:&lt;/div&gt;&lt;div class="notice"&gt;1,  Accurofit 3.4.2 Testflight &lt;/div&gt;&lt;div class="notice"&gt;2,  Pre-release sweat burn repeat on BetaQR.&lt;/div&gt;&lt;div class="notice"&gt;3,  Released Flexx Fitness HR on the stores.&lt;/div&gt;&lt;div class="notice"&gt;4,  Optimized server database, fixed an issue with slow query.&lt;/div&gt;&lt;ol&gt;
+get /dashboard/profile
+[notice]已完成[/notice]&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;
+    &lt;span class="nx"&gt;memberRole&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;member&amp;quot;&lt;/span&gt; &lt;span class="o"&gt;|&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;coach&amp;quot;&lt;/span&gt; &lt;span class="o"&gt;|&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;club&amp;quot;&lt;/span&gt; &lt;span class="o"&gt;|&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;accuro&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+    &lt;span class="nx"&gt;email&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;123456@qq.com&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+    &lt;span class="nx"&gt;avatar&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+    &lt;span class="nx"&gt;firstName&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;Toby&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+    &lt;span class="nx"&gt;lastName&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;Bu&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+    &lt;span class="nx"&gt;nickName&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;Bristletail&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+    &lt;span class="nx"&gt;gender&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;male&amp;quot;&lt;/span&gt; &lt;span class="o"&gt;|&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;female&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+    &lt;span class="nx"&gt;birthYear&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;01/1987&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+    &lt;span class="nx"&gt;weight&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="mf"&gt;175.12&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="c1"&gt;// unit lb&lt;/span&gt;
+&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;9, 个人资料修改 TODO
+post /pd/profile&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;
+    &lt;span class="nx"&gt;userId&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+    &lt;span class="nx"&gt;avatar&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+    &lt;span class="nx"&gt;firstName&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;Toby&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+    &lt;span class="nx"&gt;lastName&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;Bu&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+    &lt;span class="nx"&gt;nickName&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;Bristletail&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+    &lt;span class="nx"&gt;gender&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;male&amp;quot;&lt;/span&gt; &lt;span class="o"&gt;|&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;female&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+    &lt;span class="nx"&gt;birthYear&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;01/1987&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+    &lt;span class="nx"&gt;weight&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="mf"&gt;175.12&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+    &lt;span class="nx"&gt;weightUnit&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;lb&amp;quot;&lt;/span&gt; &lt;span class="o"&gt;|&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;kg&amp;quot;&lt;/span&gt;
+&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;10, 修改密码 TODO
+post /pd/profile/actions/change-password&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt; &lt;span class="nx"&gt;newPassword&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;123456789&amp;quot;&lt;/span&gt; &lt;span class="p"&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt; &lt;span class="nx"&gt;message&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;password changed&amp;quot;&lt;/span&gt; &lt;span class="p"&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;11, 获取本角色下的 Challenge list TODO&lt;/p&gt;
+</content><link href="https://project.sourbell.im/archives/apt-api/" rel="alternate"/><published>2020-02-23T11:01:00+08:06</published></entry><entry><id>https://project.sourbell.im/archives/project-update-week-10/</id><title>Project Update Week 10/52</title><updated>2020-04-10T07:57:24.772489+00:00</updated><author><name>Toby Bu</name><email>i@sourbell.im</email><uri>https://sourbell.im</uri></author><content>&lt;div class="notice"&gt;Weekly Highlight:&lt;/div&gt;&lt;div class="notice"&gt;1,  Accurofit 3.4.2 Testflight &lt;/div&gt;&lt;div class="notice"&gt;2,  Pre-release sweat burn repeat on BetaQR.&lt;/div&gt;&lt;div class="notice"&gt;3,  Released Flexx Fitness HR on the stores.&lt;/div&gt;&lt;div class="notice"&gt;4,  Optimized server database, fixed an issue with slow query.&lt;/div&gt;&lt;ol&gt;
 &lt;li&gt;&lt;p&gt;&lt;strong&gt;Accurofit&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;1.1 &lt;strong&gt;Bug fixes and new features&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -629,7 +559,7 @@
 &lt;p&gt;Working on iPad version of Gym Solution.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-</content><link href="https://project.sourbell.im/archives/project-update-week-10/" rel="alternate"/><published>2020-03-08T20:00:00+08:06</published></entry><entry><id>https://project.sourbell.im/archives/project-update-week-11/</id><title>Project Update Week 11/52</title><updated>2020-04-10T07:41:23.086935+00:00</updated><author><name>Toby Bu</name><email>i@sourbell.im</email><uri>https://sourbell.im</uri></author><content>&lt;div class="notice"&gt;Weekly Highlight:&lt;/div&gt;&lt;div class="notice"&gt;1,  Accurofit 3.4.2 release date: Jan. 23, 2020.&lt;/div&gt;&lt;div class="notice"&gt;2,  Pre-release HIIT Zone Fitness on BetaQR.&lt;/div&gt;&lt;div class="notice"&gt;3,  Released Flexx Fitness HR on the stores.&lt;/div&gt;&lt;div class="notice"&gt;4,  Optimized server database, fixed an issue with slow query.&lt;/div&gt;&lt;ol&gt;
+</content><link href="https://project.sourbell.im/archives/project-update-week-10/" rel="alternate"/><published>2020-03-08T20:00:00+08:06</published></entry><entry><id>https://project.sourbell.im/archives/project-update-week-11/</id><title>Project Update Week 11/52</title><updated>2020-04-10T07:57:24.772450+00:00</updated><author><name>Toby Bu</name><email>i@sourbell.im</email><uri>https://sourbell.im</uri></author><content>&lt;div class="notice"&gt;Weekly Highlight:&lt;/div&gt;&lt;div class="notice"&gt;1,  Accurofit 3.4.2 release date: Jan. 23, 2020.&lt;/div&gt;&lt;div class="notice"&gt;2,  Pre-release HIIT Zone Fitness on BetaQR.&lt;/div&gt;&lt;div class="notice"&gt;3,  Released Flexx Fitness HR on the stores.&lt;/div&gt;&lt;div class="notice"&gt;4,  Optimized server database, fixed an issue with slow query.&lt;/div&gt;&lt;ol&gt;
 &lt;li&gt;&lt;p&gt;&lt;strong&gt;Accurofit&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;1.1 &lt;strong&gt;New FL301&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Changed the display logic of how body fat. 
@@ -660,7 +590,7 @@ After: display weight and body fat from latest measurement, if there's no body f
 &lt;p&gt;Working on iPad version of Gym Solution, Internal testing, will release alpha version in one week.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-</content><link href="https://project.sourbell.im/archives/project-update-week-11/" rel="alternate"/><published>2020-03-15T20:00:00+08:06</published></entry><entry><id>https://project.sourbell.im/archives/apt-dashbaord/</id><title>APT Dashboard</title><updated>2020-04-10T07:41:23.086883+00:00</updated><author><name>Toby Bu</name><email>i@sourbell.im</email><uri>https://sourbell.im</uri></author><content>&lt;p&gt;&lt;code&gt;0.0.1&lt;/code&gt; March 30, 2020&lt;/p&gt;
+</content><link href="https://project.sourbell.im/archives/project-update-week-11/" rel="alternate"/><published>2020-03-15T20:00:00+08:06</published></entry><entry><id>https://project.sourbell.im/archives/apt-dashbaord/</id><title>APT Dashboard</title><updated>2020-04-10T07:57:24.772389+00:00</updated><author><name>Toby Bu</name><email>i@sourbell.im</email><uri>https://sourbell.im</uri></author><content>&lt;p&gt;&lt;code&gt;0.0.1&lt;/code&gt; March 30, 2020&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Able to login with AccuroFit 3.0 account and APT account.&lt;/li&gt;
 &lt;li&gt;Able to view (only) account profile.&lt;/li&gt;
