@@ -17,7 +17,7 @@
     <script>
         var ExSearchConfig = {
             root: "",
-            api: "https://cdn.jsdelivr.net/gh/sourbell/project@gh-pages/45f874f361c8d1bba08c298287360d0f.json"
+            api: "https://cdn.jsdelivr.net/gh/sourbell/project@gh-pages/6a38f56c1e70755ee815922a27c99603.json"
         }
     </script>
     
@@ -103,46 +103,60 @@
 <span class="p">}</span>
 </pre></div>
 <ol>
-<li><p>登录 
- post /pd/login</p>
-<div class="highlight"><pre><span></span><span class="p">{</span> 
-     <span class="nx">email</span><span class="o">:</span> <span class="s2">&quot;123456@qq.com&quot;</span><span class="p">,</span> 
-     <span class="nx">password</span><span class="o">:</span> <span class="s2">&quot;12345678&quot;</span> 
- <span class="p">}</span>
-</pre></div>
-<div class="highlight"><pre><span></span><span class="p">{</span> <span class="nx">token</span><span class="o">:</span> <span class="s2">&quot;120705de7e61c5b322ad798b8ef225a7&quot;</span> <span class="p">}</span>
-</pre></div>
-</li>
-</ol>
-<ol>
-<li><p>注册（注册后默认为普通会员）
- todo</p>
-</li>
-<li><p>取回密码 
- post /pd/reset-password</p>
-<div class="highlight"><pre><span></span><span class="p">{</span> <span class="nx">email</span><span class="o">:</span> <span class="s2">&quot;123456@qq.com&quot;</span> <span class="p">}</span>
-</pre></div>
-<div class="highlight"><pre><span></span><span class="p">{</span> <span class="nx">message</span><span class="o">:</span> <span class="s2">&quot;email sent&quot;</span> <span class="p">}</span>
-</pre></div>
-</li>
-</ol>
-<ol>
-<li><p>获取用户最近 statistics 
- get /pd/statistics</p>
-<div class="highlight"><pre><span></span><span class="p">{</span>
-     <span class="nx">weekly</span><span class="o">:</span> <span class="p">{</span>
-         <span class="nx">attendance</span><span class="o">:</span> <span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">],</span> <span class="c1">//[6天前，5天前...，昨天，今天]</span>
-         <span class="nx">calories</span><span class="o">:</span> <span class="mf">756.23</span><span class="p">,</span>
-         <span class="nx">exerciseMinutes</span><span class="o">:</span> <span class="mi">320</span><span class="p">,</span>
-         <span class="nx">zoneDuration</span><span class="o">:</span> <span class="p">[</span><span class="mi">120</span><span class="p">,</span> <span class="mi">200</span><span class="p">,</span> <span class="mi">240</span><span class="p">,</span> <span class="mi">300</span><span class="p">,</span> <span class="mi">500</span><span class="p">]</span> <span class="c1">//zone1~5 的分钟数</span>
-     <span class="p">},</span>
-     <span class="nx">monthly</span><span class="o">:</span> <span class="p">{</span>
-         <span class="nx">attendance</span><span class="o">:</span> <span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mf">1.</span><span class="p">..</span> <span class="p">]</span> <span class="c1">//[] 本月1号起至今天</span>
-         <span class="nx">latestThirtyDays</span><span class="o">:</span> <span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span> <span class="p">...]</span>
-     <span class="p">},</span>
+<li><p>登录</p>
 
- <span class="p">}</span>
-</pre></div>
+<pre><code> post /pd/login
+
+ ``` javascript 
+ { 
+     email: "123456@qq.com", 
+     password: "12345678" 
+ } 
+ ```
+
+ ``` javascript 
+ { token: "120705de7e61c5b322ad798b8ef225a7" }
+ ```</code></pre>
+</li>
+</ol>
+<ol>
+<li><p>注册（注册后默认为普通会员）</p>
+
+<pre><code> todo</code></pre>
+</li>
+<li><p>取回密码</p>
+
+<pre><code> post /pd/reset-password
+
+ ``` javascript 
+ { email: "123456@qq.com" } 
+ ```
+
+ ``` javascript 
+ { message: "email sent" }
+ ```</code></pre>
+</li>
+</ol>
+<ol>
+<li><p>获取用户最近 statistics</p>
+
+<pre><code> get /pd/statistics
+
+ ``` javascript 
+ {
+     weekly: {
+         attendance: [0, 1, 1, 1, 1, 0, 1], //[6天前，5天前...，昨天，今天]
+         calories: 756.23,
+         exerciseMinutes: 320,
+         zoneDuration: [120, 200, 240, 300, 500] //zone1~5 的分钟数
+     },
+     monthly: {
+         attendance: [0, 1, 1, 1, 1, 1, 1... ] //[] 本月1号起至今天
+         latestThirtyDays: [0, 1, 1, 1, 1 ...]
+     },
+
+ }
+ ```</code></pre>
 </li>
 </ol>
 <ol>
@@ -186,6 +200,38 @@
  <span class="p">}</span>
 </pre></div>
 </li>
+</ol>
+<ol>
+<li><p>获取 workout 心率明细
+ get /dashboard/workouts/{workoutId}</p>
+<div class="highlight"><pre><span></span><span class="p">{</span>
+     <span class="nt">&quot;calories&quot;</span><span class="p">:</span> <span class="mi">2286</span><span class="p">,</span>
+     <span class="nt">&quot;pai&quot;</span><span class="p">:</span> <span class="mf">60.73</span><span class="p">,</span>
+     <span class="nt">&quot;workoutId&quot;</span><span class="p">:</span> <span class="mi">1001129</span><span class="p">,</span>
+     <span class="nt">&quot;deviceSn&quot;</span><span class="p">:</span> <span class="s2">&quot;61P0000C7DG&quot;</span><span class="p">,</span>
+     <span class="nt">&quot;deviceName&quot;</span><span class="p">:</span> <span class="s2">&quot;LYNK2-00C7&quot;</span><span class="p">,</span>
+     <span class="nt">&quot;actType&quot;</span><span class="p">:</span> <span class="kc">null</span><span class="p">,</span>
+     <span class="nt">&quot;workoutStartTime&quot;</span><span class="p">:</span> <span class="mi">1555924323</span><span class="p">,</span>
+     <span class="nt">&quot;timezoneOffset&quot;</span><span class="p">:</span> <span class="mi">8</span><span class="p">,</span>
+     <span class="nt">&quot;workoutTime&quot;</span><span class="p">:</span> <span class="mi">8742</span><span class="p">,</span>
+     <span class="nt">&quot;maxHr&quot;</span><span class="p">:</span> <span class="mi">184</span><span class="p">,</span>
+     <span class="nt">&quot;avgHr&quot;</span><span class="p">:</span> <span class="mi">154</span><span class="p">,</span>
+     <span class="nt">&quot;highHr&quot;</span><span class="p">:</span> <span class="mi">201</span><span class="p">,</span>
+     <span class="nt">&quot;restingHr&quot;</span><span class="p">:</span> <span class="kc">null</span><span class="p">,</span>
+     <span class="nt">&quot;iqPoints&quot;</span><span class="p">:</span> <span class="mf">550.18</span><span class="p">,</span>
+     <span class="nt">&quot;zoneDuration&quot;</span><span class="p">:</span> <span class="p">[</span>
+         <span class="mi">510</span><span class="p">,</span>
+         <span class="mi">1080</span><span class="p">,</span>
+         <span class="mi">1951</span><span class="p">,</span>
+         <span class="mi">1517</span><span class="p">,</span>
+         <span class="mi">3684</span>
+     <span class="p">],</span>
+     <span class="nt">&quot;hrSeries&quot;</span><span class="p">:</span> <span class="p">[</span><span class="mi">139</span><span class="p">,</span> <span class="mi">138</span><span class="p">,</span> <span class="mi">139</span><span class="p">,</span> <span class="mi">140</span><span class="p">,</span> <span class="mi">139</span><span class="p">,</span> <span class="mi">138</span><span class="p">,</span> <span class="mi">138</span><span class="p">,</span> <span class="mi">138</span><span class="p">,</span> <span class="mi">138</span><span class="p">,</span> <span class="mi">138</span><span class="p">,</span> <span class="mi">138</span><span class="p">,</span> <span class="mi">138</span><span class="p">,</span> <span class="mi">138</span><span class="p">,</span> <span class="mi">137</span><span class="p">,</span> <span class="mi">137</span><span class="p">,</span> <span class="mi">137</span><span class="p">,</span> <span class="mi">137</span><span class="p">,</span> <span class="mi">137</span><span class="p">,</span> <span class="mi">137</span> <span class="err">...</span> <span class="p">],</span>
+     <span class="nt">&quot;dataSource&quot;</span><span class="p">:</span> <span class="s2">&quot;memory&quot;</span><span class="p">,</span>
+     <span class="nt">&quot;endTime&quot;</span><span class="p">:</span> <span class="mi">1555933065</span>
+ <span class="p">}</span>
+</pre></div>
+</li>
 <li><p>个人资料获取
  get /dashboard/profile</p>
 <div class="highlight"><pre><span></span><span class="p">{</span>
@@ -217,8 +263,11 @@
      <span class="nx">weightUnit</span><span class="o">:</span> <span class="s2">&quot;lb&quot;</span> <span class="o">|</span> <span class="s2">&quot;kg&quot;</span>
  <span class="p">}</span>
 </pre></div>
-<p>{
- }</p>
+<p>{</p>
+
+<pre><code> TODO
+</code></pre>
+<p>}</p>
 </li>
 <li><p>修改密码
  post /pd/profile/actions/change-password</p>
@@ -228,6 +277,8 @@
 </pre></div>
 </li>
 <li><p>获取本角色下的 Challenge list</p>
+
+<pre><code> TODO</code></pre>
 </li>
 </ol>
 
