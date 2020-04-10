@@ -17,7 +17,7 @@
     <script>
         var ExSearchConfig = {
             root: "",
-            api: "https://cdn.jsdelivr.net/gh/sourbell/project@gh-pages/c25df60658e3e5352c2d0a1906df079a.json"
+            api: "https://cdn.jsdelivr.net/gh/sourbell/project@gh-pages/14cf87a28d353febc3220ac0e36c9c22.json"
         }
     </script>
     
@@ -103,9 +103,8 @@
 <span class="p">}</span>
 </pre></div>
 <p>1, 登录
-[notice]已支持 Member &amp; Coach 用户登录，待完成 Club / Accuro 用户[/notice]
 post /pd/login</p>
-<div class="highlight"><pre><span></span><span class="p">{</span> 
+<div class="notice">已支持 Member &amp; Coach 用户登录，待完成 Club / Accuro 用户</div><div class="highlight"><pre><span></span><span class="p">{</span> 
     <span class="nx">email</span><span class="o">:</span> <span class="s2">&quot;123456@qq.com&quot;</span><span class="p">,</span> 
     <span class="nx">password</span><span class="o">:</span> <span class="s2">&quot;12345678&quot;</span> 
 <span class="p">}</span>
@@ -137,9 +136,8 @@ get /pd/statistics</p>
 <span class="p">}</span>
 </pre></div>
 <p>5, 根据日期范围获取最近的 workout list 
-post /dashboard/workouts/page/{page}
-[notice]已支持 Member &amp; Coach 用户查询其邮箱对应的 Member Workout List[/notice]</p>
-<div class="highlight"><pre><span></span><span class="p">{</span>
+post /dashboard/workouts/page/{page}</p>
+<div class="notice">已支持 Member &amp; Coach 用户查询其邮箱对应的 Member Workout List</div><div class="highlight"><pre><span></span><span class="p">{</span>
     <span class="nx">startTime</span><span class="o">:</span> <span class="mi">1585383958</span><span class="p">,</span> <span class="c1">//可选，unix timestamp</span>
     <span class="nx">endTime</span><span class="o">:</span> <span class="mi">1585583958</span><span class="p">,</span> <span class="c1">//可选，unix timestamp</span>
     <span class="nx">orderBy</span><span class="o">:</span> <span class="s2">&quot;calories&quot;</span> <span class="o">|</span> <span class="s2">&quot;pai&quot;</span> <span class="o">|</span> <span class="s2">&quot;workoutStartTime&quot;</span> <span class="o">|</span> <span class="s2">&quot;workoutTime&quot;</span> <span class="o">|</span> <span class="s2">&quot;iqPoints&quot;</span> <span class="o">|</span> <span class="s2">&quot;maxHr&quot;</span> <span class="o">|</span> <span class="s2">&quot;avgHr&quot;</span><span class="p">,</span>  <span class="c1">//可选，严格大小写</span>
@@ -173,9 +171,8 @@ post /dashboard/workouts/page/{page}
 <span class="p">}</span>
 </pre></div>
 <p>6, 根据日期范围获取全部的 workout
-post /dashboard/workouts
-[notice]已支持 Member &amp; Coach 用户查询其邮箱对应的 Member Workout List[/notice]</p>
-<div class="highlight"><pre><span></span><span class="p">{</span>
+post /dashboard/workouts</p>
+<div class="notice">已支持 Member &amp; Coach 用户查询其邮箱对应的 Member Workout List</div><div class="highlight"><pre><span></span><span class="p">{</span>
     <span class="nx">startTime</span><span class="o">:</span> <span class="mi">1585383958</span><span class="p">,</span> <span class="c1">//可选，unix timestamp</span>
     <span class="nx">endTime</span><span class="o">:</span> <span class="mi">1585583958</span><span class="p">,</span> <span class="c1">//可选，unix timestamp</span>
     <span class="nx">orderBy</span><span class="o">:</span> <span class="s2">&quot;calories&quot;</span> <span class="o">|</span> <span class="s2">&quot;pai&quot;</span> <span class="o">|</span> <span class="s2">&quot;workoutStartTime&quot;</span> <span class="o">|</span> <span class="s2">&quot;workoutTime&quot;</span> <span class="o">|</span> <span class="s2">&quot;iqPoints&quot;</span> <span class="o">|</span> <span class="s2">&quot;maxHr&quot;</span> <span class="o">|</span> <span class="s2">&quot;avgHr&quot;</span><span class="p">,</span>  <span class="c1">//可选，严格大小写</span>
@@ -208,9 +205,8 @@ post /dashboard/workouts
 <span class="p">]</span>
 </pre></div>
 <p>7, 获取 workout 心率明细
-get /dashboard/workouts/{workoutId}
-[notice]已完成[/notice]</p>
-<div class="highlight"><pre><span></span><span class="p">{</span>
+get /dashboard/workouts/{workoutId}</p>
+<div class="notice">已完成</div><div class="highlight"><pre><span></span><span class="p">{</span>
     <span class="nt">&quot;calories&quot;</span><span class="p">:</span> <span class="mi">2286</span><span class="p">,</span>
     <span class="nt">&quot;pai&quot;</span><span class="p">:</span> <span class="mf">60.73</span><span class="p">,</span>
     <span class="nt">&quot;workoutId&quot;</span><span class="p">:</span> <span class="mi">1001129</span><span class="p">,</span>
@@ -232,9 +228,8 @@ get /dashboard/workouts/{workoutId}
 <span class="p">}</span>
 </pre></div>
 <p>8, 个人资料获取
-get /dashboard/profile
-[notice]已完成[/notice]</p>
-<div class="highlight"><pre><span></span><span class="p">{</span>
+get /dashboard/profile</p>
+<div class="notice">已完成</div><div class="highlight"><pre><span></span><span class="p">{</span>
     <span class="nx">memberRole</span><span class="o">:</span> <span class="s2">&quot;member&quot;</span> <span class="o">|</span> <span class="s2">&quot;coach&quot;</span> <span class="o">|</span> <span class="s2">&quot;club&quot;</span> <span class="o">|</span> <span class="s2">&quot;accuro&quot;</span><span class="p">,</span>
     <span class="nx">email</span><span class="o">:</span> <span class="s2">&quot;123456@qq.com&quot;</span><span class="p">,</span>
     <span class="nx">avatar</span><span class="o">:</span> <span class="s2">&quot;&quot;</span><span class="p">,</span>

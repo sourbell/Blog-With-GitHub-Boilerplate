@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>豪猪尾巴</title><link>https://project.sourbell.im/</link><description>Keep resolutions</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>${static_prefix}logo.jpg</url><title>豪猪尾巴</title><link>https://project.sourbell.im/</link></image><language>english</language><lastBuildDate>Fri, 10 Apr 2020 07:57:24 +0806</lastBuildDate><pubDate>Fri, 10 Apr 2020 07:57:24 +0806</pubDate><item><title>Accurofit Release Note</title><link>https://project.sourbell.im/archives/accurofit-release-note/</link><description>&lt;p&gt;&lt;code&gt;3.3.4&lt;/code&gt; Dec 4, 2019&lt;/p&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>豪猪尾巴</title><link>https://project.sourbell.im/</link><description>Keep resolutions</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>${static_prefix}logo.jpg</url><title>豪猪尾巴</title><link>https://project.sourbell.im/</link></image><language>english</language><lastBuildDate>Fri, 10 Apr 2020 08:03:37 +0806</lastBuildDate><pubDate>Fri, 10 Apr 2020 08:03:37 +0806</pubDate><item><title>Accurofit Release Note</title><link>https://project.sourbell.im/archives/accurofit-release-note/</link><description>&lt;p&gt;&lt;code&gt;3.3.4&lt;/code&gt; Dec 4, 2019&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Removed the background music during live workout.&lt;/li&gt;
 &lt;li&gt;Multiple improvements.&lt;/li&gt;
@@ -371,9 +371,8 @@
 &lt;span class="p"&gt;}&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;1, 登录
-[notice]已支持 Member &amp;amp; Coach 用户登录，待完成 Club / Accuro 用户[/notice]
 post /pd/login&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt; 
+&lt;div class="notice"&gt;已支持 Member &amp;amp; Coach 用户登录，待完成 Club / Accuro 用户&lt;/div&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt; 
     &lt;span class="nx"&gt;email&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;123456@qq.com&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; 
     &lt;span class="nx"&gt;password&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;12345678&amp;quot;&lt;/span&gt; 
 &lt;span class="p"&gt;}&lt;/span&gt;
@@ -405,9 +404,8 @@ get /pd/statistics&lt;/p&gt;
 &lt;span class="p"&gt;}&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;5, 根据日期范围获取最近的 workout list 
-post /dashboard/workouts/page/{page}
-[notice]已支持 Member &amp;amp; Coach 用户查询其邮箱对应的 Member Workout List[/notice]&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;
+post /dashboard/workouts/page/{page}&lt;/p&gt;
+&lt;div class="notice"&gt;已支持 Member &amp;amp; Coach 用户查询其邮箱对应的 Member Workout List&lt;/div&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;
     &lt;span class="nx"&gt;startTime&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="mi"&gt;1585383958&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="c1"&gt;//可选，unix timestamp&lt;/span&gt;
     &lt;span class="nx"&gt;endTime&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="mi"&gt;1585583958&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="c1"&gt;//可选，unix timestamp&lt;/span&gt;
     &lt;span class="nx"&gt;orderBy&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;calories&amp;quot;&lt;/span&gt; &lt;span class="o"&gt;|&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;pai&amp;quot;&lt;/span&gt; &lt;span class="o"&gt;|&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;workoutStartTime&amp;quot;&lt;/span&gt; &lt;span class="o"&gt;|&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;workoutTime&amp;quot;&lt;/span&gt; &lt;span class="o"&gt;|&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;iqPoints&amp;quot;&lt;/span&gt; &lt;span class="o"&gt;|&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;maxHr&amp;quot;&lt;/span&gt; &lt;span class="o"&gt;|&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;avgHr&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;  &lt;span class="c1"&gt;//可选，严格大小写&lt;/span&gt;
@@ -441,9 +439,8 @@ post /dashboard/workouts/page/{page}
 &lt;span class="p"&gt;}&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;6, 根据日期范围获取全部的 workout
-post /dashboard/workouts
-[notice]已支持 Member &amp;amp; Coach 用户查询其邮箱对应的 Member Workout List[/notice]&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;
+post /dashboard/workouts&lt;/p&gt;
+&lt;div class="notice"&gt;已支持 Member &amp;amp; Coach 用户查询其邮箱对应的 Member Workout List&lt;/div&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;
     &lt;span class="nx"&gt;startTime&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="mi"&gt;1585383958&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="c1"&gt;//可选，unix timestamp&lt;/span&gt;
     &lt;span class="nx"&gt;endTime&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="mi"&gt;1585583958&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="c1"&gt;//可选，unix timestamp&lt;/span&gt;
     &lt;span class="nx"&gt;orderBy&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;calories&amp;quot;&lt;/span&gt; &lt;span class="o"&gt;|&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;pai&amp;quot;&lt;/span&gt; &lt;span class="o"&gt;|&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;workoutStartTime&amp;quot;&lt;/span&gt; &lt;span class="o"&gt;|&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;workoutTime&amp;quot;&lt;/span&gt; &lt;span class="o"&gt;|&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;iqPoints&amp;quot;&lt;/span&gt; &lt;span class="o"&gt;|&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;maxHr&amp;quot;&lt;/span&gt; &lt;span class="o"&gt;|&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;avgHr&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;  &lt;span class="c1"&gt;//可选，严格大小写&lt;/span&gt;
@@ -476,9 +473,8 @@ post /dashboard/workouts
 &lt;span class="p"&gt;]&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;7, 获取 workout 心率明细
-get /dashboard/workouts/{workoutId}
-[notice]已完成[/notice]&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;
+get /dashboard/workouts/{workoutId}&lt;/p&gt;
+&lt;div class="notice"&gt;已完成&lt;/div&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;
     &lt;span class="nt"&gt;&amp;quot;calories&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="mi"&gt;2286&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
     &lt;span class="nt"&gt;&amp;quot;pai&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="mf"&gt;60.73&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
     &lt;span class="nt"&gt;&amp;quot;workoutId&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="mi"&gt;1001129&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
@@ -500,9 +496,8 @@ get /dashboard/workouts/{workoutId}
 &lt;span class="p"&gt;}&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;8, 个人资料获取
-get /dashboard/profile
-[notice]已完成[/notice]&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;
+get /dashboard/profile&lt;/p&gt;
+&lt;div class="notice"&gt;已完成&lt;/div&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;
     &lt;span class="nx"&gt;memberRole&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;member&amp;quot;&lt;/span&gt; &lt;span class="o"&gt;|&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;coach&amp;quot;&lt;/span&gt; &lt;span class="o"&gt;|&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;club&amp;quot;&lt;/span&gt; &lt;span class="o"&gt;|&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;accuro&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
     &lt;span class="nx"&gt;email&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;123456@qq.com&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
     &lt;span class="nx"&gt;avatar&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
