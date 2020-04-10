@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>豪猪尾巴</title><link>https://project.sourbell.im/</link><description>Keep resolutions</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>${static_prefix}logo.jpg</url><title>豪猪尾巴</title><link>https://project.sourbell.im/</link></image><language>english</language><lastBuildDate>Sun, 15 Mar 2020 17:37:35 +0806</lastBuildDate><pubDate>Sun, 15 Mar 2020 17:37:35 +0806</pubDate><item><title>Accurofit Release Note</title><link>https://project.sourbell.im/archives/accurofit-release-note/</link><description>&lt;p&gt;&lt;code&gt;3.3.4&lt;/code&gt; Dec 4, 2019&lt;/p&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>豪猪尾巴</title><link>https://project.sourbell.im/</link><description>Keep resolutions</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>${static_prefix}logo.jpg</url><title>豪猪尾巴</title><link>https://project.sourbell.im/</link></image><language>english</language><lastBuildDate>Fri, 10 Apr 2020 06:18:41 +0806</lastBuildDate><pubDate>Fri, 10 Apr 2020 06:18:41 +0806</pubDate><item><title>Accurofit Release Note</title><link>https://project.sourbell.im/archives/accurofit-release-note/</link><description>&lt;p&gt;&lt;code&gt;3.3.4&lt;/code&gt; Dec 4, 2019&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Removed the background music during live workout.&lt;/li&gt;
 &lt;li&gt;Multiple improvements.&lt;/li&gt;
@@ -109,42 +109,12 @@
 &lt;ul&gt;
 &lt;li&gt;Initial Release&lt;/li&gt;
 &lt;/ul&gt;
-</description><author>i@sourbell.im (Toby Bu)</author><guid isPermaLink="true">https://project.sourbell.im/archives/apt-release-note/</guid><pubDate>Wed, 25 Dec 2019 01:01:00 +0806</pubDate></item><item><title>Private Label Update</title><link>https://project.sourbell.im/archives/private-label-update/</link><description>&lt;p&gt;&lt;code&gt;2020.2.4&lt;/code&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;HIIT80&lt;/strong&gt; v1.0.3 waiting for review on GooglePlay and AppStore.&lt;ul&gt;
-&lt;li&gt;Changed name from HIITPH to HIIT80Heart&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Crunch&lt;/strong&gt; v1.0.0 removed from AppStore and GooglePlay.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;p&gt;&lt;code&gt;2020.2.3&lt;/code&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Work Horse Gym&lt;/strong&gt; v1.0.0 is live on GooglePlay and AppStore.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Freestyle Fitness&lt;/strong&gt; v2.0.2 is live on GooglePlay and AppStore.&lt;ul&gt;
-&lt;li&gt;fixed background music issue.&lt;/li&gt;
-&lt;li&gt;open up to all HRMs.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Checkmate HR&lt;/strong&gt; v1.0.0 is live on GooglePlay and AppStore.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;p&gt;&lt;code&gt;2020.1.25&lt;/code&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Tonic Crossfit&lt;/strong&gt; v1.0.2 is live on GooglePlay and AppStore.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;p&gt;&lt;code&gt;2020.1.8&lt;/code&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;All Heart Boxing&lt;/strong&gt; v1.0.0 waiting for review on &lt;a href="https://play.google.com/store/apps/details?id=net.ncitglobal.allheartboxing"&gt;GooglePlay&lt;/a&gt; and AppStore.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;TX Thailand&lt;/strong&gt; v1.0.0 pre-released on &lt;a href="https://fir.im/txthailand"&gt;FIR.IM&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;p&gt;&lt;code&gt;2020.1.7&lt;/code&gt;&lt;/p&gt;
+</description><author>i@sourbell.im (Toby Bu)</author><guid isPermaLink="true">https://project.sourbell.im/archives/apt-release-note/</guid><pubDate>Wed, 25 Dec 2019 01:01:00 +0806</pubDate></item><item><title>Private Label Update</title><link>https://project.sourbell.im/archives/private-label-update/</link><description>&lt;p&gt;&lt;code&gt;2020.1.7&lt;/code&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Momentum Fitness&lt;/strong&gt; v1.0.0 pre-released on &lt;a href="https://fir.im/momentum"&gt;FIR.IM&lt;/a&gt;.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Impact Strong Elite&lt;/strong&gt; v1.0.0 pre-released on &lt;a href="https://fir.im/impact"&gt;FIR.IM&lt;/a&gt;.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;All Heart Boxing&lt;/strong&gt; v1.0.0 pre-released on &lt;a href="https://fir.im/allheart"&gt;FIR.IM&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;TX Thailand&lt;/strong&gt; v1.0.0 pre-released on &lt;a href="https://fir.im/txthailand"&gt;FIR.IM&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
 &lt;p&gt;&lt;code&gt;2020.1.6&lt;/code&gt;&lt;/p&gt;
@@ -222,12 +192,42 @@
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Tonic Crossfit&lt;/strong&gt; v1.0.0 is live on GooglePlay and AppStore.&lt;/li&gt;
 &lt;/ul&gt;
-</description><author>i@sourbell.im (Toby Bu)</author><guid isPermaLink="true">https://project.sourbell.im/archives/private-label-update/</guid><pubDate>Tue, 07 Jan 2020 12:42:00 +0806</pubDate></item><item><title>Private Label Update</title><link>https://project.sourbell.im/archives/private-label-update/</link><description>&lt;p&gt;&lt;code&gt;2020.1.7&lt;/code&gt;&lt;/p&gt;
+</description><author>i@sourbell.im (Toby Bu)</author><guid isPermaLink="true">https://project.sourbell.im/archives/private-label-update/</guid><pubDate>Tue, 07 Jan 2020 12:42:00 +0806</pubDate></item><item><title>Private Label Update</title><link>https://project.sourbell.im/archives/private-label-update/</link><description>&lt;p&gt;&lt;code&gt;2020.2.4&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;HIIT80&lt;/strong&gt; v1.0.3 waiting for review on GooglePlay and AppStore.&lt;ul&gt;
+&lt;li&gt;Changed name from HIITPH to HIIT80Heart&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Crunch&lt;/strong&gt; v1.0.0 removed from AppStore and GooglePlay.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;code&gt;2020.2.3&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Work Horse Gym&lt;/strong&gt; v1.0.0 is live on GooglePlay and AppStore.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Freestyle Fitness&lt;/strong&gt; v2.0.2 is live on GooglePlay and AppStore.&lt;ul&gt;
+&lt;li&gt;fixed background music issue.&lt;/li&gt;
+&lt;li&gt;open up to all HRMs.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Checkmate HR&lt;/strong&gt; v1.0.0 is live on GooglePlay and AppStore.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;code&gt;2020.1.25&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Tonic Crossfit&lt;/strong&gt; v1.0.2 is live on GooglePlay and AppStore.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;code&gt;2020.1.8&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;All Heart Boxing&lt;/strong&gt; v1.0.0 waiting for review on &lt;a href="https://play.google.com/store/apps/details?id=net.ncitglobal.allheartboxing"&gt;GooglePlay&lt;/a&gt; and AppStore.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;TX Thailand&lt;/strong&gt; v1.0.0 pre-released on &lt;a href="https://fir.im/txthailand"&gt;FIR.IM&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;code&gt;2020.1.7&lt;/code&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Momentum Fitness&lt;/strong&gt; v1.0.0 pre-released on &lt;a href="https://fir.im/momentum"&gt;FIR.IM&lt;/a&gt;.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Impact Strong Elite&lt;/strong&gt; v1.0.0 pre-released on &lt;a href="https://fir.im/impact"&gt;FIR.IM&lt;/a&gt;.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;All Heart Boxing&lt;/strong&gt; v1.0.0 pre-released on &lt;a href="https://fir.im/allheart"&gt;FIR.IM&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;TX Thailand&lt;/strong&gt; v1.0.0 pre-released on &lt;a href="https://fir.im/txthailand"&gt;FIR.IM&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
 &lt;p&gt;&lt;code&gt;2020.1.6&lt;/code&gt;&lt;/p&gt;
@@ -415,15 +415,50 @@
 &lt;/ol&gt;
 &lt;ol&gt;
 &lt;li&gt;&lt;p&gt;根据日期范围获取最近的 workout list 
- get /pd/workouts/page/{page}
- {
- }&lt;/p&gt;
+ post /dashboard/workouts/page/{page}&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;
+     &lt;span class="nx"&gt;startTime&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="mi"&gt;1585383958&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="c1"&gt;//可选，unix timestamp&lt;/span&gt;
+     &lt;span class="nx"&gt;endTime&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="mi"&gt;1585583958&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="c1"&gt;//可选，unix timestamp&lt;/span&gt;
+     &lt;span class="nx"&gt;orderBy&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;calories&amp;quot;&lt;/span&gt; &lt;span class="o"&gt;|&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;pai&amp;quot;&lt;/span&gt; &lt;span class="o"&gt;|&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;workoutStartTime&amp;quot;&lt;/span&gt; &lt;span class="o"&gt;|&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;workoutTime&amp;quot;&lt;/span&gt; &lt;span class="o"&gt;|&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;iqPoints&amp;quot;&lt;/span&gt; &lt;span class="o"&gt;|&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;maxHr&amp;quot;&lt;/span&gt; &lt;span class="o"&gt;|&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;avgHr&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;  &lt;span class="c1"&gt;//可选，严格大小写&lt;/span&gt;
+     &lt;span class="nx"&gt;orderAscending&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;DESC&amp;quot;&lt;/span&gt; &lt;span class="o"&gt;|&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;ASC&amp;quot;&lt;/span&gt;  &lt;span class="c1"&gt;//可选，无所谓大小写&lt;/span&gt;
+ &lt;span class="p"&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;{&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt; totalRecords: 1230,
+ pageSize: 10,
+ list: [{
+     "calories": 372,
+     "pai": 39.47,
+     "deviceSn": "61P0002X7LF",
+     "deviceName": "LYNK2-02X7",
+     "actType": null,
+     "workoutStartTime": 1582039076,
+     "timezoneOffset": 8,
+     "workoutTime": 1329,
+     "maxHr": 184,
+     "avgHr": 159,
+     "highHr": 173,
+     "iqPoints": 89.02,
+     "zoneDuration": [
+         0,
+         0,
+         157,
+         1020,
+         158
+     ],
+     "hrSeries": [],
+     "dataSource": "memory",
+     "workoutId": 2347083,
+     "workoutEndTime": 1582040405
+ }]
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;}&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;p&gt;个人资料获取
- get /pd/profile&lt;/p&gt;
+ get /dashboard/profile&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;
-     &lt;span class="nx"&gt;userId&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-     &lt;span class="nx"&gt;userRole&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;member&amp;quot;&lt;/span&gt; &lt;span class="o"&gt;|&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;coach&amp;quot;&lt;/span&gt; &lt;span class="o"&gt;|&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;club&amp;quot;&lt;/span&gt; &lt;span class="o"&gt;|&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;accuro&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+     &lt;span class="nx"&gt;memberRole&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;member&amp;quot;&lt;/span&gt; &lt;span class="o"&gt;|&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;coach&amp;quot;&lt;/span&gt; &lt;span class="o"&gt;|&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;club&amp;quot;&lt;/span&gt; &lt;span class="o"&gt;|&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;accuro&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
      &lt;span class="nx"&gt;email&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;123456@qq.com&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
      &lt;span class="nx"&gt;avatar&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
      &lt;span class="nx"&gt;firstName&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;Toby&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
@@ -431,8 +466,7 @@
      &lt;span class="nx"&gt;nickName&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;Bristletail&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
      &lt;span class="nx"&gt;gender&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;male&amp;quot;&lt;/span&gt; &lt;span class="o"&gt;|&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;female&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
      &lt;span class="nx"&gt;birthYear&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;01/1987&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-     &lt;span class="nx"&gt;weight&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="mf"&gt;175.12&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-     &lt;span class="nx"&gt;weightUnit&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;lb&amp;quot;&lt;/span&gt; &lt;span class="o"&gt;|&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;kg&amp;quot;&lt;/span&gt;
+     &lt;span class="nx"&gt;weight&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="mf"&gt;175.12&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="c1"&gt;// unit lb&lt;/span&gt;
  &lt;span class="p"&gt;}&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 &lt;/li&gt;
@@ -520,4 +554,12 @@ After: display weight and body fat from latest measurement, if there's no body f
 &lt;p&gt;Working on iPad version of Gym Solution, Internal testing, will release alpha version in one week.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-</description><author>i@sourbell.im (Toby Bu)</author><guid isPermaLink="true">https://project.sourbell.im/archives/project-update-week-11/</guid><pubDate>Sun, 15 Mar 2020 20:00:00 +0806</pubDate></item></channel></rss>
+</description><author>i@sourbell.im (Toby Bu)</author><guid isPermaLink="true">https://project.sourbell.im/archives/project-update-week-11/</guid><pubDate>Sun, 15 Mar 2020 20:00:00 +0806</pubDate></item><item><title>APT Dashboard</title><link>https://project.sourbell.im/archives/apt-dashbaord/</link><description>&lt;p&gt;&lt;code&gt;0.0.1&lt;/code&gt; March 30, 2020&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Able to login with AccuroFit 3.0 account and APT account.&lt;/li&gt;
+&lt;li&gt;Able to view (only) account profile.&lt;/li&gt;
+&lt;li&gt;Able to view workouts under the login email (same as 3.0 workouts).&lt;/li&gt;
+&lt;li&gt;Responsive design, able to view it on your phone.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+</description><author>i@sourbell.im (Toby Bu)</author><guid isPermaLink="true">https://project.sourbell.im/archives/apt-dashbaord/</guid><pubDate>Tue, 07 Apr 2020 11:00:00 +0806</pubDate></item></channel></rss>

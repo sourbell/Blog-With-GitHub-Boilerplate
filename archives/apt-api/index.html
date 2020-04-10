@@ -17,7 +17,7 @@
     <script>
         var ExSearchConfig = {
             root: "",
-            api: "https://cdn.jsdelivr.net/gh/sourbell/project@gh-pages/e9bdfaa9db3da80e3b776576056cd9b9.json"
+            api: "https://cdn.jsdelivr.net/gh/sourbell/project@gh-pages/a264e9d503f885c1b4ed14b40d73710e.json"
         }
     </script>
     
@@ -147,15 +147,50 @@
 </ol>
 <ol>
 <li><p>根据日期范围获取最近的 workout list 
- get /pd/workouts/page/{page}
- {
- }</p>
+ post /dashboard/workouts/page/{page}</p>
+<div class="highlight"><pre><span></span><span class="p">{</span>
+     <span class="nx">startTime</span><span class="o">:</span> <span class="mi">1585383958</span><span class="p">,</span> <span class="c1">//可选，unix timestamp</span>
+     <span class="nx">endTime</span><span class="o">:</span> <span class="mi">1585583958</span><span class="p">,</span> <span class="c1">//可选，unix timestamp</span>
+     <span class="nx">orderBy</span><span class="o">:</span> <span class="s2">&quot;calories&quot;</span> <span class="o">|</span> <span class="s2">&quot;pai&quot;</span> <span class="o">|</span> <span class="s2">&quot;workoutStartTime&quot;</span> <span class="o">|</span> <span class="s2">&quot;workoutTime&quot;</span> <span class="o">|</span> <span class="s2">&quot;iqPoints&quot;</span> <span class="o">|</span> <span class="s2">&quot;maxHr&quot;</span> <span class="o">|</span> <span class="s2">&quot;avgHr&quot;</span><span class="p">,</span>  <span class="c1">//可选，严格大小写</span>
+     <span class="nx">orderAscending</span><span class="o">:</span> <span class="s2">&quot;DESC&quot;</span> <span class="o">|</span> <span class="s2">&quot;ASC&quot;</span>  <span class="c1">//可选，无所谓大小写</span>
+ <span class="p">}</span>
+</pre></div>
+<p>{</p>
+
+<pre><code> totalRecords: 1230,
+ pageSize: 10,
+ list: [{
+     "calories": 372,
+     "pai": 39.47,
+     "deviceSn": "61P0002X7LF",
+     "deviceName": "LYNK2-02X7",
+     "actType": null,
+     "workoutStartTime": 1582039076,
+     "timezoneOffset": 8,
+     "workoutTime": 1329,
+     "maxHr": 184,
+     "avgHr": 159,
+     "highHr": 173,
+     "iqPoints": 89.02,
+     "zoneDuration": [
+         0,
+         0,
+         157,
+         1020,
+         158
+     ],
+     "hrSeries": [],
+     "dataSource": "memory",
+     "workoutId": 2347083,
+     "workoutEndTime": 1582040405
+ }]
+</code></pre>
+<p>}</p>
 </li>
 <li><p>个人资料获取
- get /pd/profile</p>
+ get /dashboard/profile</p>
 <div class="highlight"><pre><span></span><span class="p">{</span>
-     <span class="nx">userId</span><span class="o">:</span> <span class="mi">1</span><span class="p">,</span>
-     <span class="nx">userRole</span><span class="o">:</span> <span class="s2">&quot;member&quot;</span> <span class="o">|</span> <span class="s2">&quot;coach&quot;</span> <span class="o">|</span> <span class="s2">&quot;club&quot;</span> <span class="o">|</span> <span class="s2">&quot;accuro&quot;</span><span class="p">,</span>
+     <span class="nx">memberRole</span><span class="o">:</span> <span class="s2">&quot;member&quot;</span> <span class="o">|</span> <span class="s2">&quot;coach&quot;</span> <span class="o">|</span> <span class="s2">&quot;club&quot;</span> <span class="o">|</span> <span class="s2">&quot;accuro&quot;</span><span class="p">,</span>
      <span class="nx">email</span><span class="o">:</span> <span class="s2">&quot;123456@qq.com&quot;</span><span class="p">,</span>
      <span class="nx">avatar</span><span class="o">:</span> <span class="s2">&quot;&quot;</span><span class="p">,</span>
      <span class="nx">firstName</span><span class="o">:</span> <span class="s2">&quot;Toby&quot;</span><span class="p">,</span>
@@ -163,8 +198,7 @@
      <span class="nx">nickName</span><span class="o">:</span> <span class="s2">&quot;Bristletail&quot;</span><span class="p">,</span>
      <span class="nx">gender</span><span class="o">:</span> <span class="s2">&quot;male&quot;</span> <span class="o">|</span> <span class="s2">&quot;female&quot;</span><span class="p">,</span>
      <span class="nx">birthYear</span><span class="o">:</span> <span class="s2">&quot;01/1987&quot;</span><span class="p">,</span>
-     <span class="nx">weight</span><span class="o">:</span> <span class="mf">175.12</span><span class="p">,</span>
-     <span class="nx">weightUnit</span><span class="o">:</span> <span class="s2">&quot;lb&quot;</span> <span class="o">|</span> <span class="s2">&quot;kg&quot;</span>
+     <span class="nx">weight</span><span class="o">:</span> <span class="mf">175.12</span><span class="p">,</span> <span class="c1">// unit lb</span>
  <span class="p">}</span>
 </pre></div>
 </li>
