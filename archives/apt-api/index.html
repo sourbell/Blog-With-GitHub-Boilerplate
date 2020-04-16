@@ -242,22 +242,22 @@ TODO: 针对 accuro 用户要支持传入 apt 用户</p>
 </pre></div>
 <div class="highlight"><pre><span></span><span class="p">[</span>
     <span class="p">{</span>
-        <span class="nt">&quot;sessionId&quot;</span><span class="p">:</span> <span class="mi">3191</span><span class="p">,</span>
-        <span class="nt">&quot;instructor&quot;</span><span class="p">:</span> <span class="kc">null</span><span class="p">,</span> <span class="err">//null</span> <span class="err">则显示</span> <span class="err">Not</span> <span class="err">Set</span>
-        <span class="nt">&quot;className&quot;</span><span class="p">:</span> <span class="kc">null</span><span class="p">,</span> <span class="err">//null</span> <span class="err">则显示</span> <span class="err">Not</span> <span class="err">Set</span>
-        <span class="nt">&quot;startTime&quot;</span><span class="p">:</span> <span class="mi">1583120655</span><span class="p">,</span>
-        <span class="nt">&quot;timezoneOffset&quot;</span><span class="p">:</span> <span class="mi">8</span><span class="p">,</span>
-        <span class="nt">&quot;classTime&quot;</span><span class="p">:</span> <span class="mi">900</span><span class="p">,</span> <span class="err">//预设的课程时间，如</span> <span class="err">15</span> <span class="err">分钟后课程自动结束</span>
-        <span class="nt">&quot;timeRemaining&quot;</span><span class="p">:</span> <span class="mi">818</span><span class="p">,</span> <span class="err">//</span> <span class="err">900-818</span> <span class="err">为实际课程时间，说明用户在</span> <span class="err">82</span> <span class="err">秒之后主动结束了课程</span>
-        <span class="nt">&quot;totalCalories&quot;</span><span class="p">:</span>  <span class="mf">4.2661547710325</span><span class="p">,</span> <span class="err">//</span> <span class="err">显示小数点后一位，</span> <span class="err">如</span> <span class="err">4.3</span>
-        <span class="nt">&quot;avgCalories&quot;</span><span class="p">:</span> <span class="mf">4.2661547710325</span><span class="p">,</span> <span class="err">//</span> <span class="err">显示小数点后一位，</span> <span class="err">如</span> <span class="err">4.3</span>
-        <span class="nt">&quot;avgHeartRate&quot;</span><span class="p">:</span> <span class="mi">98</span><span class="p">,</span> <span class="err">//心率永远是整数</span>
-        <span class="nt">&quot;leaderboard&quot;</span><span class="p">:</span> <span class="s2">&quot;[{\&quot;iqPoints\&quot;: 1.35, \&quot;nickName\&quot;: \&quot;Evan\&quot;, \&quot;iq_points\&quot;: 1.35, \&quot;nick_name\&quot;: \&quot;Evan\&quot;}]&quot;</span><span class="p">,</span> <span class="err">//返回</span> <span class="err">JSON.stringify</span> <span class="err">后的字符串</span>
-        <span class="nt">&quot;classMembers&quot;</span><span class="p">:</span> <span class="s2">&quot;[{\&quot;zone\&quot;: [82, 0, 0, 0, 0], \&quot;email\&quot;: \&quot;info@sourbell.im\&quot;, \&quot;avg_hr\&quot;: 98, \&quot;max_hr\&quot;: 214, \&quot;high_hr\&quot;: 108, \&quot;calories\&quot;: 4.343551457297644, \&quot;hr_series\&quot;: [78, 79, 80, 80, 81, 82, 82, 83, 84, 85, 86, 87, 91, 92, 92, 92, 92, 92, 92, 93, 93, 93, 93, 93, 93, 93, 94, 95, 95, 95, 95, 96, 97, 98, 98, 98, 98, 99, 100, 102, 104, 104, 104, 104, 105, 105, 105, 104, 103, 103, 102, 102, 103, 103, 104, 104, 106, 105, 105, 105, 105, 105, 105, 105, 105, 105, 106, 106, 106, 106, 106, 106, 106, 106, 106, 107, 107, 108, 108, 108, 108, 108], \&quot;iq_points\&quot;: 1.3666666666666667, \&quot;last_name\&quot;: \&quot;Bu\&quot;, \&quot;member_id\&quot;: \&quot;33e684a3-9110-4df7-a58f-183bd4ee1f66\&quot;, \&quot;first_name\&quot;: \&quot;Evan\&quot;, \&quot;workout_start_time\&quot;: 1583120652, \&quot;zone_percent_settings\&quot;: [0, 60, 70, 80, 90]}]&quot;</span> <span class="err">//返回</span> <span class="err">JSON.stringify</span> <span class="err">后的字符串</span>
+        <span class="s2">&quot;sessionId&quot;</span><span class="o">:</span> <span class="mi">3191</span><span class="p">,</span>
+        <span class="s2">&quot;instructor&quot;</span><span class="o">:</span> <span class="kc">null</span><span class="p">,</span> <span class="c1">//null 则显示 Not Set</span>
+        <span class="s2">&quot;className&quot;</span><span class="o">:</span> <span class="kc">null</span><span class="p">,</span> <span class="c1">//null 则显示 Not Set</span>
+        <span class="s2">&quot;startTime&quot;</span><span class="o">:</span> <span class="mi">1583120655</span><span class="p">,</span>
+        <span class="s2">&quot;timezoneOffset&quot;</span><span class="o">:</span> <span class="mi">8</span><span class="p">,</span>
+        <span class="s2">&quot;classTime&quot;</span><span class="o">:</span> <span class="mi">900</span><span class="p">,</span> <span class="c1">//预设的课程时间，如 15 分钟后课程自动结束</span>
+        <span class="s2">&quot;timeRemaining&quot;</span><span class="o">:</span> <span class="mi">818</span><span class="p">,</span> <span class="c1">// 900-818 为实际课程时间，说明用户在 82 秒之后主动结束了课程</span>
+        <span class="s2">&quot;totalCalories&quot;</span><span class="o">:</span>  <span class="mf">4.2661547710325</span><span class="p">,</span> <span class="c1">// 显示小数点后一位， 如 4.3</span>
+        <span class="s2">&quot;avgCalories&quot;</span><span class="o">:</span> <span class="mf">4.2661547710325</span><span class="p">,</span> <span class="c1">// 显示小数点后一位， 如 4.3</span>
+        <span class="s2">&quot;avgHeartRate&quot;</span><span class="o">:</span> <span class="mi">98</span><span class="p">,</span> <span class="c1">//心率永远是整数</span>
+        <span class="s2">&quot;leaderboard&quot;</span><span class="o">:</span> <span class="s2">&quot;[{\&quot;iqPoints\&quot;: 1.35, \&quot;nickName\&quot;: \&quot;Evan\&quot;, \&quot;iq_points\&quot;: 1.35, \&quot;nick_name\&quot;: \&quot;Evan\&quot;}]&quot;</span><span class="p">,</span> <span class="c1">//返回 JSON.stringify 后的字符串</span>
+        <span class="s2">&quot;classMembers&quot;</span><span class="o">:</span> <span class="s2">&quot;[{\&quot;zone\&quot;: [82, 0, 0, 0, 0], \&quot;email\&quot;: \&quot;info@sourbell.im\&quot;, \&quot;avg_hr\&quot;: 98, \&quot;max_hr\&quot;: 214, \&quot;high_hr\&quot;: 108, \&quot;calories\&quot;: 4.343551457297644, \&quot;hr_series\&quot;: [78, 79, 80, 80, 81, 82, 82, 83, 84, 85, 86, 87, 91, 92, 92, 92, 92, 92, 92, 93, 93, 93, 93, 93, 93, 93, 94, 95, 95, 95, 95, 96, 97, 98, 98, 98, 98, 99, 100, 102, 104, 104, 104, 104, 105, 105, 105, 104, 103, 103, 102, 102, 103, 103, 104, 104, 106, 105, 105, 105, 105, 105, 105, 105, 105, 105, 106, 106, 106, 106, 106, 106, 106, 106, 106, 107, 107, 108, 108, 108, 108, 108], \&quot;iq_points\&quot;: 1.3666666666666667, \&quot;last_name\&quot;: \&quot;Bu\&quot;, \&quot;member_id\&quot;: \&quot;33e684a3-9110-4df7-a58f-183bd4ee1f66\&quot;, \&quot;first_name\&quot;: \&quot;Evan\&quot;, \&quot;workout_start_time\&quot;: 1583120652, \&quot;zone_percent_settings\&quot;: [0, 60, 70, 80, 90]}]&quot;</span> <span class="c1">//返回 JSON.stringify 后的字符串</span>
     <span class="p">},</span>
-    <span class="p">{</span><span class="err">...</span><span class="p">},</span>
-    <span class="p">{</span><span class="err">...</span><span class="p">},</span>
-    <span class="err">...</span>
+    <span class="p">{...},</span>
+    <span class="p">{...},</span>
+    <span class="p">...</span>
 <span class="p">]</span>
 </pre></div>
 
