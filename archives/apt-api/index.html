@@ -17,7 +17,7 @@
     <script>
         var ExSearchConfig = {
             root: "",
-            api: "https://cdn.jsdelivr.net/gh/sourbell/project@gh-pages/1be1752a980568b1316b3aafc38892cd.json"
+            api: "https://cdn.jsdelivr.net/gh/sourbell/project@gh-pages/4167b743d14997714e79846a12fc830e.json"
         }
     </script>
     
@@ -163,7 +163,7 @@ post /dashboard/workouts</p>
         <span class="s2">&quot;iqPoints&quot;</span><span class="o">:</span> <span class="mf">89.02</span><span class="p">,</span>
         <span class="s2">&quot;zoneDuration&quot;</span><span class="o">:</span> <span class="p">[</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">157</span><span class="p">,</span> <span class="mi">1020</span><span class="p">,</span> <span class="mi">158</span> <span class="p">],</span>
         <span class="s2">&quot;hrSeries&quot;</span><span class="o">:</span> <span class="p">[],</span>
-        <span class="s2">&quot;dataSource&quot;</span><span class="o">:</span> <span class="s2">&quot;realtime&quot;</span> <span class="o">|</span> <span class="s2">&quot;memory&quot;</span> <span class="o">|</span> <span class="s2">&quot;ant&quot;</span> <span class="o">|</span> <span class="s2">&quot;apt&quot;</span><span class="p">,</span> <span class="c1">//</span>
+        <span class="s2">&quot;dataSource&quot;</span><span class="o">:</span> <span class="s2">&quot;realtime&quot;</span> <span class="o">|</span> <span class="s2">&quot;memory&quot;</span> <span class="o">|</span> <span class="s2">&quot;ant&quot;</span> <span class="o">|</span> <span class="s2">&quot;apt&quot;</span><span class="p">,</span> <span class="c1">//实时、离线、InClub、APT</span>
         <span class="s2">&quot;workoutId&quot;</span><span class="o">:</span> <span class="mi">2347083</span><span class="p">,</span>
         <span class="s2">&quot;workoutEndTime&quot;</span><span class="o">:</span> <span class="mi">1582040405</span>
     <span class="p">},</span> 
@@ -229,7 +229,7 @@ post /dashboard/profile/actions/change-password</p>
 <div class="highlight"><pre><span></span><span class="p">{</span> <span class="nx">message</span><span class="o">:</span> <span class="s2">&quot;password changed&quot;</span> <span class="p">}</span>
 </pre></div>
 <p>10, 获取本角色下的 Challenge list TODO</p>
-<p>12, 根据日期范围获取全部或分页的 session list 
+<p>11, 根据日期范围获取全部或分页的 session list 
 post /dashboard/sessions/page/{page}
 post /dashboard/sessions
 TODO: 针对 accuro 用户要支持传入 apt 用户</p>
@@ -252,8 +252,8 @@ TODO: 针对 accuro 用户要支持传入 apt 用户</p>
         <span class="s2">&quot;totalCalories&quot;</span><span class="o">:</span>  <span class="mf">4.2661547710325</span><span class="p">,</span> <span class="c1">// 显示小数点后一位， 如 4.3</span>
         <span class="s2">&quot;avgCalories&quot;</span><span class="o">:</span> <span class="mf">4.2661547710325</span><span class="p">,</span> <span class="c1">// 显示小数点后一位， 如 4.3</span>
         <span class="s2">&quot;avgHeartRate&quot;</span><span class="o">:</span> <span class="mi">98</span><span class="p">,</span> <span class="c1">//心率永远是整数</span>
-        <span class="s2">&quot;leaderboard&quot;</span><span class="o">:</span> <span class="s2">&quot;[{\&quot;iqPoints\&quot;: 1.35, \&quot;nickName\&quot;: \&quot;Evan\&quot;, \&quot;iq_points\&quot;: 1.35, \&quot;nick_name\&quot;: \&quot;Evan\&quot;}]&quot;</span><span class="p">,</span> <span class="c1">//返回 JSON.stringify 后的字符串</span>
-        <span class="s2">&quot;classMembers&quot;</span><span class="o">:</span> <span class="s2">&quot;[{\&quot;zone\&quot;: [82, 0, 0, 0, 0], \&quot;email\&quot;: \&quot;info@sourbell.im\&quot;, \&quot;avg_hr\&quot;: 98, \&quot;max_hr\&quot;: 214, \&quot;high_hr\&quot;: 108, \&quot;calories\&quot;: 4.343551457297644, \&quot;hr_series\&quot;: [78, 79, 80, 80, 81, 82, 82, 83, 84, 85, 86, 87, 91, 92, 92, 92, 92, 92, 92, 93, 93, 93, 93, 93, 93, 93, 94, 95, 95, 95, 95, 96, 97, 98, 98, 98, 98, 99, 100, 102, 104, 104, 104, 104, 105, 105, 105, 104, 103, 103, 102, 102, 103, 103, 104, 104, 106, 105, 105, 105, 105, 105, 105, 105, 105, 105, 106, 106, 106, 106, 106, 106, 106, 106, 106, 107, 107, 108, 108, 108, 108, 108], \&quot;iq_points\&quot;: 1.3666666666666667, \&quot;last_name\&quot;: \&quot;Bu\&quot;, \&quot;member_id\&quot;: \&quot;33e684a3-9110-4df7-a58f-183bd4ee1f66\&quot;, \&quot;first_name\&quot;: \&quot;Evan\&quot;, \&quot;workout_start_time\&quot;: 1583120652, \&quot;zone_percent_settings\&quot;: [0, 60, 70, 80, 90]}]&quot;</span> <span class="c1">//返回 JSON.stringify 后的字符串</span>
+        <span class="s2">&quot;leaderboard&quot;</span><span class="o">:</span> <span class="s2">&quot;[{\&quot;iqPoints\&quot;: 1.35, \&quot;nickName\&quot;: \&quot;Evan\&quot;}]&quot;</span><span class="p">,</span> <span class="c1">//返回 JSON.stringify 后的字符串</span>
+        <span class="s2">&quot;classMembers&quot;</span><span class="o">:</span> <span class="s2">&quot;[{\&quot;zone\&quot;: [82, 0, 0, 0, 0], \&quot;email\&quot;: \&quot;info@sourbell.im\&quot;, \&quot;avgHr\&quot;: 98, \&quot;maxHr\&quot;: 214, \&quot;highHr\&quot;: 108, \&quot;calories\&quot;: 4.343551457297644, \&quot;hrSeries\&quot;: [78, 79, 80, 80, 81, 82, 82, 83, 84, 85, 86, 87, 91, 92, 92, 92, 92, 92, 92, 93, 93, 93, 93, 93, 93, 93, 94, 95, 95, 95, 95, 96, 97, 98, 98, 98, 98, 99, 100, 102, 104, 104, 104, 104, 105, 105, 105, 104, 103, 103, 102, 102, 103, 103, 104, 104, 106, 105, 105, 105, 105, 105, 105, 105, 105, 105, 106, 106, 106, 106, 106, 106, 106, 106, 106, 107, 107, 108, 108, 108, 108, 108], \&quot;iqPoints\&quot;: 1.3666666666666667, \&quot;lastName\&quot;: \&quot;Bu\&quot;, \&quot;memberId\&quot;: \&quot;33e684a3-9110-4df7-a58f-183bd4ee1f66\&quot;, \&quot;firstName\&quot;: \&quot;Evan\&quot;, \&quot;workoutStartTime\&quot;: 1583120652, \&quot;zonePercentSettings\&quot;: [0, 60, 70, 80, 90]}]&quot;</span> <span class="c1">//返回 JSON.stringify 后的字符串</span>
     <span class="p">},</span>
     <span class="p">{...},</span>
     <span class="p">{...},</span>
@@ -276,8 +276,8 @@ TODO: 针对 accuro 用户要支持传入 apt 用户</p>
 <section id="ga-content_pager">
 
     <div class="next">
-        <a class="ga-highlight" href="https://project.sourbell.im/archives/project-update-week-10/">Project Update Week 10/52</a>
-        <p class="yue">Weekly Highlight:1,  Accurofit 3.4.2 Testflight 2,  Pre-release sweat burn repeat on BetaQR.3,  Released Flexx Fitness HR on the stores.4,  Optimized server database, fixed an issue with slow query.</p>
+        <a class="ga-highlight" href="https://project.sourbell.im/archives/apt-api/">APT API</a>
+        <p class="yue">APT API</p>
     </div>
 
 

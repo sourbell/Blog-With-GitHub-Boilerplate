@@ -42,6 +42,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     </url>
 
     <url>
+        <loc>https://project.sourbell.im/archives/apt-api/</loc>
+        <lastmod>2020-02-23</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
         <loc>https://project.sourbell.im/archives/project-update-week-3/</loc>
         <lastmod>2020-01-22</lastmod>
         <changefreq>always</changefreq>
@@ -50,13 +57,6 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
     <url>
         <loc>https://project.sourbell.im/archives/trib3/</loc>
-        <lastmod>2020-01-07</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://project.sourbell.im/archives/private-label-update/</loc>
         <lastmod>2020-01-07</lastmod>
         <changefreq>always</changefreq>
         <priority>0.5</priority>
