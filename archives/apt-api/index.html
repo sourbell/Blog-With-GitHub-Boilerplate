@@ -17,7 +17,7 @@
     <script>
         var ExSearchConfig = {
             root: "",
-            api: "https://cdn.jsdelivr.net/gh/sourbell/project@gh-pages/2dbe73a7efb5f4a8ee6d74a667cf7c08.json"
+            api: "https://cdn.jsdelivr.net/gh/sourbell/project@gh-pages/25623094d1a9137371d11049dbff280c.json"
         }
     </script>
     
@@ -102,8 +102,8 @@
     <span class="p">}</span>
 <span class="p">}</span>
 </pre></div>
-<p>1, 登录
-post /dashboard/login</p>
+<p>1, 登录</p>
+<p>post /dashboard/login</p>
 <div class="notice">已支持 Member &amp; Coach &amp; Accuro 用户登录，待完成 Club 用户</div><div class="highlight"><pre><span></span><span class="p">{</span> 
     <span class="nx">email</span><span class="o">:</span> <span class="s2">&quot;123456@qq.com&quot;</span><span class="p">,</span> 
     <span class="nx">password</span><span class="o">:</span> <span class="s2">&quot;12345678&quot;</span> 
@@ -113,14 +113,14 @@ post /dashboard/login</p>
 </pre></div>
 <p>2, 注册（注册后默认为普通会员） TODO
     todo</p>
-<p>3, 取回密码  TODO
-post /dashboard/reset-password</p>
+<p>3, 取回密码  TODO</p>
+<p>post /dashboard/reset-password</p>
 <div class="highlight"><pre><span></span><span class="p">{</span> <span class="nx">email</span><span class="o">:</span> <span class="s2">&quot;123456@qq.com&quot;</span> <span class="p">}</span>
 </pre></div>
 <div class="highlight"><pre><span></span><span class="p">{</span> <span class="nx">message</span><span class="o">:</span> <span class="s2">&quot;email sent&quot;</span> <span class="p">}</span>
 </pre></div>
-<p>4, 获取用户最近统计数据  TODO
-get /dashboard/statistics</p>
+<p>4, 获取用户最近统计数据  TODO</p>
+<p>get /dashboard/statistics</p>
 <div class="highlight"><pre><span></span><span class="p">{</span>
     <span class="nx">weekly</span><span class="o">:</span> <span class="p">{</span>
         <span class="nx">attendance</span><span class="o">:</span> <span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">],</span> <span class="c1">//[6天前，5天前...，昨天，今天]</span>
@@ -135,9 +135,9 @@ get /dashboard/statistics</p>
 
 <span class="p">}</span>
 </pre></div>
-<p>5, 根据日期范围获取最近的 workout list 
-post /dashboard/workouts/page/{page}
-post /dashboard/workouts</p>
+<p>5, 根据日期范围获取最近的 workout list</p>
+<p>post /dashboard/workouts/page/{page}</p>
+<p>post /dashboard/workouts</p>
 <div class="notice">已支持 Member &amp; Coach &amp; Accuro 用户查询其邮箱对应的 Member Workout List</div><div class="highlight"><pre><span></span><span class="p">{</span>
     <span class="nx">startTime</span><span class="o">:</span> <span class="mi">1585383958</span><span class="p">,</span> <span class="c1">//可选，unix timestamp</span>
     <span class="nx">endTime</span><span class="o">:</span> <span class="mi">1585583958</span><span class="p">,</span> <span class="c1">//可选，unix timestamp</span>
@@ -172,8 +172,8 @@ post /dashboard/workouts</p>
     <span class="p">...]</span>
 <span class="p">}</span>
 </pre></div>
-<p>6, 获取 workout 心率明细
-get /dashboard/workouts/{workoutId}</p>
+<p>6, 获取 workout 心率明细</p>
+<p>get /dashboard/workouts/{workoutId}</p>
 <div class="highlight"><pre><span></span><span class="p">{</span>
     <span class="nt">&quot;calories&quot;</span><span class="p">:</span> <span class="mi">2286</span><span class="p">,</span>
     <span class="nt">&quot;pai&quot;</span><span class="p">:</span> <span class="mf">60.73</span><span class="p">,</span>
@@ -195,8 +195,8 @@ get /dashboard/workouts/{workoutId}</p>
     <span class="nt">&quot;endTime&quot;</span><span class="p">:</span> <span class="mi">1555933065</span>
 <span class="p">}</span>
 </pre></div>
-<p>7, 个人资料获取
-get /dashboard/profile</p>
+<p>7, 个人资料获取</p>
+<p>get /dashboard/profile</p>
 <div class="highlight"><pre><span></span><span class="p">{</span>
     <span class="nx">memberRole</span><span class="o">:</span> <span class="s2">&quot;member&quot;</span> <span class="o">|</span> <span class="s2">&quot;coach&quot;</span> <span class="o">|</span> <span class="s2">&quot;club&quot;</span> <span class="o">|</span> <span class="s2">&quot;accuro&quot;</span><span class="p">,</span>
     <span class="nx">email</span><span class="o">:</span> <span class="s2">&quot;123456@qq.com&quot;</span><span class="p">,</span>
@@ -209,8 +209,8 @@ get /dashboard/profile</p>
     <span class="nx">weight</span><span class="o">:</span> <span class="mf">175.12</span><span class="p">,</span> <span class="c1">// unit lb</span>
 <span class="p">}</span>
 </pre></div>
-<p>8, 个人资料修改 TODO
-post /dashboard/profile</p>
+<p>8, 个人资料修改 TODO</p>
+<p>post /dashboard/profile</p>
 <div class="highlight"><pre><span></span><span class="p">{</span>
     <span class="nx">userId</span><span class="o">:</span> <span class="mi">1</span><span class="p">,</span>
     <span class="nx">avatar</span><span class="o">:</span> <span class="s2">&quot;&quot;</span><span class="p">,</span>
@@ -223,16 +223,16 @@ post /dashboard/profile</p>
     <span class="nx">weightUnit</span><span class="o">:</span> <span class="s2">&quot;lb&quot;</span> <span class="o">|</span> <span class="s2">&quot;kg&quot;</span>
 <span class="p">}</span>
 </pre></div>
-<p>9, 修改密码 TODO
-post /dashboard/profile/actions/change-password</p>
+<p>9, 修改密码 TODO</p>
+<p>post /dashboard/profile/actions/change-password</p>
 <div class="highlight"><pre><span></span><span class="p">{</span> <span class="nx">newPassword</span><span class="o">:</span> <span class="s2">&quot;123456789&quot;</span> <span class="p">}</span>
 </pre></div>
 <div class="highlight"><pre><span></span><span class="p">{</span> <span class="nx">message</span><span class="o">:</span> <span class="s2">&quot;password changed&quot;</span> <span class="p">}</span>
 </pre></div>
 <p>10, 获取本角色下的 Challenge list TODO</p>
-<p>11, 根据日期范围获取全部或分页的 session list 
-post /dashboard/sessions/page/{page}
-post /dashboard/sessions</p>
+<p>11, 根据日期范围获取全部或分页的 session list</p>
+<p>post /dashboard/sessions/page/{page}</p>
+<p>post /dashboard/sessions</p>
 <div class="highlight"><pre><span></span><span class="p">{</span>
     <span class="nx">startTime</span><span class="o">:</span> <span class="mi">1585383958</span><span class="p">,</span> <span class="c1">//可选，unix timestamp</span>
     <span class="nx">endTime</span><span class="o">:</span> <span class="mi">1585583958</span><span class="p">,</span> <span class="c1">//可选，unix timestamp</span>
