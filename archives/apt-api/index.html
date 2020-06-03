@@ -17,7 +17,7 @@
     <script>
         var ExSearchConfig = {
             root: "",
-            api: "https://cdn.jsdelivr.net/gh/sourbell/project@gh-pages/e68d1dcb3a45bc21d5d205c4b6d0a1d3.json"
+            api: "https://cdn.jsdelivr.net/gh/sourbell/project@gh-pages/adeebe75a43ce755386d33c51beec255.json"
         }
     </script>
     
@@ -104,7 +104,7 @@
 </pre></div>
 <p>1, 登录
 post /dashboard/login</p>
-<div class="notice">已支持 Member &amp; Coach 用户登录，待完成 Club / Accuro 用户</div><div class="highlight"><pre><span></span><span class="p">{</span> 
+<div class="notice">已支持 Member &amp; Coach &amp; Accuro 用户登录，待完成 Club 用户</div><div class="highlight"><pre><span></span><span class="p">{</span> 
     <span class="nx">email</span><span class="o">:</span> <span class="s2">&quot;123456@qq.com&quot;</span><span class="p">,</span> 
     <span class="nx">password</span><span class="o">:</span> <span class="s2">&quot;12345678&quot;</span> 
 <span class="p">}</span>
@@ -138,11 +138,12 @@ get /dashboard/statistics</p>
 <p>5, 根据日期范围获取最近的 workout list 
 post /dashboard/workouts/page/{page}
 post /dashboard/workouts</p>
-<div class="notice">已支持 Member &amp; Coach 用户查询其邮箱对应的 Member Workout List</div><div class="highlight"><pre><span></span><span class="p">{</span>
+<div class="notice">已支持 Member &amp; Coach &amp; Accuro 用户查询其邮箱对应的 Member Workout List</div><div class="highlight"><pre><span></span><span class="p">{</span>
     <span class="nx">startTime</span><span class="o">:</span> <span class="mi">1585383958</span><span class="p">,</span> <span class="c1">//可选，unix timestamp</span>
     <span class="nx">endTime</span><span class="o">:</span> <span class="mi">1585583958</span><span class="p">,</span> <span class="c1">//可选，unix timestamp</span>
     <span class="nx">orderBy</span><span class="o">:</span> <span class="s2">&quot;calories&quot;</span> <span class="o">|</span> <span class="s2">&quot;pai&quot;</span> <span class="o">|</span> <span class="s2">&quot;workoutStartTime&quot;</span> <span class="o">|</span> <span class="s2">&quot;workoutTime&quot;</span> <span class="o">|</span> <span class="s2">&quot;iqPoints&quot;</span> <span class="o">|</span> <span class="s2">&quot;maxHr&quot;</span> <span class="o">|</span> <span class="s2">&quot;avgHr&quot;</span><span class="p">,</span>  <span class="c1">//可选，严格大小写</span>
-    <span class="nx">orderAscending</span><span class="o">:</span> <span class="s2">&quot;DESC&quot;</span> <span class="o">|</span> <span class="s2">&quot;ASC&quot;</span>  <span class="c1">//可选，无所谓大小写</span>
+    <span class="nx">orderAscending</span><span class="o">:</span> <span class="s2">&quot;DESC&quot;</span> <span class="o">|</span> <span class="s2">&quot;ASC&quot;</span><span class="p">,</span>  <span class="c1">//可选，无所谓大小写</span>
+    <span class="nx">memberId</span><span class="o">:</span> <span class="mi">123456</span>  <span class="c1">//可选</span>
 <span class="p">}</span>
 </pre></div>
 <div class="highlight"><pre><span></span><span class="p">{</span>
@@ -171,9 +172,11 @@ post /dashboard/workouts</p>
     <span class="p">...]</span>
 <span class="p">}</span>
 </pre></div>
-<p>6, 获取 workout 心率明细
-get /dashboard/workouts/{workoutId}</p>
-<div class="notice">已完成</div><div class="highlight"><pre><span></span><span class="p">{</span>
+<ul>
+<li>[x]6, 获取 workout 心率明细
+get /dashboard/workouts/{workoutId}</li>
+</ul>
+<div class="highlight"><pre><span></span><span class="p">{</span>
     <span class="nt">&quot;calories&quot;</span><span class="p">:</span> <span class="mi">2286</span><span class="p">,</span>
     <span class="nt">&quot;pai&quot;</span><span class="p">:</span> <span class="mf">60.73</span><span class="p">,</span>
     <span class="nt">&quot;workoutId&quot;</span><span class="p">:</span> <span class="mi">1001129</span><span class="p">,</span>
@@ -194,9 +197,11 @@ get /dashboard/workouts/{workoutId}</p>
     <span class="nt">&quot;endTime&quot;</span><span class="p">:</span> <span class="mi">1555933065</span>
 <span class="p">}</span>
 </pre></div>
-<p>7, 个人资料获取
-get /dashboard/profile</p>
-<div class="notice">已完成</div><div class="highlight"><pre><span></span><span class="p">{</span>
+<ul>
+<li>[x] 7, 个人资料获取
+get /dashboard/profile</li>
+</ul>
+<div class="highlight"><pre><span></span><span class="p">{</span>
     <span class="nx">memberRole</span><span class="o">:</span> <span class="s2">&quot;member&quot;</span> <span class="o">|</span> <span class="s2">&quot;coach&quot;</span> <span class="o">|</span> <span class="s2">&quot;club&quot;</span> <span class="o">|</span> <span class="s2">&quot;accuro&quot;</span><span class="p">,</span>
     <span class="nx">email</span><span class="o">:</span> <span class="s2">&quot;123456@qq.com&quot;</span><span class="p">,</span>
     <span class="nx">avatar</span><span class="o">:</span> <span class="s2">&quot;&quot;</span><span class="p">,</span>
@@ -229,20 +234,26 @@ post /dashboard/profile/actions/change-password</p>
 <div class="highlight"><pre><span></span><span class="p">{</span> <span class="nx">message</span><span class="o">:</span> <span class="s2">&quot;password changed&quot;</span> <span class="p">}</span>
 </pre></div>
 <p>10, 获取本角色下的 Challenge list TODO</p>
-<p>11, 根据日期范围获取全部或分页的 session list 
+<ul>
+<li>[x] 11, 根据日期范围获取全部或分页的 session list 
 post /dashboard/sessions/page/{page}
-post /dashboard/sessions
-TODO: 针对 accuro 用户要支持传入 apt 用户</p>
+post /dashboard/sessions</li>
+</ul>
 <div class="highlight"><pre><span></span><span class="p">{</span>
     <span class="nx">startTime</span><span class="o">:</span> <span class="mi">1585383958</span><span class="p">,</span> <span class="c1">//可选，unix timestamp</span>
     <span class="nx">endTime</span><span class="o">:</span> <span class="mi">1585583958</span><span class="p">,</span> <span class="c1">//可选，unix timestamp</span>
     <span class="nx">orderBy</span><span class="o">:</span> <span class="s2">&quot;startTime&quot;</span> <span class="o">|</span> <span class="s2">&quot;totalCalories&quot;</span> <span class="o">|</span> <span class="s2">&quot;avgCalories&quot;</span> <span class="o">|</span> <span class="s2">&quot;avgHeartRate&quot;</span><span class="p">,</span>  <span class="c1">//可选，严格大小写</span>
-    <span class="nx">orderAscending</span><span class="o">:</span> <span class="s2">&quot;DESC&quot;</span> <span class="o">|</span> <span class="s2">&quot;ASC&quot;</span>  <span class="c1">//可选，无所谓大小写</span>
+    <span class="nx">orderAscending</span><span class="o">:</span> <span class="s2">&quot;DESC&quot;</span> <span class="o">|</span> <span class="s2">&quot;ASC&quot;</span><span class="p">,</span>  <span class="c1">//可选，无所谓大小写</span>
+    <span class="nx">instructor</span><span class="o">:</span> <span class="s2">&quot;Julie&quot;</span><span class="p">,</span> <span class="c1">//可选</span>
+    <span class="nx">className</span><span class="o">:</span> <span class="s2">&quot;HIIT&quot;</span><span class="p">,</span> <span class="c1">//可选</span>
+    <span class="nx">coachEmail</span><span class="o">:</span> <span class="s2">&quot;15950000512@qq.com&quot;</span><span class="p">,</span>  <span class="c1">//可选，仅 club &amp; accuro 用户可用</span>
+    <span class="nx">clientId</span><span class="o">:</span> <span class="mi">1</span><span class="p">,</span>  <span class="c1">//可选，仅 club &amp; accuro 用户可用</span>
 <span class="p">}</span>
 </pre></div>
 <div class="highlight"><pre><span></span><span class="p">[</span>
     <span class="p">{</span>
         <span class="s2">&quot;sessionId&quot;</span><span class="o">:</span> <span class="mi">3191</span><span class="p">,</span>
+        <span class="s2">&quot;coachEmail&quot;</span><span class="o">:</span> <span class="s2">&quot;15950000512@qq.com&quot;</span><span class="p">,</span> <span class="c1">//APT 用户邮箱</span>
         <span class="s2">&quot;instructor&quot;</span><span class="o">:</span> <span class="kc">null</span><span class="p">,</span> <span class="c1">//null 则显示 Not Set</span>
         <span class="s2">&quot;className&quot;</span><span class="o">:</span> <span class="kc">null</span><span class="p">,</span> <span class="c1">//null 则显示 Not Set</span>
         <span class="s2">&quot;startTime&quot;</span><span class="o">:</span> <span class="mi">1583120655</span><span class="p">,</span>
@@ -260,6 +271,128 @@ TODO: 针对 accuro 用户要支持传入 apt 用户</p>
     <span class="p">...</span>
 <span class="p">]</span>
 </pre></div>
+<ul>
+<li>[x] 12,   查询俱乐部列表 </li>
+</ul>
+<p>get /dashboard/clients/page/{page} 分页，倒序</p>
+<p>get /dashboard/clients 全部，正序</p>
+<div class="notice">仅支持 Accuro，在 Session 列表将 hasPrivatePt = true 的 Clubs 作为过滤条件之一</div><div class="highlight"><pre><span></span><span class="p">[</span>
+  <span class="p">{</span>
+    <span class="s2">&quot;clientId&quot;</span><span class="o">:</span> <span class="mi">1</span><span class="p">,</span>
+    <span class="s2">&quot;clientName&quot;</span><span class="o">:</span> <span class="s2">&quot;AccuroFit&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;clientDescription&quot;</span><span class="o">:</span> <span class="s2">&quot;Official AccuroFit&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;clientLogo&quot;</span><span class="o">:</span> <span class="kc">null</span><span class="p">,</span>
+    <span class="s2">&quot;hasPrivateApp&quot;</span><span class="o">:</span> <span class="kc">true</span><span class="p">,</span>
+    <span class="s2">&quot;hasPrivatePt&quot;</span><span class="o">:</span> <span class="kc">true</span>
+  <span class="p">},</span>
+  <span class="p">{</span>
+    <span class="s2">&quot;clubId&quot;</span><span class="o">:</span> <span class="mi">2</span><span class="p">,</span>
+    <span class="s2">&quot;clientName&quot;</span><span class="o">:</span> <span class="s2">&quot;Francos&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;clientDescription&quot;</span><span class="o">:</span> <span class="kc">null</span><span class="p">,</span>
+    <span class="s2">&quot;clientLogo&quot;</span><span class="o">:</span> <span class="kc">null</span><span class="p">,</span>
+    <span class="s2">&quot;hasPrivateApp&quot;</span><span class="o">:</span> <span class="kc">true</span><span class="p">,</span>
+    <span class="s2">&quot;hasPrivatePt&quot;</span><span class="o">:</span> <span class="kc">false</span>
+  <span class="p">}</span>
+<span class="p">]</span>
+</pre></div>
+<ul>
+<li>[x] 13, 新建俱乐部</li>
+</ul>
+<p>put /dashboard/clients</p>
+<div class="notice"> 仅支持 Accuro </div><div class="highlight"><pre><span></span><span class="p">{</span>
+    <span class="nx">clientName</span><span class="o">:</span> <span class="s2">&quot;Some Club Name&quot;</span><span class="p">,</span>
+    <span class="nx">clientDescription</span><span class="o">:</span> <span class="s2">&quot;Some Awesome Club&quot;</span><span class="p">,</span>
+    <span class="nx">hasPrivateApp</span><span class="o">:</span> <span class="kc">true</span><span class="p">,</span>
+    <span class="nx">hasPrivatePt</span><span class="o">:</span> <span class="kc">false</span>
+<span class="p">}</span>
+</pre></div>
+<ul>
+<li>[x] 14, 获取俱乐部详细信息</li>
+</ul>
+<p>get /dashboard/clients/{clientId}</p>
+<div class="notice"> 仅支持 Accuro 和 Club Admin </div><div class="highlight"><pre><span></span><span class="p">{</span>
+    <span class="nx">clientId</span><span class="o">:</span> <span class="mi">1</span><span class="p">,</span>
+    <span class="nx">clientName</span><span class="o">:</span> <span class="s2">&quot;Some Edit Club Name&quot;</span><span class="p">,</span>
+    <span class="nx">clientDescription</span><span class="o">:</span> <span class="s2">&quot;Some Awesome Club&quot;</span><span class="p">,</span>
+    <span class="nx">clientLogo</span><span class="o">:</span> <span class="s2">&quot;Base64 Image&quot;</span><span class="p">,</span>
+    <span class="nx">hasPrivateApp</span><span class="o">:</span> <span class="kc">true</span><span class="p">,</span>
+    <span class="nx">hasPrivatePt</span><span class="o">:</span> <span class="kc">false</span>
+<span class="p">}</span>
+</pre></div>
+<ul>
+<li>[x] 15, 修改俱乐部信息</li>
+</ul>
+<p>post /dashboard/clients/{clientId}</p>
+<div class="notice"> 仅支持 Accuro 和 Club Admin </div><div class="highlight"><pre><span></span><span class="p">{</span>
+    <span class="nx">clientName</span><span class="o">:</span> <span class="s2">&quot;Some Edit Club Name&quot;</span><span class="p">,</span>
+    <span class="nx">clientDescription</span><span class="o">:</span> <span class="s2">&quot;Some Awesome Club&quot;</span><span class="p">,</span>
+    <span class="nx">clientLogo</span><span class="o">:</span> <span class="s2">&quot;https://oss-cdn.accurofitapp.net/开头的图片&quot;</span> <span class="o">||</span> <span class="s2">&quot;Base64 图片&quot;</span><span class="p">,</span>
+    <span class="nx">hasPrivateApp</span><span class="o">:</span> <span class="kc">true</span><span class="p">,</span>
+    <span class="nx">hasPrivatePt</span><span class="o">:</span> <span class="kc">false</span>
+<span class="p">}</span>
+</pre></div>
+<ul>
+<li>[x] 16, 删除俱乐部</li>
+</ul>
+<p>delete /dashboard/clients/{clientId}</p>
+<div class="notice"> 仅支持 Accuro </div><ul>
+<li>[x] 17, 查询某个俱乐部下的 apt 账户</li>
+</ul>
+<p>get /dashboard/clients/{clientId}/accounts</p>
+<div class="notice"> 支持 Accuro、Club Admin、Coach 用户</div><div class="highlight"><pre><span></span><span class="p">[</span>
+    <span class="p">{</span>
+        <span class="nx">accountId</span><span class="o">:</span> <span class="mi">1</span><span class="p">,</span>
+        <span class="nx">email</span><span class="o">:</span> <span class="s2">&quot;15950000512@qq.com&quot;</span><span class="p">,</span>
+        <span class="nx">nickName</span><span class="o">:</span> <span class="s2">&quot;Coach Toby&quot;</span><span class="p">,</span>
+        <span class="nx">avatar</span><span class="o">:</span> <span class="s2">&quot;https://oss-cdn.accurofitapp.net/avatar/apt-353809166.jpg&quot;</span><span class="p">,</span>
+        <span class="nx">settings</span><span class="o">:</span> <span class="s2">&quot;&quot;</span><span class="p">,</span> <span class="c1">//预留字段，未来可能有用，JSON.stringify() 后的数据</span>
+        <span class="nx">isClubAdmin</span><span class="o">:</span> <span class="kc">true</span><span class="p">,</span>
+        <span class="nx">isVerified</span><span class="o">:</span> <span class="kc">true</span><span class="p">,</span>
+        <span class="nx">isDeleted</span><span class="o">:</span> <span class="kc">false</span>
+    <span class="p">}</span>
+<span class="p">]</span>
+</pre></div>
+<ul>
+<li>[x] 18, 根据邮箱查询 APT 用户</li>
+</ul>
+<p>post /dashboard/actions/search-account</p>
+<div class="notice">仅支持 Accuro，模糊查询 apt 用户信息，返回 apt id、用户的昵称和俱乐部名称 </div><ul>
+<li>[x] 19, 将某个 APT 用户设置到俱乐部下</li>
+</ul>
+<p>put /dashboard/clients/{clientId}/accounts/{accountId}</p>
+<div class="notice">仅支持 Accuro 和 Club Admin</div><ul>
+<li>[x] 20, 将某个 apt 用户移出俱乐部</li>
+</ul>
+<p>delete /dashboard/clubs/{clubId}/accounts/{accountId}</p>
+<div class="notice">仅支持 Accuro 和 Club Admin，不允许移除 Club Admin，不允许移除自己</div><ul>
+<li>[x] 21, 设置 apt 用户的用户角色为 club admin 或 coach</li>
+</ul>
+<p>post /dashboard/clubs/{clubId}/accounts/{accountId}/actions/assign-club-admin</p>
+<p>post /dashboard/clubs/{clubId}/accounts/{accountId}/actions/revoke-club-admin</p>
+<div class="notice"> 仅支持 Accuro 和 Club Admin，不允许 revoke 自己 </div><ul>
+<li>[x] 21, 查询某个 club 下的 member 账户</li>
+</ul>
+<p>post /dashboard/clubs/{clubId}/members/page/{page}</p>
+<div class="highlight"><pre><span></span><span class="p">{</span>
+    <span class="nx">keyword</span><span class="o">:</span> <span class="s2">&quot;&quot;</span><span class="p">,</span> <span class="c1">//可选，查询 firstName lastName &amp; nickName</span>
+    <span class="nx">email</span><span class="o">:</span> <span class="s2">&quot;&quot;</span> <span class="c1">//可选</span>
+<span class="p">}</span>
+</pre></div>
+<div class="highlight"><pre><span></span><span class="p">[</span>
+    <span class="p">{</span>
+        <span class="s2">&quot;userId&quot;</span><span class="o">:</span> <span class="mi">85893</span><span class="p">,</span>
+        <span class="s2">&quot;email&quot;</span><span class="o">:</span> <span class="s2">&quot;15950000512@qq.com&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;firstName&quot;</span><span class="o">:</span> <span class="s2">&quot;Toby&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;lastName&quot;</span><span class="o">:</span> <span class="s2">&quot;Bu&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;nickName&quot;</span><span class="o">:</span> <span class="s2">&quot;Bristletail&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;gender&quot;</span><span class="o">:</span> <span class="s2">&quot;male&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;avatar&quot;</span><span class="o">:</span> <span class="kc">null</span><span class="p">,</span>
+        <span class="s2">&quot;disabled&quot;</span><span class="o">:</span> <span class="kc">false</span><span class="p">,</span>
+        <span class="s2">&quot;isVerified&quot;</span><span class="o">:</span> <span class="kc">true</span>
+    <span class="p">}</span>
+<span class="p">]</span>
+</pre></div>
+<div class="notice"> 仅支持 Accuro、Club Admin 和 Coach </div><p>注册时不填写俱乐部信息，付费之后弹出要求填写俱乐部信息（允许跳过），填写之后默认称为 Club Admin，登录 Dashboard 可把其他 APT 用户（未填写俱乐部信息的，输入完整 Email）设置为旗下用户。并且可以修改 Club Name, Location, Logo, Subdomain 等。</p>
 
             </div>
         </article>
