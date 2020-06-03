@@ -17,7 +17,7 @@
     <script>
         var ExSearchConfig = {
             root: "",
-            api: "https://cdn.jsdelivr.net/gh/sourbell/project@gh-pages/adeebe75a43ce755386d33c51beec255.json"
+            api: "https://cdn.jsdelivr.net/gh/sourbell/project@gh-pages/2dbe73a7efb5f4a8ee6d74a667cf7c08.json"
         }
     </script>
     
@@ -143,7 +143,7 @@ post /dashboard/workouts</p>
     <span class="nx">endTime</span><span class="o">:</span> <span class="mi">1585583958</span><span class="p">,</span> <span class="c1">//可选，unix timestamp</span>
     <span class="nx">orderBy</span><span class="o">:</span> <span class="s2">&quot;calories&quot;</span> <span class="o">|</span> <span class="s2">&quot;pai&quot;</span> <span class="o">|</span> <span class="s2">&quot;workoutStartTime&quot;</span> <span class="o">|</span> <span class="s2">&quot;workoutTime&quot;</span> <span class="o">|</span> <span class="s2">&quot;iqPoints&quot;</span> <span class="o">|</span> <span class="s2">&quot;maxHr&quot;</span> <span class="o">|</span> <span class="s2">&quot;avgHr&quot;</span><span class="p">,</span>  <span class="c1">//可选，严格大小写</span>
     <span class="nx">orderAscending</span><span class="o">:</span> <span class="s2">&quot;DESC&quot;</span> <span class="o">|</span> <span class="s2">&quot;ASC&quot;</span><span class="p">,</span>  <span class="c1">//可选，无所谓大小写</span>
-    <span class="nx">memberId</span><span class="o">:</span> <span class="mi">123456</span>  <span class="c1">//可选</span>
+    <span class="nx">memberId</span><span class="o">:</span> <span class="mi">123456</span>  <span class="c1">//可选，传入此参数则查询对应 Member 的 Workout</span>
 <span class="p">}</span>
 </pre></div>
 <div class="highlight"><pre><span></span><span class="p">{</span>
@@ -172,10 +172,8 @@ post /dashboard/workouts</p>
     <span class="p">...]</span>
 <span class="p">}</span>
 </pre></div>
-<ul>
-<li>[x]6, 获取 workout 心率明细
-get /dashboard/workouts/{workoutId}</li>
-</ul>
+<p>6, 获取 workout 心率明细
+get /dashboard/workouts/{workoutId}</p>
 <div class="highlight"><pre><span></span><span class="p">{</span>
     <span class="nt">&quot;calories&quot;</span><span class="p">:</span> <span class="mi">2286</span><span class="p">,</span>
     <span class="nt">&quot;pai&quot;</span><span class="p">:</span> <span class="mf">60.73</span><span class="p">,</span>
@@ -197,10 +195,8 @@ get /dashboard/workouts/{workoutId}</li>
     <span class="nt">&quot;endTime&quot;</span><span class="p">:</span> <span class="mi">1555933065</span>
 <span class="p">}</span>
 </pre></div>
-<ul>
-<li>[x] 7, 个人资料获取
-get /dashboard/profile</li>
-</ul>
+<p>7, 个人资料获取
+get /dashboard/profile</p>
 <div class="highlight"><pre><span></span><span class="p">{</span>
     <span class="nx">memberRole</span><span class="o">:</span> <span class="s2">&quot;member&quot;</span> <span class="o">|</span> <span class="s2">&quot;coach&quot;</span> <span class="o">|</span> <span class="s2">&quot;club&quot;</span> <span class="o">|</span> <span class="s2">&quot;accuro&quot;</span><span class="p">,</span>
     <span class="nx">email</span><span class="o">:</span> <span class="s2">&quot;123456@qq.com&quot;</span><span class="p">,</span>
@@ -234,11 +230,9 @@ post /dashboard/profile/actions/change-password</p>
 <div class="highlight"><pre><span></span><span class="p">{</span> <span class="nx">message</span><span class="o">:</span> <span class="s2">&quot;password changed&quot;</span> <span class="p">}</span>
 </pre></div>
 <p>10, 获取本角色下的 Challenge list TODO</p>
-<ul>
-<li>[x] 11, 根据日期范围获取全部或分页的 session list 
+<p>11, 根据日期范围获取全部或分页的 session list 
 post /dashboard/sessions/page/{page}
-post /dashboard/sessions</li>
-</ul>
+post /dashboard/sessions</p>
 <div class="highlight"><pre><span></span><span class="p">{</span>
     <span class="nx">startTime</span><span class="o">:</span> <span class="mi">1585383958</span><span class="p">,</span> <span class="c1">//可选，unix timestamp</span>
     <span class="nx">endTime</span><span class="o">:</span> <span class="mi">1585583958</span><span class="p">,</span> <span class="c1">//可选，unix timestamp</span>
@@ -271,9 +265,7 @@ post /dashboard/sessions</li>
     <span class="p">...</span>
 <span class="p">]</span>
 </pre></div>
-<ul>
-<li>[x] 12,   查询俱乐部列表 </li>
-</ul>
+<p>12,   查询俱乐部列表</p>
 <p>get /dashboard/clients/page/{page} 分页，倒序</p>
 <p>get /dashboard/clients 全部，正序</p>
 <div class="notice">仅支持 Accuro，在 Session 列表将 hasPrivatePt = true 的 Clubs 作为过滤条件之一</div><div class="highlight"><pre><span></span><span class="p">[</span>
@@ -295,9 +287,7 @@ post /dashboard/sessions</li>
   <span class="p">}</span>
 <span class="p">]</span>
 </pre></div>
-<ul>
-<li>[x] 13, 新建俱乐部</li>
-</ul>
+<p>13, 新建俱乐部</p>
 <p>put /dashboard/clients</p>
 <div class="notice"> 仅支持 Accuro </div><div class="highlight"><pre><span></span><span class="p">{</span>
     <span class="nx">clientName</span><span class="o">:</span> <span class="s2">&quot;Some Club Name&quot;</span><span class="p">,</span>
@@ -306,9 +296,7 @@ post /dashboard/sessions</li>
     <span class="nx">hasPrivatePt</span><span class="o">:</span> <span class="kc">false</span>
 <span class="p">}</span>
 </pre></div>
-<ul>
-<li>[x] 14, 获取俱乐部详细信息</li>
-</ul>
+<p>14, 获取俱乐部详细信息</p>
 <p>get /dashboard/clients/{clientId}</p>
 <div class="notice"> 仅支持 Accuro 和 Club Admin </div><div class="highlight"><pre><span></span><span class="p">{</span>
     <span class="nx">clientId</span><span class="o">:</span> <span class="mi">1</span><span class="p">,</span>
@@ -319,9 +307,7 @@ post /dashboard/sessions</li>
     <span class="nx">hasPrivatePt</span><span class="o">:</span> <span class="kc">false</span>
 <span class="p">}</span>
 </pre></div>
-<ul>
-<li>[x] 15, 修改俱乐部信息</li>
-</ul>
+<p>15, 修改俱乐部信息</p>
 <p>post /dashboard/clients/{clientId}</p>
 <div class="notice"> 仅支持 Accuro 和 Club Admin </div><div class="highlight"><pre><span></span><span class="p">{</span>
     <span class="nx">clientName</span><span class="o">:</span> <span class="s2">&quot;Some Edit Club Name&quot;</span><span class="p">,</span>
@@ -331,13 +317,9 @@ post /dashboard/sessions</li>
     <span class="nx">hasPrivatePt</span><span class="o">:</span> <span class="kc">false</span>
 <span class="p">}</span>
 </pre></div>
-<ul>
-<li>[x] 16, 删除俱乐部</li>
-</ul>
+<p>16, 删除俱乐部</p>
 <p>delete /dashboard/clients/{clientId}</p>
-<div class="notice"> 仅支持 Accuro </div><ul>
-<li>[x] 17, 查询某个俱乐部下的 apt 账户</li>
-</ul>
+<div class="notice"> 仅支持 Accuro </div><p>17, 查询某个俱乐部下的 apt 账户</p>
 <p>get /dashboard/clients/{clientId}/accounts</p>
 <div class="notice"> 支持 Accuro、Club Admin、Coach 用户</div><div class="highlight"><pre><span></span><span class="p">[</span>
     <span class="p">{</span>
@@ -352,26 +334,16 @@ post /dashboard/sessions</li>
     <span class="p">}</span>
 <span class="p">]</span>
 </pre></div>
-<ul>
-<li>[x] 18, 根据邮箱查询 APT 用户</li>
-</ul>
+<p>18, 根据邮箱查询 APT 用户</p>
 <p>post /dashboard/actions/search-account</p>
-<div class="notice">仅支持 Accuro，模糊查询 apt 用户信息，返回 apt id、用户的昵称和俱乐部名称 </div><ul>
-<li>[x] 19, 将某个 APT 用户设置到俱乐部下</li>
-</ul>
+<div class="notice">仅支持 Accuro，模糊查询 apt 用户信息，返回 apt id、用户的昵称和俱乐部名称 </div><p>19, 将某个 APT 用户设置到俱乐部下</p>
 <p>put /dashboard/clients/{clientId}/accounts/{accountId}</p>
-<div class="notice">仅支持 Accuro 和 Club Admin</div><ul>
-<li>[x] 20, 将某个 apt 用户移出俱乐部</li>
-</ul>
+<div class="notice">仅支持 Accuro 和 Club Admin</div><p>20, 将某个 apt 用户移出俱乐部</p>
 <p>delete /dashboard/clubs/{clubId}/accounts/{accountId}</p>
-<div class="notice">仅支持 Accuro 和 Club Admin，不允许移除 Club Admin，不允许移除自己</div><ul>
-<li>[x] 21, 设置 apt 用户的用户角色为 club admin 或 coach</li>
-</ul>
+<div class="notice">仅支持 Accuro 和 Club Admin，不允许移除 Club Admin，不允许移除自己</div><p>21, 设置 apt 用户的用户角色为 club admin 或 coach</p>
 <p>post /dashboard/clubs/{clubId}/accounts/{accountId}/actions/assign-club-admin</p>
 <p>post /dashboard/clubs/{clubId}/accounts/{accountId}/actions/revoke-club-admin</p>
-<div class="notice"> 仅支持 Accuro 和 Club Admin，不允许 revoke 自己 </div><ul>
-<li>[x] 21, 查询某个 club 下的 member 账户</li>
-</ul>
+<div class="notice"> 仅支持 Accuro 和 Club Admin，不允许 revoke 自己 </div><p>22, 查询某个 club 下的 member 账户</p>
 <p>post /dashboard/clubs/{clubId}/members/page/{page}</p>
 <div class="highlight"><pre><span></span><span class="p">{</span>
     <span class="nx">keyword</span><span class="o">:</span> <span class="s2">&quot;&quot;</span><span class="p">,</span> <span class="c1">//可选，查询 firstName lastName &amp; nickName</span>
