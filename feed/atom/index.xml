@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="english"><id>https://project.sourbell.im/</id><title>豪猪尾巴</title><updated>2020-06-03T11:21:03.432913+08:06</updated><author><name>Bristletail</name><email>i@sourbell.im</email></author><link href="https://project.sourbell.im/" rel="alternate"/><generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator><logo>${static_prefix}logo.jpg</logo><subtitle>Keep resolutions</subtitle><entry><id>https://project.sourbell.im/archives/accurofit-release-note/</id><title>Accurofit Release Note</title><updated>2020-06-03T11:21:03.433215+00:00</updated><author><name>Toby Bu</name><email>i@sourbell.im</email><uri>https://sourbell.im</uri></author><content>&lt;p&gt;&lt;code&gt;3.3.4&lt;/code&gt; Dec 4, 2019&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="english"><id>https://project.sourbell.im/</id><title>豪猪尾巴</title><updated>2020-06-04T13:37:33.266873+08:06</updated><author><name>Bristletail</name><email>i@sourbell.im</email></author><link href="https://project.sourbell.im/" rel="alternate"/><generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator><logo>${static_prefix}logo.jpg</logo><subtitle>Keep resolutions</subtitle><entry><id>https://project.sourbell.im/archives/accurofit-release-note/</id><title>Accurofit Release Note</title><updated>2020-06-04T13:37:33.267173+00:00</updated><author><name>Toby Bu</name><email>i@sourbell.im</email><uri>https://sourbell.im</uri></author><content>&lt;p&gt;&lt;code&gt;3.3.4&lt;/code&gt; Dec 4, 2019&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Removed the background music during live workout.&lt;/li&gt;
 &lt;li&gt;Multiple improvements.&lt;/li&gt;
@@ -70,7 +70,7 @@
 &lt;ul&gt;
 &lt;li&gt;Redesigned UI.&lt;/li&gt;
 &lt;/ul&gt;
-</content><link href="https://project.sourbell.im/archives/accurofit-release-note/" rel="alternate"/><published>2019-12-25T00:16:00+08:06</published></entry><entry><id>https://project.sourbell.im/archives/apt-release-note/</id><title>APT Release Note</title><updated>2020-06-03T11:21:03.433179+00:00</updated><author><name>Toby Bu</name><email>i@sourbell.im</email><uri>https://sourbell.im</uri></author><content>&lt;p&gt;&lt;code&gt;1.1.2&lt;/code&gt; Jul 16, 2019&lt;/p&gt;
+</content><link href="https://project.sourbell.im/archives/accurofit-release-note/" rel="alternate"/><published>2019-12-25T00:16:00+08:06</published></entry><entry><id>https://project.sourbell.im/archives/apt-release-note/</id><title>APT Release Note</title><updated>2020-06-04T13:37:33.267152+00:00</updated><author><name>Toby Bu</name><email>i@sourbell.im</email><uri>https://sourbell.im</uri></author><content>&lt;p&gt;&lt;code&gt;1.1.2&lt;/code&gt; Jul 16, 2019&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Add background ability&lt;/li&gt;
 &lt;li&gt;Allow customize member’s max heart rate&lt;/li&gt;
@@ -109,7 +109,7 @@
 &lt;ul&gt;
 &lt;li&gt;Initial Release&lt;/li&gt;
 &lt;/ul&gt;
-</content><link href="https://project.sourbell.im/archives/apt-release-note/" rel="alternate"/><published>2019-12-25T01:01:00+08:06</published></entry><entry><id>https://project.sourbell.im/archives/private-label-change-request/</id><title>Private Label Change Request</title><updated>2020-06-03T11:21:03.433161+00:00</updated><author><name>Toby Bu</name><email>i@sourbell.im</email><uri>https://sourbell.im</uri></author><content>&lt;div class="notice"&gt;Basic customization includes App icon, splash and brand logo replacements.&lt;/div&gt;&lt;div class="notice"&gt;Title Pattern: #No&lt;sup&gt;piq#AppID&lt;/sup&gt; App Name&lt;/div&gt;&lt;h3&gt;#83 &lt;sup&gt;piq#88&lt;/sup&gt; Peak Zone Fitness&lt;/h3&gt;
+</content><link href="https://project.sourbell.im/archives/apt-release-note/" rel="alternate"/><published>2019-12-25T01:01:00+08:06</published></entry><entry><id>https://project.sourbell.im/archives/private-label-change-request/</id><title>Private Label Change Request</title><updated>2020-06-04T13:37:33.267130+00:00</updated><author><name>Toby Bu</name><email>i@sourbell.im</email><uri>https://sourbell.im</uri></author><content>&lt;div class="notice"&gt;Basic customization includes App icon, splash and brand logo replacements.&lt;/div&gt;&lt;div class="notice"&gt;Title Pattern: #No&lt;sup&gt;piq#AppID&lt;/sup&gt; App Name&lt;/div&gt;&lt;h3&gt;#83 &lt;sup&gt;piq#88&lt;/sup&gt; Peak Zone Fitness&lt;/h3&gt;
 &lt;p&gt;&lt;code&gt;#1 Apr 15, 2020&lt;/code&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Basic customization.&lt;/li&gt;
@@ -613,7 +613,7 @@
 &lt;ul&gt;
 &lt;li&gt;Basic customization.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;hr&gt;&lt;div class="footnotes"&gt;&lt;ol&gt;&lt;li id="fn_1"&gt;Separated requirement document for TRIB3 &lt;a no-style href="#fn_ref_1"&gt;↩&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;</content><link href="https://project.sourbell.im/archives/private-label-change-request/" rel="alternate"/><published>2020-01-07T11:10:00+08:06</published></entry><entry><id>https://project.sourbell.im/archives/private-label-update/</id><title>Private Label Update</title><updated>2020-06-03T11:21:03.433143+00:00</updated><author><name>Toby Bu</name><email>i@sourbell.im</email><uri>https://sourbell.im</uri></author><content>&lt;p&gt;&lt;code&gt;2020.4.21&lt;/code&gt;&lt;/p&gt;
+&lt;hr&gt;&lt;div class="footnotes"&gt;&lt;ol&gt;&lt;li id="fn_1"&gt;Separated requirement document for TRIB3 &lt;a no-style href="#fn_ref_1"&gt;↩&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;</content><link href="https://project.sourbell.im/archives/private-label-change-request/" rel="alternate"/><published>2020-01-07T11:10:00+08:06</published></entry><entry><id>https://project.sourbell.im/archives/private-label-update/</id><title>Private Label Update</title><updated>2020-06-04T13:37:33.267108+00:00</updated><author><name>Toby Bu</name><email>i@sourbell.im</email><uri>https://sourbell.im</uri></author><content>&lt;p&gt;&lt;code&gt;2020.4.21&lt;/code&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Spry Live&lt;/strong&gt; v1.0.0 pre-released on FIR.IM.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Red Effect&lt;/strong&gt; v1.0.0 pre-released on FIR.IM.&lt;/li&gt;
@@ -801,7 +801,7 @@
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Tonic Crossfit&lt;/strong&gt; v1.0.0 is live on GooglePlay and AppStore.&lt;/li&gt;
 &lt;/ul&gt;
-</content><link href="https://project.sourbell.im/archives/private-label-update/" rel="alternate"/><published>2020-01-07T12:42:00+08:06</published></entry><entry><id>https://project.sourbell.im/archives/trib3/</id><title>TRIB3</title><updated>2020-06-03T11:21:03.433107+00:00</updated><author><name>Toby Bu</name><email>i@sourbell.im</email><uri>https://sourbell.im</uri></author><content>&lt;p&gt;&lt;figure class="pswp-item" style="flex: 102.4" data-width="1024" data-height="500"&gt;&lt;img src="https://cdn.jsdelivr.net/gh/sourbell/project@gh-pages/archives/assets/178317e8a7f6ed4c02aa260e59d3dea8.png" alt="TRIB3" /&gt;&lt;figcaption&gt;TRIB3&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
+</content><link href="https://project.sourbell.im/archives/private-label-update/" rel="alternate"/><published>2020-01-07T12:42:00+08:06</published></entry><entry><id>https://project.sourbell.im/archives/trib3/</id><title>TRIB3</title><updated>2020-06-04T13:37:33.267087+00:00</updated><author><name>Toby Bu</name><email>i@sourbell.im</email><uri>https://sourbell.im</uri></author><content>&lt;p&gt;&lt;figure class="pswp-item" style="flex: 102.4" data-width="1024" data-height="500"&gt;&lt;img src="https://cdn.jsdelivr.net/gh/sourbell/project@gh-pages/archives/assets/178317e8a7f6ed4c02aa260e59d3dea8.png" alt="TRIB3" /&gt;&lt;figcaption&gt;TRIB3&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
 &lt;p&gt;TRIB3 Questions 20200107&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Accurofit added weight integration with Apple Health and Google Fit, but TRIB3 does not have scale features, so should we remove the data integration section on the MORE page?&lt;/li&gt;
@@ -815,7 +815,7 @@
 &lt;li&gt;On WORKOUT HISTORY page, when you click on a workout, the app will display the workout detail, currently the detail is displaying on the same page, while in Accurofit we display this in a new modal page on top of the HISTORY page, which i think is more user friendly.&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;TRIB3&lt;/code&gt; was taken on AppStore, we should come up with another one.&lt;/li&gt;
 &lt;/ol&gt;
-</content><link href="https://project.sourbell.im/archives/trib3/" rel="alternate"/><published>2020-01-07T12:56:00+08:06</published></entry><entry><id>https://project.sourbell.im/archives/project-update-week-3/</id><title>Project Update Week 3/52</title><updated>2020-06-03T11:21:03.433089+00:00</updated><author><name>Toby Bu</name><email>i@sourbell.im</email><uri>https://sourbell.im</uri></author><content>&lt;div class="notice"&gt;Weekly Highlight:&lt;/div&gt;&lt;div class="notice"&gt;1,  Accurofit 3.4.0 release date: Jan. 23, 2020.&lt;/div&gt;&lt;div class="notice"&gt;2,  Pre-release all 5 PL apps to Fir.im.&lt;/div&gt;&lt;div class="notice"&gt;3,  Release APT on TestFlight with ANT features included.&lt;/div&gt;&lt;ol&gt;
+</content><link href="https://project.sourbell.im/archives/trib3/" rel="alternate"/><published>2020-01-07T12:56:00+08:06</published></entry><entry><id>https://project.sourbell.im/archives/project-update-week-3/</id><title>Project Update Week 3/52</title><updated>2020-06-04T13:37:33.267063+00:00</updated><author><name>Toby Bu</name><email>i@sourbell.im</email><uri>https://sourbell.im</uri></author><content>&lt;div class="notice"&gt;Weekly Highlight:&lt;/div&gt;&lt;div class="notice"&gt;1,  Accurofit 3.4.0 release date: Jan. 23, 2020.&lt;/div&gt;&lt;div class="notice"&gt;2,  Pre-release all 5 PL apps to Fir.im.&lt;/div&gt;&lt;div class="notice"&gt;3,  Release APT on TestFlight with ANT features included.&lt;/div&gt;&lt;ol&gt;
 &lt;li&gt;&lt;p&gt;&lt;strong&gt;Accurofit&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;1.1 &lt;strong&gt;New FL301&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Finished 2nd round debugging, finally found the root cause in the firmware. Hardware developer has finished test in the weekend, sent a new package to Nanjing with fixed scale.&lt;/p&gt;
@@ -854,7 +854,7 @@
 &lt;p&gt;v1.1.0 released on Google Play and App Store.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-</content><link href="https://project.sourbell.im/archives/project-update-week-3/" rel="alternate"/><published>2020-01-22T11:42:00+08:06</published></entry><entry><id>https://project.sourbell.im/archives/apt-api/</id><title>APT API</title><updated>2020-06-03T11:21:03.433071+00:00</updated><author><name>Toby Bu</name><email>i@sourbell.im</email><uri>https://sourbell.im</uri></author><content>&lt;p&gt;默认返回结构&lt;/p&gt;
+</content><link href="https://project.sourbell.im/archives/project-update-week-3/" rel="alternate"/><published>2020-01-22T11:42:00+08:06</published></entry><entry><id>https://project.sourbell.im/archives/apt-api/</id><title>APT API</title><updated>2020-06-04T13:37:33.267039+00:00</updated><author><name>Toby Bu</name><email>i@sourbell.im</email><uri>https://sourbell.im</uri></author><content>&lt;p&gt;默认返回结构&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;
     &lt;span class="nx"&gt;meta&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
         &lt;span class="nx"&gt;error&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="kc"&gt;false&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
@@ -1062,7 +1062,7 @@
 &lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;14, 获取俱乐部详细信息&lt;/p&gt;
 &lt;p&gt;get /dashboard/clients/{clientId}&lt;/p&gt;
-&lt;div class="notice"&gt; 仅支持 Accuro 和 Club Admin &lt;/div&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;
+&lt;div class="notice"&gt; 仅支持 Accuro、Club Admin 和 Coach &lt;/div&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;
     &lt;span class="nx"&gt;clientId&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
     &lt;span class="nx"&gt;clientName&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;Some Edit Club Name&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
     &lt;span class="nx"&gt;clientDescription&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;Some Awesome Club&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
@@ -1103,12 +1103,12 @@
 &lt;div class="notice"&gt;仅支持 Accuro，模糊查询 apt 用户信息，返回 apt id、用户的昵称和俱乐部名称 &lt;/div&gt;&lt;p&gt;19, 将某个 APT 用户设置到俱乐部下&lt;/p&gt;
 &lt;p&gt;put /dashboard/clients/{clientId}/accounts/{accountId}&lt;/p&gt;
 &lt;div class="notice"&gt;仅支持 Accuro 和 Club Admin&lt;/div&gt;&lt;p&gt;20, 将某个 apt 用户移出俱乐部&lt;/p&gt;
-&lt;p&gt;delete /dashboard/clubs/{clubId}/accounts/{accountId}&lt;/p&gt;
+&lt;p&gt;delete /dashboard/clients/{clientId}/accounts/{accountId}&lt;/p&gt;
 &lt;div class="notice"&gt;仅支持 Accuro 和 Club Admin，不允许移除 Club Admin，不允许移除自己&lt;/div&gt;&lt;p&gt;21, 设置 apt 用户的用户角色为 club admin 或 coach&lt;/p&gt;
-&lt;p&gt;post /dashboard/clubs/{clubId}/accounts/{accountId}/actions/assign-club-admin&lt;/p&gt;
-&lt;p&gt;post /dashboard/clubs/{clubId}/accounts/{accountId}/actions/revoke-club-admin&lt;/p&gt;
-&lt;div class="notice"&gt; 仅支持 Accuro 和 Club Admin，不允许 revoke 自己 &lt;/div&gt;&lt;p&gt;22, 查询某个 club 下的 member 账户&lt;/p&gt;
-&lt;p&gt;post /dashboard/clubs/{clubId}/members/page/{page}&lt;/p&gt;
+&lt;p&gt;post /dashboard/clients/{clientId}/accounts/{accountId}/actions/assign-club-admin&lt;/p&gt;
+&lt;p&gt;post /dashboard/clients/{clientId}/accounts/{accountId}/actions/revoke-club-admin&lt;/p&gt;
+&lt;div class="notice"&gt; 仅支持 Accuro 和 Club Admin，不允许 revoke 自己 &lt;/div&gt;&lt;p&gt;22, 查询某个俱乐部下的 member 账户&lt;/p&gt;
+&lt;p&gt;post /dashboard/clients/{clientId}/members/page/{page}&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;
     &lt;span class="nx"&gt;keyword&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="c1"&gt;//可选，查询 firstName lastName &amp;amp; nickName&lt;/span&gt;
     &lt;span class="nx"&gt;email&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;&amp;quot;&lt;/span&gt; &lt;span class="c1"&gt;//可选&lt;/span&gt;
@@ -1129,7 +1129,7 @@
 &lt;span class="p"&gt;]&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 &lt;div class="notice"&gt; 仅支持 Accuro、Club Admin 和 Coach &lt;/div&gt;&lt;p&gt;注册时不填写俱乐部信息，付费之后弹出要求填写俱乐部信息（允许跳过），填写之后默认称为 Club Admin，登录 Dashboard 可把其他 APT 用户（未填写俱乐部信息的，输入完整 Email）设置为旗下用户。并且可以修改 Club Name, Location, Logo, Subdomain 等。&lt;/p&gt;
-</content><link href="https://project.sourbell.im/archives/apt-api/" rel="alternate"/><published>2020-02-23T11:01:00+08:06</published></entry><entry><id>https://project.sourbell.im/archives/project-update-week-10/</id><title>Project Update Week 10/52</title><updated>2020-06-03T11:21:03.433052+00:00</updated><author><name>Toby Bu</name><email>i@sourbell.im</email><uri>https://sourbell.im</uri></author><content>&lt;div class="notice"&gt;Weekly Highlight:&lt;/div&gt;&lt;div class="notice"&gt;1,  Accurofit 3.4.2 Testflight &lt;/div&gt;&lt;div class="notice"&gt;2,  Pre-release sweat burn repeat on BetaQR.&lt;/div&gt;&lt;div class="notice"&gt;3,  Released Flexx Fitness HR on the stores.&lt;/div&gt;&lt;div class="notice"&gt;4,  Optimized server database, fixed an issue with slow query.&lt;/div&gt;&lt;ol&gt;
+</content><link href="https://project.sourbell.im/archives/apt-api/" rel="alternate"/><published>2020-02-23T11:01:00+08:06</published></entry><entry><id>https://project.sourbell.im/archives/project-update-week-10/</id><title>Project Update Week 10/52</title><updated>2020-06-04T13:37:33.267015+00:00</updated><author><name>Toby Bu</name><email>i@sourbell.im</email><uri>https://sourbell.im</uri></author><content>&lt;div class="notice"&gt;Weekly Highlight:&lt;/div&gt;&lt;div class="notice"&gt;1,  Accurofit 3.4.2 Testflight &lt;/div&gt;&lt;div class="notice"&gt;2,  Pre-release sweat burn repeat on BetaQR.&lt;/div&gt;&lt;div class="notice"&gt;3,  Released Flexx Fitness HR on the stores.&lt;/div&gt;&lt;div class="notice"&gt;4,  Optimized server database, fixed an issue with slow query.&lt;/div&gt;&lt;ol&gt;
 &lt;li&gt;&lt;p&gt;&lt;strong&gt;Accurofit&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;1.1 &lt;strong&gt;Bug fixes and new features&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -1153,7 +1153,7 @@
 &lt;p&gt;Working on iPad version of Gym Solution.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-</content><link href="https://project.sourbell.im/archives/project-update-week-10/" rel="alternate"/><published>2020-03-08T20:00:00+08:06</published></entry><entry><id>https://project.sourbell.im/archives/project-update-week-11/</id><title>Project Update Week 11/52</title><updated>2020-06-03T11:21:03.433030+00:00</updated><author><name>Toby Bu</name><email>i@sourbell.im</email><uri>https://sourbell.im</uri></author><content>&lt;div class="notice"&gt;Weekly Highlight:&lt;/div&gt;&lt;div class="notice"&gt;1,  Accurofit 3.4.2 release date: Jan. 23, 2020.&lt;/div&gt;&lt;div class="notice"&gt;2,  Pre-release HIIT Zone Fitness on BetaQR.&lt;/div&gt;&lt;div class="notice"&gt;3,  Released Flexx Fitness HR on the stores.&lt;/div&gt;&lt;div class="notice"&gt;4,  Optimized server database, fixed an issue with slow query.&lt;/div&gt;&lt;ol&gt;
+</content><link href="https://project.sourbell.im/archives/project-update-week-10/" rel="alternate"/><published>2020-03-08T20:00:00+08:06</published></entry><entry><id>https://project.sourbell.im/archives/project-update-week-11/</id><title>Project Update Week 11/52</title><updated>2020-06-04T13:37:33.266986+00:00</updated><author><name>Toby Bu</name><email>i@sourbell.im</email><uri>https://sourbell.im</uri></author><content>&lt;div class="notice"&gt;Weekly Highlight:&lt;/div&gt;&lt;div class="notice"&gt;1,  Accurofit 3.4.2 release date: Jan. 23, 2020.&lt;/div&gt;&lt;div class="notice"&gt;2,  Pre-release HIIT Zone Fitness on BetaQR.&lt;/div&gt;&lt;div class="notice"&gt;3,  Released Flexx Fitness HR on the stores.&lt;/div&gt;&lt;div class="notice"&gt;4,  Optimized server database, fixed an issue with slow query.&lt;/div&gt;&lt;ol&gt;
 &lt;li&gt;&lt;p&gt;&lt;strong&gt;Accurofit&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;1.1 &lt;strong&gt;New FL301&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Changed the display logic of how body fat. 
@@ -1184,7 +1184,7 @@ After: display weight and body fat from latest measurement, if there's no body f
 &lt;p&gt;Working on iPad version of Gym Solution, Internal testing, will release alpha version in one week.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-</content><link href="https://project.sourbell.im/archives/project-update-week-11/" rel="alternate"/><published>2020-03-15T20:00:00+08:06</published></entry><entry><id>https://project.sourbell.im/archives/apt-dashbaord/</id><title>APT Dashboard</title><updated>2020-06-03T11:21:03.432962+00:00</updated><author><name>Toby Bu</name><email>i@sourbell.im</email><uri>https://sourbell.im</uri></author><content>&lt;p&gt;&lt;code&gt;April 22, 2020&lt;/code&gt;&lt;/p&gt;
+</content><link href="https://project.sourbell.im/archives/project-update-week-11/" rel="alternate"/><published>2020-03-15T20:00:00+08:06</published></entry><entry><id>https://project.sourbell.im/archives/apt-dashbaord/</id><title>APT Dashboard</title><updated>2020-06-04T13:37:33.266933+00:00</updated><author><name>Toby Bu</name><email>i@sourbell.im</email><uri>https://sourbell.im</uri></author><content>&lt;p&gt;&lt;code&gt;April 22, 2020&lt;/code&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Fixed an issue when navigate to page N and search by instructor or class name.&lt;/li&gt;
 &lt;/ul&gt;

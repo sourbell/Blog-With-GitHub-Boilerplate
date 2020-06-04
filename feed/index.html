@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>豪猪尾巴</title><link>https://project.sourbell.im/</link><description>Keep resolutions</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>${static_prefix}logo.jpg</url><title>豪猪尾巴</title><link>https://project.sourbell.im/</link></image><language>english</language><lastBuildDate>Wed, 03 Jun 2020 11:21:03 +0806</lastBuildDate><pubDate>Wed, 03 Jun 2020 11:21:03 +0806</pubDate><item><title>Accurofit Release Note</title><link>https://project.sourbell.im/archives/accurofit-release-note/</link><description>&lt;p&gt;&lt;code&gt;3.3.4&lt;/code&gt; Dec 4, 2019&lt;/p&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>豪猪尾巴</title><link>https://project.sourbell.im/</link><description>Keep resolutions</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>${static_prefix}logo.jpg</url><title>豪猪尾巴</title><link>https://project.sourbell.im/</link></image><language>english</language><lastBuildDate>Thu, 04 Jun 2020 13:37:33 +0806</lastBuildDate><pubDate>Thu, 04 Jun 2020 13:37:33 +0806</pubDate><item><title>Accurofit Release Note</title><link>https://project.sourbell.im/archives/accurofit-release-note/</link><description>&lt;p&gt;&lt;code&gt;3.3.4&lt;/code&gt; Dec 4, 2019&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Removed the background music during live workout.&lt;/li&gt;
 &lt;li&gt;Multiple improvements.&lt;/li&gt;
@@ -1062,7 +1062,7 @@
 &lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;14, 获取俱乐部详细信息&lt;/p&gt;
 &lt;p&gt;get /dashboard/clients/{clientId}&lt;/p&gt;
-&lt;div class="notice"&gt; 仅支持 Accuro 和 Club Admin &lt;/div&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;
+&lt;div class="notice"&gt; 仅支持 Accuro、Club Admin 和 Coach &lt;/div&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;
     &lt;span class="nx"&gt;clientId&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
     &lt;span class="nx"&gt;clientName&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;Some Edit Club Name&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
     &lt;span class="nx"&gt;clientDescription&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;Some Awesome Club&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
@@ -1103,12 +1103,12 @@
 &lt;div class="notice"&gt;仅支持 Accuro，模糊查询 apt 用户信息，返回 apt id、用户的昵称和俱乐部名称 &lt;/div&gt;&lt;p&gt;19, 将某个 APT 用户设置到俱乐部下&lt;/p&gt;
 &lt;p&gt;put /dashboard/clients/{clientId}/accounts/{accountId}&lt;/p&gt;
 &lt;div class="notice"&gt;仅支持 Accuro 和 Club Admin&lt;/div&gt;&lt;p&gt;20, 将某个 apt 用户移出俱乐部&lt;/p&gt;
-&lt;p&gt;delete /dashboard/clubs/{clubId}/accounts/{accountId}&lt;/p&gt;
+&lt;p&gt;delete /dashboard/clients/{clientId}/accounts/{accountId}&lt;/p&gt;
 &lt;div class="notice"&gt;仅支持 Accuro 和 Club Admin，不允许移除 Club Admin，不允许移除自己&lt;/div&gt;&lt;p&gt;21, 设置 apt 用户的用户角色为 club admin 或 coach&lt;/p&gt;
-&lt;p&gt;post /dashboard/clubs/{clubId}/accounts/{accountId}/actions/assign-club-admin&lt;/p&gt;
-&lt;p&gt;post /dashboard/clubs/{clubId}/accounts/{accountId}/actions/revoke-club-admin&lt;/p&gt;
-&lt;div class="notice"&gt; 仅支持 Accuro 和 Club Admin，不允许 revoke 自己 &lt;/div&gt;&lt;p&gt;22, 查询某个 club 下的 member 账户&lt;/p&gt;
-&lt;p&gt;post /dashboard/clubs/{clubId}/members/page/{page}&lt;/p&gt;
+&lt;p&gt;post /dashboard/clients/{clientId}/accounts/{accountId}/actions/assign-club-admin&lt;/p&gt;
+&lt;p&gt;post /dashboard/clients/{clientId}/accounts/{accountId}/actions/revoke-club-admin&lt;/p&gt;
+&lt;div class="notice"&gt; 仅支持 Accuro 和 Club Admin，不允许 revoke 自己 &lt;/div&gt;&lt;p&gt;22, 查询某个俱乐部下的 member 账户&lt;/p&gt;
+&lt;p&gt;post /dashboard/clients/{clientId}/members/page/{page}&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;
     &lt;span class="nx"&gt;keyword&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="c1"&gt;//可选，查询 firstName lastName &amp;amp; nickName&lt;/span&gt;
     &lt;span class="nx"&gt;email&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;&amp;quot;&lt;/span&gt; &lt;span class="c1"&gt;//可选&lt;/span&gt;
