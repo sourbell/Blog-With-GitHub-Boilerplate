@@ -17,7 +17,7 @@
     <script>
         var ExSearchConfig = {
             root: "",
-            api: "https://cdn.jsdelivr.net/gh/sourbell/project@gh-pages/fc10ad2d69715b57276e2d22af213bfc.json"
+            api: "https://cdn.jsdelivr.net/gh/sourbell/project@gh-pages/2cd3a5c67b75b622e80b7d12d618139a.json"
         }
     </script>
     
@@ -345,7 +345,7 @@
 <p>post /dashboard/clients/{clientId}/accounts/{accountId}/actions/revoke-club-admin</p>
 <div class="notice"> 仅支持 Accuro 和 Club Admin，不允许 revoke 自己 </div><p>22, 查询某个俱乐部下的 member 账户</p>
 <p>post /dashboard/clients/{clientId}/members/page/{page}</p>
-<div class="highlight"><pre><span></span><span class="p">{</span>
+<div class="notice"> 仅支持 Accuro、Club Admin 和 Coach </div><div class="highlight"><pre><span></span><span class="p">{</span>
     <span class="nx">keyword</span><span class="o">:</span> <span class="s2">&quot;&quot;</span><span class="p">,</span> <span class="c1">//可选，查询 firstName lastName &amp; nickName</span>
     <span class="nx">email</span><span class="o">:</span> <span class="s2">&quot;&quot;</span> <span class="c1">//可选</span>
 <span class="p">}</span>
@@ -364,7 +364,69 @@
     <span class="p">}</span>
 <span class="p">]</span>
 </pre></div>
-<div class="notice"> 仅支持 Accuro、Club Admin 和 Coach </div><p>注册时不填写俱乐部信息，付费之后弹出要求填写俱乐部信息（允许跳过），填写之后默认称为 Club Admin，登录 Dashboard 可把其他 APT 用户（未填写俱乐部信息的，输入完整 Email）设置为旗下用户。并且可以修改 Club Name, Location, Logo, Subdomain 等。</p>
+<p>23, 根据子域名查询某个俱乐部的 client id 及 logo</p>
+<p>post /dashboard/clients/actions/search-club</p>
+<div class="notice"> 返回 false 如果不存在 </div><div class="highlight"><pre><span></span><span class="p">{</span>
+    <span class="s2">&quot;domain&quot;</span><span class="o">:</span> <span class="s2">&quot;abc&quot;</span>
+<span class="p">}</span>
+</pre></div>
+<div class="highlight"><pre><span></span><span class="p">{</span>
+    <span class="nx">clientId</span><span class="o">:</span> <span class="mi">1</span><span class="p">,</span>
+    <span class="nx">clientLogo</span><span class="o">:</span> <span class="s2">&quot;https://oss-cdn.accurofitapp.net/avatar/apt-353809166.jpg&quot;</span>
+<span class="p">}</span>
+</pre></div>
+<p>注册时不填写俱乐部信息，付费之后弹出要求填写俱乐部信息（允许跳过），填写之后默认称为 Club Admin，登录 Dashboard 可把其他 APT 用户（未填写俱乐部信息的，输入完整 Email）设置为旗下用户。并且可以修改 Club Name, Location, Logo, Subdomain 等。</p>
+<p>24, APT 用户分页</p>
+<p>post /dashboard/accounts/page/{page}</p>
+<div class="notice"> 仅支持 accuro 用户 </div><div class="highlight"><pre><span></span><span class="p">{</span>
+    <span class="nx">email</span><span class="o">:</span> <span class="s2">&quot;&quot;</span><span class="p">,</span>
+    <span class="nx">accountStatus</span><span class="o">:</span> <span class="s2">&quot;active&quot;</span> <span class="o">||</span> <span class="s2">&quot;inactive&quot;</span> <span class="o">||</span> <span class="s2">&quot;unverified&quot;</span><span class="p">,</span>
+    <span class="nx">subscription</span><span class="o">:</span> <span class="s2">&quot;trial&quot;</span> <span class="o">||</span> <span class="s2">&quot;basic&quot;</span> <span class="o">||</span> <span class="s2">&quot;plus&quot;</span><span class="p">,</span>
+    <span class="nx">clientId</span><span class="o">:</span> <span class="mi">1</span>
+<span class="p">}</span>
+</pre></div>
+<div class="highlight"><pre><span></span><span class="p">[</span>
+<span class="p">{</span>
+    <span class="s2">&quot;accountId&quot;</span><span class="o">:</span> <span class="mi">124</span><span class="p">,</span>
+    <span class="s2">&quot;email&quot;</span><span class="o">:</span> <span class="s2">&quot;accurofit@gmail.com&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;avatar&quot;</span><span class="o">:</span> <span class="s2">&quot;https://oss-cdn.accurofitapp.net/avatar/apt-445957556.jpg&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;clientId&quot;</span><span class="o">:</span> <span class="mi">49</span><span class="p">,</span>
+    <span class="s2">&quot;clubName&quot;</span><span class="o">:</span> <span class="s2">&quot;Starfit Go&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;isClubAdmin&quot;</span><span class="o">:</span> <span class="kc">true</span><span class="p">,</span>
+    <span class="s2">&quot;accountStatus&quot;</span><span class="o">:</span> <span class="s2">&quot;active&quot;</span> <span class="o">||</span> <span class="s2">&quot;inactive&quot;</span> <span class="o">||</span> <span class="s2">&quot;unverified&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;subscription&quot;</span><span class="o">:</span> <span class="s2">&quot;trial&quot;</span> <span class="o">||</span> <span class="s2">&quot;basic&quot;</span> <span class="o">||</span> <span class="s2">&quot;plus&quot;</span>
+<span class="p">}</span>
+<span class="p">]</span>
+</pre></div>
+<p>25, License 分页</p>
+<p>post /dashboard/accounts/license/page/{page}</p>
+<div class="highlight"><pre><span></span><span class="p">{</span>
+    <span class="nx">licenseStatus</span><span class="o">:</span> <span class="s2">&quot;available&quot;</span> <span class="o">||</span> <span class="s2">&quot;used&quot;</span><span class="p">,</span>
+    <span class="nx">licenseType</span><span class="o">:</span> <span class="s2">&quot;basic&quot;</span> <span class="o">||</span> <span class="s2">&quot;plus&quot;</span> 
+<span class="p">}</span>
+</pre></div>
+<p>26, 生成 License</p>
+<p>post /dashboard/accounts/license/actions/generate-new-code</p>
+<div class="highlight"><pre><span></span><span class="p">{</span>
+    <span class="nx">licenseType</span><span class="o">:</span> <span class="s2">&quot;basic&quot;</span> <span class="o">||</span> <span class="s2">&quot;plus&quot;</span> 
+<span class="p">}</span>
+</pre></div>
+<p>27, 删除 License，只能删除未使的</p>
+<p>delete /dashboard/accounts/license/{licenseId}</p>
+<p>28, 将用户升级为 Basic 用户或 Plus 用户，自动生成一个 License 并激活</p>
+<p>post /dashboard/accounts/{accountId}/actions/change-subscription</p>
+<div class="highlight"><pre><span></span><span class="p">{</span>
+    <span class="s2">&quot;subscription&quot;</span><span class="o">:</span>  <span class="s2">&quot;basic&quot;</span> <span class="o">||</span> <span class="s2">&quot;plus&quot;</span>
+<span class="p">}</span>
+</pre></div>
+<p>29, 将 Basic 用户或 Plus 用户设置为已过期</p>
+<p>post /dashboard/accounts/{accountId}/actions/cancel-subscription</p>
+<p>30, 修改用户的 Expire Time</p>
+<p>post /dashboard/accounts/{accountId}/actions/change-expire-time</p>
+<div class="highlight"><pre><span></span><span class="p">{</span>
+    <span class="s2">&quot;expireTime&quot;</span><span class="o">:</span> <span class="s2">&quot;2020-08-01&quot;</span> <span class="c1">//YYYY-MM-DD</span>
+<span class="p">}</span>
+</pre></div>
 
             </div>
         </article>
