@@ -17,7 +17,7 @@
     <script>
         var ExSearchConfig = {
             root: "",
-            api: "https://cdn.jsdelivr.net/gh/sourbell/project@gh-pages/da9577da1ce3e9bccf0a9cd0aec4a88e.json"
+            api: "https://cdn.jsdelivr.net/gh/sourbell/project@gh-pages/e01de34d82a56251bdd8402f7b4e1b27.json"
         }
     </script>
     
@@ -104,9 +104,10 @@
 </pre></div>
 <p>1, 登录</p>
 <p>post /dashboard/login</p>
-<div class="notice">已支持 Member &amp; Coach &amp; Accuro 用户登录，待完成 Club 用户</div><div class="highlight"><pre><span></span><span class="p">{</span> 
+<div class="notice">已支持 Member &amp; Coach &amp; Accuro 用户登录</div><div class="highlight"><pre><span></span><span class="p">{</span> 
     <span class="nx">email</span><span class="o">:</span> <span class="s2">&quot;123456@qq.com&quot;</span><span class="p">,</span> 
-    <span class="nx">password</span><span class="o">:</span> <span class="s2">&quot;12345678&quot;</span> 
+    <span class="nx">password</span><span class="o">:</span> <span class="s2">&quot;12345678&quot;</span><span class="p">,</span>
+    <span class="nx">subdomain</span><span class="o">:</span> <span class="s2">&quot;abcd&quot;</span>   
 <span class="p">}</span>
 </pre></div>
 <div class="highlight"><pre><span></span><span class="p">{</span> <span class="nx">token</span><span class="o">:</span> <span class="s2">&quot;120705de7e61c5b322ad798b8ef225a7&quot;</span> <span class="p">}</span>
@@ -209,18 +210,17 @@
     <span class="nx">weight</span><span class="o">:</span> <span class="mf">175.12</span><span class="p">,</span> <span class="c1">// unit lb</span>
 <span class="p">}</span>
 </pre></div>
-<p>8, 个人资料修改 TODO</p>
+<p>8, 个人资料修改</p>
 <p>post /dashboard/profile</p>
 <div class="highlight"><pre><span></span><span class="p">{</span>
-    <span class="nx">userId</span><span class="o">:</span> <span class="mi">1</span><span class="p">,</span>
-    <span class="nx">avatar</span><span class="o">:</span> <span class="s2">&quot;&quot;</span><span class="p">,</span>
+    <span class="nx">avatar</span><span class="o">:</span> <span class="s2">&quot;&quot;</span><span class="p">,</span> <span class="c1">//base64，空字符串表示删除头像，不传这个字段或者为 null 则不做修改</span>
     <span class="nx">firstName</span><span class="o">:</span> <span class="s2">&quot;Toby&quot;</span><span class="p">,</span>
     <span class="nx">lastName</span><span class="o">:</span> <span class="s2">&quot;Bu&quot;</span><span class="p">,</span>
     <span class="nx">nickName</span><span class="o">:</span> <span class="s2">&quot;Bristletail&quot;</span><span class="p">,</span>
-    <span class="nx">gender</span><span class="o">:</span> <span class="s2">&quot;male&quot;</span> <span class="o">|</span> <span class="s2">&quot;female&quot;</span><span class="p">,</span>
+    <span class="nx">gender</span><span class="o">:</span> <span class="s2">&quot;male&quot;</span> <span class="o">||</span> <span class="s2">&quot;female&quot;</span><span class="p">,</span>
     <span class="nx">birthYear</span><span class="o">:</span> <span class="s2">&quot;01/1987&quot;</span><span class="p">,</span>
     <span class="nx">weight</span><span class="o">:</span> <span class="mf">175.12</span><span class="p">,</span>
-    <span class="nx">weightUnit</span><span class="o">:</span> <span class="s2">&quot;lb&quot;</span> <span class="o">|</span> <span class="s2">&quot;kg&quot;</span>
+    <span class="nx">newPassword</span><span class="o">:</span> <span class="s2">&quot;12345678&quot;</span> <span class="c1">//如果传新密码，则修改后要退出重新登录</span>
 <span class="p">}</span>
 </pre></div>
 <p>9, 修改密码 TODO</p>
@@ -266,9 +266,13 @@
 <span class="p">]</span>
 </pre></div>
 <p>12,   查询俱乐部列表</p>
-<p>get /dashboard/clients/page/{page} 分页，倒序</p>
+<p>post /dashboard/clients/page/{page} 分页，倒序</p>
 <p>get /dashboard/clients 全部，正序</p>
-<div class="notice">仅支持 Accuro，在 Session 列表将 hasPrivatePt = true 的 Clubs 作为过滤条件之一</div><div class="highlight"><pre><span></span><span class="p">[</span>
+<div class="notice">仅支持 Accuro</div><div class="highlight"><pre><span></span><span class="p">{</span>
+    <span class="s2">&quot;clubName&quot;</span><span class="o">:</span> <span class="s2">&quot;abc&quot;</span>
+<span class="p">}</span>
+</pre></div>
+<div class="highlight"><pre><span></span><span class="p">[</span>
   <span class="p">{</span>
     <span class="s2">&quot;clientId&quot;</span><span class="o">:</span> <span class="mi">1</span><span class="p">,</span>
     <span class="s2">&quot;clientName&quot;</span><span class="o">:</span> <span class="s2">&quot;AccuroFit&quot;</span><span class="p">,</span>
