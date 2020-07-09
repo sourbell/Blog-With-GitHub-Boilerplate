@@ -17,7 +17,7 @@
     <script>
         var ExSearchConfig = {
             root: "",
-            api: "https://cdn.jsdelivr.net/gh/sourbell/project@gh-pages/7c0622f60eddf69af81ff8d1056a248a.json"
+            api: "https://cdn.jsdelivr.net/gh/sourbell/project@gh-pages/77102ee3a0ef377de866cca12403b843.json"
         }
     </script>
     
@@ -125,7 +125,7 @@
     <span class="nx">data</span><span class="o">:</span> <span class="kc">true</span> 
 <span class="p">}</span>
 </pre></div>
-<p>3-2, 重设密码</p>
+<p>4, 重设密码</p>
 <p>post /dashboard/reset-password</p>
 <div class="highlight"><pre><span></span><span class="p">{</span> 
     <span class="nx">email</span><span class="o">:</span> <span class="s2">&quot;123456@qq.com&quot;</span><span class="p">,</span>
@@ -137,23 +137,46 @@
     <span class="nx">data</span><span class="o">:</span> <span class="kc">true</span> 
 <span class="p">}</span>
 </pre></div>
-<p>4, 获取用户最近统计数据  TODO</p>
+<p>5, 获取用户最近统计数据</p>
 <p>get /dashboard/statistics</p>
 <div class="highlight"><pre><span></span><span class="p">{</span>
-    <span class="nx">weekly</span><span class="o">:</span> <span class="p">{</span>
-        <span class="nx">attendance</span><span class="o">:</span> <span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">],</span> <span class="c1">//[6天前，5天前...，昨天，今天]</span>
-        <span class="nx">calories</span><span class="o">:</span> <span class="mf">756.23</span><span class="p">,</span>
-        <span class="nx">exerciseMinutes</span><span class="o">:</span> <span class="mi">320</span><span class="p">,</span>
-        <span class="nx">zoneDuration</span><span class="o">:</span> <span class="p">[</span><span class="mi">120</span><span class="p">,</span> <span class="mi">200</span><span class="p">,</span> <span class="mi">240</span><span class="p">,</span> <span class="mi">300</span><span class="p">,</span> <span class="mi">500</span><span class="p">]</span> <span class="c1">//zone1~5 的分钟数</span>
-    <span class="p">},</span>
-    <span class="nx">monthly</span><span class="o">:</span> <span class="p">{</span>
-        <span class="nx">attendance</span><span class="o">:</span> <span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mf">1.</span><span class="p">..</span> <span class="p">]</span> <span class="c1">//[] 本月1号起至今天</span>
-        <span class="nx">latestThirtyDays</span><span class="o">:</span> <span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span> <span class="p">...]</span>
-    <span class="p">},</span>
-
+    <span class="s2">&quot;calories&quot;</span><span class="o">:</span> <span class="mf">137708.19</span><span class="p">,</span>
+    <span class="s2">&quot;workoutTimes&quot;</span><span class="o">:</span> <span class="mi">505</span><span class="p">,</span>
+    <span class="s2">&quot;iqPoints&quot;</span><span class="o">:</span> <span class="mf">34600.65</span><span class="p">,</span>
+    <span class="s2">&quot;workoutTime&quot;</span><span class="o">:</span> <span class="mi">797460</span>
 <span class="p">}</span>
 </pre></div>
-<p>5, 根据日期范围获取最近的 workout list</p>
+<p>post /dashboard/statistics</p>
+<div class="highlight"><pre><span></span><span class="p">{</span>
+    <span class="s2">&quot;dateRange&quot;</span><span class="o">:</span> <span class="s2">&quot;daily&quot;</span> <span class="o">||</span> <span class="s2">&quot;weekly&quot;</span> <span class="o">||</span> <span class="s2">&quot;monthly&quot;</span> <span class="o">||</span> <span class="s2">&quot;yearly&quot;</span> <span class="o">||</span> <span class="s2">&quot;all&quot;</span>
+<span class="p">}</span>
+</pre></div>
+<div class="highlight"><pre><span></span><span class="p">[</span>
+        <span class="p">{</span>
+            <span class="s2">&quot;calories&quot;</span><span class="o">:</span> <span class="mi">539</span><span class="p">,</span>
+            <span class="s2">&quot;workoutDate&quot;</span><span class="o">:</span> <span class="s2">&quot;2020-07-09&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;workoutTimes&quot;</span><span class="o">:</span> <span class="mi">1</span><span class="p">,</span>
+            <span class="s2">&quot;iqPoints&quot;</span><span class="o">:</span> <span class="mf">126.63</span><span class="p">,</span>
+            <span class="s2">&quot;workoutSeconds&quot;</span><span class="o">:</span> <span class="mi">1901</span>
+        <span class="p">},</span>
+        <span class="p">{</span>
+            <span class="s2">&quot;calories&quot;</span><span class="o">:</span> <span class="mf">630.03</span><span class="p">,</span>
+            <span class="s2">&quot;workoutDate&quot;</span><span class="o">:</span> <span class="s2">&quot;2020-07-08&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;workoutTimes&quot;</span><span class="o">:</span> <span class="mi">2</span><span class="p">,</span>
+            <span class="s2">&quot;iqPoints&quot;</span><span class="o">:</span> <span class="mf">153.46</span><span class="p">,</span>
+            <span class="s2">&quot;workoutSeconds&quot;</span><span class="o">:</span> <span class="mi">2442</span>
+        <span class="p">},</span>
+        <span class="p">{</span>
+            <span class="s2">&quot;calories&quot;</span><span class="o">:</span> <span class="mi">460</span><span class="p">,</span>
+            <span class="s2">&quot;workoutDate&quot;</span><span class="o">:</span> <span class="s2">&quot;2020-07-02&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;workoutTimes&quot;</span><span class="o">:</span> <span class="mi">1</span><span class="p">,</span>
+            <span class="s2">&quot;iqPoints&quot;</span><span class="o">:</span> <span class="mf">108.5</span><span class="p">,</span>
+            <span class="s2">&quot;workoutSeconds&quot;</span><span class="o">:</span> <span class="mi">1787</span>
+        <span class="p">}</span>
+
+<span class="p">]</span>
+</pre></div>
+<p>6, 根据日期范围获取最近的 workout list</p>
 <p>post /dashboard/workouts/page/{page}</p>
 <p>post /dashboard/workouts</p>
 <div class="notice">已支持 Member &amp; Coach &amp; Accuro 用户查询其邮箱对应的 Member Workout List</div><div class="highlight"><pre><span></span><span class="p">{</span>
@@ -190,7 +213,7 @@
     <span class="p">...]</span>
 <span class="p">}</span>
 </pre></div>
-<p>6, 获取 workout 心率明细</p>
+<p>7, 获取 workout 心率明细</p>
 <p>get /dashboard/workouts/{workoutId}</p>
 <div class="highlight"><pre><span></span><span class="p">{</span>
     <span class="nt">&quot;calories&quot;</span><span class="p">:</span> <span class="mi">2286</span><span class="p">,</span>
@@ -213,7 +236,7 @@
     <span class="nt">&quot;endTime&quot;</span><span class="p">:</span> <span class="mi">1555933065</span>
 <span class="p">}</span>
 </pre></div>
-<p>7, 个人资料获取</p>
+<p>8, 个人资料获取</p>
 <p>get /dashboard/profile</p>
 <div class="highlight"><pre><span></span><span class="p">{</span>
     <span class="nx">memberRole</span><span class="o">:</span> <span class="s2">&quot;member&quot;</span> <span class="o">|</span> <span class="s2">&quot;coach&quot;</span> <span class="o">|</span> <span class="s2">&quot;club&quot;</span> <span class="o">|</span> <span class="s2">&quot;accuro&quot;</span><span class="p">,</span>
@@ -227,7 +250,7 @@
     <span class="nx">weight</span><span class="o">:</span> <span class="mf">175.12</span><span class="p">,</span> <span class="c1">// unit lb</span>
 <span class="p">}</span>
 </pre></div>
-<p>8, 个人资料修改</p>
+<p>9, 个人资料修改</p>
 <p>post /dashboard/profile</p>
 <div class="highlight"><pre><span></span><span class="p">{</span>
     <span class="nx">avatar</span><span class="o">:</span> <span class="s2">&quot;&quot;</span><span class="p">,</span> <span class="c1">//base64，空字符串表示删除头像，不传这个字段或者为 null 则不做修改</span>
@@ -237,14 +260,8 @@
     <span class="nx">gender</span><span class="o">:</span> <span class="s2">&quot;male&quot;</span> <span class="o">||</span> <span class="s2">&quot;female&quot;</span><span class="p">,</span>
     <span class="nx">birthYear</span><span class="o">:</span> <span class="s2">&quot;01/1987&quot;</span><span class="p">,</span>
     <span class="nx">weight</span><span class="o">:</span> <span class="mf">175.12</span><span class="p">,</span>
-    <span class="nx">newPassword</span><span class="o">:</span> <span class="s2">&quot;12345678&quot;</span> <span class="c1">//如果传新密码，则修改后要退出重新登录</span>
+    <span class="nx">password</span><span class="o">:</span> <span class="s2">&quot;12345678&quot;</span> <span class="c1">//如果传新密码，则修改后要退出重新登录</span>
 <span class="p">}</span>
-</pre></div>
-<p>9, 修改密码 TODO</p>
-<p>post /dashboard/profile/actions/change-password</p>
-<div class="highlight"><pre><span></span><span class="p">{</span> <span class="nx">newPassword</span><span class="o">:</span> <span class="s2">&quot;123456789&quot;</span> <span class="p">}</span>
-</pre></div>
-<div class="highlight"><pre><span></span><span class="p">{</span> <span class="nx">message</span><span class="o">:</span> <span class="s2">&quot;password changed&quot;</span> <span class="p">}</span>
 </pre></div>
 <p>10, 获取本角色下的 Challenge list TODO</p>
 <p>11, 根据日期范围获取全部或分页的 session list</p>
