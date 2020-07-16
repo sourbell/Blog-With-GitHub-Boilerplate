@@ -21,18 +21,18 @@
         }
     </script>
     
-<title>APT Release Note - 豪猪尾巴</title>
+<title>关于基础代谢 - 豪猪尾巴</title>
 <meta name="author" content="Toby Bu" />
-<meta name="description" content="APT App 更新日志" />
-<meta property="og:title" content="APT Release Note - 豪猪尾巴" />
-<meta property="og:description" content="APT App 更新日志" />
+<meta name="description" content="关于基础代谢" />
+<meta property="og:title" content="关于基础代谢 - 豪猪尾巴" />
+<meta property="og:description" content="关于基础代谢" />
 <meta property="og:site_name" content="豪猪尾巴" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://project.sourbell.im/archives/apt-release-note/" />
+<meta property="og:url" content="https://project.sourbell.im/archives/something-about-bmr/" />
 <meta property="og:image" content="" />
-<meta property="article:published_time" content="2019-12-25T01:01:00-00.00" />
-<meta name="twitter:title" content="APT Release Note - 豪猪尾巴" />
-<meta name="twitter:description" content="APT App 更新日志" />
+<meta property="article:published_time" content="2020-07-16T18:42:00-00.00" />
+<meta name="twitter:title" content="关于基础代谢 - 豪猪尾巴" />
+<meta name="twitter:description" content="关于基础代谢" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:image" content="" />
 
@@ -76,11 +76,11 @@
 <main>    
     <section class="ga-section ga-content">
         <article class="yue">
-            <h1 class="ga-post_title">APT Release Note</h1>
+            <h1 class="ga-post_title">关于基础代谢</h1>
             <span class="ga-post_meta ga-mono">
                 <span>Toby Bu</span>
                 <time>
-                    2019-12-25
+                    2020-07-16
                 </time>
                 
                 in <a no-style class="category" href="https://project.sourbell.im/category/Project Manage/">
@@ -90,57 +90,62 @@
                 
             </span>
             <div class="ga-content_body">
-                <p><code>1.1.2</code> Jul 16, 2019</p>
+                <h1>关于基础代谢</h1>
+<p>经过长时间 AccuroFit 与 AppleWatch 的对比测试，发现了俩个现象：</p>
 <ul>
-<li>Add background ability</li>
-<li>Allow customize member’s max heart rate</li>
-<li>Add reset password feature</li>
-<li>Fixed the black screen issue</li>
-<li>Optimized some user experience</li>
-<li>Fixed several small issues</li>
+<li>AppleWatch 在运动过程中显示了总卡路里和动态卡路里，顾名思义总卡路里是指基础代谢与运动消耗的卡路里之和（见下面的卡路里对比图，动态卡路里 365kcal，总卡路里 414kcal）</li>
+<li>基于我的个人信息计算，AccuroFit App 目前的卡路里计算结果比 AW 的动态卡路里仍然偏高 10% 左右（见下面的卡路里对比图，卡路里 435kcal）</li>
 </ul>
-<hr>
-<p><code>1.1.1</code> Jun 25, 2019</p>
+<p><figure class="pswp-item" style="flex: 56.2037037037037" data-width="1214" data-height="1080"><img src="https://cdn.jsdelivr.net/gh/sourbell/project@gh-pages/archives/assets/eb1c9f3c76b77c209a60dfb2ac314de9.jpg" alt="卡路里对比图-w607" /><figcaption>卡路里对比图-w607</figcaption></figure></p>
+<h2>个人信息</h2>
+<p>下面所有公式都是用我的个人信息代入计算，用到的字段包括：</p>
 <ul>
-<li>Fixed an issue with the challenges and leaderboard.</li>
+<li>年龄：33 周岁</li>
+<li>体重：83 公斤</li>
+<li>身高：183 公分</li>
+<li>体脂率：19.9%</li>
 </ul>
-<hr>
-<p><code>1.1.0</code> Jun 22, 2019</p>
+<h2>基础代谢的概念</h2>
+<p>查询 <a href="https://en.wikipedia.org/wiki/Basal_metabolic_rate">Wikipedia</a> 得知基础代谢 BMR（Basal metabolic rate）是指在自然温度环境中，恒温动物（比如人）的身体在非剧烈活动的状态下，处于非消化状态，维持生命所需消耗的最低能量。历史上提出过很多估算公式：</p>
 <ul>
-<li>Now you are able to view session history after the class, or you can go through each member’s personal workouts in their profile. Also we added challenges and leaderboard features, hope you will like it.</li>
+<li>1919 年提出的 The original Harris-Benedict equation</li>
+<li>1984 年提出的 The revised Harris-Benedict equation</li>
+<li>1990 年提出的 The Mifflin St Jeor Equation</li>
+<li>2006 年提出的结合了体脂率的 The Katch-McArdle Formula</li>
 </ul>
-<hr>
-<p><code>1.0.3</code> May 8, 2019</p>
+<p>有研究证实前三个公式里最近的 Mifflin 公式与实际误差在 5% 左右，这个公式很简单，最后一个变量值 s，男性为 +5，女性为 -161
+<figure class="pswp-item" style="flex: 349.10714285714283" data-width="391" data-height="56"><img src="https://cdn.jsdelivr.net/gh/sourbell/project@gh-pages/archives/assets/78088a5c77ff15f01fbb327f1ec7f789.jpg" alt="Katch-McArdle Formula" /><figcaption>Katch-McArdle Formula</figcaption></figure></p>
+<p>用我的个人信息代入公式得出的数据是这样的：</p>
+<p>P = 10 <em> 83kg + 6.25 </em> 183cm - 5 * 33yrs + 5 = 1813.75</p>
+<p>而考虑体脂的最后一个 Katch-McArdle 公式计算结果与这个很接近：</p>
+<p>P = 370 + 21.6 <em> (83kg </em> (1- 19.9%)) = 1806</p>
+<h2>AppleWatch 数据推算</h2>
+<p>AppleWatch 计算动态卡路里的方式相当复杂，不同运动类型使用的方式也不同，比如同样是跑步，室内跑步机上是根据步频和心率进行计算，而户外跑步还会结合爬升高度（比如上下坡）等信息；再比如羽毛球一个小时的平均心率只有 135bpm，但是动态卡路里也会高达 700kcal 左右，如果是跑步的话只有大约一半。换句话说，AppleWatch 的计算公式变量太多，基本上无法参考。</p>
+<p>AppleWatch 里最近一年我的平均每日基础代谢为 2036 千卡，相比上面的计算结果高出了 10% 以上，但维基百科里也提到不同个体之间的差异原因多种多样，比如不同强度的脑力活动导致的差异目前仍然无法解释也无法准确测量，所以暂且不管这个差异了。</p>
+<p>按照每天 2036 千卡来计算，上图中运动 28:03 的基础代谢应该为 39.6 千卡，而实际上基础代谢是 <code>414 - 365 = 49 千卡</code>，推测出白天的基础代谢大约是平均水平的 <code>1.2</code> 倍，睡眠时的基础代谢相对降低为 50%~60% 左右。</p>
+<h2>AccuroFit 里是怎么计算的</h2>
+<p>在 AccuroFit 生态里（包括 AccuroFit App、APT 和 ACS2000），每分钟消耗的卡路里计算公式是：</p>
 <ul>
-<li>Minor bug fixes.</li>
+<li>男：(0.2017 <em> 年龄 + 0.19920 </em> 体重（千克） + 0.6309 * 心率值 - 55.0969) / 4.184</li>
+<li>女：(0.0740 <em> 年龄 - 0.12657 </em> 体重（千克） + 0.4472 * 心率值 - 20.4022) / 4.184</li>
 </ul>
-<hr>
-<p><code>1.0.2</code> Apr 4, 2019</p>
+<p>以平均心率 59 来计算一整天的卡路里消耗，可以看出基本等同于基础代谢：</p>
+
+<pre><code>((0.2017 * 33 + 0.19920 * 83 + 0.6309 * 59 - 55.0969) / 4.184) * 24 * 60 = 1829kcal</code></pre>
+<p>再看运动过程，平均心率 153bpm、持续时长 28:03 运动的数据代入计算后分别得出：</p>
+<p>总卡路里 = ((0.2017 <em> 33 + 0.19920 </em> 83 + 0.6309 <em> 153 - 55.0969) / 4.184) / 60 </em> 1683 = 433.2kcal</p>
+<p>基础代谢 = 1813.75 / (24 <em> 60 </em> 60) <em> 1683 </em> 1.2 = 42.4kcal</p>
+<p>动态卡路里 = 433.2 - 42.4 = 391kcal</p>
+<h2>结论</h2>
 <ul>
-<li>Fixed some minor issues.</li>
-</ul>
-<hr>
-<p><code>1.0.1</code> Mar 23, 2019</p>
-<ul>
-<li>Fixed some minor issues.</li>
-</ul>
-<hr>
-<p><code>1.0.0</code> Mar 14, 2019</p>
-<ul>
-<li>Initial Release</li>
+<li>卡路里消耗公式没有金标，每个应用的计算结果都有差异，如果差异不是巨大使用者也不会太过在意这些差异，只需要确保自己的生态应用内保持一致即可。建议保持目前的卡路里计算公式不变。</li>
+<li>建议 AccuroFit App 增加显示动态卡路里，这样即便用户打开 Workout 模式静坐一整天，总卡路里可能会有两三千，但动态卡路里不会高得离谱。</li>
+<li>LYNK2 和 SLICE 内置的卡路里消耗是包含基础代谢的。</li>
 </ul>
 
             </div>
         </article>
         <div id="ga-tags">
-    
-    <span class="ga-tag">
-        <a class="ga-highlight" href="https://project.sourbell.im/tag/Release Note/">#Release Note</a>
-    </span>
-    
-    <span class="ga-tag">
-        <a class="ga-highlight" href="https://project.sourbell.im/tag/Project Manage/">#Project Manage</a>
-    </span>
     
 </div>
     </section>
@@ -149,14 +154,14 @@
 <section id="ga-content_pager">
 
     <div class="next">
-        <a class="ga-highlight" href="https://project.sourbell.im/archives/private-label-change-request/">Private Label Change Request</a>
-        <p class="yue">PL 客户端需求列表及记录。 - APT</p>
+        <h3>No More</h3>
+        <p class="yue">This is the latest one.</p>
     </div>
 
 
     <div class="prev">
-        <a class="ga-highlight" href="https://project.sourbell.im/archives/accurofit-release-note/">Accurofit Release Note</a>
-        <p class="yue">Accurofit App 3.0 更新日志</p>
+        <a class="ga-highlight" href="https://project.sourbell.im/archives/apt-dashbaord/">APT Dashboard</a>
+        <p class="yue">April 22, 2020</p>
     </div>
 
 </section>
