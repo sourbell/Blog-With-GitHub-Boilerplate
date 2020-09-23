@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>豪猪尾巴</title><link>https://project.sourbell.im/</link><description>Keep resolutions</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>${static_prefix}logo.jpg</url><title>豪猪尾巴</title><link>https://project.sourbell.im/</link></image><language>english</language><lastBuildDate>Wed, 23 Sep 2020 15:36:31 +0806</lastBuildDate><pubDate>Wed, 23 Sep 2020 15:36:31 +0806</pubDate><item><title>APT Release Note</title><link>https://project.sourbell.im/archives/apt-release-note/</link><description>&lt;p&gt;&lt;code&gt;1.1.2&lt;/code&gt; Jul 16, 2019&lt;/p&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>豪猪尾巴</title><link>https://project.sourbell.im/</link><description>Keep resolutions</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>${static_prefix}logo.jpg</url><title>豪猪尾巴</title><link>https://project.sourbell.im/</link></image><language>english</language><lastBuildDate>Wed, 23 Sep 2020 18:58:58 +0806</lastBuildDate><pubDate>Wed, 23 Sep 2020 18:58:58 +0806</pubDate><item><title>APT Release Note</title><link>https://project.sourbell.im/archives/apt-release-note/</link><description>&lt;p&gt;&lt;code&gt;1.1.2&lt;/code&gt; Jul 16, 2019&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Add background ability&lt;/li&gt;
 &lt;li&gt;Allow customize member’s max heart rate&lt;/li&gt;
@@ -1181,6 +1181,9 @@
     &lt;span class="s2"&gt;&amp;quot;wotdId&amp;quot;&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="mf"&gt;1&lt;/span&gt;
     &lt;span class="s2"&gt;&amp;quot;wotdDate&amp;quot;&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;2020-09-20&amp;quot;&lt;/span&gt;
     &lt;span class="s2"&gt;&amp;quot;createBy&amp;quot;&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;15950000512@qq.com&amp;quot;&lt;/span&gt;
+    &lt;span class="s2"&gt;&amp;quot;sections&amp;quot;&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;
+
+    &lt;span class="p"&gt;]&lt;/span&gt;
 &lt;span class="p"&gt;},&lt;/span&gt;
 &lt;span class="p"&gt;{&lt;/span&gt;
     &lt;span class="s2"&gt;&amp;quot;wotdId&amp;quot;&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="mf"&gt;2&lt;/span&gt;
@@ -1192,6 +1195,10 @@
 &lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;32, 创建 WOTD&lt;/p&gt;
 &lt;p&gt;put /dashboard/workout-of-the-day&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;
+    &lt;span class="s2"&gt;&amp;quot;wotdDate&amp;quot;&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;2020-09-23&amp;quot;&lt;/span&gt;
+&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;33, 删除 WOTD&lt;/p&gt;
 &lt;p&gt;delete /dashboard/workout-of-the-day/{wotdId}&lt;/p&gt;
 &lt;p&gt;34, 获取 WOTD Detail&lt;/p&gt;
@@ -1207,6 +1214,7 @@
 &lt;p&gt;36, 修改 WOTD Section&lt;/p&gt;
 &lt;p&gt;post /dashboard/workout-of-the-day/{wotdId}/sections/{sectionId}&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;
+    &lt;span class="s2"&gt;&amp;quot;sectionOrder&amp;quot;&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="mf"&gt;1&lt;/span&gt; &lt;span class="c1"&gt;//排序&lt;/span&gt;
     &lt;span class="s2"&gt;&amp;quot;sectionTitle&amp;quot;&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;Section 1&amp;quot;&lt;/span&gt; &lt;span class="c1"&gt;//前端自动根据当前序号生成 Section N 的标题&lt;/span&gt;
     &lt;span class="s2"&gt;&amp;quot;sectionDescription&amp;quot;&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;abc \n abc&amp;quot;&lt;/span&gt; &lt;span class="c1"&gt;//使用\n表示换行符&lt;/span&gt;
     &lt;span class="s2"&gt;&amp;quot;sectionNote&amp;quot;&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;def \n def&amp;quot;&lt;/span&gt; &lt;span class="c1"&gt;//使用\n表示换行符&lt;/span&gt;
