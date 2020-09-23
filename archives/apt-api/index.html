@@ -17,7 +17,7 @@
     <script>
         var ExSearchConfig = {
             root: "",
-            api: "https://cdn.jsdelivr.net/gh/sourbell/project@gh-pages/ceb6e06dd81c2dda4055ace1e551af35.json"
+            api: "https://cdn.jsdelivr.net/gh/sourbell/project@gh-pages/f4906348919f6114ebb0972b48f77b09.json"
         }
     </script>
     
@@ -481,38 +481,46 @@
     <span class="s2">&quot;expireTime&quot;</span><span class="o">:</span> <span class="s2">&quot;2020-08-01&quot;</span> <span class="c1">//YYYY-MM-DD</span>
 <span class="p">}</span>
 </pre></div>
-<p>31, 获取 Class List</p>
-<p>get /dashboard/build-classes/page/{page}</p>
-<p>32, 创建 Class</p>
-<p>put /dashboard/build-classes</p>
-<p>33, 修改 Class Name</p>
-<p>post /dashboard/build-classes/{classId}</p>
-<div class="highlight"><pre><span></span><span class="p">{</span>
-    <span class="s2">&quot;className&quot;</span><span class="o">:</span> <span class="s2">&quot;xxx&quot;</span>
-<span class="p">}</span>
+<p>31, 获取某一个月份的 Workout of the Day(WOTD) 列表</p>
+<p>get /dashboard/workout-of-the-day/{year}/{month}</p>
+<div class="highlight"><pre><span></span><span class="p">[</span>
+<span class="p">{</span>
+    <span class="s2">&quot;wotdId&quot;</span><span class="o">:</span> <span class="mf">1</span>
+    <span class="s2">&quot;wotdDate&quot;</span><span class="o">:</span> <span class="s2">&quot;2020-09-20&quot;</span>
+    <span class="s2">&quot;createBy&quot;</span><span class="o">:</span> <span class="s2">&quot;15950000512@qq.com&quot;</span>
+<span class="p">},</span>
+<span class="p">{</span>
+    <span class="s2">&quot;wotdId&quot;</span><span class="o">:</span> <span class="mf">2</span>
+    <span class="s2">&quot;wotdDate&quot;</span><span class="o">:</span> <span class="s2">&quot;2020-09-21&quot;</span>
+    <span class="s2">&quot;createBy&quot;</span><span class="o">:</span> <span class="s2">&quot;15950000512@qq.com&quot;</span>
+<span class="p">},</span>
+<span class="p">...</span>
+<span class="p">]</span>
 </pre></div>
-<p>34, 删除 Class</p>
-<p>delete /dashboard/build-classes/{classId}</p>
-<p>35, 获取 Class Detail</p>
-<p>get /dashboard/build-classes/{classId}</p>
-<p>36, 为 Class 增加 Section</p>
-<p>put /dashboard/build-classes/{classId}/sections</p>
+<p>32, 创建 WOTD</p>
+<p>put /dashboard/workout-of-the-day</p>
+<p>33, 删除 WOTD</p>
+<p>delete /dashboard/workout-of-the-day/{wotdId}</p>
+<p>34, 获取 WOTD Detail</p>
+<p>get /dashboard/workout-of-the-day/{wotdId}</p>
+<p>35, 为 WOTD 增加 Section</p>
+<p>put /dashboard/workout-of-the-day/{wotdId}/sections</p>
 <div class="highlight"><pre><span></span><span class="p">{</span>
     <span class="s2">&quot;sectionTitle&quot;</span><span class="o">:</span> <span class="s2">&quot;Section 1&quot;</span> <span class="c1">//前端自动根据当前序号生成 Section N 的标题，用户可修改</span>
     <span class="s2">&quot;sectionDescription&quot;</span><span class="o">:</span> <span class="s2">&quot;abc \n abc&quot;</span> <span class="c1">//使用\n表示换行符</span>
     <span class="s2">&quot;sectionNote&quot;</span><span class="o">:</span> <span class="s2">&quot;def \n def&quot;</span> <span class="c1">//使用\n表示换行符</span>
 <span class="p">}</span>
 </pre></div>
-<p>37, 修改 Class Section</p>
-<p>post /dashboard/build-classes/{classId}/sections/{sectionId}</p>
+<p>36, 修改 WOTD Section</p>
+<p>post /dashboard/workout-of-the-day/{wotdId}/sections/{sectionId}</p>
 <div class="highlight"><pre><span></span><span class="p">{</span>
     <span class="s2">&quot;sectionTitle&quot;</span><span class="o">:</span> <span class="s2">&quot;Section 1&quot;</span> <span class="c1">//前端自动根据当前序号生成 Section N 的标题</span>
     <span class="s2">&quot;sectionDescription&quot;</span><span class="o">:</span> <span class="s2">&quot;abc \n abc&quot;</span> <span class="c1">//使用\n表示换行符</span>
     <span class="s2">&quot;sectionNote&quot;</span><span class="o">:</span> <span class="s2">&quot;def \n def&quot;</span> <span class="c1">//使用\n表示换行符</span>
 <span class="p">}</span>
 </pre></div>
-<p>38, 删除 Class Section</p>
-<p>delete /dashboard/build-classes/{classId}/sections/{sectionId}</p>
+<p>37, 删除 WOTD Section</p>
+<p>delete /dashboard/workout-of-the-day/{wotdId}/sections/{sectionId}</p>
 
             </div>
         </article>
