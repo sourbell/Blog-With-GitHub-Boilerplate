@@ -17,7 +17,7 @@
     <script>
         var ExSearchConfig = {
             root: "",
-            api: "https://cdn.jsdelivr.net/gh/sourbell/project@gh-pages/bc008804f8f5e87cbe5a9b08a4aa66cc.json"
+            api: "https://cdn.jsdelivr.net/gh/sourbell/project@gh-pages/b4eeebb6f30b588c149f0156a322dde4.json"
         }
     </script>
     
@@ -137,7 +137,7 @@
     <span class="nx">data</span><span class="o">:</span> <span class="kc">true</span> 
 <span class="p">}</span>
 </pre></div>
-<p>5, 获取用户最近统计数据</p>
+<p>5, 获取用户最近统计数据 DEPRECATED</p>
 <p>get /dashboard/statistics</p>
 <div class="highlight"><pre><span></span><span class="p">{</span>
     <span class="s2">&quot;calories&quot;</span><span class="o">:</span> <span class="mf">137708.19</span><span class="p">,</span>
@@ -398,7 +398,12 @@
         <span class="s2">&quot;gender&quot;</span><span class="o">:</span> <span class="s2">&quot;male&quot;</span><span class="p">,</span>
         <span class="s2">&quot;avatar&quot;</span><span class="o">:</span> <span class="kc">null</span><span class="p">,</span>
         <span class="s2">&quot;disabled&quot;</span><span class="o">:</span> <span class="kc">false</span><span class="p">,</span>
-        <span class="s2">&quot;isVerified&quot;</span><span class="o">:</span> <span class="kc">true</span>
+        <span class="s2">&quot;isVerified&quot;</span><span class="o">:</span> <span class="kc">true</span><span class="p">,</span>
+
+        <span class="c1">//以下是新增的</span>
+        <span class="s2">&quot;birthYear&quot;</span><span class="o">:</span> <span class="s2">&quot;01/1987&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;weight&quot;</span><span class="o">:</span> <span class="mf">175.12</span><span class="p">,</span> <span class="c1">// 单位永远为 lb</span>
+        <span class="s2">&quot;deviceId&quot;</span><span class="o">:</span> <span class="s2">&quot;123456&quot;</span>
     <span class="p">}</span>
 <span class="p">]</span>
 </pre></div>
@@ -529,6 +534,159 @@
 </pre></div>
 <p>37, 删除 WOTD Section</p>
 <p>delete /dashboard/workout-of-the-day/{wotdId}/sections/{sectionId}</p>
+<p>38, 获取 Client Member 详细资料</p>
+<p>修改 #22 接口，增加更多字段</p>
+<p>39, 修改 Client Member 详细资料</p>
+<p>patch /dashboard/clients/{clientId}/members/{memberId}</p>
+<p>40, 修改 Client Member 密码</p>
+<p>post /dashboard/clients/{clientId}/members/{memberId}/actions/change-password</p>
+<p>41, 禁用 Client Member</p>
+<p>post /dashboard/clients/{clientId}/members/{memberId}/actions/disable</p>
+<p>42, 取消禁用 Client Member</p>
+<p>post /dashboard/clients/{clientId}/members/{memberId}/actions/enable</p>
+<p>43, 批量导入 Client Members</p>
+<p>post /dashboard/clients/{clientId}/members/actions/import</p>
+<div class="highlight"><pre><span></span><span class="p">[</span>
+  <span class="p">{</span>
+    <span class="s2">&quot;lastName&quot;</span><span class="o">:</span> <span class="s2">&quot;piecuch&quot;</span><span class="p">,</span> <span class="c1">//必填字段</span>
+    <span class="s2">&quot;firstName&quot;</span><span class="o">:</span> <span class="s2">&quot;abby&quot;</span><span class="p">,</span> <span class="c1">//必填字段</span>
+    <span class="s2">&quot;email&quot;</span><span class="o">:</span> <span class="s2">&quot;abc@gmail.com&quot;</span><span class="p">,</span>  <span class="c1">//必填字段</span>
+    <span class="s2">&quot;deviceId&quot;</span><span class="o">:</span> <span class="s2">&quot;123456&quot;</span><span class="p">,</span>  <span class="c1">//可选字段</span>
+    <span class="s2">&quot;gender&quot;</span><span class="o">:</span> <span class="s2">&quot;female&quot;</span>  <span class="c1">//可选字段，&quot;male&quot; or &quot;female&quot; or null</span>
+  <span class="p">},</span>
+  <span class="p">...</span>
+<span class="p">]</span>
+</pre></div>
+<p>44, 获取不同角色的统计数据</p>
+<ul>
+<li><p>Member
+  get /dashboard/statistics/member</p>
+<div class="highlight"><pre><span></span><span class="p">{</span>
+      <span class="s2">&quot;calories&quot;</span><span class="o">:</span> <span class="mf">137708.19</span><span class="p">,</span>
+      <span class="s2">&quot;workoutTimes&quot;</span><span class="o">:</span> <span class="mf">505</span><span class="p">,</span>
+      <span class="s2">&quot;iqPoints&quot;</span><span class="o">:</span> <span class="mf">34600.65</span><span class="p">,</span>
+      <span class="s2">&quot;workoutSeconds&quot;</span><span class="o">:</span> <span class="mf">797460</span>
+  <span class="p">}</span>
+</pre></div>
+<p>post /dashboard/statistics/member</p>
+<div class="highlight"><pre><span></span><span class="p">{</span>
+      <span class="s2">&quot;dateRange&quot;</span><span class="o">:</span> <span class="s2">&quot;daily&quot;</span> <span class="o">||</span> <span class="s2">&quot;weekly&quot;</span> <span class="o">||</span> <span class="s2">&quot;monthly&quot;</span> <span class="o">||</span> <span class="s2">&quot;yearly&quot;</span> <span class="o">||</span> <span class="s2">&quot;all&quot;</span>
+  <span class="p">}</span>
+</pre></div>
+</li>
+</ul>
+
+<pre><code>``` javascript 
+[
+        {
+            "calories": 539,
+            "workoutDate": "2020-07-09",
+            "workoutTimes": 1,
+            "iqPoints": 126.63,
+            "workoutSeconds": 1901
+        },
+        {
+            "calories": 630.03,
+            "workoutDate": "2020-07-08",
+            "workoutTimes": 2,
+            "iqPoints": 153.46,
+            "workoutSeconds": 2442
+        },
+        {
+            "calories": 460,
+            "workoutDate": "2020-07-02",
+            "workoutTimes": 1,
+            "iqPoints": 108.5,
+            "workoutSeconds": 1787
+        }
+
+]
+```
+
+</code></pre>
+<ul>
+<li><p>Coach / Club Admin 
+  get /dashboard/statistics/coach</p>
+<div class="highlight"><pre><span></span><span class="p">{</span>
+      <span class="s2">&quot;calories&quot;</span><span class="o">:</span> <span class="mf">137708.19</span><span class="p">,</span>
+      <span class="s2">&quot;iqPoints&quot;</span><span class="o">:</span> <span class="mf">34600.65</span><span class="p">,</span>
+      <span class="s2">&quot;workoutTimes&quot;</span><span class="o">:</span> <span class="mf">505</span><span class="p">,</span> <span class="c1">//Session 总次数</span>
+      <span class="s2">&quot;workoutSeconds&quot;</span><span class="o">:</span> <span class="mf">7974060</span><span class="err">，</span> <span class="c1">//Session 总时长</span>
+      <span class="s2">&quot;memberCount&quot;</span><span class="o">:</span> <span class="mf">45</span><span class="p">,</span>
+      <span class="s2">&quot;coachCount&quot;</span><span class="o">:</span> <span class="mf">2</span><span class="p">,</span>
+  <span class="p">}</span>
+</pre></div>
+<p>post /dashboard/statistics/coach</p>
+<div class="highlight"><pre><span></span><span class="p">{</span>
+      <span class="s2">&quot;dateRange&quot;</span><span class="o">:</span> <span class="s2">&quot;daily&quot;</span> <span class="o">||</span> <span class="s2">&quot;weekly&quot;</span> <span class="o">||</span> <span class="s2">&quot;monthly&quot;</span> <span class="o">||</span> <span class="s2">&quot;yearly&quot;</span> <span class="o">||</span> <span class="s2">&quot;all&quot;</span>
+  <span class="p">}</span>
+</pre></div>
+</li>
+</ul>
+
+<pre><code>``` javascript 
+[
+    {
+        "workoutDate": "2020-09-01",
+        "calories": 539,
+        "iqPoints": 126.63,
+        "workoutTimes": 1,
+        "workoutSeconds": 1901
+    },
+    {
+        "workoutDate": "2020-09-02",
+        "calories": 630.03,
+        "iqPoints": 153.46,
+        "workoutTimes": 2,
+        "workoutSeconds": 2442
+    }
+
+]
+```
+
+
+
+</code></pre>
+<ul>
+<li><p>Accuro Admin 
+  get /dashboard/statistics/accuro</p>
+<div class="highlight"><pre><span></span><span class="p">{</span>
+      <span class="s2">&quot;calories&quot;</span><span class="o">:</span> <span class="mf">137708.19</span><span class="p">,</span>
+      <span class="s2">&quot;iqPoints&quot;</span><span class="o">:</span> <span class="mf">34600.65</span><span class="p">,</span>
+      <span class="s2">&quot;workoutTimes&quot;</span><span class="o">:</span> <span class="mf">505</span><span class="p">,</span> <span class="c1">//Session 总次数</span>
+      <span class="s2">&quot;workoutSeconds&quot;</span><span class="o">:</span> <span class="mf">7974060</span><span class="err">，</span> <span class="c1">//Session 总时长</span>
+      <span class="s2">&quot;memberCount&quot;</span><span class="o">:</span> <span class="mf">34545</span><span class="p">,</span>
+      <span class="s2">&quot;coachCount&quot;</span><span class="o">:</span> <span class="mf">145</span><span class="p">,</span>
+      <span class="s2">&quot;clubCount&quot;</span><span class="o">:</span> <span class="mf">89</span><span class="p">,</span>
+  <span class="p">}</span>
+</pre></div>
+<p>post /dashboard/statistics/accuro</p>
+<div class="highlight"><pre><span></span><span class="p">{</span>
+      <span class="s2">&quot;dateRange&quot;</span><span class="o">:</span> <span class="s2">&quot;daily&quot;</span> <span class="o">||</span> <span class="s2">&quot;weekly&quot;</span> <span class="o">||</span> <span class="s2">&quot;monthly&quot;</span> <span class="o">||</span> <span class="s2">&quot;yearly&quot;</span> <span class="o">||</span> <span class="s2">&quot;all&quot;</span>
+  <span class="p">}</span>
+</pre></div>
+</li>
+</ul>
+
+<pre><code>``` javascript 
+[
+    {
+        "workoutDate": "2020-09-01",
+        "calories": 539,
+        "iqPoints": 126.63,
+        "sessionTimes": 1,
+        "sessionSeconds": 1901
+    },
+    {
+        "workoutDate": "2020-09-02",
+        "calories": 630.03,
+        "iqPoints": 153.46,
+        "sessionTimes": 2,
+        "sessionSeconds": 2442
+    }
+
+]
+```</code></pre>
 
             </div>
         </article>
