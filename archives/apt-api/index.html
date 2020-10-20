@@ -17,7 +17,7 @@
     <script>
         var ExSearchConfig = {
             root: "",
-            api: "https://cdn.jsdelivr.net/gh/sourbell/project@gh-pages/b4eeebb6f30b588c149f0156a322dde4.json"
+            api: "https://cdn.jsdelivr.net/gh/sourbell/project@gh-pages/69f32473c28bcf8dccd7d8308143db6d.json"
         }
     </script>
     
@@ -526,9 +526,9 @@
 <p>36, 修改 WOTD Section</p>
 <p>post /dashboard/workout-of-the-day/{wotdId}/sections/{sectionId}</p>
 <div class="highlight"><pre><span></span><span class="p">{</span>
-    <span class="s2">&quot;sectionOrder&quot;</span><span class="o">:</span> <span class="mf">1</span> <span class="c1">//排序</span>
-    <span class="s2">&quot;sectionTitle&quot;</span><span class="o">:</span> <span class="s2">&quot;Section 1&quot;</span> <span class="c1">//前端自动根据当前序号生成 Section N 的标题</span>
-    <span class="s2">&quot;sectionDescription&quot;</span><span class="o">:</span> <span class="s2">&quot;abc \n abc&quot;</span> <span class="c1">//使用\n表示换行符</span>
+    <span class="s2">&quot;sectionOrder&quot;</span><span class="o">:</span> <span class="mf">1</span><span class="p">,</span> <span class="c1">//排序</span>
+    <span class="s2">&quot;sectionTitle&quot;</span><span class="o">:</span> <span class="s2">&quot;Section 1&quot;</span><span class="p">,</span> <span class="c1">//前端自动根据当前序号生成 Section N 的标题</span>
+    <span class="s2">&quot;sectionDescription&quot;</span><span class="o">:</span> <span class="s2">&quot;abc \n abc&quot;</span><span class="p">,</span> <span class="c1">//使用\n表示换行符</span>
     <span class="s2">&quot;sectionNote&quot;</span><span class="o">:</span> <span class="s2">&quot;def \n def&quot;</span> <span class="c1">//使用\n表示换行符</span>
 <span class="p">}</span>
 </pre></div>
@@ -538,6 +538,18 @@
 <p>修改 #22 接口，增加更多字段</p>
 <p>39, 修改 Client Member 详细资料</p>
 <p>patch /dashboard/clients/{clientId}/members/{memberId}</p>
+<div class="highlight"><pre><span></span><span class="p">{</span>
+    <span class="s2">&quot;email&quot;</span><span class="o">:</span> <span class="s2">&quot;15950000512@qq.com&quot;</span><span class="p">,</span> <span class="c1">//必填</span>
+    <span class="s2">&quot;firstName&quot;</span><span class="o">:</span> <span class="s2">&quot;Tao&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;lastName&quot;</span><span class="o">:</span> <span class="s2">&quot;Bu&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;nickName&quot;</span><span class="o">:</span> <span class="s2">&quot;Toby&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;gender&quot;</span><span class="o">:</span> <span class="s2">&quot;male&quot;</span> <span class="o">||</span> <span class="s2">&quot;female&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;height&quot;</span><span class="o">:</span> <span class="mf">123</span><span class="p">,</span> 
+    <span class="s2">&quot;weight&quot;</span><span class="o">:</span> <span class="mf">183</span><span class="p">,</span> 
+    <span class="s2">&quot;birthYear&quot;</span><span class="o">:</span> <span class="s2">&quot;05/1987&quot;</span><span class="p">,</span> 
+    <span class="s2">&quot;deviceId&quot;</span><span class="o">:</span> <span class="s2">&quot;12345&quot;</span>
+<span class="p">}</span>
+</pre></div>
 <p>40, 修改 Client Member 密码</p>
 <p>post /dashboard/clients/{clientId}/members/{memberId}/actions/change-password</p>
 <p>41, 禁用 Client Member</p>
