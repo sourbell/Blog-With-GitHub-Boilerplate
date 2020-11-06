@@ -17,7 +17,7 @@
     <script>
         var ExSearchConfig = {
             root: "",
-            api: "https://cdn.jsdelivr.net/gh/sourbell/project@gh-pages/69f32473c28bcf8dccd7d8308143db6d.json"
+            api: "https://cdn.jsdelivr.net/gh/sourbell/project@gh-pages/0846823c9bd3dff8df65c93bf5695510.json"
         }
     </script>
     
@@ -544,8 +544,7 @@
     <span class="s2">&quot;lastName&quot;</span><span class="o">:</span> <span class="s2">&quot;Bu&quot;</span><span class="p">,</span>
     <span class="s2">&quot;nickName&quot;</span><span class="o">:</span> <span class="s2">&quot;Toby&quot;</span><span class="p">,</span>
     <span class="s2">&quot;gender&quot;</span><span class="o">:</span> <span class="s2">&quot;male&quot;</span> <span class="o">||</span> <span class="s2">&quot;female&quot;</span><span class="p">,</span>
-    <span class="s2">&quot;height&quot;</span><span class="o">:</span> <span class="mf">123</span><span class="p">,</span> 
-    <span class="s2">&quot;weight&quot;</span><span class="o">:</span> <span class="mf">183</span><span class="p">,</span> 
+    <span class="s2">&quot;weight&quot;</span><span class="o">:</span> <span class="mf">183</span><span class="p">,</span>  <span class="c1">//单位 LB</span>
     <span class="s2">&quot;birthYear&quot;</span><span class="o">:</span> <span class="s2">&quot;05/1987&quot;</span><span class="p">,</span> 
     <span class="s2">&quot;deviceId&quot;</span><span class="o">:</span> <span class="s2">&quot;12345&quot;</span>
 <span class="p">}</span>
@@ -569,7 +568,37 @@
   <span class="p">...</span>
 <span class="p">]</span>
 </pre></div>
-<p>44, 获取不同角色的统计数据</p>
+<p>44, 获取俱乐部下的排行榜</p>
+<p>post /dashboard/clients/{clientId:[0-9]+}/leaderboard</p>
+<div class="highlight"><pre><span></span><span class="p">{</span>
+    <span class="s2">&quot;criteria&quot;</span><span class="o">:</span> <span class="s2">&quot;calories&quot;</span> <span class="o">||</span> <span class="s2">&quot;iqPoints&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;startTime&quot;</span><span class="o">:</span> <span class="s2">&quot;2020-01-01&quot;</span><span class="p">,</span> 
+    <span class="s2">&quot;endTime&quot;</span><span class="o">:</span> <span class="s2">&quot;2020-11-05&quot;</span>
+<span class="p">}</span>
+</pre></div>
+<div class="highlight"><pre><span></span><span class="p">[</span>
+  <span class="p">{</span>
+        <span class="s2">&quot;email&quot;</span><span class="o">:</span> <span class="s2">&quot;aeisberg@gmail.com&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;calories&quot;</span><span class="o">:</span> <span class="mf">626.040858508603</span><span class="p">,</span>
+        <span class="s2">&quot;avatar&quot;</span><span class="o">:</span> <span class="kc">null</span><span class="p">,</span>
+        <span class="s2">&quot;iqPoints&quot;</span><span class="o">:</span> <span class="mf">149.76666666666645</span><span class="p">,</span>
+        <span class="s2">&quot;firstName&quot;</span><span class="o">:</span> <span class="kc">null</span><span class="p">,</span>
+        <span class="s2">&quot;lastName&quot;</span><span class="o">:</span> <span class="kc">null</span><span class="p">,</span>
+        <span class="s2">&quot;nickName&quot;</span><span class="o">:</span> <span class="kc">null</span>
+    <span class="p">},</span>
+    <span class="p">{</span>
+        <span class="s2">&quot;email&quot;</span><span class="o">:</span> <span class="s2">&quot;iceman32583@yahoo.com&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;calories&quot;</span><span class="o">:</span> <span class="mf">348.709993785851</span><span class="p">,</span>
+        <span class="s2">&quot;avatar&quot;</span><span class="o">:</span> <span class="kc">null</span><span class="p">,</span>
+        <span class="s2">&quot;iqPoints&quot;</span><span class="o">:</span> <span class="mf">84.19999999999906</span><span class="p">,</span>
+        <span class="s2">&quot;firstName&quot;</span><span class="o">:</span> <span class="kc">null</span><span class="p">,</span>
+        <span class="s2">&quot;lastName&quot;</span><span class="o">:</span> <span class="kc">null</span><span class="p">,</span>
+        <span class="s2">&quot;nickName&quot;</span><span class="o">:</span> <span class="kc">null</span>
+    <span class="p">}</span>
+  <span class="p">...</span>
+<span class="p">]</span>
+</pre></div>
+<p>45, 获取不同角色的统计数据</p>
 <ul>
 <li><p>Member
   get /dashboard/statistics/member</p>
