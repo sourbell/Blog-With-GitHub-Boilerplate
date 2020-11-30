@@ -17,7 +17,7 @@
     <script>
         var ExSearchConfig = {
             root: "",
-            api: "https://cdn.jsdelivr.net/gh/sourbell/project@gh-pages/b6b127e3956e2a32509acd404ce86d89.json"
+            api: "https://cdn.jsdelivr.net/gh/sourbell/project@gh-pages/d7a33c424780075dc12763e2ae2a8d73.json"
         }
     </script>
     
@@ -601,217 +601,206 @@
 </pre></div>
 <p>45, 获取不同角色的统计数据</p>
 <ul>
-<li><p>Member 
-  get /dashboard/clients/{clientId}/members/{memberId}/statistics</p>
+<li>Member </li>
+</ul>
+<p>get /dashboard/clients/{clientId}/members/{memberId}/statistics</p>
 <div class="highlight"><pre><span></span><span class="p">{</span>
-      <span class="s2">&quot;calories&quot;</span><span class="o">:</span> <span class="mf">172696.02</span><span class="p">,</span>
-      <span class="s2">&quot;workoutTimes&quot;</span><span class="o">:</span> <span class="mf">713</span><span class="p">,</span>
-      <span class="s2">&quot;iqPoints&quot;</span><span class="o">:</span> <span class="mf">43357.44</span><span class="p">,</span>
-      <span class="s2">&quot;workoutSeconds&quot;</span><span class="o">:</span> <span class="mf">962622</span><span class="p">,</span>
-      <span class="s2">&quot;avgHr&quot;</span><span class="o">:</span> <span class="mf">122</span><span class="p">,</span>
-      <span class="s2">&quot;zoneDuration&quot;</span><span class="o">:</span> <span class="p">[</span>
-          <span class="mf">186051</span><span class="p">,</span>
-          <span class="mf">49788</span><span class="p">,</span>
-          <span class="mf">83377</span><span class="p">,</span>
-          <span class="mf">115917</span><span class="p">,</span>
-          <span class="mf">57172</span>
-      <span class="p">]</span>
-  <span class="p">}</span>
+    <span class="s2">&quot;calories&quot;</span><span class="o">:</span> <span class="mf">172696.02</span><span class="p">,</span>
+    <span class="s2">&quot;workoutTimes&quot;</span><span class="o">:</span> <span class="mf">713</span><span class="p">,</span>
+    <span class="s2">&quot;iqPoints&quot;</span><span class="o">:</span> <span class="mf">43357.44</span><span class="p">,</span>
+    <span class="s2">&quot;workoutSeconds&quot;</span><span class="o">:</span> <span class="mf">962622</span><span class="p">,</span>
+    <span class="s2">&quot;avgHr&quot;</span><span class="o">:</span> <span class="mf">122</span><span class="p">,</span>
+    <span class="s2">&quot;zoneDuration&quot;</span><span class="o">:</span> <span class="p">[</span>
+        <span class="mf">186051</span><span class="p">,</span>
+        <span class="mf">49788</span><span class="p">,</span>
+        <span class="mf">83377</span><span class="p">,</span>
+        <span class="mf">115917</span><span class="p">,</span>
+        <span class="mf">57172</span>
+    <span class="p">]</span>
+<span class="p">}</span>
 </pre></div>
 <p>post /dashboard/clients/{clientId}/members/{memberId}/statistics</p>
-<ul>
+<ol>
 <li>isSummary 不传或者传入 true 均返回上面 get 类似的结果</li>
 <li>时间范围不允许超过 31 天</li>
-<li><p>Member 用户只能访问自己的数据，Coach &amp; ClubAdmin 用户可以访问自己俱乐部下的 Member 的数据，Accuro 用户可以访问任意 Member 的数据</p>
+<li>Member 用户只能访问自己的数据，Coach &amp; ClubAdmin 用户可以访问自己俱乐部下的 Member 的数据，Accuro 用户可以访问任意 Member 的数据</li>
+</ol>
 <div class="highlight"><pre><span></span><span class="p">{</span>
-  <span class="s2">&quot;isSummary&quot;</span><span class="o">:</span> <span class="kc">false</span><span class="p">,</span> 
-  <span class="s2">&quot;startTime&quot;</span><span class="o">:</span> <span class="s2">&quot;2020-07-01&quot;</span><span class="p">,</span>
-  <span class="s2">&quot;endTime&quot;</span><span class="o">:</span> <span class="s2">&quot;2020-07-31&quot;</span>
+    <span class="s2">&quot;isSummary&quot;</span><span class="o">:</span> <span class="kc">false</span><span class="p">,</span> 
+    <span class="s2">&quot;startTime&quot;</span><span class="o">:</span> <span class="s2">&quot;2020-07-01&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;endTime&quot;</span><span class="o">:</span> <span class="s2">&quot;2020-07-31&quot;</span>
 <span class="p">}</span>
 </pre></div>
-</li>
-</ul>
-</li>
-</ul>
-
-<pre><code>``` javascript 
-[
-    {
-        "calories": 786,
-        "workoutDate": "2020-11-25",
-        "workoutTimes": 1,
-        "iqPoints": 171.88,
-        "workoutSeconds": 3720,
-        "avgHr": 133,
-        "zoneDuration": [
-            334,
-            1178,
-            1488,
-            731,
-            47
-        ]
-    },
-    {
-        "calories": 255,
-        "workoutDate": "2020-11-07",
-        "workoutTimes": 1,
-        "iqPoints": 61.87,
-        "workoutSeconds": 955,
-        "avgHr": 151,
-        "zoneDuration": [
-            0,
-            3,
-            126,
-            832,
-            0
-        ]
-    },
-    {
-        "calories": 466,
-        "workoutDate": "2020-11-05",
-        "workoutTimes": 1,
-        "iqPoints": 116.55,
-        "workoutSeconds": 1670,
-        "avgHr": 160,
-        "zoneDuration": [
-            22,
-            16,
-            100,
-            1071,
-            471
-        ]
-    },
-    {
-        "calories": 350,
-        "workoutDate": "2020-11-02",
-        "workoutTimes": 1,
-        "iqPoints": 83.42,
-        "workoutSeconds": 1008,
-        "avgHr": 170,
-        "zoneDuration": [
-            0,
-            0,
-            0,
-            55,
-            957
-        ]
-    }
-]
-```
-
-</code></pre>
+<div class="highlight"><pre><span></span><span class="p">[</span>
+    <span class="p">{</span>
+        <span class="s2">&quot;calories&quot;</span><span class="o">:</span> <span class="mf">786</span><span class="p">,</span>
+        <span class="s2">&quot;workoutDate&quot;</span><span class="o">:</span> <span class="s2">&quot;2020-11-25&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;workoutTimes&quot;</span><span class="o">:</span> <span class="mf">1</span><span class="p">,</span>
+        <span class="s2">&quot;iqPoints&quot;</span><span class="o">:</span> <span class="mf">171.88</span><span class="p">,</span>
+        <span class="s2">&quot;workoutSeconds&quot;</span><span class="o">:</span> <span class="mf">3720</span><span class="p">,</span>
+        <span class="s2">&quot;avgHr&quot;</span><span class="o">:</span> <span class="mf">133</span><span class="p">,</span>
+        <span class="s2">&quot;zoneDuration&quot;</span><span class="o">:</span> <span class="p">[</span>
+            <span class="mf">334</span><span class="p">,</span>
+            <span class="mf">1178</span><span class="p">,</span>
+            <span class="mf">1488</span><span class="p">,</span>
+            <span class="mf">731</span><span class="p">,</span>
+            <span class="mf">47</span>
+        <span class="p">]</span>
+    <span class="p">},</span>
+    <span class="p">{</span>
+        <span class="s2">&quot;calories&quot;</span><span class="o">:</span> <span class="mf">255</span><span class="p">,</span>
+        <span class="s2">&quot;workoutDate&quot;</span><span class="o">:</span> <span class="s2">&quot;2020-11-07&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;workoutTimes&quot;</span><span class="o">:</span> <span class="mf">1</span><span class="p">,</span>
+        <span class="s2">&quot;iqPoints&quot;</span><span class="o">:</span> <span class="mf">61.87</span><span class="p">,</span>
+        <span class="s2">&quot;workoutSeconds&quot;</span><span class="o">:</span> <span class="mf">955</span><span class="p">,</span>
+        <span class="s2">&quot;avgHr&quot;</span><span class="o">:</span> <span class="mf">151</span><span class="p">,</span>
+        <span class="s2">&quot;zoneDuration&quot;</span><span class="o">:</span> <span class="p">[</span>
+            <span class="mf">0</span><span class="p">,</span>
+            <span class="mf">3</span><span class="p">,</span>
+            <span class="mf">126</span><span class="p">,</span>
+            <span class="mf">832</span><span class="p">,</span>
+            <span class="mf">0</span>
+        <span class="p">]</span>
+    <span class="p">},</span>
+    <span class="p">{</span>
+        <span class="s2">&quot;calories&quot;</span><span class="o">:</span> <span class="mf">466</span><span class="p">,</span>
+        <span class="s2">&quot;workoutDate&quot;</span><span class="o">:</span> <span class="s2">&quot;2020-11-05&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;workoutTimes&quot;</span><span class="o">:</span> <span class="mf">1</span><span class="p">,</span>
+        <span class="s2">&quot;iqPoints&quot;</span><span class="o">:</span> <span class="mf">116.55</span><span class="p">,</span>
+        <span class="s2">&quot;workoutSeconds&quot;</span><span class="o">:</span> <span class="mf">1670</span><span class="p">,</span>
+        <span class="s2">&quot;avgHr&quot;</span><span class="o">:</span> <span class="mf">160</span><span class="p">,</span>
+        <span class="s2">&quot;zoneDuration&quot;</span><span class="o">:</span> <span class="p">[</span>
+            <span class="mf">22</span><span class="p">,</span>
+            <span class="mf">16</span><span class="p">,</span>
+            <span class="mf">100</span><span class="p">,</span>
+            <span class="mf">1071</span><span class="p">,</span>
+            <span class="mf">471</span>
+        <span class="p">]</span>
+    <span class="p">},</span>
+    <span class="p">{</span>
+        <span class="s2">&quot;calories&quot;</span><span class="o">:</span> <span class="mf">350</span><span class="p">,</span>
+        <span class="s2">&quot;workoutDate&quot;</span><span class="o">:</span> <span class="s2">&quot;2020-11-02&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;workoutTimes&quot;</span><span class="o">:</span> <span class="mf">1</span><span class="p">,</span>
+        <span class="s2">&quot;iqPoints&quot;</span><span class="o">:</span> <span class="mf">83.42</span><span class="p">,</span>
+        <span class="s2">&quot;workoutSeconds&quot;</span><span class="o">:</span> <span class="mf">1008</span><span class="p">,</span>
+        <span class="s2">&quot;avgHr&quot;</span><span class="o">:</span> <span class="mf">170</span><span class="p">,</span>
+        <span class="s2">&quot;zoneDuration&quot;</span><span class="o">:</span> <span class="p">[</span>
+            <span class="mf">0</span><span class="p">,</span>
+            <span class="mf">0</span><span class="p">,</span>
+            <span class="mf">0</span><span class="p">,</span>
+            <span class="mf">55</span><span class="p">,</span>
+            <span class="mf">957</span>
+        <span class="p">]</span>
+    <span class="p">}</span>
+<span class="p">]</span>
+</pre></div>
 <ul>
-<li><p>Coach / Club Admin 
-  get /dashboard/clients/{clientId}/statistics</p>
+<li>Coach / Club Admin </li>
+</ul>
+<p>get /dashboard/clients/{clientId}/statistics</p>
 <div class="highlight"><pre><span></span><span class="p">{</span>
-      <span class="s2">&quot;calories&quot;</span><span class="o">:</span> <span class="mf">28634.25</span><span class="p">,</span>
-      <span class="s2">&quot;workoutTimes&quot;</span><span class="o">:</span> <span class="mf">92</span><span class="p">,</span>
-      <span class="s2">&quot;iqPoints&quot;</span><span class="o">:</span> <span class="mf">10483.34</span><span class="p">,</span>
-      <span class="s2">&quot;workoutSeconds&quot;</span><span class="o">:</span> <span class="mf">200862</span><span class="p">,</span>
-      <span class="s2">&quot;memberCount&quot;</span><span class="o">:</span> <span class="mf">17</span><span class="p">,</span>
-      <span class="s2">&quot;stationCount&quot;</span><span class="o">:</span> <span class="mf">3</span><span class="p">,</span>
-      <span class="s2">&quot;avgHr&quot;</span><span class="o">:</span> <span class="mf">130</span><span class="p">,</span>
-      <span class="s2">&quot;zoneDuration&quot;</span><span class="o">:</span> <span class="p">[</span>
-          <span class="mf">40983</span><span class="p">,</span>
-          <span class="mf">23738</span><span class="p">,</span>
-          <span class="mf">43513</span><span class="p">,</span>
-          <span class="mf">53138</span><span class="p">,</span>
-          <span class="mf">39490</span>
-      <span class="p">]</span>
-  <span class="p">}</span>
+    <span class="s2">&quot;calories&quot;</span><span class="o">:</span> <span class="mf">28634.25</span><span class="p">,</span>
+    <span class="s2">&quot;workoutTimes&quot;</span><span class="o">:</span> <span class="mf">92</span><span class="p">,</span>
+    <span class="s2">&quot;iqPoints&quot;</span><span class="o">:</span> <span class="mf">10483.34</span><span class="p">,</span>
+    <span class="s2">&quot;workoutSeconds&quot;</span><span class="o">:</span> <span class="mf">200862</span><span class="p">,</span>
+    <span class="s2">&quot;memberCount&quot;</span><span class="o">:</span> <span class="mf">17</span><span class="p">,</span>
+    <span class="s2">&quot;stationCount&quot;</span><span class="o">:</span> <span class="mf">3</span><span class="p">,</span>
+    <span class="s2">&quot;avgHr&quot;</span><span class="o">:</span> <span class="mf">130</span><span class="p">,</span>
+    <span class="s2">&quot;zoneDuration&quot;</span><span class="o">:</span> <span class="p">[</span>
+        <span class="mf">40983</span><span class="p">,</span>
+        <span class="mf">23738</span><span class="p">,</span>
+        <span class="mf">43513</span><span class="p">,</span>
+        <span class="mf">53138</span><span class="p">,</span>
+        <span class="mf">39490</span>
+    <span class="p">]</span>
+<span class="p">}</span>
 </pre></div>
 <p>post /dashboard/clients/{clientId}/statistics</p>
-<ul>
+<ol>
 <li>isSummary 不传或者传入 true 均返回上面 get 类似的结果</li>
 <li>时间范围不允许超过 31 天</li>
-<li><p>Member 用户只能访问自己的数据，Coach &amp; ClubAdmin 用户可以访问自己俱乐部下的 Member 的数据，Accuro 用户可以访问任意 Member 的数据</p>
+<li>Member 用户不允许访问这个数据，Coach &amp; Club Admin 用户可以访问自己俱乐部的数据，Accuro 用户可以访问任意 Club 的数据</li>
+</ol>
 <div class="highlight"><pre><span></span><span class="p">{</span>
-  <span class="s2">&quot;isSummary&quot;</span><span class="o">:</span> <span class="kc">false</span><span class="p">,</span> 
-  <span class="s2">&quot;startTime&quot;</span><span class="o">:</span> <span class="s2">&quot;2020-07-01&quot;</span><span class="p">,</span>
-  <span class="s2">&quot;endTime&quot;</span><span class="o">:</span> <span class="s2">&quot;2020-07-31&quot;</span>
+    <span class="s2">&quot;isSummary&quot;</span><span class="o">:</span> <span class="kc">false</span><span class="p">,</span> 
+    <span class="s2">&quot;startTime&quot;</span><span class="o">:</span> <span class="s2">&quot;2020-07-01&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;endTime&quot;</span><span class="o">:</span> <span class="s2">&quot;2020-07-31&quot;</span>
 <span class="p">}</span>
 </pre></div>
-</li>
-</ul>
-</li>
-</ul>
+<div class="highlight"><pre><span></span><span class="p">[</span>
+    <span class="p">{</span>
+        <span class="s2">&quot;calories&quot;</span><span class="o">:</span> <span class="mf">786</span><span class="p">,</span>
+        <span class="s2">&quot;workoutDate&quot;</span><span class="o">:</span> <span class="s2">&quot;2020-11-25&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;workoutTimes&quot;</span><span class="o">:</span> <span class="mf">3</span><span class="p">,</span>
+        <span class="s2">&quot;iqPoints&quot;</span><span class="o">:</span> <span class="mf">171.88</span><span class="p">,</span>
+        <span class="s2">&quot;workoutSeconds&quot;</span><span class="o">:</span> <span class="mf">3720</span><span class="p">,</span>
+        <span class="s2">&quot;avgHr&quot;</span><span class="o">:</span> <span class="mf">133</span><span class="p">,</span>
+        <span class="s2">&quot;zoneDuration&quot;</span><span class="o">:</span> <span class="p">[</span>
+            <span class="mf">334</span><span class="p">,</span>
+            <span class="mf">1178</span><span class="p">,</span>
+            <span class="mf">1488</span><span class="p">,</span>
+            <span class="mf">731</span><span class="p">,</span>
+            <span class="mf">47</span>
+        <span class="p">]</span>
+    <span class="p">}</span>
 
-<pre><code>``` javascript 
-[
-    {
-        "calories": 786,
-        "workoutDate": "2020-11-25",
-        "workoutTimes": 3,
-        "iqPoints": 171.88,
-        "workoutSeconds": 3720,
-        "avgHr": 133,
-        "zoneDuration": [
-            334,
-            1178,
-            1488,
-            731,
-            47
-        ]
-    }
-
-]
-```
-
-
-
-</code></pre>
+<span class="p">]</span>
+</pre></div>
 <ul>
-<li><p>Accuro Admin 
-  get /dashboard/statistics</p>
+<li>Accuro Admin </li>
+</ul>
+<p>get /dashboard/statistics</p>
 <div class="highlight"><pre><span></span><span class="p">{</span>
-      <span class="s2">&quot;calories&quot;</span><span class="o">:</span> <span class="mf">46926194.44</span><span class="p">,</span>
-      <span class="s2">&quot;workoutTimes&quot;</span><span class="o">:</span> <span class="mf">125307</span><span class="p">,</span>
-      <span class="s2">&quot;iqPoints&quot;</span><span class="o">:</span> <span class="mf">10008058.75</span><span class="p">,</span>
-      <span class="s2">&quot;workoutSeconds&quot;</span><span class="o">:</span> <span class="mf">348147798</span><span class="p">,</span>
-      <span class="s2">&quot;memberCount&quot;</span><span class="o">:</span> <span class="mf">132556</span><span class="p">,</span>
-      <span class="s2">&quot;stationCount&quot;</span><span class="o">:</span> <span class="mf">211</span><span class="p">,</span>
-      <span class="s2">&quot;clubCount&quot;</span><span class="o">:</span> <span class="mf">126</span><span class="p">,</span>
-      <span class="s2">&quot;avgHr&quot;</span><span class="o">:</span> <span class="mf">121</span><span class="p">,</span>
-      <span class="s2">&quot;zoneDuration&quot;</span><span class="o">:</span> <span class="p">[</span>
-          <span class="mf">95016200</span><span class="p">,</span>
-          <span class="mf">37945741</span><span class="p">,</span>
-          <span class="mf">46827020</span><span class="p">,</span>
-          <span class="mf">52009991</span><span class="p">,</span>
-          <span class="mf">20635775</span>
-      <span class="p">]</span>
-  <span class="p">}</span>
+    <span class="s2">&quot;calories&quot;</span><span class="o">:</span> <span class="mf">46926194.44</span><span class="p">,</span>
+    <span class="s2">&quot;workoutTimes&quot;</span><span class="o">:</span> <span class="mf">125307</span><span class="p">,</span>
+    <span class="s2">&quot;iqPoints&quot;</span><span class="o">:</span> <span class="mf">10008058.75</span><span class="p">,</span>
+    <span class="s2">&quot;workoutSeconds&quot;</span><span class="o">:</span> <span class="mf">348147798</span><span class="p">,</span>
+    <span class="s2">&quot;memberCount&quot;</span><span class="o">:</span> <span class="mf">132556</span><span class="p">,</span>
+    <span class="s2">&quot;stationCount&quot;</span><span class="o">:</span> <span class="mf">211</span><span class="p">,</span>
+    <span class="s2">&quot;clubCount&quot;</span><span class="o">:</span> <span class="mf">126</span><span class="p">,</span>
+    <span class="s2">&quot;avgHr&quot;</span><span class="o">:</span> <span class="mf">121</span><span class="p">,</span>
+    <span class="s2">&quot;zoneDuration&quot;</span><span class="o">:</span> <span class="p">[</span>
+        <span class="mf">95016200</span><span class="p">,</span>
+        <span class="mf">37945741</span><span class="p">,</span>
+        <span class="mf">46827020</span><span class="p">,</span>
+        <span class="mf">52009991</span><span class="p">,</span>
+        <span class="mf">20635775</span>
+    <span class="p">]</span>
+<span class="p">}</span>
 </pre></div>
 <p>post /dashboard/statistics</p>
 <div class="highlight"><pre><span></span><span class="p">{</span>
-      <span class="s2">&quot;isSummary&quot;</span><span class="o">:</span> <span class="kc">false</span><span class="p">,</span> 
-      <span class="s2">&quot;startTime&quot;</span><span class="o">:</span> <span class="s2">&quot;2020-07-01&quot;</span><span class="p">,</span>
-      <span class="s2">&quot;endTime&quot;</span><span class="o">:</span> <span class="s2">&quot;2020-07-31&quot;</span>
-  <span class="p">}</span>
+    <span class="s2">&quot;isSummary&quot;</span><span class="o">:</span> <span class="kc">false</span><span class="p">,</span> 
+    <span class="s2">&quot;startTime&quot;</span><span class="o">:</span> <span class="s2">&quot;2020-07-01&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;endTime&quot;</span><span class="o">:</span> <span class="s2">&quot;2020-07-31&quot;</span>
+<span class="p">}</span>
 </pre></div>
-</li>
-</ul>
+<div class="highlight"><pre><span></span><span class="p">[</span>
+    <span class="p">{</span>
+        <span class="s2">&quot;workoutDate&quot;</span><span class="o">:</span> <span class="s2">&quot;2020-07-01&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;calories&quot;</span><span class="o">:</span> <span class="mf">539</span><span class="p">,</span>
+        <span class="s2">&quot;iqPoints&quot;</span><span class="o">:</span> <span class="mf">126.63</span><span class="p">,</span>
+        <span class="s2">&quot;workoutTimes&quot;</span><span class="o">:</span> <span class="mf">3</span><span class="p">,</span>
+        <span class="s2">&quot;iqPoints&quot;</span><span class="o">:</span> <span class="mf">171.88</span><span class="p">,</span>
+        <span class="s2">&quot;workoutSeconds&quot;</span><span class="o">:</span> <span class="mf">3720</span><span class="p">,</span>
+        <span class="s2">&quot;avgHr&quot;</span><span class="o">:</span> <span class="mf">133</span><span class="p">,</span>
+        <span class="s2">&quot;zoneDuration&quot;</span><span class="o">:</span> <span class="p">[</span>
+            <span class="mf">334</span><span class="p">,</span>
+            <span class="mf">1178</span><span class="p">,</span>
+            <span class="mf">1488</span><span class="p">,</span>
+            <span class="mf">731</span><span class="p">,</span>
+            <span class="mf">47</span>
+        <span class="p">]</span>
+    <span class="p">}</span>
 
-<pre><code>``` javascript 
-[
-    {
-        "workoutDate": "2020-07-01",
-        "calories": 539,
-        "iqPoints": 126.63,
-        "workoutTimes": 3,
-        "iqPoints": 171.88,
-        "workoutSeconds": 3720,
-        "avgHr": 133,
-        "zoneDuration": [
-            334,
-            1178,
-            1488,
-            731,
-            47
-        ]
-    }
-
-]
-```</code></pre>
+<span class="p">]</span>
+</pre></div>
+<p>46, 修改 Station 密码</p>
+<p>post /dashboard/clients/{clientId}/accounts/{accountId}/actions/change-password</p>
+<div class="highlight"><pre><span></span><span class="p">{</span>
+    <span class="s2">&quot;password&quot;</span><span class="o">:</span> <span class="s2">&quot;newPassword&quot;</span>
+<span class="p">}</span>
+</pre></div>
 
             </div>
         </article>
