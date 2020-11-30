@@ -17,7 +17,7 @@
     <script>
         var ExSearchConfig = {
             root: "",
-            api: "https://cdn.jsdelivr.net/gh/sourbell/project@gh-pages/edbb1a4050055e5dbc025a906021a9bd.json"
+            api: "https://cdn.jsdelivr.net/gh/sourbell/project@gh-pages/b6b127e3956e2a32509acd404ce86d89.json"
         }
     </script>
     
@@ -352,7 +352,8 @@
     <span class="nx">clientDescription</span><span class="o">:</span> <span class="s2">&quot;Some Awesome Club&quot;</span><span class="p">,</span>
     <span class="nx">clientLogo</span><span class="o">:</span> <span class="s2">&quot;https://oss-cdn.accurofitapp.net/开头的图片&quot;</span> <span class="o">||</span> <span class="s2">&quot;Base64 图片&quot;</span><span class="p">,</span>
     <span class="nx">hasPrivateApp</span><span class="o">:</span> <span class="kc">true</span><span class="p">,</span>
-    <span class="nx">hasPrivatePt</span><span class="o">:</span> <span class="kc">false</span>
+    <span class="nx">hasPrivatePt</span><span class="o">:</span> <span class="kc">false</span><span class="p">,</span>
+
 <span class="p">}</span>
 </pre></div>
 <p>16, 删除俱乐部</p>
@@ -600,86 +601,157 @@
 </pre></div>
 <p>45, 获取不同角色的统计数据</p>
 <ul>
-<li><p>Member
-  get /dashboard/statistics/member</p>
+<li><p>Member 
+  get /dashboard/clients/{clientId}/members/{memberId}/statistics</p>
 <div class="highlight"><pre><span></span><span class="p">{</span>
-      <span class="s2">&quot;calories&quot;</span><span class="o">:</span> <span class="mf">137708.19</span><span class="p">,</span>
-      <span class="s2">&quot;workoutTimes&quot;</span><span class="o">:</span> <span class="mf">505</span><span class="p">,</span>
-      <span class="s2">&quot;iqPoints&quot;</span><span class="o">:</span> <span class="mf">34600.65</span><span class="p">,</span>
-      <span class="s2">&quot;workoutSeconds&quot;</span><span class="o">:</span> <span class="mf">797460</span>
+      <span class="s2">&quot;calories&quot;</span><span class="o">:</span> <span class="mf">172696.02</span><span class="p">,</span>
+      <span class="s2">&quot;workoutTimes&quot;</span><span class="o">:</span> <span class="mf">713</span><span class="p">,</span>
+      <span class="s2">&quot;iqPoints&quot;</span><span class="o">:</span> <span class="mf">43357.44</span><span class="p">,</span>
+      <span class="s2">&quot;workoutSeconds&quot;</span><span class="o">:</span> <span class="mf">962622</span><span class="p">,</span>
+      <span class="s2">&quot;avgHr&quot;</span><span class="o">:</span> <span class="mf">122</span><span class="p">,</span>
+      <span class="s2">&quot;zoneDuration&quot;</span><span class="o">:</span> <span class="p">[</span>
+          <span class="mf">186051</span><span class="p">,</span>
+          <span class="mf">49788</span><span class="p">,</span>
+          <span class="mf">83377</span><span class="p">,</span>
+          <span class="mf">115917</span><span class="p">,</span>
+          <span class="mf">57172</span>
+      <span class="p">]</span>
   <span class="p">}</span>
 </pre></div>
-<p>post /dashboard/statistics/member</p>
+<p>post /dashboard/clients/{clientId}/members/{memberId}/statistics</p>
+<ul>
+<li>isSummary 不传或者传入 true 均返回上面 get 类似的结果</li>
+<li>时间范围不允许超过 31 天</li>
+<li><p>Member 用户只能访问自己的数据，Coach &amp; ClubAdmin 用户可以访问自己俱乐部下的 Member 的数据，Accuro 用户可以访问任意 Member 的数据</p>
 <div class="highlight"><pre><span></span><span class="p">{</span>
-      <span class="s2">&quot;dateRange&quot;</span><span class="o">:</span> <span class="s2">&quot;daily&quot;</span> <span class="o">||</span> <span class="s2">&quot;weekly&quot;</span> <span class="o">||</span> <span class="s2">&quot;monthly&quot;</span> <span class="o">||</span> <span class="s2">&quot;yearly&quot;</span> <span class="o">||</span> <span class="s2">&quot;all&quot;</span>
-  <span class="p">}</span>
+  <span class="s2">&quot;isSummary&quot;</span><span class="o">:</span> <span class="kc">false</span><span class="p">,</span> 
+  <span class="s2">&quot;startTime&quot;</span><span class="o">:</span> <span class="s2">&quot;2020-07-01&quot;</span><span class="p">,</span>
+  <span class="s2">&quot;endTime&quot;</span><span class="o">:</span> <span class="s2">&quot;2020-07-31&quot;</span>
+<span class="p">}</span>
 </pre></div>
+</li>
+</ul>
 </li>
 </ul>
 
 <pre><code>``` javascript 
 [
-        {
-            "calories": 539,
-            "workoutDate": "2020-07-09",
-            "workoutTimes": 1,
-            "iqPoints": 126.63,
-            "workoutSeconds": 1901
-        },
-        {
-            "calories": 630.03,
-            "workoutDate": "2020-07-08",
-            "workoutTimes": 2,
-            "iqPoints": 153.46,
-            "workoutSeconds": 2442
-        },
-        {
-            "calories": 460,
-            "workoutDate": "2020-07-02",
-            "workoutTimes": 1,
-            "iqPoints": 108.5,
-            "workoutSeconds": 1787
-        }
-
+    {
+        "calories": 786,
+        "workoutDate": "2020-11-25",
+        "workoutTimes": 1,
+        "iqPoints": 171.88,
+        "workoutSeconds": 3720,
+        "avgHr": 133,
+        "zoneDuration": [
+            334,
+            1178,
+            1488,
+            731,
+            47
+        ]
+    },
+    {
+        "calories": 255,
+        "workoutDate": "2020-11-07",
+        "workoutTimes": 1,
+        "iqPoints": 61.87,
+        "workoutSeconds": 955,
+        "avgHr": 151,
+        "zoneDuration": [
+            0,
+            3,
+            126,
+            832,
+            0
+        ]
+    },
+    {
+        "calories": 466,
+        "workoutDate": "2020-11-05",
+        "workoutTimes": 1,
+        "iqPoints": 116.55,
+        "workoutSeconds": 1670,
+        "avgHr": 160,
+        "zoneDuration": [
+            22,
+            16,
+            100,
+            1071,
+            471
+        ]
+    },
+    {
+        "calories": 350,
+        "workoutDate": "2020-11-02",
+        "workoutTimes": 1,
+        "iqPoints": 83.42,
+        "workoutSeconds": 1008,
+        "avgHr": 170,
+        "zoneDuration": [
+            0,
+            0,
+            0,
+            55,
+            957
+        ]
+    }
 ]
 ```
 
 </code></pre>
 <ul>
 <li><p>Coach / Club Admin 
-  get /dashboard/statistics/coach</p>
+  get /dashboard/clients/{clientId}/statistics</p>
 <div class="highlight"><pre><span></span><span class="p">{</span>
-      <span class="s2">&quot;calories&quot;</span><span class="o">:</span> <span class="mf">137708.19</span><span class="p">,</span>
-      <span class="s2">&quot;iqPoints&quot;</span><span class="o">:</span> <span class="mf">34600.65</span><span class="p">,</span>
-      <span class="s2">&quot;workoutTimes&quot;</span><span class="o">:</span> <span class="mf">505</span><span class="p">,</span> <span class="c1">//Session 总次数</span>
-      <span class="s2">&quot;workoutSeconds&quot;</span><span class="o">:</span> <span class="mf">7974060</span><span class="err">，</span> <span class="c1">//Session 总时长</span>
-      <span class="s2">&quot;memberCount&quot;</span><span class="o">:</span> <span class="mf">45</span><span class="p">,</span>
-      <span class="s2">&quot;coachCount&quot;</span><span class="o">:</span> <span class="mf">2</span><span class="p">,</span>
+      <span class="s2">&quot;calories&quot;</span><span class="o">:</span> <span class="mf">28634.25</span><span class="p">,</span>
+      <span class="s2">&quot;workoutTimes&quot;</span><span class="o">:</span> <span class="mf">92</span><span class="p">,</span>
+      <span class="s2">&quot;iqPoints&quot;</span><span class="o">:</span> <span class="mf">10483.34</span><span class="p">,</span>
+      <span class="s2">&quot;workoutSeconds&quot;</span><span class="o">:</span> <span class="mf">200862</span><span class="p">,</span>
+      <span class="s2">&quot;memberCount&quot;</span><span class="o">:</span> <span class="mf">17</span><span class="p">,</span>
+      <span class="s2">&quot;stationCount&quot;</span><span class="o">:</span> <span class="mf">3</span><span class="p">,</span>
+      <span class="s2">&quot;avgHr&quot;</span><span class="o">:</span> <span class="mf">130</span><span class="p">,</span>
+      <span class="s2">&quot;zoneDuration&quot;</span><span class="o">:</span> <span class="p">[</span>
+          <span class="mf">40983</span><span class="p">,</span>
+          <span class="mf">23738</span><span class="p">,</span>
+          <span class="mf">43513</span><span class="p">,</span>
+          <span class="mf">53138</span><span class="p">,</span>
+          <span class="mf">39490</span>
+      <span class="p">]</span>
   <span class="p">}</span>
 </pre></div>
-<p>post /dashboard/statistics/coach</p>
+<p>post /dashboard/clients/{clientId}/statistics</p>
+<ul>
+<li>isSummary 不传或者传入 true 均返回上面 get 类似的结果</li>
+<li>时间范围不允许超过 31 天</li>
+<li><p>Member 用户只能访问自己的数据，Coach &amp; ClubAdmin 用户可以访问自己俱乐部下的 Member 的数据，Accuro 用户可以访问任意 Member 的数据</p>
 <div class="highlight"><pre><span></span><span class="p">{</span>
-      <span class="s2">&quot;dateRange&quot;</span><span class="o">:</span> <span class="s2">&quot;daily&quot;</span> <span class="o">||</span> <span class="s2">&quot;weekly&quot;</span> <span class="o">||</span> <span class="s2">&quot;monthly&quot;</span> <span class="o">||</span> <span class="s2">&quot;yearly&quot;</span> <span class="o">||</span> <span class="s2">&quot;all&quot;</span>
-  <span class="p">}</span>
+  <span class="s2">&quot;isSummary&quot;</span><span class="o">:</span> <span class="kc">false</span><span class="p">,</span> 
+  <span class="s2">&quot;startTime&quot;</span><span class="o">:</span> <span class="s2">&quot;2020-07-01&quot;</span><span class="p">,</span>
+  <span class="s2">&quot;endTime&quot;</span><span class="o">:</span> <span class="s2">&quot;2020-07-31&quot;</span>
+<span class="p">}</span>
 </pre></div>
+</li>
+</ul>
 </li>
 </ul>
 
 <pre><code>``` javascript 
 [
     {
-        "workoutDate": "2020-09-01",
-        "calories": 539,
-        "iqPoints": 126.63,
-        "workoutTimes": 1,
-        "workoutSeconds": 1901
-    },
-    {
-        "workoutDate": "2020-09-02",
-        "calories": 630.03,
-        "iqPoints": 153.46,
-        "workoutTimes": 2,
-        "workoutSeconds": 2442
+        "calories": 786,
+        "workoutDate": "2020-11-25",
+        "workoutTimes": 3,
+        "iqPoints": 171.88,
+        "workoutSeconds": 3720,
+        "avgHr": 133,
+        "zoneDuration": [
+            334,
+            1178,
+            1488,
+            731,
+            47
+        ]
     }
 
 ]
@@ -690,20 +762,30 @@
 </code></pre>
 <ul>
 <li><p>Accuro Admin 
-  get /dashboard/statistics/accuro</p>
+  get /dashboard/statistics</p>
 <div class="highlight"><pre><span></span><span class="p">{</span>
-      <span class="s2">&quot;calories&quot;</span><span class="o">:</span> <span class="mf">137708.19</span><span class="p">,</span>
-      <span class="s2">&quot;iqPoints&quot;</span><span class="o">:</span> <span class="mf">34600.65</span><span class="p">,</span>
-      <span class="s2">&quot;workoutTimes&quot;</span><span class="o">:</span> <span class="mf">505</span><span class="p">,</span> <span class="c1">//Session 总次数</span>
-      <span class="s2">&quot;workoutSeconds&quot;</span><span class="o">:</span> <span class="mf">7974060</span><span class="err">，</span> <span class="c1">//Session 总时长</span>
-      <span class="s2">&quot;memberCount&quot;</span><span class="o">:</span> <span class="mf">34545</span><span class="p">,</span>
-      <span class="s2">&quot;coachCount&quot;</span><span class="o">:</span> <span class="mf">145</span><span class="p">,</span>
-      <span class="s2">&quot;clubCount&quot;</span><span class="o">:</span> <span class="mf">89</span><span class="p">,</span>
+      <span class="s2">&quot;calories&quot;</span><span class="o">:</span> <span class="mf">46926194.44</span><span class="p">,</span>
+      <span class="s2">&quot;workoutTimes&quot;</span><span class="o">:</span> <span class="mf">125307</span><span class="p">,</span>
+      <span class="s2">&quot;iqPoints&quot;</span><span class="o">:</span> <span class="mf">10008058.75</span><span class="p">,</span>
+      <span class="s2">&quot;workoutSeconds&quot;</span><span class="o">:</span> <span class="mf">348147798</span><span class="p">,</span>
+      <span class="s2">&quot;memberCount&quot;</span><span class="o">:</span> <span class="mf">132556</span><span class="p">,</span>
+      <span class="s2">&quot;stationCount&quot;</span><span class="o">:</span> <span class="mf">211</span><span class="p">,</span>
+      <span class="s2">&quot;clubCount&quot;</span><span class="o">:</span> <span class="mf">126</span><span class="p">,</span>
+      <span class="s2">&quot;avgHr&quot;</span><span class="o">:</span> <span class="mf">121</span><span class="p">,</span>
+      <span class="s2">&quot;zoneDuration&quot;</span><span class="o">:</span> <span class="p">[</span>
+          <span class="mf">95016200</span><span class="p">,</span>
+          <span class="mf">37945741</span><span class="p">,</span>
+          <span class="mf">46827020</span><span class="p">,</span>
+          <span class="mf">52009991</span><span class="p">,</span>
+          <span class="mf">20635775</span>
+      <span class="p">]</span>
   <span class="p">}</span>
 </pre></div>
-<p>post /dashboard/statistics/accuro</p>
+<p>post /dashboard/statistics</p>
 <div class="highlight"><pre><span></span><span class="p">{</span>
-      <span class="s2">&quot;dateRange&quot;</span><span class="o">:</span> <span class="s2">&quot;daily&quot;</span> <span class="o">||</span> <span class="s2">&quot;weekly&quot;</span> <span class="o">||</span> <span class="s2">&quot;monthly&quot;</span> <span class="o">||</span> <span class="s2">&quot;yearly&quot;</span> <span class="o">||</span> <span class="s2">&quot;all&quot;</span>
+      <span class="s2">&quot;isSummary&quot;</span><span class="o">:</span> <span class="kc">false</span><span class="p">,</span> 
+      <span class="s2">&quot;startTime&quot;</span><span class="o">:</span> <span class="s2">&quot;2020-07-01&quot;</span><span class="p">,</span>
+      <span class="s2">&quot;endTime&quot;</span><span class="o">:</span> <span class="s2">&quot;2020-07-31&quot;</span>
   <span class="p">}</span>
 </pre></div>
 </li>
@@ -712,18 +794,20 @@
 <pre><code>``` javascript 
 [
     {
-        "workoutDate": "2020-09-01",
+        "workoutDate": "2020-07-01",
         "calories": 539,
         "iqPoints": 126.63,
-        "sessionTimes": 1,
-        "sessionSeconds": 1901
-    },
-    {
-        "workoutDate": "2020-09-02",
-        "calories": 630.03,
-        "iqPoints": 153.46,
-        "sessionTimes": 2,
-        "sessionSeconds": 2442
+        "workoutTimes": 3,
+        "iqPoints": 171.88,
+        "workoutSeconds": 3720,
+        "avgHr": 133,
+        "zoneDuration": [
+            334,
+            1178,
+            1488,
+            731,
+            47
+        ]
     }
 
 ]
