@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>豪猪尾巴</title><link>https://project.sourbell.im/</link><description>Keep resolutions</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>${static_prefix}logo.jpg</url><title>豪猪尾巴</title><link>https://project.sourbell.im/</link></image><language>english</language><lastBuildDate>Mon, 02 Aug 2021 02:37:29 +0806</lastBuildDate><pubDate>Mon, 02 Aug 2021 02:37:29 +0806</pubDate><item><title>Private Label Change Request</title><link>https://project.sourbell.im/archives/private-label-change-request/</link><description>&lt;div class="notice"&gt;Basic customization includes App icon, splash and brand logo replacements.&lt;/div&gt;&lt;div class="notice"&gt;Title Pattern: #No&lt;sup&gt;piq#AppID&lt;/sup&gt; App Name&lt;/div&gt;&lt;h3&gt;#83 &lt;sup&gt;piq#88&lt;/sup&gt; Peak Zone Fitness&lt;/h3&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>豪猪尾巴</title><link>https://project.sourbell.im/</link><description>Keep resolutions</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>${static_prefix}logo.jpg</url><title>豪猪尾巴</title><link>https://project.sourbell.im/</link></image><language>english</language><lastBuildDate>Mon, 02 Aug 2021 02:51:09 +0806</lastBuildDate><pubDate>Mon, 02 Aug 2021 02:51:09 +0806</pubDate><item><title>Private Label Change Request</title><link>https://project.sourbell.im/archives/private-label-change-request/</link><description>&lt;div class="notice"&gt;Basic customization includes App icon, splash and brand logo replacements.&lt;/div&gt;&lt;div class="notice"&gt;Title Pattern: #No&lt;sup&gt;piq#AppID&lt;/sup&gt; App Name&lt;/div&gt;&lt;h3&gt;#83 &lt;sup&gt;piq#88&lt;/sup&gt; Peak Zone Fitness&lt;/h3&gt;
 &lt;p&gt;&lt;code&gt;#1 Apr 15, 2020&lt;/code&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Basic customization.&lt;/li&gt;
@@ -1618,20 +1618,76 @@ After: display weight and body fat from latest measurement, if there's no body f
     &lt;span class="p"&gt;}&lt;/span&gt;
 &lt;span class="p"&gt;}&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;1.&lt;/p&gt;
-&lt;p&gt;2.&lt;/p&gt;
-&lt;p&gt;3.&lt;/p&gt;
-&lt;p&gt;4.&lt;/p&gt;
-&lt;p&gt;5.&lt;/p&gt;
-&lt;p&gt;6.&lt;/p&gt;
-&lt;p&gt;7.&lt;/p&gt;
-&lt;p&gt;8.&lt;/p&gt;
-&lt;p&gt;9.&lt;/p&gt;
-&lt;p&gt;10.&lt;/p&gt;
-&lt;p&gt;11.&lt;/p&gt;
-&lt;p&gt;12.&lt;/p&gt;
-&lt;p&gt;13.&lt;/p&gt;
 &lt;ol&gt;
+&lt;li&gt;&lt;p&gt;解绑设备&lt;/p&gt;
+&lt;blockquote&gt;&lt;p&gt;POST /dashboard/clients/{clientId:[0-9]+}/accounts/{accountId:[0-9]+}/actions/unbind-device&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;仅限 Accuro 用户使用&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;修改设置项&lt;/p&gt;
+&lt;blockquote&gt;&lt;p&gt;POST /dashboard/clients/{clientId:[0-9]+}/accounts/{accountId:[0-9]+}/actions/change-settings&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;包括skin，zoneConfig，其他为只读&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;获取俱乐部 Members 列表&lt;/p&gt;
+&lt;blockquote&gt;&lt;p&gt;POST /dashboard/clients/{clientId:[0-9]+}/members/page/{page:[0-9]+}&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;如果已被 Disable，则在 Name 一列突出显示一个标签。另外返回字段增加了一个 createTime，需要显示在表格里&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;重发 APT Workout Summary 邮件&lt;/p&gt;
+&lt;blockquote&gt;&lt;p&gt;POST /dashboard/sessions/{sessionId:[0-9]+}/actions/resend-email&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;{"sessionDetailId": 12345}&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;获取俱乐部 Location 列表&lt;/p&gt;
+&lt;blockquote&gt;&lt;p&gt;GET /dashboard/clients/{clientId:[0-9]+}/locations&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;返回 members 字段，表示该 Location 下有多少会员&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;获取俱乐部 Station 列表&lt;/p&gt;
+&lt;blockquote&gt;&lt;p&gt;POST /dashboard/clients/{clientId:[0-9]+}/accounts&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;返回了一个 Location 字段，表示该 Station 隶属于哪一个 Location，可能为空&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;批量修改 Location 下的会员列表（废弃）&lt;/p&gt;
+&lt;blockquote&gt;&lt;p&gt;POST /dashboard/clients/{clientId:[0-9]+}/locations/{locationId:[0-9]+}/actions/move-members
+POST /dashboard/clients/{clientId:[0-9]+}/locations/{locationId:[0-9]+}/actions/remove-members&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;[123, 234, 345]&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;获取俱乐部下的 Member 列表&lt;/p&gt;
+&lt;blockquote&gt;&lt;p&gt;POST /dashboard/clients/{clientId:[0-9]+}/members/page/{page:[0-9]+}&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;修改项：传入数据接受 locationId，返回 locations，包含 id 和 name&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;修改 Member 的 Location 信息&lt;/p&gt;
+&lt;blockquote&gt;&lt;p&gt;POST /dashboard/clients/{clientId:[0-9]+}/members/{memberId:[0-9]+}/actions/update-location&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;传 locationId 数组&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Loaner Pod 增删改查&lt;/p&gt;
+&lt;blockquote&gt;&lt;p&gt;GET /dashboard/pods/page/{page:[0-9]+}
+PUT /dashboard/pods {name: "", deviceId: 123}
+POST /dashboard/pods/{podId:[0-9]+} {podId: 123, name: "", deviceId: 123, email: ""}
+DELETE /dashboard/pods/{podId:[0-9]+}&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;修改 Station 的 Location 信息&lt;/p&gt;
+&lt;blockquote&gt;&lt;p&gt;POST /dashboard/clients/{clientId:[0-9]+}/accounts/{accountId:[0-9]+}/actions/update-location&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;类似 Member 但是必须传单元素的数组: [123]&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Assign 和 Unassign Loaner Pod&lt;/p&gt;
+&lt;blockquote&gt;&lt;p&gt;POST /dashboard/clients/{clientId:[0-9]+}/members/{memberId:[0-9]+}/actions/assign-pod
+POST /dashboard/clients/{clientId:[0-9]+}/members/{memberId:[0-9]+}/actions/unassign-pod&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;传入 {podId: "4bdb6fc8-4974-4e2f-8cb7-a55e935c4040"}&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;清除所有 Assignments&lt;/p&gt;
+&lt;blockquote&gt;&lt;p&gt;POST /dashboard/clients/{clientId:[0-9]+}/pods/actions/clear-assignments&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;注：不需要传入内容，清空后刷新列表&lt;/p&gt;
+&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;创建 Challenge&lt;/p&gt;
 &lt;blockquote&gt;&lt;p&gt;PUT /dashboard/challenges&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -1671,8 +1727,6 @@ After: display weight and body fat from latest measurement, if there's no body f
 &lt;span class="p"&gt;}&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 &lt;/li&gt;
-&lt;/ol&gt;
-&lt;ol&gt;
 &lt;li&gt;&lt;p&gt;修改 Challenge&lt;/p&gt;
 &lt;blockquote&gt;&lt;p&gt;POST /dashboard/challenges/{challengeId:[0-]+}&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -1701,6 +1755,7 @@ After: display weight and body fat from latest measurement, if there's no body f
             &lt;span class="nt"&gt;&amp;quot;id&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
             &lt;span class="nt"&gt;&amp;quot;branchName&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;TRIB3 Edinburgh&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
             &lt;span class="nt"&gt;&amp;quot;branchLocation&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;Edinburgh, Scotland&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+            &lt;span class="nt"&gt;&amp;quot;members&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="mi"&gt;970&lt;/span&gt;
 
         &lt;span class="p"&gt;}&lt;/span&gt;
     &lt;span class="p"&gt;]&lt;/span&gt;

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="english"><id>https://project.sourbell.im/</id><title>豪猪尾巴</title><updated>2021-08-02T02:37:29.312460+08:06</updated><author><name>Bristletail</name><email>i@sourbell.im</email></author><link href="https://project.sourbell.im/" rel="alternate"/><generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator><logo>${static_prefix}logo.jpg</logo><subtitle>Keep resolutions</subtitle><entry><id>https://project.sourbell.im/archives/private-label-change-request/</id><title>Private Label Change Request</title><updated>2021-08-02T02:37:29.312792+00:00</updated><author><name>Toby Bu</name><email>i@sourbell.im</email><uri>https://sourbell.im</uri></author><content>&lt;div class="notice"&gt;Basic customization includes App icon, splash and brand logo replacements.&lt;/div&gt;&lt;div class="notice"&gt;Title Pattern: #No&lt;sup&gt;piq#AppID&lt;/sup&gt; App Name&lt;/div&gt;&lt;h3&gt;#83 &lt;sup&gt;piq#88&lt;/sup&gt; Peak Zone Fitness&lt;/h3&gt;
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="english"><id>https://project.sourbell.im/</id><title>豪猪尾巴</title><updated>2021-08-02T02:51:09.012573+08:06</updated><author><name>Bristletail</name><email>i@sourbell.im</email></author><link href="https://project.sourbell.im/" rel="alternate"/><generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator><logo>${static_prefix}logo.jpg</logo><subtitle>Keep resolutions</subtitle><entry><id>https://project.sourbell.im/archives/private-label-change-request/</id><title>Private Label Change Request</title><updated>2021-08-02T02:51:09.012905+00:00</updated><author><name>Toby Bu</name><email>i@sourbell.im</email><uri>https://sourbell.im</uri></author><content>&lt;div class="notice"&gt;Basic customization includes App icon, splash and brand logo replacements.&lt;/div&gt;&lt;div class="notice"&gt;Title Pattern: #No&lt;sup&gt;piq#AppID&lt;/sup&gt; App Name&lt;/div&gt;&lt;h3&gt;#83 &lt;sup&gt;piq#88&lt;/sup&gt; Peak Zone Fitness&lt;/h3&gt;
 &lt;p&gt;&lt;code&gt;#1 Apr 15, 2020&lt;/code&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Basic customization.&lt;/li&gt;
@@ -503,7 +503,7 @@
 &lt;ul&gt;
 &lt;li&gt;Basic customization.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;hr&gt;&lt;div class="footnotes"&gt;&lt;ol&gt;&lt;li id="fn_1"&gt;Separated requirement document for TRIB3 &lt;a no-style href="#fn_ref_1"&gt;↩&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;</content><link href="https://project.sourbell.im/archives/private-label-change-request/" rel="alternate"/><published>2020-01-07T11:10:00+08:06</published></entry><entry><id>https://project.sourbell.im/archives/private-label-update/</id><title>Private Label Update</title><updated>2021-08-02T02:37:29.312733+00:00</updated><author><name>Toby Bu</name><email>i@sourbell.im</email><uri>https://sourbell.im</uri></author><content>&lt;p&gt;&lt;code&gt;2020.4.21&lt;/code&gt;&lt;/p&gt;
+&lt;hr&gt;&lt;div class="footnotes"&gt;&lt;ol&gt;&lt;li id="fn_1"&gt;Separated requirement document for TRIB3 &lt;a no-style href="#fn_ref_1"&gt;↩&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;</content><link href="https://project.sourbell.im/archives/private-label-change-request/" rel="alternate"/><published>2020-01-07T11:10:00+08:06</published></entry><entry><id>https://project.sourbell.im/archives/private-label-update/</id><title>Private Label Update</title><updated>2021-08-02T02:51:09.012884+00:00</updated><author><name>Toby Bu</name><email>i@sourbell.im</email><uri>https://sourbell.im</uri></author><content>&lt;p&gt;&lt;code&gt;2020.4.21&lt;/code&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Spry Live&lt;/strong&gt; v1.0.0 pre-released on FIR.IM.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Red Effect&lt;/strong&gt; v1.0.0 pre-released on FIR.IM.&lt;/li&gt;
@@ -691,7 +691,7 @@
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Tonic Crossfit&lt;/strong&gt; v1.0.0 is live on GooglePlay and AppStore.&lt;/li&gt;
 &lt;/ul&gt;
-</content><link href="https://project.sourbell.im/archives/private-label-update/" rel="alternate"/><published>2020-01-07T12:42:00+08:06</published></entry><entry><id>https://project.sourbell.im/archives/trib3/</id><title>TRIB3</title><updated>2021-08-02T02:37:29.312711+00:00</updated><author><name>Toby Bu</name><email>i@sourbell.im</email><uri>https://sourbell.im</uri></author><content>&lt;p&gt;&lt;figure class="pswp-item" style="flex: 102.4" data-width="1024" data-height="500"&gt;&lt;img src="https://cdn.jsdelivr.net/gh/sourbell/project@gh-pages/archives/assets/178317e8a7f6ed4c02aa260e59d3dea8.png" alt="TRIB3" /&gt;&lt;figcaption&gt;TRIB3&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
+</content><link href="https://project.sourbell.im/archives/private-label-update/" rel="alternate"/><published>2020-01-07T12:42:00+08:06</published></entry><entry><id>https://project.sourbell.im/archives/trib3/</id><title>TRIB3</title><updated>2021-08-02T02:51:09.012862+00:00</updated><author><name>Toby Bu</name><email>i@sourbell.im</email><uri>https://sourbell.im</uri></author><content>&lt;p&gt;&lt;figure class="pswp-item" style="flex: 102.4" data-width="1024" data-height="500"&gt;&lt;img src="https://cdn.jsdelivr.net/gh/sourbell/project@gh-pages/archives/assets/178317e8a7f6ed4c02aa260e59d3dea8.png" alt="TRIB3" /&gt;&lt;figcaption&gt;TRIB3&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
 &lt;p&gt;TRIB3 Questions 20200107&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Accurofit added weight integration with Apple Health and Google Fit, but TRIB3 does not have scale features, so should we remove the data integration section on the MORE page?&lt;/li&gt;
@@ -705,7 +705,7 @@
 &lt;li&gt;On WORKOUT HISTORY page, when you click on a workout, the app will display the workout detail, currently the detail is displaying on the same page, while in Accurofit we display this in a new modal page on top of the HISTORY page, which i think is more user friendly.&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;TRIB3&lt;/code&gt; was taken on AppStore, we should come up with another one.&lt;/li&gt;
 &lt;/ol&gt;
-</content><link href="https://project.sourbell.im/archives/trib3/" rel="alternate"/><published>2020-01-07T12:56:00+08:06</published></entry><entry><id>https://project.sourbell.im/archives/project-update-week-3/</id><title>Project Update Week 3/52</title><updated>2021-08-02T02:37:29.312688+00:00</updated><author><name>Toby Bu</name><email>i@sourbell.im</email><uri>https://sourbell.im</uri></author><content>&lt;div class="notice"&gt;Weekly Highlight:&lt;/div&gt;&lt;div class="notice"&gt;1,  Accurofit 3.4.0 release date: Jan. 23, 2020.&lt;/div&gt;&lt;div class="notice"&gt;2,  Pre-release all 5 PL apps to Fir.im.&lt;/div&gt;&lt;div class="notice"&gt;3,  Release APT on TestFlight with ANT features included.&lt;/div&gt;&lt;ol&gt;
+</content><link href="https://project.sourbell.im/archives/trib3/" rel="alternate"/><published>2020-01-07T12:56:00+08:06</published></entry><entry><id>https://project.sourbell.im/archives/project-update-week-3/</id><title>Project Update Week 3/52</title><updated>2021-08-02T02:51:09.012841+00:00</updated><author><name>Toby Bu</name><email>i@sourbell.im</email><uri>https://sourbell.im</uri></author><content>&lt;div class="notice"&gt;Weekly Highlight:&lt;/div&gt;&lt;div class="notice"&gt;1,  Accurofit 3.4.0 release date: Jan. 23, 2020.&lt;/div&gt;&lt;div class="notice"&gt;2,  Pre-release all 5 PL apps to Fir.im.&lt;/div&gt;&lt;div class="notice"&gt;3,  Release APT on TestFlight with ANT features included.&lt;/div&gt;&lt;ol&gt;
 &lt;li&gt;&lt;p&gt;&lt;strong&gt;Accurofit&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;1.1 &lt;strong&gt;New FL301&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Finished 2nd round debugging, finally found the root cause in the firmware. Hardware developer has finished test in the weekend, sent a new package to Nanjing with fixed scale.&lt;/p&gt;
@@ -744,7 +744,7 @@
 &lt;p&gt;v1.1.0 released on Google Play and App Store.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-</content><link href="https://project.sourbell.im/archives/project-update-week-3/" rel="alternate"/><published>2020-01-22T11:42:00+08:06</published></entry><entry><id>https://project.sourbell.im/archives/project-update-week-10/</id><title>Project Update Week 10/52</title><updated>2021-08-02T02:37:29.312665+00:00</updated><author><name>Toby Bu</name><email>i@sourbell.im</email><uri>https://sourbell.im</uri></author><content>&lt;div class="notice"&gt;Weekly Highlight:&lt;/div&gt;&lt;div class="notice"&gt;1,  Accurofit 3.4.2 Testflight &lt;/div&gt;&lt;div class="notice"&gt;2,  Pre-release sweat burn repeat on BetaQR.&lt;/div&gt;&lt;div class="notice"&gt;3,  Released Flexx Fitness HR on the stores.&lt;/div&gt;&lt;div class="notice"&gt;4,  Optimized server database, fixed an issue with slow query.&lt;/div&gt;&lt;ol&gt;
+</content><link href="https://project.sourbell.im/archives/project-update-week-3/" rel="alternate"/><published>2020-01-22T11:42:00+08:06</published></entry><entry><id>https://project.sourbell.im/archives/project-update-week-10/</id><title>Project Update Week 10/52</title><updated>2021-08-02T02:51:09.012820+00:00</updated><author><name>Toby Bu</name><email>i@sourbell.im</email><uri>https://sourbell.im</uri></author><content>&lt;div class="notice"&gt;Weekly Highlight:&lt;/div&gt;&lt;div class="notice"&gt;1,  Accurofit 3.4.2 Testflight &lt;/div&gt;&lt;div class="notice"&gt;2,  Pre-release sweat burn repeat on BetaQR.&lt;/div&gt;&lt;div class="notice"&gt;3,  Released Flexx Fitness HR on the stores.&lt;/div&gt;&lt;div class="notice"&gt;4,  Optimized server database, fixed an issue with slow query.&lt;/div&gt;&lt;ol&gt;
 &lt;li&gt;&lt;p&gt;&lt;strong&gt;Accurofit&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;1.1 &lt;strong&gt;Bug fixes and new features&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -768,7 +768,7 @@
 &lt;p&gt;Working on iPad version of Gym Solution.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-</content><link href="https://project.sourbell.im/archives/project-update-week-10/" rel="alternate"/><published>2020-03-08T20:00:00+08:06</published></entry><entry><id>https://project.sourbell.im/archives/project-update-week-11/</id><title>Project Update Week 11/52</title><updated>2021-08-02T02:37:29.312641+00:00</updated><author><name>Toby Bu</name><email>i@sourbell.im</email><uri>https://sourbell.im</uri></author><content>&lt;div class="notice"&gt;Weekly Highlight:&lt;/div&gt;&lt;div class="notice"&gt;1,  Accurofit 3.4.2 release date: Jan. 23, 2020.&lt;/div&gt;&lt;div class="notice"&gt;2,  Pre-release HIIT Zone Fitness on BetaQR.&lt;/div&gt;&lt;div class="notice"&gt;3,  Released Flexx Fitness HR on the stores.&lt;/div&gt;&lt;div class="notice"&gt;4,  Optimized server database, fixed an issue with slow query.&lt;/div&gt;&lt;ol&gt;
+</content><link href="https://project.sourbell.im/archives/project-update-week-10/" rel="alternate"/><published>2020-03-08T20:00:00+08:06</published></entry><entry><id>https://project.sourbell.im/archives/project-update-week-11/</id><title>Project Update Week 11/52</title><updated>2021-08-02T02:51:09.012798+00:00</updated><author><name>Toby Bu</name><email>i@sourbell.im</email><uri>https://sourbell.im</uri></author><content>&lt;div class="notice"&gt;Weekly Highlight:&lt;/div&gt;&lt;div class="notice"&gt;1,  Accurofit 3.4.2 release date: Jan. 23, 2020.&lt;/div&gt;&lt;div class="notice"&gt;2,  Pre-release HIIT Zone Fitness on BetaQR.&lt;/div&gt;&lt;div class="notice"&gt;3,  Released Flexx Fitness HR on the stores.&lt;/div&gt;&lt;div class="notice"&gt;4,  Optimized server database, fixed an issue with slow query.&lt;/div&gt;&lt;ol&gt;
 &lt;li&gt;&lt;p&gt;&lt;strong&gt;Accurofit&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;1.1 &lt;strong&gt;New FL301&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Changed the display logic of how body fat. 
@@ -799,7 +799,7 @@ After: display weight and body fat from latest measurement, if there's no body f
 &lt;p&gt;Working on iPad version of Gym Solution, Internal testing, will release alpha version in one week.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-</content><link href="https://project.sourbell.im/archives/project-update-week-11/" rel="alternate"/><published>2020-03-15T20:00:00+08:06</published></entry><entry><id>https://project.sourbell.im/archives/apt-dashbaord/</id><title>APT Dashboard</title><updated>2021-08-02T02:37:29.312617+00:00</updated><author><name>Toby Bu</name><email>i@sourbell.im</email><uri>https://sourbell.im</uri></author><content>&lt;p&gt;&lt;code&gt;April 22, 2020&lt;/code&gt;&lt;/p&gt;
+</content><link href="https://project.sourbell.im/archives/project-update-week-11/" rel="alternate"/><published>2020-03-15T20:00:00+08:06</published></entry><entry><id>https://project.sourbell.im/archives/apt-dashbaord/</id><title>APT Dashboard</title><updated>2021-08-02T02:51:09.012776+00:00</updated><author><name>Toby Bu</name><email>i@sourbell.im</email><uri>https://sourbell.im</uri></author><content>&lt;p&gt;&lt;code&gt;April 22, 2020&lt;/code&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Fixed an issue when navigate to page N and search by instructor or class name.&lt;/li&gt;
 &lt;/ul&gt;
@@ -843,7 +843,7 @@ After: display weight and body fat from latest measurement, if there's no body f
 &lt;li&gt;Able to view workouts under the login email (same as 3.0 workouts).&lt;/li&gt;
 &lt;li&gt;Responsive design, able to view it on your phone.&lt;/li&gt;
 &lt;/ul&gt;
-</content><link href="https://project.sourbell.im/archives/apt-dashbaord/" rel="alternate"/><published>2020-04-07T11:00:00+08:06</published></entry><entry><id>https://project.sourbell.im/archives/something-about-bmr/</id><title>关于基础代谢</title><updated>2021-08-02T02:37:29.312593+00:00</updated><author><name>Toby Bu</name><email>i@sourbell.im</email><uri>https://sourbell.im</uri></author><content>&lt;h1&gt;关于基础代谢&lt;/h1&gt;
+</content><link href="https://project.sourbell.im/archives/apt-dashbaord/" rel="alternate"/><published>2020-04-07T11:00:00+08:06</published></entry><entry><id>https://project.sourbell.im/archives/something-about-bmr/</id><title>关于基础代谢</title><updated>2021-08-02T02:51:09.012752+00:00</updated><author><name>Toby Bu</name><email>i@sourbell.im</email><uri>https://sourbell.im</uri></author><content>&lt;h1&gt;关于基础代谢&lt;/h1&gt;
 &lt;p&gt;经过长时间 AccuroFit 与 AppleWatch 的对比测试，发现了俩个现象：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;AppleWatch 在运动过程中显示了总卡路里和动态卡路里，顾名思义总卡路里是指基础代谢与运动消耗的卡路里之和（见下面的卡路里对比图，动态卡路里 365kcal，总卡路里 414kcal）&lt;/li&gt;
@@ -895,7 +895,7 @@ After: display weight and body fat from latest measurement, if there's no body f
 &lt;li&gt;建议 AccuroFit App 增加显示动态卡路里，这样即便用户打开 Workout 模式静坐一整天，总卡路里可能会有两三千，但动态卡路里不会高得离谱。&lt;/li&gt;
 &lt;li&gt;LYNK2 和 SLICE 内置的卡路里消耗是包含基础代谢的。&lt;/li&gt;
 &lt;/ul&gt;
-</content><link href="https://project.sourbell.im/archives/something-about-bmr/" rel="alternate"/><published>2020-07-16T18:42:00+08:06</published></entry><entry><id>https://project.sourbell.im/archives/apt-api/</id><title>APT API</title><updated>2021-08-02T02:37:29.312564+00:00</updated><author><name>Toby Bu</name><email>i@sourbell.im</email><uri>https://sourbell.im</uri></author><content>&lt;p&gt;默认返回结构&lt;/p&gt;
+</content><link href="https://project.sourbell.im/archives/something-about-bmr/" rel="alternate"/><published>2020-07-16T18:42:00+08:06</published></entry><entry><id>https://project.sourbell.im/archives/apt-api/</id><title>APT API</title><updated>2021-08-02T02:51:09.012723+00:00</updated><author><name>Toby Bu</name><email>i@sourbell.im</email><uri>https://sourbell.im</uri></author><content>&lt;p&gt;默认返回结构&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;
     &lt;span class="nx"&gt;meta&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
         &lt;span class="nx"&gt;error&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="kc"&gt;false&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
@@ -1606,7 +1606,7 @@ After: display weight and body fat from latest measurement, if there's no body f
     &lt;span class="s2"&gt;&amp;quot;password&amp;quot;&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;newPassword&amp;quot;&lt;/span&gt;
 &lt;span class="p"&gt;}&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
-</content><link href="https://project.sourbell.im/archives/apt-api/" rel="alternate"/><published>2020-11-06T18:09:00+08:06</published></entry><entry><id>https://project.sourbell.im/archives/dashboard-api-addon/</id><title>Dashboard API Addon</title><updated>2021-08-02T02:37:29.312514+00:00</updated><author><name>Toby Bu</name><email>i@sourbell.im</email><uri>https://sourbell.im</uri></author><content>&lt;p&gt;默认返回结构&lt;/p&gt;
+</content><link href="https://project.sourbell.im/archives/apt-api/" rel="alternate"/><published>2020-11-06T18:09:00+08:06</published></entry><entry><id>https://project.sourbell.im/archives/dashboard-api-addon/</id><title>Dashboard API Addon</title><updated>2021-08-02T02:51:09.012665+00:00</updated><author><name>Toby Bu</name><email>i@sourbell.im</email><uri>https://sourbell.im</uri></author><content>&lt;p&gt;默认返回结构&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;
     &lt;span class="nx"&gt;meta&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
         &lt;span class="nx"&gt;error&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="kc"&gt;false&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
@@ -1618,20 +1618,76 @@ After: display weight and body fat from latest measurement, if there's no body f
     &lt;span class="p"&gt;}&lt;/span&gt;
 &lt;span class="p"&gt;}&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;1.&lt;/p&gt;
-&lt;p&gt;2.&lt;/p&gt;
-&lt;p&gt;3.&lt;/p&gt;
-&lt;p&gt;4.&lt;/p&gt;
-&lt;p&gt;5.&lt;/p&gt;
-&lt;p&gt;6.&lt;/p&gt;
-&lt;p&gt;7.&lt;/p&gt;
-&lt;p&gt;8.&lt;/p&gt;
-&lt;p&gt;9.&lt;/p&gt;
-&lt;p&gt;10.&lt;/p&gt;
-&lt;p&gt;11.&lt;/p&gt;
-&lt;p&gt;12.&lt;/p&gt;
-&lt;p&gt;13.&lt;/p&gt;
 &lt;ol&gt;
+&lt;li&gt;&lt;p&gt;解绑设备&lt;/p&gt;
+&lt;blockquote&gt;&lt;p&gt;POST /dashboard/clients/{clientId:[0-9]+}/accounts/{accountId:[0-9]+}/actions/unbind-device&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;仅限 Accuro 用户使用&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;修改设置项&lt;/p&gt;
+&lt;blockquote&gt;&lt;p&gt;POST /dashboard/clients/{clientId:[0-9]+}/accounts/{accountId:[0-9]+}/actions/change-settings&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;包括skin，zoneConfig，其他为只读&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;获取俱乐部 Members 列表&lt;/p&gt;
+&lt;blockquote&gt;&lt;p&gt;POST /dashboard/clients/{clientId:[0-9]+}/members/page/{page:[0-9]+}&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;如果已被 Disable，则在 Name 一列突出显示一个标签。另外返回字段增加了一个 createTime，需要显示在表格里&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;重发 APT Workout Summary 邮件&lt;/p&gt;
+&lt;blockquote&gt;&lt;p&gt;POST /dashboard/sessions/{sessionId:[0-9]+}/actions/resend-email&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;{"sessionDetailId": 12345}&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;获取俱乐部 Location 列表&lt;/p&gt;
+&lt;blockquote&gt;&lt;p&gt;GET /dashboard/clients/{clientId:[0-9]+}/locations&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;返回 members 字段，表示该 Location 下有多少会员&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;获取俱乐部 Station 列表&lt;/p&gt;
+&lt;blockquote&gt;&lt;p&gt;POST /dashboard/clients/{clientId:[0-9]+}/accounts&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;返回了一个 Location 字段，表示该 Station 隶属于哪一个 Location，可能为空&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;批量修改 Location 下的会员列表（废弃）&lt;/p&gt;
+&lt;blockquote&gt;&lt;p&gt;POST /dashboard/clients/{clientId:[0-9]+}/locations/{locationId:[0-9]+}/actions/move-members
+POST /dashboard/clients/{clientId:[0-9]+}/locations/{locationId:[0-9]+}/actions/remove-members&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;[123, 234, 345]&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;获取俱乐部下的 Member 列表&lt;/p&gt;
+&lt;blockquote&gt;&lt;p&gt;POST /dashboard/clients/{clientId:[0-9]+}/members/page/{page:[0-9]+}&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;修改项：传入数据接受 locationId，返回 locations，包含 id 和 name&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;修改 Member 的 Location 信息&lt;/p&gt;
+&lt;blockquote&gt;&lt;p&gt;POST /dashboard/clients/{clientId:[0-9]+}/members/{memberId:[0-9]+}/actions/update-location&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;传 locationId 数组&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Loaner Pod 增删改查&lt;/p&gt;
+&lt;blockquote&gt;&lt;p&gt;GET /dashboard/pods/page/{page:[0-9]+}
+PUT /dashboard/pods {name: "", deviceId: 123}
+POST /dashboard/pods/{podId:[0-9]+} {podId: 123, name: "", deviceId: 123, email: ""}
+DELETE /dashboard/pods/{podId:[0-9]+}&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;修改 Station 的 Location 信息&lt;/p&gt;
+&lt;blockquote&gt;&lt;p&gt;POST /dashboard/clients/{clientId:[0-9]+}/accounts/{accountId:[0-9]+}/actions/update-location&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;类似 Member 但是必须传单元素的数组: [123]&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Assign 和 Unassign Loaner Pod&lt;/p&gt;
+&lt;blockquote&gt;&lt;p&gt;POST /dashboard/clients/{clientId:[0-9]+}/members/{memberId:[0-9]+}/actions/assign-pod
+POST /dashboard/clients/{clientId:[0-9]+}/members/{memberId:[0-9]+}/actions/unassign-pod&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;传入 {podId: "4bdb6fc8-4974-4e2f-8cb7-a55e935c4040"}&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;清除所有 Assignments&lt;/p&gt;
+&lt;blockquote&gt;&lt;p&gt;POST /dashboard/clients/{clientId:[0-9]+}/pods/actions/clear-assignments&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;注：不需要传入内容，清空后刷新列表&lt;/p&gt;
+&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;创建 Challenge&lt;/p&gt;
 &lt;blockquote&gt;&lt;p&gt;PUT /dashboard/challenges&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -1671,8 +1727,6 @@ After: display weight and body fat from latest measurement, if there's no body f
 &lt;span class="p"&gt;}&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 &lt;/li&gt;
-&lt;/ol&gt;
-&lt;ol&gt;
 &lt;li&gt;&lt;p&gt;修改 Challenge&lt;/p&gt;
 &lt;blockquote&gt;&lt;p&gt;POST /dashboard/challenges/{challengeId:[0-]+}&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -1701,6 +1755,7 @@ After: display weight and body fat from latest measurement, if there's no body f
             &lt;span class="nt"&gt;&amp;quot;id&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
             &lt;span class="nt"&gt;&amp;quot;branchName&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;TRIB3 Edinburgh&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
             &lt;span class="nt"&gt;&amp;quot;branchLocation&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;Edinburgh, Scotland&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+            &lt;span class="nt"&gt;&amp;quot;members&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="mi"&gt;970&lt;/span&gt;
 
         &lt;span class="p"&gt;}&lt;/span&gt;
     &lt;span class="p"&gt;]&lt;/span&gt;

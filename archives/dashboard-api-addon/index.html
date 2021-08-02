@@ -17,7 +17,7 @@
     <script>
         var ExSearchConfig = {
             root: "",
-            api: "https://cdn.jsdelivr.net/gh/sourbell/project@gh-pages/0501b241950aad4083972ff959efa6bd.json"
+            api: "https://cdn.jsdelivr.net/gh/sourbell/project@gh-pages/74ce278750bb32c31f9c0a65c49d19a9.json"
         }
     </script>
     
@@ -102,20 +102,76 @@
     <span class="p">}</span>
 <span class="p">}</span>
 </pre></div>
-<p>1.</p>
-<p>2.</p>
-<p>3.</p>
-<p>4.</p>
-<p>5.</p>
-<p>6.</p>
-<p>7.</p>
-<p>8.</p>
-<p>9.</p>
-<p>10.</p>
-<p>11.</p>
-<p>12.</p>
-<p>13.</p>
 <ol>
+<li><p>解绑设备</p>
+<blockquote><p>POST /dashboard/clients/{clientId:[0-9]+}/accounts/{accountId:[0-9]+}/actions/unbind-device</p>
+</blockquote>
+<p>仅限 Accuro 用户使用</p>
+</li>
+<li><p>修改设置项</p>
+<blockquote><p>POST /dashboard/clients/{clientId:[0-9]+}/accounts/{accountId:[0-9]+}/actions/change-settings</p>
+</blockquote>
+<p>包括skin，zoneConfig，其他为只读</p>
+</li>
+<li><p>获取俱乐部 Members 列表</p>
+<blockquote><p>POST /dashboard/clients/{clientId:[0-9]+}/members/page/{page:[0-9]+}</p>
+</blockquote>
+<p>如果已被 Disable，则在 Name 一列突出显示一个标签。另外返回字段增加了一个 createTime，需要显示在表格里</p>
+</li>
+<li><p>重发 APT Workout Summary 邮件</p>
+<blockquote><p>POST /dashboard/sessions/{sessionId:[0-9]+}/actions/resend-email</p>
+</blockquote>
+<p>{"sessionDetailId": 12345}</p>
+</li>
+<li><p>获取俱乐部 Location 列表</p>
+<blockquote><p>GET /dashboard/clients/{clientId:[0-9]+}/locations</p>
+</blockquote>
+<p>返回 members 字段，表示该 Location 下有多少会员</p>
+</li>
+<li><p>获取俱乐部 Station 列表</p>
+<blockquote><p>POST /dashboard/clients/{clientId:[0-9]+}/accounts</p>
+</blockquote>
+<p>返回了一个 Location 字段，表示该 Station 隶属于哪一个 Location，可能为空</p>
+</li>
+<li><p>批量修改 Location 下的会员列表（废弃）</p>
+<blockquote><p>POST /dashboard/clients/{clientId:[0-9]+}/locations/{locationId:[0-9]+}/actions/move-members
+POST /dashboard/clients/{clientId:[0-9]+}/locations/{locationId:[0-9]+}/actions/remove-members</p>
+</blockquote>
+<p>[123, 234, 345]</p>
+</li>
+<li><p>获取俱乐部下的 Member 列表</p>
+<blockquote><p>POST /dashboard/clients/{clientId:[0-9]+}/members/page/{page:[0-9]+}</p>
+</blockquote>
+<p>修改项：传入数据接受 locationId，返回 locations，包含 id 和 name</p>
+</li>
+<li><p>修改 Member 的 Location 信息</p>
+<blockquote><p>POST /dashboard/clients/{clientId:[0-9]+}/members/{memberId:[0-9]+}/actions/update-location</p>
+</blockquote>
+<p>传 locationId 数组</p>
+</li>
+<li><p>Loaner Pod 增删改查</p>
+<blockquote><p>GET /dashboard/pods/page/{page:[0-9]+}
+PUT /dashboard/pods {name: "", deviceId: 123}
+POST /dashboard/pods/{podId:[0-9]+} {podId: 123, name: "", deviceId: 123, email: ""}
+DELETE /dashboard/pods/{podId:[0-9]+}</p>
+</blockquote>
+</li>
+<li><p>修改 Station 的 Location 信息</p>
+<blockquote><p>POST /dashboard/clients/{clientId:[0-9]+}/accounts/{accountId:[0-9]+}/actions/update-location</p>
+</blockquote>
+<p>类似 Member 但是必须传单元素的数组: [123]</p>
+</li>
+<li><p>Assign 和 Unassign Loaner Pod</p>
+<blockquote><p>POST /dashboard/clients/{clientId:[0-9]+}/members/{memberId:[0-9]+}/actions/assign-pod
+POST /dashboard/clients/{clientId:[0-9]+}/members/{memberId:[0-9]+}/actions/unassign-pod</p>
+</blockquote>
+<p>传入 {podId: "4bdb6fc8-4974-4e2f-8cb7-a55e935c4040"}</p>
+</li>
+<li><p>清除所有 Assignments</p>
+<blockquote><p>POST /dashboard/clients/{clientId:[0-9]+}/pods/actions/clear-assignments</p>
+</blockquote>
+<p>注：不需要传入内容，清空后刷新列表</p>
+</li>
 <li><p>创建 Challenge</p>
 <blockquote><p>PUT /dashboard/challenges</p>
 </blockquote>
@@ -155,8 +211,6 @@
 <span class="p">}</span>
 </pre></div>
 </li>
-</ol>
-<ol>
 <li><p>修改 Challenge</p>
 <blockquote><p>POST /dashboard/challenges/{challengeId:[0-]+}</p>
 </blockquote>
@@ -185,6 +239,7 @@
             <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="mi">1</span><span class="p">,</span>
             <span class="nt">&quot;branchName&quot;</span><span class="p">:</span> <span class="s2">&quot;TRIB3 Edinburgh&quot;</span><span class="p">,</span>
             <span class="nt">&quot;branchLocation&quot;</span><span class="p">:</span> <span class="s2">&quot;Edinburgh, Scotland&quot;</span><span class="p">,</span>
+            <span class="nt">&quot;members&quot;</span><span class="p">:</span> <span class="mi">970</span>
 
         <span class="p">}</span>
     <span class="p">]</span>
