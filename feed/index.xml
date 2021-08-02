@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>豪猪尾巴</title><link>https://project.sourbell.im/</link><description>Keep resolutions</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>${static_prefix}logo.jpg</url><title>豪猪尾巴</title><link>https://project.sourbell.im/</link></image><language>english</language><lastBuildDate>Mon, 02 Aug 2021 02:51:09 +0806</lastBuildDate><pubDate>Mon, 02 Aug 2021 02:51:09 +0806</pubDate><item><title>Private Label Change Request</title><link>https://project.sourbell.im/archives/private-label-change-request/</link><description>&lt;div class="notice"&gt;Basic customization includes App icon, splash and brand logo replacements.&lt;/div&gt;&lt;div class="notice"&gt;Title Pattern: #No&lt;sup&gt;piq#AppID&lt;/sup&gt; App Name&lt;/div&gt;&lt;h3&gt;#83 &lt;sup&gt;piq#88&lt;/sup&gt; Peak Zone Fitness&lt;/h3&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>豪猪尾巴</title><link>https://project.sourbell.im/</link><description>Keep resolutions</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>${static_prefix}logo.jpg</url><title>豪猪尾巴</title><link>https://project.sourbell.im/</link></image><language>english</language><lastBuildDate>Mon, 02 Aug 2021 03:25:02 +0806</lastBuildDate><pubDate>Mon, 02 Aug 2021 03:25:02 +0806</pubDate><item><title>Private Label Change Request</title><link>https://project.sourbell.im/archives/private-label-change-request/</link><description>&lt;div class="notice"&gt;Basic customization includes App icon, splash and brand logo replacements.&lt;/div&gt;&lt;div class="notice"&gt;Title Pattern: #No&lt;sup&gt;piq#AppID&lt;/sup&gt; App Name&lt;/div&gt;&lt;h3&gt;#83 &lt;sup&gt;piq#88&lt;/sup&gt; Peak Zone Fitness&lt;/h3&gt;
 &lt;p&gt;&lt;code&gt;#1 Apr 15, 2020&lt;/code&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Basic customization.&lt;/li&gt;
@@ -1762,8 +1762,6 @@ POST /dashboard/clients/{clientId:[0-9]+}/members/{memberId:[0-9]+}/actions/unas
 &lt;span class="p"&gt;}&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 &lt;/li&gt;
-&lt;/ol&gt;
-&lt;ol&gt;
 &lt;li&gt;&lt;p&gt;获取 Challenge Leaderboard&lt;/p&gt;
 &lt;blockquote&gt;&lt;p&gt;GET /dashboard/challenges/{challengeId:[0-9]+}/leaderboard&lt;/p&gt;
 &lt;/blockquote&gt;
