@@ -21,18 +21,18 @@
         }
     </script>
     
-<title>APT Release Note - 豪猪尾巴</title>
+<title>Dashboard API Addon - 豪猪尾巴</title>
 <meta name="author" content="Toby Bu" />
-<meta name="description" content="APT App 更新日志" />
-<meta property="og:title" content="APT Release Note - 豪猪尾巴" />
-<meta property="og:description" content="APT App 更新日志" />
+<meta name="description" content="Dashboard API" />
+<meta property="og:title" content="Dashboard API Addon - 豪猪尾巴" />
+<meta property="og:description" content="Dashboard API" />
 <meta property="og:site_name" content="豪猪尾巴" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://project.sourbell.im/archives/apt-release-note/" />
+<meta property="og:url" content="https://project.sourbell.im/archives/dashboard-api-addon/" />
 <meta property="og:image" content="" />
-<meta property="article:published_time" content="2019-12-25T01:01:00-00.00" />
-<meta name="twitter:title" content="APT Release Note - 豪猪尾巴" />
-<meta name="twitter:description" content="APT App 更新日志" />
+<meta property="article:published_time" content="2021-08-01T10:09:00-00.00" />
+<meta name="twitter:title" content="Dashboard API Addon - 豪猪尾巴" />
+<meta name="twitter:description" content="Dashboard API" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:image" content="" />
 
@@ -76,11 +76,11 @@
 <main>    
     <section class="ga-section ga-content">
         <article class="yue">
-            <h1 class="ga-post_title">APT Release Note</h1>
+            <h1 class="ga-post_title">Dashboard API Addon</h1>
             <span class="ga-post_meta ga-mono">
                 <span>Toby Bu</span>
                 <time>
-                    2019-12-25
+                    2021-08-01
                 </time>
                 
                 in <a no-style class="category" href="https://project.sourbell.im/category/Project Manage/">
@@ -90,56 +90,121 @@
                 
             </span>
             <div class="ga-content_body">
-                <p><code>1.1.2</code> Jul 16, 2019</p>
-<ul>
-<li>Add background ability</li>
-<li>Allow customize member’s max heart rate</li>
-<li>Add reset password feature</li>
-<li>Fixed the black screen issue</li>
-<li>Optimized some user experience</li>
-<li>Fixed several small issues</li>
-</ul>
-<hr>
-<p><code>1.1.1</code> Jun 25, 2019</p>
-<ul>
-<li>Fixed an issue with the challenges and leaderboard.</li>
-</ul>
-<hr>
-<p><code>1.1.0</code> Jun 22, 2019</p>
-<ul>
-<li>Now you are able to view session history after the class, or you can go through each member’s personal workouts in their profile. Also we added challenges and leaderboard features, hope you will like it.</li>
-</ul>
-<hr>
-<p><code>1.0.3</code> May 8, 2019</p>
-<ul>
-<li>Minor bug fixes.</li>
-</ul>
-<hr>
-<p><code>1.0.2</code> Apr 4, 2019</p>
-<ul>
-<li>Fixed some minor issues.</li>
-</ul>
-<hr>
-<p><code>1.0.1</code> Mar 23, 2019</p>
-<ul>
-<li>Fixed some minor issues.</li>
-</ul>
-<hr>
-<p><code>1.0.0</code> Mar 14, 2019</p>
-<ul>
-<li>Initial Release</li>
-</ul>
+                <p>默认返回结构</p>
+<div class="highlight"><pre><span></span><span class="p">{</span>
+    <span class="nx">meta</span><span class="o">:</span> <span class="p">{</span>
+        <span class="nx">error</span><span class="o">:</span> <span class="kc">false</span><span class="p">,</span>
+        <span class="nx">code</span><span class="o">:</span> <span class="kc">null</span><span class="p">,</span>
+        <span class="nx">message</span><span class="o">:</span> <span class="kc">null</span>
+    <span class="p">},</span>
+    <span class="nx">data</span><span class="o">:</span> <span class="p">{</span>
+        <span class="p">...</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</pre></div>
+<p>1.</p>
+<p>2.</p>
+<p>3.</p>
+<p>4.</p>
+<p>5.</p>
+<p>6.</p>
+<p>7.</p>
+<p>8.</p>
+<p>9.</p>
+<p>10.</p>
+<p>11.</p>
+<p>12.</p>
+<p>13.</p>
+<ol>
+<li><p>创建 Challenge</p>
+<blockquote><p>PUT /dashboard/challenges</p>
+</blockquote>
+<div class="highlight"><pre><span></span><span class="p">{</span>
+    <span class="nt">&quot;challengeName&quot;</span><span class="p">:</span> <span class="s2">&quot;Sample Challenge&quot;</span><span class="p">,</span>
+    <span class="nt">&quot;challengeType&quot;</span><span class="p">:</span> <span class="s2">&quot;calories|iqPoints&quot;</span><span class="p">,</span>
+    <span class="nt">&quot;challengeScope&quot;</span><span class="p">:</span> <span class="s2">&quot;&quot;</span><span class="p">,</span>
+    <span class="nt">&quot;workoutRange&quot;</span><span class="p">:</span> <span class="p">[</span><span class="mi">1200</span><span class="p">,</span> <span class="mi">3600</span><span class="p">],</span>
+    <span class="nt">&quot;startDateTime&quot;</span><span class="p">:</span> <span class="mi">1559829765</span><span class="p">,</span>
+    <span class="nt">&quot;endDateTime&quot;</span><span class="p">:</span> <span class="mi">1564444800</span><span class="p">,</span>
+    <span class="nt">&quot;timezoneOffset&quot;</span><span class="p">:</span> <span class="mi">8</span><span class="p">,</span>
+    <span class="nt">&quot;winningCriteria&quot;</span><span class="p">:</span> <span class="s2">&quot;firstToTarget|mostWhenFinished&quot;</span><span class="p">,</span>
+    <span class="nt">&quot;criteriaTarget&quot;</span><span class="p">:</span> <span class="mi">10000</span><span class="p">,</span>
+    <span class="nt">&quot;locations&quot;</span><span class="p">:</span> <span class="p">[</span><span class="mi">32</span><span class="p">,</span> <span class="mi">34</span><span class="p">],</span>
+    <span class="nt">&quot;participants&quot;</span><span class="p">:</span> <span class="p">[</span><span class="mi">123</span><span class="p">,</span><span class="mi">234</span><span class="p">]</span>
+<span class="p">}</span>
+</pre></div>
+<ol>
+<li>challengeScope 可选项 club, location, private，默认值是 club，显示 Label 分别为 Club、Location 和 Private。<ol>
+<li>如果选择 club，俱乐部级别的 Challenge，无额外选项，；</li>
+<li>如果选择 location，俱乐部 Location 级别的 Challenge。界面多出一个必选 selector，列出俱乐部下所有 Location list，可多选 locationId，传参名 locations；</li>
+<li>如果选择 private，完全自定义参加者的 Challenge。界面多出一个必选 selector，列出俱乐部下所有 Member list，可多选 memberId，传参名也是 participants。</li>
+</ol>
+</li>
+<li>workoutRange 为最低和最高时长，使用类似 <a href="https://ionicframework.com/docs/v3/api/components/range/Range/">IONIC Range</a> 的组件实现，并在这个选项的下面加一行解释小字【Tip: workouts less than 1200 seconds will be ignored, workouts more than 3600 seconds will be cut.】</li>
+<li>startDateTime 开始时间必须大于当前时间，endDateTime 结束时间必须大于开始时间。</li>
+<li>winningCriteria 显示 Label 分别为 First To Target 和 Most When Finished。</li>
+</ol>
+</li>
+<li><p>获取 Challenge 列表</p>
+<blockquote><p>POST /dashboard/challenges/page/{page:[0-]+}</p>
+</blockquote>
+<div class="highlight"><pre><span></span><span class="p">{</span>
+    <span class="nt">&quot;startTime&quot;</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span>
+    <span class="nt">&quot;endTime&quot;</span><span class="p">:</span> <span class="mi">1564444800</span><span class="p">,</span>
+    <span class="nt">&quot;challengeStatus&quot;</span><span class="p">:</span> <span class="s2">&quot;pending|active|ended|deleted&quot;</span>
+<span class="p">}</span>
+</pre></div>
+</li>
+</ol>
+<ol>
+<li><p>修改 Challenge</p>
+<blockquote><p>POST /dashboard/challenges/{challengeId:[0-]+}</p>
+</blockquote>
+<p>注：只有 Pending 的 Challenge 允许修改</p>
+</li>
+<li><p>删除 Challenge</p>
+<blockquote><p>DELETE /dashboard/challenges/{challengeId:[0-]+}</p>
+</blockquote>
+<p>考虑把删除放在 Challenge 详情页，需要 Confirm</p>
+</li>
+<li><p>获取 Challenge 详情</p>
+<blockquote><p>GET /dashboard/challenges/{challengeId:[0-9]+}</p>
+</blockquote>
+<div class="highlight"><pre><span></span><span class="p">{</span>
+    <span class="nt">&quot;challengeName&quot;</span><span class="p">:</span> <span class="s2">&quot;Sample Challenge&quot;</span><span class="p">,</span>
+    <span class="nt">&quot;challengeType&quot;</span><span class="p">:</span> <span class="s2">&quot;iqPoints&quot;</span><span class="p">,</span>
+    <span class="nt">&quot;challengeScope&quot;</span><span class="p">:</span> <span class="s2">&quot;location&quot;</span><span class="p">,</span>
+    <span class="nt">&quot;workoutRange&quot;</span><span class="p">:</span> <span class="p">[</span><span class="mi">1200</span><span class="p">,</span> <span class="mi">3600</span><span class="p">],</span>
+    <span class="nt">&quot;startDateTime&quot;</span><span class="p">:</span> <span class="mi">1559829765</span><span class="p">,</span>
+    <span class="nt">&quot;endDateTime&quot;</span><span class="p">:</span> <span class="mi">1564444800</span><span class="p">,</span>
+    <span class="nt">&quot;timezoneOffset&quot;</span><span class="p">:</span> <span class="mi">8</span><span class="p">,</span>
+    <span class="nt">&quot;winningCriteria&quot;</span><span class="p">:</span> <span class="s2">&quot;mostWhenFinished&quot;</span><span class="p">,</span>
+    <span class="nt">&quot;criteriaTarget&quot;</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span>
+    <span class="nt">&quot;locations&quot;</span><span class="p">:</span> <span class="p">[</span>
+        <span class="p">{</span>
+            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="mi">1</span><span class="p">,</span>
+            <span class="nt">&quot;branchName&quot;</span><span class="p">:</span> <span class="s2">&quot;TRIB3 Edinburgh&quot;</span><span class="p">,</span>
+            <span class="nt">&quot;branchLocation&quot;</span><span class="p">:</span> <span class="s2">&quot;Edinburgh, Scotland&quot;</span><span class="p">,</span>
+
+        <span class="p">}</span>
+    <span class="p">]</span>
+<span class="p">}</span>
+</pre></div>
+</li>
+</ol>
+<ol>
+<li><p>获取 Challenge Leaderboard</p>
+<blockquote><p>GET /dashboard/challenges/{challengeId:[0-9]+}/leaderboard</p>
+</blockquote>
+</li>
+</ol>
 
             </div>
         </article>
         <div id="ga-tags">
     
     <span class="ga-tag">
-        <a class="ga-highlight" href="https://project.sourbell.im/tag/Release Note/">#Release Note</a>
-    </span>
-    
-    <span class="ga-tag">
-        <a class="ga-highlight" href="https://project.sourbell.im/tag/Project Manage/">#Project Manage</a>
+        <a class="ga-highlight" href="https://project.sourbell.im/tag/API/">#API</a>
     </span>
     
 </div>
@@ -149,14 +214,14 @@
 <section id="ga-content_pager">
 
     <div class="next">
-        <a class="ga-highlight" href="https://project.sourbell.im/archives/private-label-change-request/">Private Label Change Request</a>
-        <p class="yue">PL 客户端需求列表及记录。 - APT</p>
+        <h3>No More</h3>
+        <p class="yue">This is the latest one.</p>
     </div>
 
 
     <div class="prev">
-        <a class="ga-highlight" href="https://project.sourbell.im/archives/accurofit-release-note/">Accurofit Release Note</a>
-        <p class="yue">Accurofit App 3.0 更新日志</p>
+        <a class="ga-highlight" href="https://project.sourbell.im/archives/apt-api/">APT API</a>
+        <p class="yue">APT API</p>
     </div>
 
 </section>
