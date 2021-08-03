@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>豪猪尾巴</title><link>https://project.sourbell.im/</link><description>Keep resolutions</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>${static_prefix}logo.jpg</url><title>豪猪尾巴</title><link>https://project.sourbell.im/</link></image><language>english</language><lastBuildDate>Mon, 02 Aug 2021 03:25:02 +0806</lastBuildDate><pubDate>Mon, 02 Aug 2021 03:25:02 +0806</pubDate><item><title>Private Label Change Request</title><link>https://project.sourbell.im/archives/private-label-change-request/</link><description>&lt;div class="notice"&gt;Basic customization includes App icon, splash and brand logo replacements.&lt;/div&gt;&lt;div class="notice"&gt;Title Pattern: #No&lt;sup&gt;piq#AppID&lt;/sup&gt; App Name&lt;/div&gt;&lt;h3&gt;#83 &lt;sup&gt;piq#88&lt;/sup&gt; Peak Zone Fitness&lt;/h3&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>豪猪尾巴</title><link>https://project.sourbell.im/</link><description>Keep resolutions</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>${static_prefix}logo.jpg</url><title>豪猪尾巴</title><link>https://project.sourbell.im/</link></image><language>english</language><lastBuildDate>Tue, 03 Aug 2021 05:33:25 +0806</lastBuildDate><pubDate>Tue, 03 Aug 2021 05:33:25 +0806</pubDate><item><title>Private Label Change Request</title><link>https://project.sourbell.im/archives/private-label-change-request/</link><description>&lt;div class="notice"&gt;Basic customization includes App icon, splash and brand logo replacements.&lt;/div&gt;&lt;div class="notice"&gt;Title Pattern: #No&lt;sup&gt;piq#AppID&lt;/sup&gt; App Name&lt;/div&gt;&lt;h3&gt;#83 &lt;sup&gt;piq#88&lt;/sup&gt; Peak Zone Fitness&lt;/h3&gt;
 &lt;p&gt;&lt;code&gt;#1 Apr 15, 2020&lt;/code&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Basic customization.&lt;/li&gt;
@@ -1689,12 +1689,12 @@ POST /dashboard/clients/{clientId:[0-9]+}/members/{memberId:[0-9]+}/actions/unas
 &lt;p&gt;注：不需要传入内容，清空后刷新列表&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;p&gt;创建 Challenge&lt;/p&gt;
-&lt;blockquote&gt;&lt;p&gt;PUT /dashboard/challenges&lt;/p&gt;
+&lt;blockquote&gt;&lt;p&gt;PUT /dashboard/clients/{clientId:[0-9]+}/challenges&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;
     &lt;span class="nt"&gt;&amp;quot;challengeName&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;Sample Challenge&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
     &lt;span class="nt"&gt;&amp;quot;challengeType&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;calories|iqPoints&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-    &lt;span class="nt"&gt;&amp;quot;challengeScope&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+    &lt;span class="nt"&gt;&amp;quot;challengeScope&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;club|location|private&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
     &lt;span class="nt"&gt;&amp;quot;workoutRange&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="mi"&gt;1200&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;3600&lt;/span&gt;&lt;span class="p"&gt;],&lt;/span&gt;
     &lt;span class="nt"&gt;&amp;quot;startDateTime&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="mi"&gt;1559829765&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
     &lt;span class="nt"&gt;&amp;quot;endDateTime&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="mi"&gt;1564444800&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
@@ -1707,7 +1707,7 @@ POST /dashboard/clients/{clientId:[0-9]+}/members/{memberId:[0-9]+}/actions/unas
 &lt;/pre&gt;&lt;/div&gt;
 &lt;ol&gt;
 &lt;li&gt;challengeScope 可选项 club, location, private，默认值是 club，显示 Label 分别为 Club、Location 和 Private。&lt;ol&gt;
-&lt;li&gt;如果选择 club，俱乐部级别的 Challenge，无额外选项，；&lt;/li&gt;
+&lt;li&gt;如果选择 club，俱乐部级别的 Challenge，无需后续操作；&lt;/li&gt;
 &lt;li&gt;如果选择 location，俱乐部 Location 级别的 Challenge。界面多出一个必选 selector，列出俱乐部下所有 Location list，可多选 locationId，传参名 locations；&lt;/li&gt;
 &lt;li&gt;如果选择 private，完全自定义参加者的 Challenge。界面多出一个必选 selector，列出俱乐部下所有 Member list，可多选 memberId，传参名也是 participants。&lt;/li&gt;
 &lt;/ol&gt;
@@ -1717,8 +1717,8 @@ POST /dashboard/clients/{clientId:[0-9]+}/members/{memberId:[0-9]+}/actions/unas
 &lt;li&gt;winningCriteria 显示 Label 分别为 First To Target 和 Most When Finished。&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;p&gt;获取 Challenge 列表&lt;/p&gt;
-&lt;blockquote&gt;&lt;p&gt;POST /dashboard/challenges/page/{page:[0-]+}&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;获取 Challenge 列表（之前已定义的接口）&lt;/p&gt;
+&lt;blockquote&gt;&lt;p&gt;POST /dashboard/clients/{clientId:[0-9]+}/challenges/page/{page:[0-]+}&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;
     &lt;span class="nt"&gt;&amp;quot;startTime&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
@@ -1728,17 +1728,17 @@ POST /dashboard/clients/{clientId:[0-9]+}/members/{memberId:[0-9]+}/actions/unas
 &lt;/pre&gt;&lt;/div&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;p&gt;修改 Challenge&lt;/p&gt;
-&lt;blockquote&gt;&lt;p&gt;POST /dashboard/challenges/{challengeId:[0-]+}&lt;/p&gt;
+&lt;blockquote&gt;&lt;p&gt;POST /dashboard/clients/{clientId:[0-9]+}/challenges/{challengeId:[0-]+}&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;注：只有 Pending 的 Challenge 允许修改&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;p&gt;删除 Challenge&lt;/p&gt;
-&lt;blockquote&gt;&lt;p&gt;DELETE /dashboard/challenges/{challengeId:[0-]+}&lt;/p&gt;
+&lt;blockquote&gt;&lt;p&gt;DELETE /dashboard/clients/{clientId:[0-9]+}/challenges/{challengeId:[0-]+}&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;考虑把删除放在 Challenge 详情页，需要 Confirm&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;p&gt;获取 Challenge 详情&lt;/p&gt;
-&lt;blockquote&gt;&lt;p&gt;GET /dashboard/challenges/{challengeId:[0-9]+}&lt;/p&gt;
+&lt;blockquote&gt;&lt;p&gt;GET /dashboard/clients/{clientId:[0-9]+}/challenges/{challengeId:[0-9]+}&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;
     &lt;span class="nt"&gt;&amp;quot;challengeName&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;Sample Challenge&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
@@ -1762,8 +1762,8 @@ POST /dashboard/clients/{clientId:[0-9]+}/members/{memberId:[0-9]+}/actions/unas
 &lt;span class="p"&gt;}&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;p&gt;获取 Challenge Leaderboard&lt;/p&gt;
-&lt;blockquote&gt;&lt;p&gt;GET /dashboard/challenges/{challengeId:[0-9]+}/leaderboard&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;获取 Challenge Leaderboard（之前已定义的接口）&lt;/p&gt;
+&lt;blockquote&gt;&lt;p&gt;GET /dashboard/clients/{clientId:[0-9]+}/challenges/{challengeId:[0-9]+}/leaderboard&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
