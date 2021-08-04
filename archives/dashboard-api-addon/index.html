@@ -17,7 +17,7 @@
     <script>
         var ExSearchConfig = {
             root: "",
-            api: "https://cdn.jsdelivr.net/gh/sourbell/project@gh-pages/b2bfdaa5c0a86cf605798d51436a0f2f.json"
+            api: "https://cdn.jsdelivr.net/gh/sourbell/project@gh-pages/f39be5717e5c5bddf757c939398d5534.json"
         }
     </script>
     
@@ -205,9 +205,26 @@ POST /dashboard/clients/{clientId:[0-9]+}/members/{memberId:[0-9]+}/actions/unas
 <blockquote><p>POST /dashboard/clients/{clientId:[0-9]+}/challenges/page/{page:[0-]+}</p>
 </blockquote>
 <div class="highlight"><pre><span></span><span class="p">{</span>
-    <span class="nt">&quot;startTime&quot;</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span>
-    <span class="nt">&quot;endTime&quot;</span><span class="p">:</span> <span class="mi">1564444800</span><span class="p">,</span>
     <span class="nt">&quot;challengeStatus&quot;</span><span class="p">:</span> <span class="s2">&quot;pending|active|ended|deleted&quot;</span>
+<span class="p">}</span>
+</pre></div>
+<div class="highlight"><pre><span></span><span class="p">{</span>
+  <span class="nt">&quot;total_records&quot;</span><span class="p">:</span> <span class="mi">1</span><span class="p">,</span>
+        <span class="nt">&quot;page_size&quot;</span><span class="p">:</span> <span class="mi">10</span><span class="p">,</span>
+        <span class="nt">&quot;list&quot;</span><span class="p">:</span> <span class="p">[</span>
+    <span class="p">{</span>
+        <span class="nt">&quot;challengeId&quot;</span><span class="p">:</span> <span class="mi">63</span><span class="p">,</span>
+        <span class="nt">&quot;challengeName&quot;</span><span class="p">:</span> <span class="s2">&quot;Sample Challenge&quot;</span><span class="p">,</span>
+        <span class="nt">&quot;challengeType&quot;</span><span class="p">:</span> <span class="s2">&quot;calories&quot;</span><span class="p">,</span>
+        <span class="nt">&quot;challengeScope&quot;</span><span class="p">:</span> <span class="mi">1</span><span class="p">,</span>
+        <span class="nt">&quot;startDateTime&quot;</span><span class="p">:</span> <span class="mi">1559829765</span><span class="p">,</span>
+        <span class="nt">&quot;endDateTime&quot;</span><span class="p">:</span> <span class="mi">1564444800</span><span class="p">,</span>
+        <span class="nt">&quot;timezoneOffset&quot;</span><span class="p">:</span> <span class="mi">8</span><span class="p">,</span>
+        <span class="nt">&quot;winningCriteria&quot;</span><span class="p">:</span> <span class="s2">&quot;mostWhenFinished&quot;</span><span class="p">,</span>
+        <span class="nt">&quot;criteriaTarget&quot;</span><span class="p">:</span> <span class="mi">10000</span><span class="p">,</span>
+        <span class="nt">&quot;createTime&quot;</span><span class="p">:</span> <span class="mi">1627970110</span><span class="p">,</span>
+    <span class="p">}</span>
+  <span class="p">]</span>
 <span class="p">}</span>
 </pre></div>
 </li>
@@ -219,33 +236,10 @@ POST /dashboard/clients/{clientId:[0-9]+}/members/{memberId:[0-9]+}/actions/unas
 <li><p>删除 Challenge</p>
 <blockquote><p>DELETE /dashboard/clients/{clientId:[0-9]+}/challenges/{challengeId:[0-]+}</p>
 </blockquote>
-<p>考虑把删除放在 Challenge 详情页，需要 Confirm</p>
+<p>删除需要 Confirm</p>
 </li>
-<li><p>获取 Challenge 详情</p>
-<blockquote><p>GET /dashboard/clients/{clientId:[0-9]+}/challenges/{challengeId:[0-9]+}</p>
-</blockquote>
-<div class="highlight"><pre><span></span><span class="p">{</span>
-    <span class="nt">&quot;challengeName&quot;</span><span class="p">:</span> <span class="s2">&quot;Sample Challenge&quot;</span><span class="p">,</span>
-    <span class="nt">&quot;challengeType&quot;</span><span class="p">:</span> <span class="s2">&quot;iqPoints&quot;</span><span class="p">,</span>
-    <span class="nt">&quot;challengeScope&quot;</span><span class="p">:</span> <span class="s2">&quot;location&quot;</span><span class="p">,</span>
-    <span class="nt">&quot;workoutRange&quot;</span><span class="p">:</span> <span class="p">[</span><span class="mi">1200</span><span class="p">,</span> <span class="mi">3600</span><span class="p">],</span>
-    <span class="nt">&quot;startDateTime&quot;</span><span class="p">:</span> <span class="mi">1559829765</span><span class="p">,</span>
-    <span class="nt">&quot;endDateTime&quot;</span><span class="p">:</span> <span class="mi">1564444800</span><span class="p">,</span>
-    <span class="nt">&quot;timezoneOffset&quot;</span><span class="p">:</span> <span class="mi">8</span><span class="p">,</span>
-    <span class="nt">&quot;winningCriteria&quot;</span><span class="p">:</span> <span class="s2">&quot;mostWhenFinished&quot;</span><span class="p">,</span>
-    <span class="nt">&quot;criteriaTarget&quot;</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span>
-    <span class="nt">&quot;locations&quot;</span><span class="p">:</span> <span class="p">[</span>
-        <span class="p">{</span>
-            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="mi">1</span><span class="p">,</span>
-            <span class="nt">&quot;branchName&quot;</span><span class="p">:</span> <span class="s2">&quot;TRIB3 Edinburgh&quot;</span><span class="p">,</span>
-            <span class="nt">&quot;branchLocation&quot;</span><span class="p">:</span> <span class="s2">&quot;Edinburgh, Scotland&quot;</span><span class="p">,</span>
-            <span class="nt">&quot;members&quot;</span><span class="p">:</span> <span class="mi">970</span>
-
-        <span class="p">}</span>
-    <span class="p">]</span>
-<span class="p">}</span>
-</pre></div>
-</li>
+</ol>
+<ol>
 <li><p>获取 Challenge Leaderboard（之前已定义的接口）</p>
 <blockquote><p>GET /dashboard/clients/{clientId:[0-9]+}/challenges/{challengeId:[0-9]+}/leaderboard</p>
 </blockquote>
